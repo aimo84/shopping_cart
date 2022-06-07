@@ -1,0 +1,140 @@
+{
+  "label": {
+    "header": {
+        "th": "คำสั่งซื้อของฉัน",
+        "en": "My Orders"
+    },
+    "title": {
+        "th": "เลขที่คำสั่งซื้อ",
+        "en": "Order number"
+    },
+    "back": {
+      "th": "ย้อนกลับ",
+      "en": "Back"
+    },
+    "recentOrder": {
+      "th": "รายการล่าสุด",
+      "en": "Recent Order"
+    },
+    "waitingForPayment": {
+      "th": "ที่ต้องชำระเงิน",
+      "en": "Waiting For Payment"
+    },
+    "waitingForShip": {
+      "th": "กำลังเตรียมจัดส่ง",
+      "en": "Preparing"
+    },
+    "shipping": {
+      "th": "อยู่ระหว่างขนส่ง",
+      "en": "Delivering"
+    },
+    "received": {
+      "th": "ส่งสินค้าสำเร็จ",
+      "en": "Delivered"
+    },
+    "orderHistory": {
+      "th": "ประวัติการสั่งซื้อ",
+      "en": "Order History"
+    },
+    "orderTracking": {
+      "th": "ติดตามสถานะการจัดส่ง",
+      "en": "Order Tracking"
+    },
+    "quantity": {
+      "th": "จำนวน",
+      "en": "Quantity"
+    },
+    "total": {
+      "th": "ยอดรวม",
+      "en": "Total"
+    },
+    "noContent": {
+      "th": "ไม่มีรายการที่ชอบ",
+      "en": "No Wish List"
+    },
+    "orderDetail": {
+      "th": "รายละเอียดการจัดส่งสินค้า",
+      "en": "Order Tranking Detail"
+    },
+    "senderDetail": {
+      "th": "ข้อมูลผู้จัดส่ง",
+      "en": "Sender Detail"
+    },
+    "sender": {
+      "th": "จัดส่งโดย",
+      "en": "Sender"
+    },
+    "orderTrackingNo": {
+      "th": "หมายเลขสินค้า",
+      "en": "Tracking No."
+    },
+    "receiverDetail": {
+      "th": "ข้อมูลผู้รับ",
+      "en": "Receiver Detail"
+    },
+    "preparePackage": {
+      "th": "ผู้ส่งกำลังเตรียมพัสดุ",
+      "en": "Preparing"
+    },
+    "sendingPackage": {
+      "th": "พัสดุถูกส่งมอบให้บริษัทขนส่งเรียบร้อยแล้ว",
+      "en": "Sent to courier"
+    },
+    "shippedBy": {
+      "th": "จัดส่งสินค้าภายในวันที่",
+      "en": "Shipped By"
+    },
+    "receivedBy": {
+      "th": "ได้รับสินค้าภายในวันที่",
+      "en": "Received By"
+    },
+    "piece": {
+      "th": "ชิ้น",
+      "en": "Piece"
+    },
+    "paymentFail": {
+      "th": "ชำระเงินไม่สำเร็จ",
+      "en": "Incomplete Payment"
+    },
+    "paymentExpire": {
+      "th": "หมดเวลาการชำระเงิน",
+      "en": "Payment Expired"
+    },
+    "paymentCancel": {
+      "th": "ยกเลิกสินค้า",
+      "en": "Cancel Order"
+    },
+    "requestedRefund": {
+      "th": "ขอคืนเงิน",
+      "en": "Refund"
+    },
+    "refundSuccess": {
+      "th": "ขอคืนเงินสำเร็จ",
+      "en": "Refunded"
+    },
+    "refundDeclined": {
+      "en": "Refund Declined",
+      "th": "ขอคืนเงินไม่สำเร็จ"
+    },
+    "partialAcceptRefund": {
+      "en": "Partial Refunded",
+      "th": "ขอคืนเงินสำเร็จบางรายการ"
+    },
+    "acceptRefundAndWaiting": {
+      "th": "ยอมรับการขอเงินคืนรอการตรวจสอบจากคลัง",
+      "en": "Warehouse confirming"
+    },
+    "cancel": {
+        "en": "Cancelled",
+        "th": "ยกเลิกแล้ว"
+    },
+    "refund": {
+        "th": "การคืนเงิน/คืนสินค้า",
+        "en": "Refund"
+    },
+    "orderTrackingNoMobile": {
+      "th": "หมายเลขติดตามพัสดุ",
+      "en": "Tracking No."
+    }
+  }
+}

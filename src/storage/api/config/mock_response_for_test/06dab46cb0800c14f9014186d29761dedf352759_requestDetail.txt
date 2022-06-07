@@ -1,0 +1,1 @@
+https://api.wls-dev.com/wportal/product/L91588148?product_status=all?sort_bundles=desc&multi_promotion=true&|get|{"headers":{"x-api-auth":"564eec0f074fb0a88e0000010d72adc2ae5d4c296efb420415318963","Cache-Control":"no-cache, private"}}|[]

@@ -1,0 +1,49 @@
+{
+  "errorCode" : "OSBbllngA00001",
+  "message" : "Success.",
+  "uuid" : "79a6618d-928f-434b-b879-5981723c3d09",
+  "backendResponseList" : {
+    "backendResponseInfoArray" : [ {
+      "apiName" : "checkBlacklist",
+      "errorCode" : "OSBbllngA00001",
+      "message" : "Success.",
+      "system" : "CRM",
+      "url" : "http://172.19.208.46:8280/ValidationAPI/Blacklist/checkBlacklist"
+    }, {
+      "apiName" : "checkFraud",
+      "errorCode" : "OSBbllngA00001",
+      "message" : "Success.",
+      "system" : "CRM",
+      "url" : "http://172.19.208.46:8280/ValidationAPI/Blacklist/checkFraud"
+    }, {
+      "apiName" : "countHomePackTOL",
+      "errorCode" : "OSBbllngA70001",
+      "message" : "CRM is error [ errorCode = CVDBKS4000005 , errorMessage = CVDBKS4000005].",
+      "system" : "CRM",
+      "url" : "http://172.19.208.46:8280/ValidationAPI/Blacklist/countHomePackTOL"
+    }, {
+      "apiName" : "getAccountCustomerPreferenceList",
+      "errorCode" : "OSBbllngA10001",
+      "message" : "Data Not Found.",
+      "system" : "OSB",
+      "url" : "http://172.19.204.86:8011/ESB_Get_CustomerPreferenceInfo/Interfaces/Proxy/CustomerPreferenceInfoPS"
+    } ],
+    "size" : 4
+  },
+  "blackListDataInfo" : {
+    "blackList" : null,
+    "crmTransactionId" : "86220131-6824-48ea-b6b2-c1f10806d4fd",
+    "status" : "false",
+    "temporaryFlag" : "false"
+  },
+  "countTOLHomePack" : {
+    "count" : null,
+    "crmTransactionId" : "a5a7a08d-8202-4d46-a847-823033a029b6"
+  },
+  "fraudDataInfo" : {
+    "crmTransactionId" : "c74ccff6-0d8e-4946-a7bb-c55c63e0e55c",
+    "fraudList" : null,
+    "status" : "false",
+    "temporaryFlag" : "false"
+  }
+}

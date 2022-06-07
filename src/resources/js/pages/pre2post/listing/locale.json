@@ -1,0 +1,23 @@
+{
+  "result": {
+    "en": "Result",
+    "th": "รายการ"
+  },
+  "results": {
+    "en": "Results",
+    "th": "รายการ"
+  },
+  "filter": {
+    "en": "Filter",
+    "th": "ตัวกรอง"
+  },
+  "categories": {
+    "en": "Categories",
+    "th": "หมวดหมู่สินค้า"
+  },
+  "buy":{
+    "en": "Buy Now",
+    "th": "ซื้อเลย"
+  }
+  
+}

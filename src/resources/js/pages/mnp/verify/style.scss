@@ -1,0 +1,55 @@
+.title {
+  margin-top: 24px;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: 'TrueBold';
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+form {
+  display: grid;
+  grid-gap: 4px;
+  margin: 0 auto 16px;
+  max-width: 420px;
+  text-align: center;
+
+  &[disabled] {
+    pointer-events: none;
+    opacity: 0.7;
+    filter: saturate(0);
+  }
+
+  &.invalid-form {
+    .input::v-deep input:invalid,
+    .datepicker.invalid::v-deep input {
+      border-color: #ff0000;
+      color: #ff0000;
+    }
+  }
+
+  label {
+    margin-top: 12px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  button {
+    margin-top: 8px;
+    height: 40px;
+    padding: 0 16px;
+    min-width: 120px;
+    border-radius: 4px;
+  }
+
+  .error {
+    margin: 8px 0;
+    color: #ff0000;
+    font-size: 22px;
+    line-height: 20px;
+  }
+}

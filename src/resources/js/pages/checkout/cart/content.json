@@ -1,0 +1,78 @@
+{
+    "title": {
+        "th": "ขั้นตอนการสั่งซื้อ",
+        "en": "Order Process"
+    },
+    "cartlabel": {
+        "th": "รายการสินค้า",
+        "en": "Product Item"
+    },
+    "cart_quantity": {
+        "th": "จำนวน",
+        "en": "Quantity"
+    },
+    "cart_price": {
+        "th": "ราคา",
+        "en": "Price"
+    },
+    "summary": {
+        "th": "สรุปรายการสินค้า",
+        "en": "Summary"
+    },
+    "item": {
+        "th": "สินค้า",
+        "en": "Item"
+    },
+    "quantity": {
+        "th": "จำนวน",
+        "en": "Quantity"
+    },
+    "baht": {
+        "th": ".-",
+        "en": ".-"
+    },
+    "price": {
+        "th": "ราคา",
+        "en": "Price"
+    },
+    "total_price": {
+        "th": "มูลค่าสินค้า",
+        "en": "Total Price"
+    },
+    "discount": {
+        "th": "ส่วนลด",
+        "en": "Discount"
+    },
+    "shippingfee": {
+        "th": "ค่าจัดส่ง",
+        "en": "Shipping"
+    },
+    "emptycart": {
+        "th": "Your cart is empty.",
+        "en": "Your cart is empty."
+    },
+    "next": {
+        "th": "ดำเนินการต่อ",
+        "en": "Order"
+    },
+    "login": {
+        "th": "เข้าสู่ระบบ",
+        "en": "Login"
+    },
+    "loginwith": {
+        "th": "เข้าสู่ระบบด้วย",
+        "en": "Login with"
+    },
+    "guest": {
+        "th": "สั่งซื้อสินค้าโดยไม่สมัครสมาชิก",
+        "en": "Guest Checkout"
+    },
+    "multiCampaignMsg": {
+        "th": "Note: You are not able to add another service type product to this shopping checkout. Only allow for device or accessory only.",
+        "en": "Note: You are not able to add another service type product to this shopping checkout. Only allow for device or accessory only."
+    },
+    "simInfoTitle": {
+        "th": "เบอร์ที่คุณลงทะเบียนซิม",
+        "en": "The number that you have registered for the SIM"
+    }
+}

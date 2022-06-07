@@ -1,0 +1,69 @@
+version: "3.8"
+
+networks:
+  oqi:
+
+volumes:
+  mysqldb:
+  .:
+
+services:
+  dynamodb-local:
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath ./data -port 8042"
+    image: "amazon/dynamodb-local:latest"
+    container_name: dynamodb-local
+    ports:
+      - "8042:8000"
+    volumes:
+      - "./docker/dynamodb:/home/dynamodblocal/data"
+    working_dir: /home/dynamodblocal
+  dynamo-admin:
+    image: aaronshaf/dynamodb-admin
+    environment:
+      - DYNAMO_ENDPOINT=dynamodb-local:8042
+    ports:
+      - '8001:8001'
+  aws-cli:
+    depends_on:
+      - dynamodb-local
+    image: banst/awscli
+    container_name: aws-cli
+    ports:
+      - "8085:8085"
+    environment:
+      AWS_ACCESS_KEY_ID: 'DUMMYIDEXAMPLE'
+      AWS_SECRET_ACCESS_KEY: 'DUMMYEXAMPLEKEY'
+    command:
+      dynamodb describe-limits --endpoint-url http://dynamodb-local:8042 --region us-west-2
+  nginx:
+    container_name: nginx
+    build: ./build/nginx
+    volumes:
+      - ./src:/var/www/html:rw
+    ports:
+      - "80:80"
+    links:
+      - php
+
+  php:
+    container_name: php
+    build:
+      context: ./build/php
+      args:
+        - VERSION=7.4
+    volumes:
+      - ./src:/var/www/html:rw
+      - ./build/php/conf.d:/usr/local/etc/php/conf.d
+    links:
+      - redis-app
+    depends_on:
+      - dynamodb-local
+      - redis-app
+
+  redis-app:
+    image: redis:5.0.5
+    container_name: redis
+    ports:
+      - "6380:6379"
+    volumes:
+      - .docker/redisdata:/data

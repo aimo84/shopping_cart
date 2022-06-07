@@ -1,0 +1,46 @@
+{
+  "address_title": {
+    "th": "กรอกข้อมูลเพื่อสั่งซื้อซิม",
+    "en": "Please insert your information"
+  },
+  "search_result_description": {
+    "th": "กรุณาเลือกเบอร์และยืนยันการส่งข้อมูลตรวจสอบสิทธิให้เสร็จสิ้นภายใน 2 ชั่วโมง ในกรณีที่มีการทำรายการเข้ามาเป็นจำนวนมาก เบอร์ที่ท่านเลือกไว้จะถูกถอดออกได้",
+    "en": "Please select the number and fill in the user details within 2 hours after you have verified the privileges. In case of over-transaction, the reserved number will be canceled immediately"
+  },
+  "prepaid": {
+    "th": "เติมเงิน",
+    "en": "Prepaid"
+  },
+  "postpaid": {
+    "th": "รายเดือน",
+    "en": "Postpaid"
+  },
+  "start": {
+    "th": "แพ็กเกจเริ่มต้น",
+    "en": "Start"
+  },
+  "selected_number": {
+    "th": "เบอร์โทรศัพท์ที่คุณเลือก",
+    "en": "The number you selected"
+  },
+  "your_package": {
+    "th": "แพ็กเกจของคุณ:",
+    "en": "Your Package:"
+  },
+  "thai_id": {
+    "en": "Thai ID",
+    "th": "หมายเลขบัตรประชาชน"
+  },
+  "birthday": {
+    "en": "Day / Month / Year of birth",
+    "th": "วัน / เดือน / ปีเกิด"
+  },
+  "start_time": {
+    "en": "Start Time",
+    "th": "เริ่มนับเวลา"
+  },
+  "end_time": {
+    "en": "End Time",
+    "th": "หมดเวลา"
+  }
+}

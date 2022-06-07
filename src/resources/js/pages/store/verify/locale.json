@@ -1,0 +1,94 @@
+{
+  "title": {
+    "en": "Select product and service with special privilege for True customer",
+    "th": "เลือกรับสินค้าและบริการด้วยสิทธิพิเศษลูกค้าทรู"
+  },
+  "formTitle": {
+    "en": "Enter your personal information to verify privileges",
+    "th": "ตรวจสอบสิทธิ์ในการรับสิทธิพิเศษ"
+  },
+  "formSubtitle": {
+    "en": "Please fill out the information to check eligibility.",
+    "th": "กรุณากรอกข้อมูลเพื่อตรวจสอบการรับสิทธิ์"
+  },
+  "free": {
+    "en": "Free",
+    "th": "ฟรี"
+  },
+  "select": {
+    "en": "Select",
+    "th": "เลือก"
+  },
+  "selected": {
+    "en": "Selected",
+    "th": "สินค้าที่เลือก"
+  },
+  "tnc": {
+    "en": "I accept True Online Store Terms and Conditions.",
+    "th": "ยอมรับเงื่อนไขการให้บริการของ True Online Store"
+  },
+  "loading": {
+    "en": "Loading ...",
+    "th": "Loading ..."
+  },
+  "success": {
+    "en": "Success",
+    "th": "สำเร็จ"
+  },
+  "checking": {
+    "en": "Checking ...",
+    "th": "กำลังตรวจสอบ ..."
+  },
+  "passedCheck": {
+    "en": "Verification Passed",
+    "th": "การตรวจสอบสิทธิ์สำเร็จ"
+  },
+  "passedFailed": {
+    "en": "Verification Failed",
+    "th": "การตรวจสอบสิทธิ์ล้มเหลว"
+  },
+  "privilegedCustomer": {
+    "en": "Congratulations! You can enjoy the following privileges.",
+    "th": "ยินดีด้วย! คุณสามารถรับสิทธิพิเศษดังต่อไปนี้"
+  },
+  "resultNext": {
+    "en": "Click “Next” to continue ordering.",
+    "th": "กด \"ถัดไป\" เพื่อทำรายการต่อ"
+  },
+  "back": {
+    "en": "Back",
+    "th": "ย้อนกลับ"
+  },
+  "backHomepage": {
+    "en": "Back to Homepage",
+    "th": "กลับสู่หน้าหลัก"
+  },
+  "next": {
+    "en": "Next",
+    "th": "ต่อไป"
+  },
+  "verify": {
+    "en": "Verify",
+    "th": "ตรวจสอบสิทธิ์"
+  },
+  "warning1": {
+    "en": "You did not pass the authorization to purchase ",
+    "th": "คุณไม่สามารถทำการสั่งซื้อได้เนื่องจากการตรวจสอบสิทธิ์ล้มเหลว "
+  },
+  "warning2": {
+    "en": " If you have any questions, please contact Call center 1242",
+    "th": " หากคุณมีข้อสงสัย สามารถติดต่อ Call Center 1242"
+  },
+  "warning_and": {
+    "en": "and",
+    "th": "และ"
+  },
+  "otp": {
+    "en": "You did not pass the authorization to purchase due to not eligible to get the privilege.",
+    "th": "คุณไม่สามารถรับสิทธิ์พิเศษนี้ เนื่องจากหมายเลขสมาชิกของคุณ ไม่เป็นไปตามเงื่อนไข"
+  },
+  "see_example": {
+    "en": "See example",
+    "th": "ตัวอย่างหมายเลขทรูออนไลน์"
+  }
+}

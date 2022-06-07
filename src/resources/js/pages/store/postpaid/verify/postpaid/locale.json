@@ -1,0 +1,82 @@
+{
+  "verify_title": {
+    "th": "ตรวจสอบสิทธิ์การซื้อเบอร์บุคคลธรรมดา",
+    "en": "Check the privilege to buy SIM for individual type"
+  },
+  "verify_subtitle": {
+    "th": "กรุณากรอกข้อมูลเพื่อตรวจสอบการรับสิทธิ์",
+    "en": "Please fill out the information to check eligibility."
+  },
+  "cancel": {
+    "th": "กลับไปหน้าเลือกเบอร์",
+    "en": "Cancel"
+  },
+  "verify": {
+    "th": "ตรวจสอบสิทธิ์",
+    "en": "Verify"
+  },
+  "check": {
+    "th": "ตรวจสอบสิทธิ์",
+    "en": "Check Eligibility"
+  },
+  "result_success": {
+    "th": "ตรวจสอบสิิทธิ์เรียบร้อย",
+    "en": "Verification Passed"
+  },
+  "id_card_number": {
+    "th": "หมายเลขบัตรประชาชน",
+    "en": "ID card number"
+  },
+  "result_status_success": {
+    "th": "คุณสามารถซื้อเบอร์โทรศัพท์ที่ต้องการได้",
+    "en": "You can choose to buy the phone number you want."
+  },
+  "result_status_fail": {
+    "th": "หากคุณมีข้อสงสัย สามารถติดต่อ Call Center 1242",
+    "en": "If you have any questions, please contact Call center 1242"
+  },
+  "next": {
+    "th": "ต่อไป",
+    "en": "Next"
+  },
+  "retry": {
+    "th": "ตรวจสอบอีกครั้ง",
+    "en": "Try Again"
+  },
+  "back": {
+    "th": "ย้อนกลับ",
+    "en": "Back"
+  },
+  "per_month": {
+    "th": "รายเดือน",
+    "en": "per month"
+  },
+  "plan_select": {
+    "th": "เลือก",
+    "en": "Select"
+  },
+  "plan_selected": {
+    "th": "สินค้าที่เลือก",
+    "en": "Selected"
+  },
+  "choose_package_title": {
+    "th": "เลือกแพ็กเกจที่ต้องการ",
+    "en": "Choose the package"
+  },
+  "checking": {
+    "en": "Checking ...",
+    "th": "กำลังตรวจสอบ ..."
+  },
+  "next_trueshop": {
+    "en": "Search TrueShop",
+    "th": "ค้นหาทรูช้อป"
+  },
+  "back_homepage": {
+    "en": "Back to Homepage",
+    "th": "กลับสู่หน้าหลัก"
+  },
+  "mobile_number": {
+    "th": "หมายเลขโทรศัพท์",
+    "en": "Mobile Number"
+  }
+}

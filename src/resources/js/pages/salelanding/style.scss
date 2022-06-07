@@ -1,0 +1,128 @@
+.sale-landing {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    .title {
+        font-size: 30px;
+        font-family: "TrueBold";
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    label {
+        font-size: 24px;
+    }
+    &::v-deep .content {
+        text-align: center;
+    }
+    button {
+        margin-top: 8px;
+        height: 40px;
+        padding: 0 16px;
+        border-radius: 4px;
+    }
+    .input {
+        &::v-deep input {
+            text-align: center !important
+        }
+    }
+    .drop-down {
+        &::v-deep .input {
+            text-align: center;
+        }
+        &::v-deep .options {
+            z-index: 2;
+        }
+    }
+    .error {
+        text-align: start;
+        margin-top: -25px;
+        color: #ff0000;
+        font-size: 24px;
+        margin-bottom: -20px;
+    }
+    .label-form {
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .modal-error::v-deep {
+        .content-section {
+            padding-bottom: 36px;
+        }
+
+        .title-error {
+            line-height: 48px;
+            text-align: center;
+            font-weight: bold;
+            margin: 0;
+            font-size: 31px;
+            color: black;
+        }
+
+        .footer-section {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 0;
+            margin-top: 10px;
+            font-size: 29px;
+        }
+
+        .button {
+            padding: 9px 24px;
+            background-color: #F74C48;
+        }
+
+        .content {
+            max-width: 328px;
+            text-align: center;
+            border-radius: 26px;
+
+            .dialog-content {
+                padding-top: 10px;
+                border-bottom: none;
+            }
+
+            img {
+                max-width: 100%;
+                margin: auto;
+                display: block;
+                width: 100px;
+                height: 100px;
+                margin-top: 32px;
+                margin-bottom: 15px;
+
+                &.mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .modal-error::v-deep {
+            .title-error {
+                line-height: 48px;
+                text-align: center;
+                font-weight: bold;
+                margin: 0;
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 26px;
+            }
+
+            .content img {
+                &.desktop {
+                    display: none;
+                }
+                &.mobile {
+                    display: block;
+                }
+            }
+        }
+    }
+}

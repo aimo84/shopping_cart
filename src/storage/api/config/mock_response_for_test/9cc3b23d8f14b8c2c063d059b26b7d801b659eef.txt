@@ -1,0 +1,23 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "DO1AFCJB8BXMC",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "subscriber" : {
+      "subscriber" : "0830010173",
+      "ban" : "10112235",
+      "priceplan" : "NETSBP05",
+      "operator" : "",
+      "status" : "A",
+      "remark" : "",
+      "renewal" : "N",
+      "usim" : true,
+      "account-sub-type" : "RPI",
+      "activate-date" : "06/09/2018",
+      "port-in" : false,
+      "subscriber-id" : "223291",
+      "is-usim" : true
+    },
+    "validate-privilege" : true
+  }
+}

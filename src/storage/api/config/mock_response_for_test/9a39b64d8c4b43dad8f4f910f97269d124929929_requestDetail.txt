@@ -1,0 +1,1 @@
+https://gateway.wls-dev.com/tmvh/clm/search-price-plan?company-code=RM&customer-type=I&customer-subtype=RPI&current-priceplan=BUFFTP65&current-propositions=CVG000000000053&service-level=C&|GET|{"headers":{"x-api-key":"sCjwXBFgrsa99VphJ3qcY8XJiMkH7Sei7NiOzWqq","Accept-Encoding":"gzip","accept":"*\/*","Cache-Control":"no-cache, private"}}|[]

@@ -1,0 +1,16 @@
+{
+    "status_code": 0,
+    "status_txt": "Create order success",
+    "data": {
+        "record": {
+            "id": 11650453,
+            "secureKey": "800011650453",
+            "is_redirect": false,
+            "redirectUrl": "https://order.wls-dev.com/v1/payment/foreground?payment_id=9191001891722",
+            "payment_id": "9191001891722",
+            "cybs_detail": null,
+            "code": 200,
+            "message": "success"
+        }
+    }
+}

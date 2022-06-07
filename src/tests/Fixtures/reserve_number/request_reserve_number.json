@@ -1,0 +1,19 @@
+{
+    "correlationId": "7308c55e-c361-41be-baa8-bd1d3fb9c188",
+    "channel": "3GW-TRUESTORE",
+    "flowID": "F002",
+    "saleRepInfo": {
+        "dealerCode": "80100112",
+        "webMethodChannel": "FNT-ONLINE"
+    },
+    "subscriberInfo": {
+        "subscriberNumber": "0830013389",
+        "companyCode": "RM",
+        "propoId": "0072225"
+    },
+    "customerInfo": {
+        "identification": "6441609654965",
+        "identificationType": "I",
+        "birthDate": "16/10/1999"
+    }
+}

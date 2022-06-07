@@ -1,0 +1,49 @@
+{
+  "errorCode" : "OSBbllngA00001",
+  "message" : "Success.",
+  "uuid" : "f3e66fb1-d9ec-4de5-bd07-d5a8d73671ca",
+  "backendResponseList" : {
+    "backendResponseInfoArray" : [ {
+      "apiName" : "checkBlacklist",
+      "errorCode" : "OSBbllngA00001",
+      "message" : "Success.",
+      "system" : "CRM",
+      "url" : "http://172.19.208.46:8280/ValidationAPI/Blacklist/checkBlacklist"
+    }, {
+      "apiName" : "checkFraud",
+      "errorCode" : "OSBbllngA00001",
+      "message" : "Success.",
+      "system" : "CRM",
+      "url" : "http://172.19.208.46:8280/ValidationAPI/Blacklist/checkFraud"
+    }, {
+      "apiName" : "countHomePackTOL",
+      "errorCode" : "OSBbllngA00001",
+      "message" : "Success.",
+      "system" : "CRM",
+      "url" : "http://172.19.208.46:8280/ValidationAPI/Blacklist/countHomePackTOL"
+    }, {
+      "apiName" : "getAccountCustomerPreferenceList",
+      "errorCode" : "OSBbllngA00001",
+      "message" : "Success.",
+      "system" : "OSB",
+      "url" : "http://172.19.204.86:8011/ESB_Get_CustomerPreferenceInfo/Interfaces/Proxy/CustomerPreferenceInfoPS"
+    } ],
+    "size" : 4
+  },
+  "blackListDataInfo" : {
+    "blackList" : null,
+    "crmTransactionId" : "e2eeece3-838a-4338-bbb2-878273e33de1",
+    "status" : "false",
+    "temporaryFlag" : "false"
+  },
+  "countTOLHomePack" : {
+    "count" : 0,
+    "crmTransactionId" : "50874d81-90ef-4497-849c-2d08059e1cc8"
+  },
+  "fraudDataInfo" : {
+    "crmTransactionId" : "86862484-24f1-4408-969e-19df797494d0",
+    "fraudList" : null,
+    "status" : "false",
+    "temporaryFlag" : "false"
+  }
+}

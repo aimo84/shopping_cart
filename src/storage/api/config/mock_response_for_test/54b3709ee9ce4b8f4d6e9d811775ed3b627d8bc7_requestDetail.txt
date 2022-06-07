@@ -1,0 +1,1 @@
+https://api.wls-dev.com/merchant/configs?section=wemall&key=truemoveh_sim_allow_selling&?section=wemall&key=truemoveh_sim_allow_selling&|get|{"headers":{"x-api-auth":"564eec0f074fb0a88e0000010d72adc2ae5d4c296efb420415318963","Cache-Control":"no-cache, private"}}|[]

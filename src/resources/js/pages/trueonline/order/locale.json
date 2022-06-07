@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "th": "สรุปและยืนยันรายการ",
+    "en": "Order Summary"
+  },
+  "back": {
+    "th": "ย้อนกลับ",
+    "en": "Back"
+  },
+  "submit": {
+    "th": "สมัครบริการ",
+    "en": "Register"
+  },
+  "free": {
+    "th": "ฟรี",
+    "en": "Free"
+ },
+  "package_price": {
+    "th": "ราคาแพ็คเก็จ",
+    "en": "Package Detail"
+  },
+  "installation_cost": {
+    "th": "ค่าติดตั้ง",
+    "en": "Installation Fee"
+  },
+  "admission_fee": {
+    "th": "ค่าธรรมเนียมแรกเข้า ชำระ ณ วันติดตั้ง",
+    "en": "Admission fee in cash (pay to the installation technician)"
+  },
+  "billing_address": {
+    "th": "จัดส่งเอกสาร",
+    "en": "Billing Address"
+  },
+  "invoice_address": {
+    "th": "ใบเสร็จ / ใบกำกับภาษี",
+    "en": "Invoice Address"
+  },
+  "order_detail": {
+    "th": "รายละเอียด",
+    "en": "Detail"
+  },
+  "fullname": {
+    "th": "ชื่อและข้อมูลส่วนตัว",
+    "en": "Name"
+  },
+  "identity": {
+    "th": "เลขบัตรประชาชนหรือพาสปอร์ต",
+    "en": "Thai ID / Passsport"
+  },
+  "firstname": {
+    "th": "ชื่อ",
+    "en": "Name"
+  },
+  "lastname": {
+    "th": "นามสกุล",
+    "en": "Family Name"
+  },
+  "email": {
+    "th": "อีเมล",
+    "en": "Email"
+  },
+  "contact_number_1": {
+    "th": "หมายเลขติดต่อ",
+    "en": "Mobile Number"
+  },
+  "installation_location": {
+    "th": "สถานที่ติดตั้ง",
+    "en": "Installation Location"
+  }
+}

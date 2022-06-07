@@ -1,0 +1,1110 @@
+{
+    "status_code": 0,
+    "status_txt": "OK",
+    "data": {
+        "benchmark": "false",
+        "record": {
+            "id": "L91597508",
+            "seq_id": 6996244,
+            "viewed": 8,
+            "store_id": "L941527",
+            "section": "wemall",
+            "type": "new",
+            "position": 0,
+            "price": "1290.00",
+            "price_min": 1290,
+            "price_max": 1290,
+            "compare_at_price_min": 0,
+            "compare_at_price_max": 0,
+            "status": true,
+            "show": 1,
+            "title": {
+                "th": "TrueLivingTECH Smart CCTV Camera 1080P"
+            },
+            "seo": {
+                "title": {
+                    "th": "TrueLivingTECH Smart CCTV Camera 1080P"
+                },
+                "description": {
+                    "th": ""
+                }
+            },
+            "category": [
+                {
+                    "id": 171932,
+                    "parent_id": 0,
+                    "status": "true",
+                    "title": {
+                        "th": "IOT และ อุปกรณ์เสริม"
+                    }
+                }
+            ],
+            "last_plaza_category": 4538,
+            "promotions": [],
+            "inventories": [
+                {
+                    "id": 3089171,
+                    "store_id": "L941527",
+                    "user_id": 1105904,
+                    "barcode": "",
+                    "product_id": "L91597508",
+                    "sku": "3000094323",
+                    "cost_price": 0,
+                    "price": 1290,
+                    "compare_at_price": 1290,
+                    "price_status": "false",
+                    "points": 0,
+                    "weight": 0.15,
+                    "length": "2.0000",
+                    "width": "2.0000",
+                    "height": "2.0000",
+                    "preorder": "false",
+                    "preorder_period": 3,
+                    "shipping_period": 3,
+                    "usestock_status": "false",
+                    "emptystock": "false",
+                    "quantity": 878,
+                    "hold": 49,
+                    "shipping": "false",
+                    "shipping_price": "0.0000",
+                    "taxable": 0,
+                    "position": 0,
+                    "status": "true",
+                    "created_by": 1105904,
+                    "updated_by": 0,
+                    "published": 1,
+                    "published_at": {
+                        "sec": 0,
+                        "usec": 0
+                    },
+                    "created_at": {
+                        "sec": 1637259577,
+                        "usec": 0
+                    },
+                    "updated_at": {
+                        "sec": 1648556960,
+                        "usec": 0
+                    },
+                    "deleted_at": null,
+                    "options": [],
+                    "image": false,
+                    "warehouse_sku": "200011951411",
+                    "allow_addcart": true,
+                    "cart_text": false,
+                    "ignore_stock": false,
+                    "original_price": 1290,
+                    "is_hide_device_only": true
+                }
+            ],
+            "delivery_package": {
+                "weight": 0,
+                "length": 0,
+                "width": 0,
+                "height": 0
+            },
+            "features": [],
+            "wetrust": true,
+            "package": "f",
+            "images": [
+                {
+                    "id": "c77c1dfa3eae795898668b607e9c30e0",
+                    "name": "cctv1",
+                    "file_name": "cctv1.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/c77c1dfa3eae795898668b607e9c30e0/cctv1.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/c77c1dfa3eae795898668b607e9c30e0/cctv1.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "3445f309676e532f51fb0f0b8ca18534",
+                    "name": "cctv2",
+                    "file_name": "cctv2.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/3445f309676e532f51fb0f0b8ca18534/cctv2.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/3445f309676e532f51fb0f0b8ca18534/cctv2.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "4ba2637054a944505550f78413ebb4ad",
+                    "name": "cctv3",
+                    "file_name": "cctv3.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/4ba2637054a944505550f78413ebb4ad/cctv3.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/4ba2637054a944505550f78413ebb4ad/cctv3.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "188f676ff9246823e9411b99acc0fcfc",
+                    "name": "cctv4",
+                    "file_name": "cctv4.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/188f676ff9246823e9411b99acc0fcfc/cctv4.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/188f676ff9246823e9411b99acc0fcfc/cctv4.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "f08aee86209cbe914c11d36e61395138",
+                    "name": "cctv5",
+                    "file_name": "cctv5.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/f08aee86209cbe914c11d36e61395138/cctv5.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/f08aee86209cbe914c11d36e61395138/cctv5.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "79c80a8e9e2d8f77398ea6a0c93e5ecb",
+                    "name": "cctv6",
+                    "file_name": "cctv6.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/79c80a8e9e2d8f77398ea6a0c93e5ecb/cctv6.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/79c80a8e9e2d8f77398ea6a0c93e5ecb/cctv6.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "385ea1b415c0fe1e6793e093ac27db79",
+                    "name": "cctv7",
+                    "file_name": "cctv7.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/385ea1b415c0fe1e6793e093ac27db79/cctv7.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/385ea1b415c0fe1e6793e093ac27db79/cctv7.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "f325b9a5ad0256a169555ea3c06368f4",
+                    "name": "cctv8",
+                    "file_name": "cctv8.jpg",
+                    "extension": "jpg",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/f325b9a5ad0256a169555ea3c06368f4/cctv8.jpg",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/f325b9a5ad0256a169555ea3c06368f4/cctv8.jpg",
+                    "type": "image"
+                },
+                {
+                    "id": "c8d0cde7030fe22e24abc5cff5643357",
+                    "name": "soldout",
+                    "file_name": "soldout.png",
+                    "extension": "png",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/c8d0cde7030fe22e24abc5cff5643357/soldout.png",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/c8d0cde7030fe22e24abc5cff5643357/soldout.png",
+                    "type": "image"
+                },
+                {
+                    "id": "6011c92dbabf8ed16db99a765a373e52",
+                    "name": "soldout",
+                    "file_name": "soldout.png",
+                    "extension": "png",
+                    "url": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/6011c92dbabf8ed16db99a765a373e52/soldout.png",
+                    "thumbnail": "https://cdn-img.wemall-dev.com/941527/w_1400,h_1400,c_thumb/6011c92dbabf8ed16db99a765a373e52/soldout.png",
+                    "type": "image"
+                }
+            ],
+            "tags": [
+                ""
+            ],
+            "monitor_status": true,
+            "product_type": "device_bundle_new_customer",
+            "youtube_videos": [],
+            "warehouse": {
+                "id": 1,
+                "name": "Aden Fulfillment Co., Ltd.",
+                "code": "TH3846",
+                "stock_type": "MF"
+            },
+            "created_at": "2021-11-18 11:19:37",
+            "updated_at": "2022-03-29 05:29:20",
+            "migrated_at": {
+                "sec": 1648531764,
+                "usec": 0
+            },
+            "bundles": [
+                {
+                    "id": "61974ab17ad6c400018e0d8b",
+                    "name": "NEW_CCTV Cloudservice 2Device_MNP",
+                    "ref_code": "iOT-NEW-2DEVICE-MNP",
+                    "start_date": 1627750800,
+                    "end_date": 1661878740,
+                    "description": "NEW_CCTV Cloudservice 2Devicee",
+                    "active": true,
+                    "status": "ENABLE",
+                    "enable": true,
+                    "image_url": "https://wemallcom",
+                    "propo_code": "0103694MNP",
+                    "campaign_sim_type": "mnp",
+                    "campaign_mnp_type": "one_step",
+                    "sim_type": "postpaid",
+                    "device_promotion_set": "AAA7261",
+                    "device_product_name": "MNP_iOT CCTV 2 Units+Cloud Service disc2411 Adv720 C18",
+                    "device_promotion_rms": "881",
+                    "device_discount_code": "IT100",
+                    "privilege_type": "cctv_cloud",
+                    "tenor": null,
+                    "down_payment_rate": null,
+                    "groupName": "mc461",
+                    "campaign_type": "bundle_sim",
+                    "inventories": [
+                        {
+                            "product_type": "main_item",
+                            "product_id": "L91597508",
+                            "inventory_id": 3089171,
+                            "quantity": 1
+                        },
+                        {
+                            "product_type": "binding_item",
+                            "product_id": "L91591646",
+                            "inventory_id": 3082437,
+                            "quantity": 1
+                        }
+                    ],
+                    "bundles": [
+                        {
+                            "3082437": 1,
+                            "3089171": 1
+                        }
+                    ],
+                    "benefit": {
+                        "type": "DISCOUNT",
+                        "amount": 1122,
+                        "unit": "THB"
+                    },
+                    "version": 2,
+                    "campaign_id": 2522,
+                    "allow_on_top_campaign": false,
+                    "channels": [
+                        "tmvh-official-website"
+                    ],
+                    "campaign_limit": 100,
+                    "product_id": "L91597508",
+                    "is_enable_bundle_device_bundle_new_customer": true,
+                    "inventory_id": 3089171,
+                    "advance_payment": "0.00",
+                    "proposition_mobile": [
+                        {
+                            "id": "11649",
+                            "nas_code": "5GUltraMaxSpeed",
+                            "name": "5G Ultra Max Speed Plus",
+                            "source_type": "sim",
+                            "baseline": 699,
+                            "contract": 12,
+                            "advance_payment": 0,
+                            "advance_payment_code": "",
+                            "package_image_desktop": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_image_mobile": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_name": "RM_SH_CCTVCloudService_Free2_MNP"
+                        }
+                    ],
+                    "contract": "12",
+                    "baseline": "299.00",
+                    "campaign_code": "CM783",
+                    "to_be_discount_device_bundle_new_customer": 1122,
+                    "price_after_discount_device_bundle_new_customer": 168
+                },
+                {
+                    "id": "61974ab17ad6c400018e0d8d",
+                    "name": "NEW_CCTV Cloudservice 2Device",
+                    "ref_code": "iOT-NEW-2DEVICE",
+                    "start_date": 1627750800,
+                    "end_date": 1661878799,
+                    "description": "NEW_CCTV Cloudservice 2Device",
+                    "active": true,
+                    "status": "ENABLE",
+                    "enable": true,
+                    "image_url": "https://wemallcom",
+                    "propo_code": "0103694",
+                    "campaign_sim_type": "sim",
+                    "campaign_mnp_type": null,
+                    "sim_type": "postpaid",
+                    "device_promotion_set": "AAA7260",
+                    "device_product_name": "New_iOT CCTV 2 Units+Cloud Service disc2411 Adv720 C18",
+                    "device_promotion_rms": "881",
+                    "device_discount_code": "IT100",
+                    "privilege_type": "cctv_cloud",
+                    "tenor": null,
+                    "down_payment_rate": null,
+                    "groupName": "mc461",
+                    "campaign_type": "bundle_sim",
+                    "inventories": [
+                        {
+                            "product_type": "main_item",
+                            "product_id": "L91597508",
+                            "inventory_id": 3089171,
+                            "quantity": 1
+                        },
+                        {
+                            "product_type": "binding_item",
+                            "product_id": "L91587234",
+                            "inventory_id": 3078353,
+                            "quantity": 1
+                        }
+                    ],
+                    "bundles": [
+                        {
+                            "3078353": 1,
+                            "3089171": 1
+                        }
+                    ],
+                    "benefit": {
+                        "type": "DISCOUNT",
+                        "amount": 1122,
+                        "unit": "THB"
+                    },
+                    "version": 0,
+                    "campaign_id": 2523,
+                    "allow_on_top_campaign": false,
+                    "channels": [
+                        "tmvh-official-website"
+                    ],
+                    "campaign_limit": 100,
+                    "product_id": "L91597508",
+                    "is_enable_bundle_device_bundle_new_customer": true,
+                    "inventory_id": 3089171,
+                    "advance_payment": "0.00",
+                    "proposition_mobile": [
+                        {
+                            "id": "11649",
+                            "nas_code": "5GUltraMaxSpeed",
+                            "name": "5G Ultra Max Speed Plus",
+                            "source_type": "sim",
+                            "baseline": 699,
+                            "contract": 12,
+                            "advance_payment": 0,
+                            "advance_payment_code": "",
+                            "package_image_desktop": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_image_mobile": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_name": "SH_CCTVCloudService_Free2"
+                        }
+                    ],
+                    "contract": "18",
+                    "baseline": "299.00",
+                    "campaign_code": "CN782",
+                    "to_be_discount_device_bundle_new_customer": 1122,
+                    "price_after_discount_device_bundle_new_customer": 168
+                },
+                {
+                    "id": "61974ab17ad6c400018e0d8f",
+                    "name": "NEW_CCTV Cloudservice 1Device",
+                    "ref_code": "iOT-NEW-1DEVICE",
+                    "start_date": 1627750800,
+                    "end_date": 1661878799,
+                    "description": "NEW_CCTV Cloudservice 1Device",
+                    "active": true,
+                    "status": "ENABLE",
+                    "enable": true,
+                    "image_url": "https://wemallcom",
+                    "propo_code": "0103692",
+                    "campaign_sim_type": "sim",
+                    "campaign_mnp_type": null,
+                    "sim_type": "postpaid",
+                    "device_promotion_set": "AAA7257",
+                    "device_product_name": "New_iOT CCTV+Cloud Service disc1205 Adv360 C18",
+                    "device_promotion_rms": "881",
+                    "device_discount_code": "IT100",
+                    "privilege_type": "cctv_cloud",
+                    "tenor": null,
+                    "down_payment_rate": null,
+                    "groupName": "mc461",
+                    "campaign_type": "bundle_sim",
+                    "inventories": [
+                        {
+                            "product_type": "main_item",
+                            "product_id": "L91597508",
+                            "inventory_id": 3089171,
+                            "quantity": 1
+                        },
+                        {
+                            "product_type": "binding_item",
+                            "product_id": "L91587234",
+                            "inventory_id": 3078353,
+                            "quantity": 1
+                        }
+                    ],
+                    "bundles": [
+                        {
+                            "3078353": 1,
+                            "3089171": 1
+                        }
+                    ],
+                    "benefit": {
+                        "type": "DISCOUNT",
+                        "amount": 1206,
+                        "unit": "THB"
+                    },
+                    "version": 0,
+                    "campaign_id": 2524,
+                    "allow_on_top_campaign": false,
+                    "channels": [
+                        "tmvh-official-website"
+                    ],
+                    "campaign_limit": 100,
+                    "product_id": "L91597508",
+                    "is_enable_bundle_device_bundle_new_customer": true,
+                    "inventory_id": 3089171,
+                    "advance_payment": "0.00",
+                    "proposition_mobile": [
+                        {
+                            "id": "11649",
+                            "nas_code": "5GUltraMaxSpeed",
+                            "name": "5G Ultra Max Speed Plus",
+                            "source_type": "sim",
+                            "baseline": 699,
+                            "contract": 12,
+                            "advance_payment": 0,
+                            "advance_payment_code": "",
+                            "package_image_desktop": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_image_mobile": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_name": "RM_SH_CCTVCloudService_Free1"
+                        }
+                    ],
+                    "contract": "18",
+                    "baseline": "299.00",
+                    "campaign_code": "CN776",
+                    "to_be_discount_device_bundle_new_customer": 1206,
+                    "price_after_discount_device_bundle_new_customer": 84
+                },
+                {
+                    "id": "61974ab27ad6c400018e0d91",
+                    "name": "NEW_CCTV Cloudservice 1Device_MNP",
+                    "ref_code": "iOT-NEW-1DEVICE-MNP",
+                    "start_date": 1627750800,
+                    "end_date": 1661878740,
+                    "description": "NEW_CCTV Cloudservice 1Devicee",
+                    "active": true,
+                    "status": "ENABLE",
+                    "enable": true,
+                    "image_url": "https://wemallcom",
+                    "propo_code": "0103692MNP",
+                    "campaign_sim_type": "mnp",
+                    "campaign_mnp_type": "one_step",
+                    "sim_type": "postpaid",
+                    "device_promotion_set": "AAA7258",
+                    "device_product_name": "MNP_iOT CCTV+Cloud Service disc1205 Adv360 C18",
+                    "device_promotion_rms": "881",
+                    "device_discount_code": "IT100",
+                    "privilege_type": "cctv_cloud",
+                    "tenor": null,
+                    "down_payment_rate": null,
+                    "groupName": "mc46112",
+                    "campaign_type": "bundle_sim",
+                    "inventories": [
+                        {
+                            "product_type": "main_item",
+                            "product_id": "L91597508",
+                            "inventory_id": 3089171,
+                            "quantity": 1
+                        },
+                        {
+                            "product_type": "binding_item",
+                            "product_id": "L91591646",
+                            "inventory_id": 3082437,
+                            "quantity": 1
+                        }
+                    ],
+                    "bundles": [
+                        {
+                            "3082437": 1,
+                            "3089171": 1
+                        }
+                    ],
+                    "benefit": {
+                        "type": "DISCOUNT",
+                        "amount": 1206,
+                        "unit": "THB"
+                    },
+                    "version": 10,
+                    "campaign_id": 2525,
+                    "allow_on_top_campaign": false,
+                    "channels": [
+                        "tmvh-official-website"
+                    ],
+                    "campaign_limit": 100,
+                    "product_id": "L91597508",
+                    "is_enable_bundle_device_bundle_new_customer": true,
+                    "inventory_id": 3089171,
+                    "advance_payment": "0.00",
+                    "proposition_mobile": [
+                        {
+                            "id": "11649",
+                            "nas_code": "5GUltraMaxSpeed",
+                            "name": "5G Ultra Max Speed Plus",
+                            "source_type": "sim",
+                            "baseline": 699,
+                            "contract": 12,
+                            "advance_payment": 0,
+                            "advance_payment_code": "",
+                            "package_image_desktop": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_image_mobile": "https://dummyimage.com/800/ff0000/ffffff.png&text=Package+Image",
+                            "package_name": "RM_SH_CCTVCloudService_Free1_MNP"
+                        }
+                    ],
+                    "contract": "12",
+                    "baseline": "299.00",
+                    "campaign_code": "CM777",
+                    "to_be_discount_device_bundle_new_customer": 1206,
+                    "price_after_discount_device_bundle_new_customer": 84
+                }
+            ],
+            "category_list": [
+                {
+                    "id": "4538",
+                    "title": "IOT และ อุปกรณ์เสริม"
+                }
+            ],
+            "store": {
+                "id": "L941527",
+                "user_id": 1105904,
+                "slug": "truemovehsim",
+                "url": "https://store.wls-dev.com/truemovehsim",
+                "title": {
+                    "th": "True Store"
+                },
+                "phone": "",
+                "avatar": {
+                    "default": "http://image.platform.truelife.com/21974913/avatar?app_id=1&secret=a42ca3848f9dd9995fedeb93ebf97805&key=sso&w=35&h=35",
+                    "base": "http://image.platform.truelife.com/21974913/avatar?app_id=1&secret=a42ca3848f9dd9995fedeb93ebf97805&key=sso"
+                },
+                "mobile": "0647016834",
+                "mobile_alternate": [],
+                "fax": "",
+                "email": "niti.tot@ascendcorp.com",
+                "social": [
+                    ""
+                ],
+                "logo": {
+                    "id": "f8ac5228daccbadb7137ae8e9171f3bb",
+                    "name": "cgmlogo",
+                    "mime": "image/jpeg",
+                    "extension": "jpg",
+                    "url": "https://store.wls-dev.com/upload/gallery5/941527/b/3b/f8ac5228daccbadb7137ae8e9171f3bb.jpg",
+                    "position": 1
+                },
+                "status": "true",
+                "free_shipping": "false",
+                "type": "business",
+                "first_name": "Test",
+                "last_name": "TruemoveH Sim",
+                "published_at": {
+                    "sec": 1557890455,
+                    "usec": 0
+                },
+                "connect": {
+                    "PMGW": {
+                        "account": "yaowalak.ros@ascendcorp.com",
+                        "uid": 0,
+                        "created_at": {
+                            "sec": 1557396428,
+                            "usec": 0
+                        },
+                        "updated_at": {
+                            "sec": 1648623960,
+                            "usec": 0
+                        }
+                    },
+                    "CCW": {
+                        "account": "yaowalak.ros@ascendcorp.com",
+                        "uid": 0,
+                        "created_at": {
+                            "sec": 1557396428,
+                            "usec": 0
+                        },
+                        "updated_at": {
+                            "sec": 1648623960,
+                            "usec": 0
+                        }
+                    }
+                },
+                "package": "f",
+                "payment_channel": {
+                    "atm": true,
+                    "banktrans": true,
+                    "ibank": true,
+                    "credit": true,
+                    "wallet": true,
+                    "cod": true
+                },
+                "support_method": {
+                    "wetrust": true,
+                    "creditcard": true
+                },
+                "register_plaza": "y",
+                "free": "n",
+                "use_stock": "true",
+                "use_cart": "true",
+                "viewed": 2262,
+                "category_id": 3366,
+                "province_id": 13,
+                "created_at": "2019-05-15 03:20:55",
+                "updated_at": "2022-03-30 07:06:00",
+                "login_at": "2022-03-30 06:54:35",
+                "migrated_at": {
+                    "sec": 1648623963,
+                    "usec": 0
+                },
+                "sync": 0,
+                "sync_at": {
+                    "sec": 1646031963,
+                    "usec": 0
+                },
+                "section": 3,
+                "warehouse": {
+                    "warehouse_id": 1,
+                    "warehouse_code": "TH3846",
+                    "warehouse_name": "Aden Fulfillment Co., Ltd.",
+                    "stock_type": "MF",
+                    "created_at": {
+                        "date": "2019-05-09 17:07:09",
+                        "format": "9 May 2019 5:07 PM"
+                    },
+                    "updated_at": {
+                        "date": "2019-05-09 17:07:09",
+                        "format": "9 May 2019 5:07 PM"
+                    }
+                },
+                "theme_setting": {
+                    "id": 13265,
+                    "setting_html": "",
+                    "setting": {
+                        "sel_theme": "default",
+                        "header_image_url": "https://res.wemall-dev.com/941527/w_1920,h_116,c_crop/w_1920,h_116,c_thumb/2cc377a02a5b1ec0853f283c63493e1a/2cc377a02a5b1ec0853f283c63493e1a.png",
+                        "use_group_banner": "true",
+                        "use_header": "checked",
+                        "body_color": "#b6b6b6",
+                        "banner_level_d_desktop_enable": "false",
+                        "banner_level_d_mobile_enable": "false",
+                        "delivery_enable": "false",
+                        "delivery_message": "",
+                        "opening_time_enable": "false",
+                        "opening_time_message": ""
+                    },
+                    "custom_header_css": "stores5/941527/custom/assets/css/style_header.css?v=2103469987",
+                    "custom_body_css": "stores5/941527/custom/assets/css/style_body.css?v=2103469987",
+                    "created_at": {
+                        "date": "2019-05-09 17:07:08.000000",
+                        "timezone_type": 3,
+                        "timezone": "Asia/Bangkok"
+                    },
+                    "updated_at": {
+                        "date": "2022-03-30 14:06:00.000000",
+                        "timezone_type": 3,
+                        "timezone": "Asia/Bangkok"
+                    }
+                },
+                "shipping_method": {
+                    "POST": false,
+                    "EMS": false,
+                    "KERRY": false,
+                    "WEMALL": true
+                },
+                "product_count": 252
+            },
+            "shipping_detail": [
+                {
+                    "short_delivery_message": "แบบธรรมดา, ส่งภายใน 2-7 วัน",
+                    "title": "",
+                    "description": "",
+                    "type": "non-fresh"
+                }
+            ],
+            "shipping": {
+                "custom": [
+                    {
+                        "method": "WeMall",
+                        "method_name": "WeMall",
+                        "day": 3,
+                        "rate_type": "price",
+                        "type_name": "ราคารวม",
+                        "value": [
+                            {
+                                "rate": "0.00 - 299.00",
+                                "price": "ฟรีค่าจัดส่ง"
+                            },
+                            {
+                                "rate": "299.01 - ขึ้นไป",
+                                "price": "ฟรีค่าจัดส่ง"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "body_html": {
+                "th": "<ul><li>กล้องวงจรปิดไร้สาย TrueLivingTECH Smart CCTV Camera 1080P</li><li>ความละเอียดของภาพแบบ Full HD 1920*1080P H.264 High Profile</li><li>รองรับการทำงาน Night Vision Mode ระยะการทำงาน 8 – 10 เมตร โดยทำงานเองโดยอัตโนมัติเมื่อมีแสงน้อย</li><li>อุปกรณ์สามารถหมุนจับภาพรอบตัว 355 องศา ในแนวนอน และ 110 องศา ในแนวตั้ง</li><li>มีลำโพงในตัวสามารถพูดคุยสองทาง</li><li>รองรับการเชื่อมต่อแบบไร้สายผ่าน Wi-Fi และ ผ่านทางสาย LAN</li><li>รองรับการบันทึก Video ผ่าน Micro SD Card ( Up to 128GB )</li><li>รองรับบันทึกผ่านระบบ Cloud Service ได้ ( มีค่าบริการ Could เพิ่มเติม )</li><li>สามารถตรวจจับความเคลื่อนไหวด้วย Motion detection alarm</li><li>รองรับแจ้งเตือน การตั้งค่า และ การดูแบบเรียลไทม์ ผ่านทาง Application</li></ul>"
+            },
+            "flashsale": false,
+            "promotion": false,
+            "campaign": [
+                {
+                    "id": 12858,
+                    "title": {
+                        "th": "Truemoveh product list custom",
+                        "en": ""
+                    },
+                    "description": {
+                        "th": "Truemoveh product list custom",
+                        "en": ""
+                    },
+                    "type": 4,
+                    "timezone": "UTC",
+                    "start": "2020-03-24 17:00:00",
+                    "end": "2030-03-25 16:59:00",
+                    "active": true,
+                    "promotion_by": "portal",
+                    "has_fee": false,
+                    "fee": 0,
+                    "quantity_limit": 0,
+                    "custom_price": 0,
+                    "max_discount": 1206
+                }
+            ],
+            "coupon": false,
+            "is_campaign": true,
+            "is_flashsale": false,
+            "discount_percent": 0,
+            "related_campaign": [],
+            "options": false,
+            "option_sku": {
+                "k3089171": {
+                    "id": 3089171,
+                    "price": 1290,
+                    "compare_price": 0,
+                    "stock": 878,
+                    "sku": "3000094323",
+                    "cart_text": false,
+                    "allow_addcart": true,
+                    "ignore_stock": false,
+                    "discount_percent": false,
+                    "is_freebie": false,
+                    "is_points": false
+                }
+            },
+            "true_point_only": false,
+            "is_pay_smooth": false,
+            "pay_smooth": {
+                "tenor": [
+                    12,
+                    18,
+                    24
+                ],
+                "down_payment_rate": [
+                    25,
+                    40,
+                    60
+                ],
+                "interest": 120
+            },
+            "only_one_accessory": false,
+            "hide_device_only_list": [
+                "3089171"
+            ],
+            "product_sim": null,
+            "price_with_max_discount_device_bundle_new_customer": 84,
+            "is_mnp_bundling": true,
+            "bundle_existing": [
+                {
+                    "product_id": 91597508,
+                    "campaign_type": "3",
+                    "discount_list": [
+                        {
+                            "id": 4515,
+                            "rc": 299,
+                            "company": "RM",
+                            "campaign_code": "CX778",
+                            "product_code": "3000094323",
+                            "discount": 1206,
+                            "previous_discount": "0.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000392",
+                            "proposition_nas_code": "0103696",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "3",
+                            "aging": "0",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2022-03-30 03:26:51",
+                            "last_updated_user": "925",
+                            "last_sync_at": null,
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "CCTVCloudService_Free1Device (Nas : 0103696)",
+                            "contract": "18"
+                        },
+                        {
+                            "id": 4521,
+                            "rc": 299,
+                            "company": "RF",
+                            "campaign_code": "CX785",
+                            "product_code": "3000094323",
+                            "discount": 1122,
+                            "previous_discount": "0.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000391",
+                            "proposition_nas_code": "0103695",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "3",
+                            "aging": "0",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2022-03-30 10:01:06",
+                            "last_updated_user": "1159",
+                            "last_sync_at": null,
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "CCTVCloudService_Free2Device (Nas : 0103695)",
+                            "contract": "18"
+                        }
+                    ]
+                },
+                {
+                    "product_id": 91597508,
+                    "campaign_type": "4",
+                    "discount_list": [
+                        {
+                            "id": 4519,
+                            "rc": 299,
+                            "company": "RM",
+                            "campaign_code": "CM777",
+                            "product_code": "3000094323",
+                            "discount": 1206,
+                            "previous_discount": "0.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000390",
+                            "proposition_nas_code": "0103692",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "4",
+                            "aging": "0",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2022-03-30 03:29:51",
+                            "last_updated_user": "925",
+                            "last_sync_at": null,
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "RM_SH_CCTVCloudService_Free1",
+                            "contract": "18"
+                        },
+                        {
+                            "id": 4524,
+                            "rc": 299,
+                            "company": "RM",
+                            "campaign_code": "CM783",
+                            "product_code": "3000094323",
+                            "discount": 1122,
+                            "previous_discount": "0.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000391",
+                            "proposition_nas_code": "0103694",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "4",
+                            "aging": "0",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2022-03-30 06:21:41",
+                            "last_updated_user": "1159",
+                            "last_sync_at": null,
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "SH_CCTVCloudService_Free2",
+                            "contract": "18"
+                        }
+                    ]
+                },
+                {
+                    "product_id": 91597508,
+                    "campaign_type": "5",
+                    "discount_list": [
+                        {
+                            "id": 4523,
+                            "rc": 599,
+                            "company": "RF",
+                            "campaign_code": "CP787",
+                            "product_code": "3000094323",
+                            "discount": 1122,
+                            "previous_discount": "1122.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000391",
+                            "proposition_nas_code": "0103695",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "5",
+                            "aging": "90",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2022-02-24 09:11:29",
+                            "last_updated_user": "1159",
+                            "last_sync_at": "2022-02-10 11:34:05",
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "CCTVCloudService_Free2Device (Nas : 0103695)",
+                            "contract": "18",
+                            "cloud_campaign": null
+                        },
+                        {
+                            "id": 4517,
+                            "rc": 399,
+                            "company": "RM",
+                            "campaign_code": "CP780",
+                            "product_code": "3000094323",
+                            "discount": 1206,
+                            "previous_discount": "0.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000390",
+                            "proposition_nas_code": "0103692",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "5",
+                            "aging": "90",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2021-12-07 10:35:45",
+                            "last_updated_user": "1159",
+                            "last_sync_at": null,
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "RM_SH_CCTVCloudService_Free1",
+                            "contract": "18",
+                            "cloud_campaign": null
+                        },
+                        {
+                            "id": 4518,
+                            "rc": 299,
+                            "company": "RF",
+                            "campaign_code": "CP781",
+                            "product_code": "3000094323",
+                            "discount": 1206,
+                            "previous_discount": "0.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000390",
+                            "proposition_nas_code": "0103693",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "5",
+                            "aging": "90",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2022-03-30 03:30:35",
+                            "last_updated_user": "1159",
+                            "last_sync_at": null,
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "RF_SH_CCTVCloudService_Free1",
+                            "contract": "18"
+                        },
+                        {
+                            "id": 4522,
+                            "rc": 299,
+                            "company": "RM",
+                            "campaign_code": "CP786",
+                            "product_code": "3000094323",
+                            "discount": 1122,
+                            "previous_discount": "1122.00",
+                            "advance_payment": 0,
+                            "proposition_rms": "938",
+                            "proposition_amdoc": "IOT000000000391",
+                            "proposition_nas_code": "0103694",
+                            "service_id": "EXTDEV",
+                            "campaign_type": "5",
+                            "aging": "90",
+                            "is_trueblack": false,
+                            "meta": "cctv_cloud",
+                            "status": true,
+                            "created_at": "2021-11-19 07:17:45",
+                            "updated_at": "2022-03-30 06:21:58",
+                            "last_updated_user": "1159",
+                            "last_sync_at": "2022-02-10 11:34:05",
+                            "bundle_campaign_student_loan": null,
+                            "package_name": "SH_CCTVCloudService_Free2",
+                            "contract": "18"
+                        }
+                    ]
+                }
+            ],
+            "additional": {
+                "new_customer_text": [],
+                "banner": "https://cms.weomni-test.com/projects/5ec74ca9dbfe8c0001edd2a9/content-types/5fe551f74b9c9c00019c3d28/contents/5ff53e340314e50001cb2869/image.jpeg?version=13"
+            },
+            "is_iot": true,
+            "iot_type": "truemoveh",
+            "iot_config": {
+                "cloud_service": {
+                    "299": [
+                        {
+                            "campaign_codes": [
+                                "CN776",
+                                "CM777",
+                                "CX778",
+                                "CP781",
+                                "CX785",
+                                "CX779"
+                            ],
+                            "header": {
+                                "th": "รับ CCTV 1 เครื่อง",
+                                "en": "CCTV x1"
+                            },
+                            "campaign": [
+                                {
+                                    "title": {
+                                        "th": "CCTV Cloud 99 บาท/เดือน ดูย้อนหลัง 7 วัน",
+                                        "en": "CCTV Cloud 99 ฿( 7-day video history )"
+                                    },
+                                    "cloud": "99"
+                                },
+                                {
+                                    "title": {
+                                        "th": "CCTV Cloud 159 บาท/เดือน ดูย้อนหลัง 14 วัน",
+                                        "en": "CCTV Cloud 159 ฿ ( 14-day video history )"
+                                    },
+                                    "cloud": "159"
+                                }
+                            ]
+                        },
+                        {
+                            "campaign_codes": [
+                                "CM783",
+                                "CN782",
+                                "CX784",
+                                "CP786",
+                                "CX785"
+                            ],
+                            "header": {
+                                "th": "รับ CCTV 2 เครื่อง",
+                                "en": "CCTV x2"
+                            },
+                            "campaign": [
+                                {
+                                    "title": {
+                                        "th": "CCTV Cloud 99x2 บาท/เดือน ดูย้อนหลัง 7 วัน (2 รายการ)",
+                                        "en": "CCTV Cloud 99 ฿ x 2 ( 7-day video history )"
+                                    },
+                                    "cloud": "99x2"
+                                },
+                                {
+                                    "title": {
+                                        "th": "CCTV Cloud 159x2 บาท/เดือน ดูย้อนหลัง 14 วัน (2 รายการ)",
+                                        "en": "CCTV Cloud 159 ฿ x 2 ( 14-day video history )"
+                                    },
+                                    "cloud": "159x2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "spacial_detail": {
+                "sub_header": null,
+                "promotion_remark": null
+            },
+            "term_and_condition": {
+                "th": "<div>*หลังจากได้รับสินค้า กรุณาตรวจสอบสินค้าภายในเวลาที่กำหนด เพื่อรักษาสิทธิประโยชน์สูงสุดจาก TRUE STORE</div>\r\n           <ul><li>ตรวจสอบสินค้าภายใน 24 ชั่วโมง เพื่อรับสิทธิ์เปลี่ยน/คืนสินค้าในกรณี สินค้าเกิดรอยขีดข่วน หรือ เสียหายจากการขนส่ง</li>\r\n           <li>ตรวจสอบสินค้าภายใน 7 วัน เพื่อรับสิทธิ์เปลี่ยน/คืนสินค้าในกรณี ระบบภายในตัวเครื่องมีปัญหา</li></ul>\r\n           <div>**เงื่อนไขในการเปลี่ยน/คืนสินค้า เป็นไปตามที่บริษัทฯ กำหนด</div>",
+                "en": "<div>*Upon receiving your device, kindly open and check your device as per the allotted timeline in order to maintain the following privileges with True Store:</div>\r\n           <ul><li>Return or change your device if you notice scratches and/or other physical damages on your device within 24 hours</li>\r\n           <li>Return or change your device if you experience any software malfunctions within 7 days</li></ul>\r\n           <div>**Returning or changing devices are subject to True’s terms and conditions</div>"
+            },
+            "product_sim_source_type": false
+        }
+    }
+}

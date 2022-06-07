@@ -1,0 +1,81 @@
+{
+  "dataEmail": {
+    "email": {
+      "label": {
+        "th": "อีเมล",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "required": false,
+      "pattern": ".{1,50}",
+      "placeholder": {
+        "th": "กรุณากรอกอีเมล",
+        "en": "Enter your email"
+      },
+      "error": {
+        "th": "กรุณากรอกอีเมลให้ถูกต้อง",
+        "en": "Please enter correct an email"
+      }
+    }
+  },
+  "dataPhone": {
+    "phone": {
+        "label": {
+            "th": "เบอร์โทรศัพท์",
+            "en": "Mobile phone number"
+        },
+        "inputmode": "tel",
+        "type": "text",
+        "required": true,
+        "pattern": "[0-9]{9,10}",
+        "placeholder": {
+            "th": "กรุณากรอกเบอร์มือถือ 10 หลัก",
+            "en": "Please enter 10 digits of mobile number"
+        },
+        "error": {
+            "th": "กรุณากรอกเบอร์โทรศัพท์ 10 หลัก",
+            "en": "Please enter correct phone number (10 digits)"
+        }
+    }
+  },
+  "dataContact": {
+    "thai_id": {
+      "label": {
+        "th": "เลขบัตรประชาชน",
+        "en": "Thai ID"
+      },
+      "inputmode": "numeric",
+      "type": "text",
+      "disabled": "disabled"
+    }
+  },
+  "error" : {
+      "th": "เกิดข้อผิดพลาดในการจองเบอร์มงคล กรุณาติดต่อพนักงาน",
+      "en": "Something went wrong, Please contact staff."
+  },
+  "nas201" : {
+    "th": "ขออภัย หมายเลขที่ท่านเลือกไม่สามารถทำรายการได้ขณะนี้",
+    "en": "Sorry, this number has been reserved"
+  },
+  "nas301" : {
+    "th": "ขออภัย ท่านได้จองหมายเลขครบจำนวนที่กำหนดแล้ว",
+    "en": "Sorry, you have reached reserved number quota limit"
+  },
+  "nas305" : {
+    "th": "ขออภัย รายการส่งเสริมการขายที่ท่านเลือก ไม่สามารถใช้คู่กับหมายเลขนี้ได้",
+    "en": "Sorry, this promotion is not allow for this number"
+  },
+  "verify": {
+    "mobile": {
+      "placeholder": {
+        "en": "Please enter 10 digits of mobile number",
+        "th": "กรุณากรอกเบอร์มือถือ 10 หลัก"
+      },
+      "error": {
+        "en": "Please enter correct phone number (10 digits)",
+        "th": "กรุณากรอกเบอร์โทรศัพท์ 10 หลัก"
+      }
+    }
+  }
+}

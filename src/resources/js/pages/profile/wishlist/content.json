@@ -1,0 +1,28 @@
+{
+  "label": {
+    "header": {
+        "th": "รายการที่ชอบ",
+        "en": "Wish List"
+    },
+    "title": {
+        "th": "รายการที่ชอบ",
+        "en": "Wish List"
+    },
+    "total": {
+      "th": "ทั้งหมด",
+      "en": "Total"
+    },
+    "buyNow": {
+      "th": "ซื้อเลย",
+      "en": "Buy Now"
+    },
+    "start": {
+      "th": "เริ่มต้น",
+      "en": "Start"
+    },
+    "noWishList": {
+      "th": "ไม่มีรายการที่ชอบ",
+      "en": "No Wish List"
+    }
+  }
+}

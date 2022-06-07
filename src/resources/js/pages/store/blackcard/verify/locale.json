@@ -1,0 +1,22 @@
+{
+  "result_success": {
+    "en": "Verification Passed",
+    "th": "การตรวจสอบสิทธิ์สำเร็จ"
+  },
+  "back": {
+    "en": "Back",
+    "th": "ย้อนกลับ"
+  },
+  "next": {
+    "en": "Next",
+    "th": "ต่อไป"
+  },
+  "checking": {
+    "en": "Checking ...",
+    "th": "กำลังตรวจสอบ ..."
+  },
+  "thai_id": {
+    "th": "เลขบัตรประชาชน",
+    "en": "Thai ID Card"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "tnc_label": {
+    "th": "เงื่อนไขสั่งซื้อ",
+    "en": "Term and Condition"
+  },
+  "prepaid": {
+    "title": {
+      "en": "Offers is not available for your prepaid number",
+      "th": "Offers is not available for your prepaid number"
+    },
+    "subtitle": {
+      "en": "Still interested? You can choose other ways to get postpaid number:",
+      "th": "Still interested? You can choose other ways to get postpaid number:"
+    },
+    "save": {
+      "en": "Save",
+      "th": "ลดเพิ่ม"
+    },
+    "baht": {
+      "en": "฿",
+      "th": ".-"
+    },
+    "lucky_title": {
+      "en": "Free Lucky number & Device",
+      "th": "ซื้อเครื่องพร้อมเปิดเบอร์มงคล"
+    },
+    "device_only_title": {
+      "en": "Open new postpaid number",
+      "th": "Open new postpaid number"
+    },
+    "other_option": {
+      "en": "or switch to postpaid at True Shop",
+      "th": "หรือติดต่อทรูช็อปทุกสาขาเพื่อเปลี่ยนจากระบบเติมเงินเป็นรายเดือน"
+    },
+    "back": {
+      "en": "View other promotions",
+      "th": "View other promotions"
+    },
+    "tnc_label": {
+      "en": "Terms & Conditions",
+      "th": "เงื่อนไขการเปลี่ยนจากระบบเติมเงินเป็นรายเดือน"
+    },
+    "tnc_content": {
+      "en": "ในการเปลี่ยนจากระบบเติมเงินเป็นรายเดือน ลูกค้าต้องไม่ติดเงื่อนไขดังนี้\n1.มีอายุการใช้งานมากกว่าหรือเท่ากับ 90 วัน\n2.เป็นเบอร์ระบบเติมเงินที่ได้รับการลงทะเบียนแล้ว\n3.เบอร์ที่ลงทะเบียนกับบัตรประชาชนต้องยังไม่เกินจำนวนสูงสุดที่ระบบให้ลงทะเบียนได้",
+      "th": "ในการเปลี่ยนจากระบบเติมเงินเป็นรายเดือน ลูกค้าต้องไม่ติดเงื่อนไขดังนี้\n1.มีอายุการใช้งานมากกว่าหรือเท่ากับ 90 วัน\n2.เป็นเบอร์ระบบเติมเงินที่ได้รับการลงทะเบียนแล้ว\n3.เบอร์ที่ลงทะเบียนกับบัตรประชาชนต้องยังไม่เกินจำนวนสูงสุดที่ระบบให้ลงทะเบียนได้"
+    }
+  }
+}

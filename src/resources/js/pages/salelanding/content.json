@@ -1,0 +1,60 @@
+{
+    "sale_alias": {
+        "th":"ช่องทางการขาย",
+        "en":"Sale Channel"
+    },
+    "shop_code": {
+        "th": "เลือก Shop ที่คุณต้องการ",
+        "en": "Shop Code"
+    },
+    "sale_code": {
+        "th": "กรอก Sale Code (ของพนักงาน) หรือ Dealer Code",
+        "en": "Sale Code (for staff) or Dealer Code"
+    },
+    "ads_campaign_code": {
+        "th": "รหัสแคมเปญโฆษณา",
+        "en": "Ads Campaign Code"
+    },
+    "mobile_number": {
+        "th": "กรอกเบอร์โทรศัพท์ของพนักงาน",
+        "en": "Sales Mobile number"
+    },
+    "sale_channel": {
+        "th": "เลือกวิธีการติดต่อ",
+        "en": "Contract Method"
+    },
+    "product_type": {
+        "th": "เลือกประเภทสินค้า",
+        "en": "Product Type"
+    },
+    "campaign_type": {
+        "th": "เลือกแคมเปญที่คุณต้องการ",
+        "en": "Campaign Type"
+    },
+    "continue": {
+        "th": " ดำเนินการต่อ",
+        "en": "Continue"
+    },
+    "invalid_mobile": {
+        "th": "ข้อมูลเบอร์โทรศัพท์ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง",
+        "en": "invalid mobile number, please retry"
+    },
+    "textError": {
+        "titleError": {
+            "th": "ขออภัยคุณทำรายการไม่ถูกต้อง",
+            "en": "Something went wrong…"
+        },
+        "textError1": {
+            "th": "กรุณากรอกรหัสพนักงานขาย",
+            "en": "Please fill in sales ID that"
+        },
+        "textError2": {
+            "th": "ที่อยู่ภายใต้ shop code",
+            "en": "match with your shop code"
+        },
+        "buttonText": {
+            "th": "ปิด",
+            "en": "Close"
+        }
+    }
+}

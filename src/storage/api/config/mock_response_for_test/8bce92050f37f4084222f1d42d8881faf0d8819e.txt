@@ -1,0 +1,1 @@
+{"status_code":0,"status_txt":"OK","data":{"allow_addcart":{"ext":true,"new":true,"bdbc":true,"sim_only":true,"product":true},"user_id":0,"channel":"tmh-website","section":"wemall","product_id":"L91586968","hash":"Mz3cayBBoTGXQkN5DWhgjagIRKIAycs8reOcK8nA"}}

@@ -1,0 +1,189 @@
+.floater-block {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+    z-index: 1032 !important;
+    border-top: 1px solid #f9f9f9;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.floater-block.actived {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.floater-prg {
+    font-family: "TrueMedium";
+    font-size: 20px;
+    line-height: 0.9em;
+}
+
+.floater-block-inner {
+    position: relative;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floater-close-btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: -15px;
+    top: -21px;
+}
+
+.floater-close-btn + .floater-prg {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.custom-x-icon {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    width: 18px;
+    height: 18px;
+    left: 50%;
+    top: 50%;
+    margin-left: -9px;
+    margin-top: -12px;
+}
+
+.custom-x-icon:before,
+.custom-x-icon:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 2px;
+    height: 100%;
+    background-color: #8e8e8e;
+}
+
+.custom-x-icon:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-x-icon:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.floater-block strong {
+    font-family: "TrueBold";
+    font-weight: normal;
+}
+
+.floater-button-panel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: "TrueBold";
+    font-size: 24px;
+    line-height: 1em;
+    color: #fff;
+    min-width: 170px;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.floater-button-panel.-pinkgrad {
+    background: #ec1c25;
+    background: -moz-linear-gradient(bottom, #ec1c25 0%, #eb0189 100%);
+    background: -webkit-linear-gradient(bottom, #ec1c25 0%, #eb0189 100%);
+    background: linear-gradient(to top, #ec1c25 0%, #eb0189 100%);
+}
+
+@media screen and (min-width: 375px) {
+    .floater-block-inner {
+        text-align: center;
+    }
+
+    .floater-prg {
+        text-align: left;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    .floater-prg {
+        min-height: 54px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .floater-block {
+        z-index: 6;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .floater-close-btn + .floater-prg {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    .floater-button-panel {
+        font-size: 22px;
+        min-width: 136px;
+    }
+
+    .custom-x-icon {
+        margin-top: -9px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .floater-prg {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .floater-button-panel {
+        position: absolute;
+        right: 54px;
+        margin-top: 0;
+    }
+
+    .floater-button-panel,
+    .floater-close-btn {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .floater-close-btn + .floater-prg {
+        margin-top: 0;
+        max-width: 594px;
+        max-width: 550px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .floater-close-btn + .floater-prg {
+        max-width: 690px;
+        margin-left: 0;
+    }
+}

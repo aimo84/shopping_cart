@@ -1,0 +1,198 @@
+{
+    "resultCode": 0,
+    "message": "",
+    "ascendant": {
+        "position": [
+            {
+                "rueanphop": "อริ",
+                "kettrathibdee": "3",
+                "mhaauh": "1",
+                "rachachokh": "5",
+                "mahachak": "2",
+                "thewichokh": "8",
+                "zodiac": "เมษ"
+            },
+            {
+                "rueanphop": "ปัตนิ",
+                "kettrathibdee": "6",
+                "mhaauh": "2",
+                "rachachokh": "3",
+                "mahachak": "7",
+                "thewichokh": "7",
+                "zodiac": "พฤษภ"
+            },
+            {
+                "stars": [
+                    "๓"
+                ],
+                "rueanphop": "มรณะ",
+                "kettrathibdee": "4",
+                "rachachokh": "1",
+                "zodiac": "มิถุน"
+            },
+            {
+                "rueanphop": "ศุภะ",
+                "kettrathibdee": "2",
+                "mhaauh": "5",
+                "rachachokh": "6",
+                "mahachak": "1",
+                "zodiac": "กรกฏ"
+            },
+            {
+                "stars": [
+                    "๒"
+                ],
+                "rueanphop": "กัมมะ",
+                "kettrathibdee": "1",
+                "rachachokh": "4",
+                "mahachak": "4",
+                "zodiac": "สิงห์"
+            },
+            {
+                "stars": [
+                    "๕"
+                ],
+                "rueanphop": "ลาภะ",
+                "kettrathibdee": "4",
+                "mhaauh": "4",
+                "rachachokh": "2",
+                "mahachak": "3",
+                "zodiac": "กันย์"
+            },
+            {
+                "rueanphop": "วินาศ",
+                "kettrathibdee": "6",
+                "mhaauh": "7",
+                "rachachokh": "8",
+                "thewichokh": "5",
+                "zodiac": "ตุลย์"
+            },
+            {
+                "stars": [
+                    "๘",
+                    "๙",
+                    "ล"
+                ],
+                "rueanphop": "ตนุ",
+                "kettrathibdee": "3",
+                "mhaauh": "8",
+                "rachachokh": "7",
+                "mahachak": "5",
+                "thewichokh": "3",
+                "zodiac": "พิจิก"
+            },
+            {
+                "stars": [
+                    "๐"
+                ],
+                "rueanphop": "กฎุมพะ",
+                "kettrathibdee": "5",
+                "mahachak": "6",
+                "thewichokh": "1",
+                "zodiac": "ธนู"
+            },
+            {
+                "stars": [
+                    "๗"
+                ],
+                "rueanphop": "สหัชชะ",
+                "kettrathibdee": "7",
+                "mhaauh": "3",
+                "mahachak": "8",
+                "thewichokh": "6",
+                "zodiac": "มังกร"
+            },
+            {
+                "stars": [
+                    "๑",
+                    "๔"
+                ],
+                "rueanphop": "พันธุ",
+                "kettrathibdee": "8",
+                "thewichokh": "4",
+                "zodiac": "กุมภ์"
+            },
+            {
+                "stars": [
+                    "๖"
+                ],
+                "rueanphop": "ปุตตะ",
+                "kettrathibdee": "5",
+                "mhaauh": "6",
+                "thewichokh": "2",
+                "zodiac": "มีน"
+            }
+        ],
+        "description": "ดวงชะตาของคุณมีลัคนาสถิตอยู่ในราศี พิจิก มีดาวพระจันทร์เป็นดาวประจำตัว ในพื้นชะตาเกิดดาวประจำตัวไปสถิตอยู่ในเรือน มรณะ เรียกว่าตนุ มรณะ ราศี มิถุน แปลว่า ดวงชะตาของคุณมีลัคนาสถิตอยู่ในราศีพิจิก มีดาวพระเกตุคุมจุดเกิด อีกทั้งในพื้นดวงชะตาของคุณยังมีตำแหน่งดาวมหาอุจอยู่ในภพตนุ และดาวเกษตราธิบดีอยู่ในภพสหัชชะ และดาวเทวีโชคอยู่ในภพพันธุ และดาวมหาอุจอยู่ในภพปุตตะ จัดได้ว่าคุณเป็นคนที่มีดวงชะตาอยู่ในเกณฑ์ดี หากเสริมด้วยเลขมงคลตามดวงชะตาจักยิ่งส่งเสริมให้ชีวิตของคุณโคตรดี!"
+    },
+    "almanac": [
+        {
+            "name": "มูละ",
+            "number": "1",
+            "highlight": true
+        },
+        {
+            "name": "อุตสาหะ",
+            "number": "2"
+        },
+        {
+            "name": "มนตรี",
+            "number": "3"
+        },
+        {
+            "name": "กาลกิณี",
+            "number": "4"
+        },
+        {
+            "name": "บริวาร",
+            "number": "7"
+        },
+        {
+            "name": "อายุ",
+            "number": "5"
+        },
+        {
+            "name": "เดช",
+            "number": "8"
+        },
+        {
+            "name": "ศรี",
+            "number": "6"
+        }
+    ],
+    "numbering": [
+        {
+            "msisdn": "0951343482",
+            "grade": "A",
+            "group": "กัมมะ",
+            "subgroup": "ตนุ",
+            "description": "กัมมะ,ตนุ,พันธุ,กัมมะ+พันธุ+ตนุ,ศุภะ",
+            "company": "RM",
+            "proposition_code": "0085777",
+            "group_title": "การงาน",
+            "subgroup_title": "งานเด่น อุดมสุข"
+        },
+        {
+            "msisdn": "0964243759",
+            "grade": "A",
+            "group": "ลาภะ",
+            "subgroup": "ศุภะ",
+            "description": "ลาภะ,ศุภะ,พันธุ,กัมมะ+A+ลาภะ,9",
+            "company": "RF",
+            "proposition_code": "0085777",
+            "group_title": "โชคลาภ",
+            "subgroup_title": "ปุ๊บปั๊บ รับโชค"
+        },
+        {
+            "msisdn": "0964243029",
+            "grade": "A++",
+            "group": "ลาภะ",
+            "subgroup": "ศุภะ",
+            "description": "ลาภะ,ศุภะ,พันธุ,กัมมะ+กฎุมพะ+กัมมะ,9",
+            "company": "RF",
+            "proposition_code": "0085777",
+            "group_title": "โชคลาภ",
+            "subgroup_title": "ปุ๊บปั๊บ รับโชค"
+        }
+    ]
+}

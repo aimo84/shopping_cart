@@ -1,0 +1,22 @@
+{
+  "title": {
+    "en": "All done!",
+    "th": "All done!"
+  },
+  "subtitle": {
+    "en": "Your switch to postpaid request has been received.",
+    "th": "ทรูได้รับคำขอเปลี่ยนการใช้งานจากระบบเติมเงินมาเป็นรายเดือนของคุณเรียบร้อยแล้ว"
+  },
+  "order_number": {
+    "en": "Order number:",
+    "th": "หมายเลขการสั่งซื้อ:"
+  },
+  "back": {
+    "en": "Back to Homepage",
+    "th": "กลับสู่หน้าหลัก"
+  },
+  "print": {
+    "th": "พิมพ์ออเดอร์",
+    "en": "Print Order"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "en": {
+        "tracking": {
+            "check-delivery": "Check Delivery",
+            "all-order": "All Orders",
+            "placeholder": "Search your order number (ie: XZ2412321312)",
+            "order-number": "Order Number",
+            "order-date": "Date",
+            "order-quantity": "Quantity",
+            "order-price": "Price",
+            "order-status": "Status",
+            "place-order": "Place Order",
+            "payment-success": "Payment Success",
+            "delivery-waiting": "Delivering",
+            "delivery-success": "Delivery Success",
+            "baht": "฿"
+        }
+    },
+    "th": {
+        "tracking": {
+            "check-delivery": "ตรวจสอบการจัดส่ง",
+            "all-order": "การสั่งซื้อทั้งหมด",
+            "placeholder": "ค้นหาจากหมายเลขการสั่งซื้อของท่าน XZ2412321312",
+            "order-number": "หมายเลขการสั่งซื้อ",
+            "order-date": "วันที่สั่งซื้อ",
+            "order-quantity": "จำนวน",
+            "order-price": "ราคา",
+            "order-status": "สถานะการสั่งซื้อ",
+            "place-order": "ทำรายการสั่งซื้อ",
+            "payment-success": "ชำระเงินสำเร็จ",
+            "delivery-waiting": "กำลังจัดส่ง",
+            "delivery-success": "จัดส่งสำเร็จ",
+            "baht": "฿"
+        }
+    }
+}

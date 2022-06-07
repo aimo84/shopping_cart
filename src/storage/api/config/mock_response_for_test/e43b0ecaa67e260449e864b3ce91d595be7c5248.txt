@@ -1,0 +1,16 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "DP1AEYB9DYEMR",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "subscriber" : {
+      "subscriber" : "0816511172",
+      "remark" : "[Number status is not Active.][null]",
+      "renewal" : "N",
+      "usim" : false,
+      "port-in" : false,
+      "is-usim" : false
+    },
+    "validate-privilege" : false
+  }
+}

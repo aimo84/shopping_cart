@@ -1,0 +1,351 @@
+{
+  "code" : 200,
+  "desc" : "Success",
+  "sizes" : 2,
+  "offerSummaryList" : [ {
+    "size" : 1,
+    "offerSummaryInfo" : [ {
+      "offerInfo" : {
+        "offerCode" : "13412325",
+        "offerName" : "RETEBP15",
+        "offerDescription" : "RET New iSmart Max499 (pay 250)",
+        "structureLevel" : "C",
+        "productType" : "RR",
+        "offerType" : "P",
+        "costType" : "RC",
+        "price" : "250",
+        "overrideRc" : "N",
+        "trContractInd" : null,
+        "trContractTerm" : "0",
+        "trOfferExclGrpName" : null,
+        "trCustomer" : "ALL",
+        "trCustomerSub" : "Null",
+        "trSpecialOfferInd" : "Null",
+        "trNextPp" : "RETEAP57",
+        "trDurationMonth" : "24",
+        "trProductSubType" : "R",
+        "trOfferGroup" : "RET",
+        "ppAuthorised" : "AFS,UPX",
+        "saleEffectiveDateCcbs" : "2018-09-18 00:00:00.0",
+        "saleExpireDateCcbs" : "2025-03-31 00:00:00.0",
+        "duration" : null,
+        "durationUom" : null
+      },
+      "marketingInfo" : {
+        "categoryName" : "Smart_Retention",
+        "familyName" : "New iSmart Max",
+        "offerEffectiveIndy" : "2018-09-18 00:00:00.0",
+        "offerExpireIndy" : "2025-03-31 00:00:00.0",
+        "marketingName" : [ {
+          "name" : "นิว ไอสมาร์ท แม็กซ์",
+          "languageCode" : "TH"
+        }, {
+          "name" : "New iSmart Max",
+          "languageCode" : "EN"
+        } ]
+      },
+      "termConditionInfo" : [ ],
+      "bundleInfo" : {
+        "voice" : [ {
+          "quota" : "200",
+          "quotaUnit" : "Minutes",
+          "eventType" : "FIX,OF,ON",
+          "sharingFlag" : "N",
+          "rollOverTime" : "0",
+          "voiceGroup" : "ALLNET",
+          "priceingItemId" : "79973"
+        } ],
+        "data" : [ {
+          "quota" : "10",
+          "quotaUnit" : "GB",
+          "dataGroup" : "UNLIMIT",
+          "fupSpeed" : "384",
+          "fupSpeedUnit" : "Kbps",
+          "maxSpeed" : null,
+          "maxSpeedUnit" : null,
+          "fupSpeedConfig" : null,
+          "fupSpeedConfigUnit" : null,
+          "lifeTime" : "36500",
+          "lifeTimeType" : "EOD",
+          "recurringTime" : "1",
+          "rollOverTime" : "0",
+          "additional" : "N",
+          "communicate" : null,
+          "serviceFlag" : "1300000",
+          "subKey" : "Internet Vol"
+        }, {
+          "quota" : "0",
+          "quotaUnit" : null,
+          "dataGroup" : "UNLIMIT",
+          "fupSpeed" : null,
+          "fupSpeedUnit" : null,
+          "maxSpeed" : null,
+          "maxSpeedUnit" : null,
+          "fupSpeedConfig" : null,
+          "fupSpeedConfigUnit" : null,
+          "lifeTime" : "36500",
+          "lifeTimeType" : "EOD",
+          "recurringTime" : "1",
+          "rollOverTime" : "0",
+          "additional" : "N",
+          "communicate" : null,
+          "serviceFlag" : "0000000",
+          "subKey" : "WiFi"
+        } ]
+      }
+    } ],
+    "messageInfo" : {
+      "cost" : [ {
+        "languageCode" : "TH",
+        "message" : "250 บาท"
+      }, {
+        "languageCode" : "EN",
+        "message" : "250 Baht"
+      } ],
+      "bundle" : {
+        "voice" : [ {
+          "languageCode" : "TH",
+          "message" : "200 นาที|โทรทุกเครือข่าย"
+        }, {
+          "languageCode" : "EN",
+          "message" : "200 min|All network"
+        } ],
+        "data" : [ {
+          "subKey" : "Internet Vol",
+          "languageCode" : "TH",
+          "message" : "10 GB|ความเร็วสูงสุด "
+        }, {
+          "subKey" : "WiFi",
+          "languageCode" : "TH",
+          "message" : "WiFi|ไม่จำกัด"
+        }, {
+          "subKey" : "Internet Vol",
+          "languageCode" : "EN",
+          "message" : "10 GB|of "
+        }, {
+          "subKey" : "WiFi",
+          "languageCode" : "EN",
+          "message" : "WiFi|Unlimited"
+        } ]
+      },
+      "payPerUse" : {
+        "voice" : [ {
+          "languageCode" : "TH",
+          "message" : "1.50 บาท/นาที|ค่าบริการส่วนเกิน"
+        }, {
+          "languageCode" : "EN",
+          "message" : "1.50 Baht /min|Overage Charge"
+        } ],
+        "data" : [ {
+          "subKey" : "Internet Vol",
+          "languageCode" : "EN",
+          "message" : "Excess usage|Free Non-Stop internet at 384 Kbps"
+        }, {
+          "subKey" : "Internet Vol",
+          "languageCode" : "TH",
+          "message" : "เมื่อใช้งานครบตามปริมาณที่กำหนด|จะใช้เน็ตได้ต่อเนื่องที่ความเร็จสูงสุด 384 Kbps"
+        }, {
+          "subKey" : "WiFi",
+          "languageCode" : "EN",
+          "message" : "WiFi|Unlimited"
+        }, {
+          "subKey" : "WiFi",
+          "languageCode" : "TH",
+          "message" : "WiFi|ไม่อั้น"
+        } ],
+        "other" : [ {
+          "key" : "SMS",
+          "languageCode" : "TH",
+          "message" : "SMS ข้อความละ 3 บาท"
+        }, {
+          "key" : "MMS",
+          "languageCode" : "TH",
+          "message" : "MMS ครั้งละ 5 บาท"
+        } ]
+      }
+    }
+  }, {
+    "size" : 1,
+    "offerSummaryInfo" : [ {
+      "offerInfo" : {
+        "offerCode" : "17828329",
+        "offerName" : "SMRTFP07",
+        "offerDescription" : "Supreme Max 1399, V1000m, Net Unlimited",
+        "structureLevel" : "C",
+        "productType" : "RR",
+        "offerType" : "P",
+        "costType" : "RC",
+        "price" : "1399",
+        "overrideRc" : "N",
+        "trContractInd" : null,
+        "trContractTerm" : "0",
+        "trOfferExclGrpName" : null,
+        "trCustomer" : "ALL",
+        "trCustomerSub" : "Null",
+        "trSpecialOfferInd" : "Null",
+        "trNextPp" : "null",
+        "trDurationMonth" : "0",
+        "trProductSubType" : "R",
+        "trOfferGroup" : "SMR",
+        "ppAuthorised" : "SAL,NSH,AFS",
+        "saleEffectiveDateCcbs" : "2020-09-01 00:00:00.0",
+        "saleExpireDateCcbs" : "2024-01-31 00:00:00.0",
+        "duration" : null,
+        "durationUom" : null
+      },
+      "marketingInfo" : {
+        "categoryName" : "Unlimited Full Speed",
+        "familyName" : "Supreme Max",
+        "marketingName" : [ {
+          "name" : "Supreme Max 1399",
+          "languageCode" : "EN"
+        }, {
+          "name" : "สุพรีม แม็กซ์ 1399",
+          "languageCode" : "TH"
+        } ]
+      },
+      "termConditionInfo" : [ {
+        "languageCode" : "EN",
+        "termCondition" : "xxxx"
+      }, {
+        "languageCode" : "TH",
+        "termCondition" : "xxxx"
+      } ],
+      "bundleInfo" : {
+        "voice" : [ {
+          "quota" : "1000",
+          "quotaUnit" : "Minutes",
+          "eventType" : "FIX,OF,ON",
+          "sharingFlag" : "N",
+          "rollOverTime" : "0",
+          "voiceGroup" : "ALLNET",
+          "priceingItemId" : "104596"
+        } ],
+        "data" : [ {
+          "quota" : "0",
+          "quotaUnit" : "U",
+          "dataGroup" : "LIMIT",
+          "fupSpeed" : null,
+          "fupSpeedUnit" : null,
+          "maxSpeed" : null,
+          "maxSpeedUnit" : null,
+          "fupSpeedConfig" : null,
+          "fupSpeedConfigUnit" : null,
+          "lifeTime" : "30",
+          "lifeTimeType" : "EOD",
+          "recurringTime" : "12",
+          "rollOverTime" : "0",
+          "additional" : "Y",
+          "communicate" : null,
+          "serviceFlag" : "1100000",
+          "subKey" : "HD_INTERNAL_STREAMING_PCEF_V"
+        }, {
+          "quota" : "0",
+          "quotaUnit" : null,
+          "dataGroup" : "UNLIMIT",
+          "fupSpeed" : null,
+          "fupSpeedUnit" : null,
+          "maxSpeed" : null,
+          "maxSpeedUnit" : null,
+          "fupSpeedConfig" : null,
+          "fupSpeedConfigUnit" : null,
+          "lifeTime" : "36500",
+          "lifeTimeType" : "EOD",
+          "recurringTime" : "1",
+          "rollOverTime" : "0",
+          "additional" : "N",
+          "communicate" : null,
+          "serviceFlag" : "0000000",
+          "subKey" : "WiFi"
+        }, {
+          "quota" : "0",
+          "quotaUnit" : null,
+          "dataGroup" : "FIX SPEED",
+          "fupSpeed" : null,
+          "fupSpeedUnit" : null,
+          "maxSpeed" : "1048576",
+          "maxSpeedUnit" : "Kbps",
+          "fupSpeedConfig" : null,
+          "fupSpeedConfigUnit" : null,
+          "lifeTime" : "36500",
+          "lifeTimeType" : "EOD",
+          "recurringTime" : "1",
+          "rollOverTime" : "0",
+          "additional" : "N",
+          "communicate" : null,
+          "serviceFlag" : "1300000",
+          "subKey" : "Internet Vol"
+        } ]
+      }
+    } ],
+    "messageInfo" : {
+      "cost" : [ {
+        "languageCode" : "TH",
+        "message" : "1399 บาท"
+      }, {
+        "languageCode" : "EN",
+        "message" : "1399 Baht"
+      } ],
+      "bundle" : {
+        "voice" : [ {
+          "languageCode" : "TH",
+          "message" : "1000 นาที|โทรทุกเครือข่าย"
+        }, {
+          "languageCode" : "EN",
+          "message" : "1000 min|All network"
+        } ],
+        "data" : [ {
+          "subKey" : "HD_INTERNAL_STREAMING_PCEF_V",
+          "languageCode" : "TH",
+          "message" : "อินเตอร์เน็ตไม่อั้น|เน็ตใช้งานแอป TrueID"
+        }, {
+          "subKey" : "WiFi",
+          "languageCode" : "TH",
+          "message" : "WiFi|ไม่จำกัด"
+        }, {
+          "subKey" : "Internet Vol",
+          "languageCode" : "TH",
+          "message" : "อินเตอร์เน็ตไม่อั้น|ความเร็วคงที่ 1048576 Kbps"
+        }, {
+          "subKey" : "HD_INTERNAL_STREAMING_PCEF_V",
+          "languageCode" : "EN",
+          "message" : "Unlimited|Internet for TrueID App"
+        }, {
+          "subKey" : "WiFi",
+          "languageCode" : "EN",
+          "message" : "WiFi|Unlimited"
+        }, {
+          "subKey" : "Internet Vol",
+          "languageCode" : "EN",
+          "message" : "Unlimited Fix Speed|1048576 Kbps"
+        } ]
+      },
+      "payPerUse" : {
+        "voice" : [ {
+          "languageCode" : "TH",
+          "message" : "โทรในเครือข่าย ฟรี|นอกเครือข่าย นาทีละ 1.50 บาท|ค่าบริการส่วนเกิน"
+        }, {
+          "languageCode" : "EN",
+          "message" : "Call Free on TrueMoveH|1.50 Baht /min overage Charge"
+        } ],
+        "other" : [ {
+          "key" : "SMS",
+          "languageCode" : "EN",
+          "message" : "3 baht per SMS"
+        }, {
+          "key" : "MMS",
+          "languageCode" : "EN",
+          "message" : "5 baht per MMS"
+        }, {
+          "key" : "SMS",
+          "languageCode" : "TH",
+          "message" : "SMS ข้อความละ 3 บาท"
+        }, {
+          "key" : "MMS",
+          "languageCode" : "TH",
+          "message" : "MMS ครั้งละ 5 บาท"
+        } ]
+      }
+    }
+  } ]
+}

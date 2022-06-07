@@ -1,0 +1,94 @@
+.pay-later-section {
+  text-align: center;
+
+  .error-container {
+    margin-top: 20px;
+    ul {
+      display: flex;
+      li {
+        white-space: inherit;
+        text-align: left;
+      }
+    }
+  }
+
+  .image {
+    img {
+      width: 200px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .button-section {
+    display: inline-grid;
+    margin-top: 90px;
+
+    button {
+      margin-top: 13px;
+      height: 46px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 300px;
+    }
+  }
+
+  .pay-later-title {
+    .title {
+      font-family: Thonburi;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+    }
+    .description {
+      font-family: Thonburi;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      margin-top: 17px;
+    }
+  }
+
+  .condition-section {
+    display: grid;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 15px;
+    .condition {
+      display: flex;
+      margin-top: 15px;
+      align-items: center;
+      justify-content: flex-start;
+      img {
+        margin-right: 19px;
+        width: 48px;
+        height: 48px;
+        &.icon1{
+          margin-right: 15px;
+          width: 49px;
+          height: 49px;
+        }
+        &.icon2{
+          margin-right: 15px;
+          width: 51px;
+          height: 51px;
+        }
+      }
+      p {
+        font-family: Thonburi;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,504 @@
+::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+
+  .player {
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 4px 4px;
+    margin: 16px auto;
+  }
+
+  .verify-container {
+    background: #fdf5ee;
+    display: grid;
+    grid-gap: 24px;
+    padding: 24px;
+
+    .title-container {
+      font-family: 'TrueBold';
+      color: #000;
+      text-align: center;
+      line-height: 28px;
+
+      .title {
+        font-size: 26px;
+
+        span {
+          color: #E63129;
+          font-size: 36px;
+        }
+      }
+
+      .subtitle {
+        font-size: 24px;
+      }
+    }
+
+    .form-container {
+      max-width: 800px;
+      width: 100%;
+      margin: auto;
+      box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      border-radius: 8px;
+    }
+
+    .tabs-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 24px;
+      align-items: center;
+      height: 60px;
+      box-shadow: inset 0 -1px 0px 0px #bdbdbd;
+
+      .tab {
+        display: grid;
+        justify-content: flex-start;
+        height: 100%;
+
+        &:first-child {
+          justify-content: flex-end;
+        }
+
+        .tab-text {
+          display: grid;
+          align-items: center;
+          height: 100%;
+          cursor: pointer;
+          padding-top: 2px;
+          border-bottom: 2px solid transparent;
+          color: #595959;
+          text-decoration: none;
+
+          &.active {
+            font-family: 'TrueBold';
+            color: #FF0000;
+            border-color: #FF0000;
+          }
+        }
+      }
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 24px 36px;
+      margin: auto;
+      max-width: 860px;
+      padding: 32px 16px;
+
+      &[loading] {
+        input,
+        select {
+          pointer-events: none;
+        }
+
+        .button button {
+          background: #dedede;
+          color: #979797;
+          cursor: wait;
+        }
+      }
+
+      .input {
+        display: grid;
+        grid-gap: 4px;
+        grid-template-rows: auto 1fr;
+
+        &.error  {
+          & > label {
+            color: #ff0000;
+          }
+          input,
+          .datetime-picker {
+            border-color: #ff0000;
+            background-color: #FFECEC;
+          }
+        }
+
+        &.time-input {
+          &.show-timepicker {
+            grid-template-columns: 1fr auto;
+          }
+          .red {
+            color: #ff0000;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 20px;
+          }
+          .highlight {
+            font-weight: bold;
+            font-style: italic;
+            span {
+              text-decoration: underline;
+            }
+          }
+          .sub-label {
+            margin-left: 10px;
+            color: #777777;
+          }
+        }
+      }
+
+      .datetime {
+        display: grid;
+        grid-column: 1/-1;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4px 36px;
+
+        .date {
+          display: grid;
+          grid-template-columns: 2fr 4fr 3fr;
+          grid-gap: 8px;
+        }
+
+        .disable-time-checkbox {
+          display: flex;
+          grid-column: 1/-1;
+          align-items: center;
+          justify-content: flex-end;
+          grid-area: b;
+
+          input {
+            margin-right: 8px;
+            cursor: pointer;
+          }
+
+          label {
+            font-size: 22px;
+            cursor: pointer;
+          }
+        }
+
+        .disable-time-label {
+          color: #ff0000;
+          font-size: 18px;
+          text-align: right;
+          text-decoration: underline;
+          cursor: pointer;
+          grid-column: 1/-1;
+        }
+      }
+
+      .geo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 8px;
+
+        &.th {
+          grid-template-columns: 1fr 1fr;
+          grid-column: 1/-1;
+          grid-gap: 36px;
+        }
+      }
+
+      label {
+        font-family: 'TrueMedium';
+        font-size: 24px;
+        color: #333;
+      }
+
+      .datetime-picker::v-deep {
+        grid-column: 1/-1;
+
+        .vdatetime-popup > * {
+          font-family: 'TrueBold';
+        }
+
+        .vdatetime-popup__actions__button {
+          font-size: 24px
+        }
+
+        .vdatetime-calendar__month__weekday,
+        .vdatetime-calendar__month__day,
+        .vdatetime-popup__year {
+          font-size: 22px;
+          font-family: 'TrueMedium';
+        }
+
+        .vdatetime-time-picker__item,
+        .vdatetime-year-picker__item,
+        .vdatetime-month-picker__item {
+          font-size: 26px;
+          line-height: 20px;
+
+          &.vdatetime-time-picker__item--selected,
+          &.vdatetime-time-picker__item:hover,
+          &.vdatetime-year-picker__item--selected,
+          &.vdatetime-year-picker__item:hover,
+          &.vdatetime-month-picker__item--selected,
+          &.vdatetime-month-picker__item:hover {
+            font-size: 44px;
+            line-height: 36px;
+          }
+        }
+
+        .vdatetime-popup__title {
+          font-size: 28px;
+          margin: 0;
+        }
+
+        .vdatetime-popup__header,
+        .vdatetime-calendar__month__day--selected > span > span,
+        .vdatetime-calendar__month__day--selected:hover > span > span {
+          background-color: #ff0000;
+        }
+
+        .vdatetime-year-picker__item--selected,
+        .vdatetime-month-picker__item--selected,
+        .vdatetime-time-picker__item--selected,
+        .vdatetime-popup__actions__button {
+          color: #ff0000;
+        }
+
+        input {
+          width: 100%;
+          height: 100%;
+          border: none;
+          background: transparent;
+          color: #333;
+          font-family: 'TrueMedium';
+          font-size: 24px;
+
+          &::placeholder,
+          &[disabled] {
+            font-family: 'TrueMedium';
+            color: #979797;
+          }
+        }
+      }
+
+      input,
+      select,
+      button,
+      .datetime-picker {
+        height: 40px;
+        font-size: 24px;
+        font-family: 'TrueMedium';
+        border-radius: 8px;
+        border: 1px solid #F0EBEB;
+        background-color: #F5F5F5;
+        color: #333;
+        padding: 0 12px;
+        outline: none;
+        min-width: 0;
+        background-repeat: no-repeat;
+        background-position: calc(100% - 12px);
+
+        &::placeholder {
+          font-family: 'TrueMedium';
+          color: #979797;
+        }
+
+        &[disabled],
+        &.disabled {
+          background-color: #dedede;
+          color: #979797;
+          -webkit-text-fill-color: #949494;
+        }
+
+        &.date {
+          background-image: url('/images/drlucky/date.svg');
+        }
+        &.time {
+          background-image: url('/images/drlucky/time.svg');
+        }
+      }
+
+      .dropdown {
+        position: relative;
+
+        .dropdown-label {
+          pointer-events: none;
+          height: 40px;
+          font-size: 24px;
+          font-family: "TrueMedium";
+          border-radius: 8px;
+          border: 1px solid #F0EBEB;
+          background-color: #F5F5F5;
+          color: #333;
+          padding: 0 12px;
+          display: grid;
+          grid-template-columns: 1fr auto;
+          align-items: center;
+          grid-gap: 4px;
+
+          span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+
+          &:after {
+            content: "";
+            width: 11px;
+            height: 6px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMSAxbDUuNSA1LjVMMTIgMSIgc3Ryb2tlPSIjMjIyMjIzIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=");
+          }
+        }
+
+        select {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          opacity: 0;
+          font-size: 16px;
+          font-family: Arial;
+        }
+      }
+
+      .button {
+        display: grid;
+        grid-gap: 8px;
+        justify-content: center;
+        grid-column: 1/-1;
+        text-align: center;
+
+        .error {
+          color: #ff0000;
+        }
+
+        button {
+          background-color: #FF0000;
+          border-radius: 6px;
+          cursor: pointer;
+          border: none;
+          color: #fff;
+          padding: 0 32px;
+          height: 50px;
+          &[disabled] {
+              background-color: #dedede;
+          }
+        }
+      }
+
+      .checkbox {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        grid-gap: 4px;
+        margin-top: 4px;
+
+        input,
+        label {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .policy-container {
+      font-size: 18px;
+      line-height: 20px;
+      color: #000;
+      text-align: center;
+      max-width: 720px;
+      width: 100%;
+      margin: auto;
+
+      .tnc {
+        font-size: 18px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .description {
+    margin: 16px auto;
+
+    > img {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .errors {
+    padding-left: 10px;
+    small {
+      color: red;
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    padding: 0;
+
+    .player {
+      grid-template-columns: 1fr;
+      padding: 0 16px;
+
+      img {
+        display: none;
+      }
+    }
+
+    .verify-container {
+      padding: 16px;
+      grid-gap: 16px;
+
+      .title-container {
+        text-align: left;
+
+        .title span {
+          display: block;
+        }
+      }
+
+      form {
+        padding: 16px;
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+
+        .datetime {
+          grid-template-columns: 1fr;
+          grid-gap: 16px 12px;
+
+          .disable-time-checkbox {
+            margin-top: 4px;
+          }
+        }
+
+        .geo.th {
+          grid-gap: 16px;
+        }
+      }
+    }
+
+    .description {
+      > img {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    .verify-container {
+      .tabs-container {
+        grid-gap: 0;
+        font-size: 20px;
+
+        .tab,
+        .tab:first-child {
+          text-align: center;
+          justify-content: center;
+          line-height: 18px;
+          padding: 0 4px;
+        }
+      }
+    }
+  }
+}

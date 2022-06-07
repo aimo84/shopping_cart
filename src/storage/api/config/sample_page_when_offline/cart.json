@@ -1,0 +1,386 @@
+{
+    "status_code": 200,
+    "status_txt": "OK",
+    "data": {
+        "pagination": {
+            "current": 1,
+            "limit": 20,
+            "total": 1
+        },
+        "record": {
+            "total_product": 1,
+            "total_quantity": 1,
+            "total_price": 15000,
+            "total_weight": 0,
+            "sub_total": 15000,
+            "time_limit": false,
+            "pay_min_limit": 0,
+            "pay_max_limit": 600000,
+            "products": [
+                {
+                    "quantity": 10,
+                    "id": "L91556712",
+                    "seq_id": 6963224,
+                    "viewed": 743,
+                    "store_id": "L939533",
+                    "section": "wemall",
+                    "type": "new",
+                    "position": 0,
+                    "price": "7900.00",
+                    "price_min": 7900,
+                    "price_max": 7900,
+                    "compare_at_price_min": 9999,
+                    "compare_at_price_max": 9999,
+                    "status": true,
+                    "show": 1,
+                    "title": {
+                        "th": "WMRECON : SAMSUNG J8"
+                    },
+                    "seo": {
+                        "title": {
+                            "th": "WMRECON : SAMSUNG J8"
+                        },
+                        "description": {
+                            "th": "WMRECON : SAMSUNG J8"
+                        }
+                    },
+                    "category": [
+                        {
+                            "id": 169783,
+                            "parent_id": 0,
+                            "status": "true",
+                            "title": {
+                                "th": "สมาร์ทโฟน"
+                            }
+                        }
+                    ],
+                    "last_plaza_category": 3368,
+                    "promotions": [],
+                    "inventory": {
+                        "id": 3048625,
+                        "store_id": "L939533",
+                        "user_id": 1104755,
+                        "barcode": "",
+                        "product_id": "L91556712",
+                        "sku": "SGJ8",
+                        "cost_price": 0,
+                        "price": 7900,
+                        "compare_at_price": 9999,
+                        "price_status": "false",
+                        "points": 0,
+                        "weight": 0.12,
+                        "length": "2.0000",
+                        "width": "12.0000",
+                        "height": "2.0000",
+                        "preorder": "false",
+                        "preorder_period": 3,
+                        "shipping_period": 3,
+                        "usestock_status": "false",
+                        "emptystock": "false",
+                        "quantity": 999920,
+                        "hold": 21,
+                        "shipping": "false",
+                        "shipping_price": "0.0000",
+                        "taxable": 0,
+                        "position": 0,
+                        "status": "true",
+                        "created_by": 1104755,
+                        "updated_by": 0,
+                        "published": 1,
+                        "published_at": {
+                            "sec": 0,
+                            "usec": 0
+                        },
+                        "created_at": {
+                            "sec": 1534257201,
+                            "usec": 0
+                        },
+                        "updated_at": {
+                            "sec": 1581696009,
+                            "usec": 0
+                        },
+                        "deleted_at": null,
+                        "warehouse": null,
+                        "options": [
+                            {
+                                "title": {
+                                    "th": "ขนาด"
+                                },
+                                "values": {
+                                    "title": {
+                                        "th": "128 GB"
+                                    }
+                                }
+                            },
+                            {
+                                "title": {
+                                    "th": "สี"
+                                },
+                                "values": {
+                                    "title": {
+                                        "th": "ROSE GOLD"
+                                    }
+                                }
+                            }
+                        ],
+                        "image": false,
+                        "allow_addcart": true,
+                        "cart_text": false,
+                        "ignore_stock": false
+                    },
+                    "features": [],
+                    "wetrust": true,
+                    "package": "f",
+                    "images": [
+                        {
+                            "id": "0fef6a1e8fbe40a9a185c3d1aede9785",
+                            "name": "unnamed-3-10-1073x570",
+                            "file_name": "unnamed-3-10-1073x570.jpg",
+                            "extension": "jpg",
+                            "url": "https://store.wls-dev.com/upload/gallery4/939533/5/78/0fef6a1e8fbe40a9a185c3d1aede9785.jpg",
+                            "thumbnail": "https://store.wls-dev.com/upload/gallery4/939533/5/78/0fef6a1e8fbe40a9a185c3d1aede9785.jpg",
+                            "type": "image"
+                        }
+                    ],
+                    "tags": [
+                        ""
+                    ],
+                    "monitor_status": true,
+                    "warehouse": {
+                        "id": 1,
+                        "name": "Aden Fulfillment Co., Ltd.",
+                        "code": null,
+                        "stock_type": "MD"
+                    },
+                    "created_at": "2018-08-14 07:33:21",
+                    "updated_at": "2020-02-14 09:00:10",
+                    "migrated_at": {
+                        "sec": 1581670813,
+                        "usec": 0
+                    },
+                    "points": {
+                        "point": 20,
+                        "discount": 500
+                    },
+                    "product_type": "product",
+                    "category_list": [
+                        {
+                            "id": "3368",
+                            "title": "สมาร์ทโฟน"
+                        },
+                        {
+                            "id": "3367",
+                            "title": "โทรศัพท์มือถือ"
+                        },
+                        {
+                            "id": "3366",
+                            "title": "โทรศัพท์มือถือ & แท็บเล็ต"
+                        }
+                    ],
+                    "store": {
+                        "id": "L939533",
+                        "user_id": 1104755,
+                        "slug": "trustmall",
+                        "url": "https://store.wls-dev.com/trustmall",
+                        "title": {
+                            "th": "ทรัสต์มอล"
+                        },
+                        "phone": "",
+                        "avatar": {
+                            "default": "http://image.platform.truelife.com/21960428/avatar?app_id=1&secret=a42ca3848f9dd9995fedeb93ebf97805&key=sso&w=35&h=35",
+                            "base": "http://image.platform.truelife.com/21960428/avatar?app_id=1&secret=a42ca3848f9dd9995fedeb93ebf97805&key=sso"
+                        },
+                        "mobile": "0895371514",
+                        "mobile_alternate": [],
+                        "fax": "",
+                        "email": "niti.tot@ascendcorp.com",
+                        "social": {
+                            "instagram": "https://www.instagram.com/"
+                        },
+                        "logo": {
+                            "id": "a0fb73d59cbd8b63dd815b99438e0ab0",
+                            "name": "koxobin",
+                            "mime": "image/gif",
+                            "extension": "gif",
+                            "url": "https://store.wls-dev.com/upload/gallery4/939533/0/ab/a0fb73d59cbd8b63dd815b99438e0ab0.gif",
+                            "position": 1
+                        },
+                        "status": "true",
+                        "free_shipping": "false",
+                        "type": "business",
+                        "first_name": "ชื่อเจ้าของร้าน",
+                        "last_name": "นามสกุลชื่อเจ้าของร้าน",
+                        "published_at": {
+                            "sec": 1511855177,
+                            "usec": 0
+                        },
+                        "connect": {
+                            "PMGW": {
+                                "account": "wmrecon@gmail.com",
+                                "uid": 0,
+                                "created_at": {
+                                    "sec": 1511854608,
+                                    "usec": 0
+                                },
+                                "updated_at": {
+                                    "sec": 1581509662,
+                                    "usec": 0
+                                }
+                            },
+                            "CCW": {
+                                "account": "wmrecon@gmail.com",
+                                "uid": 0,
+                                "created_at": {
+                                    "sec": 1511854608,
+                                    "usec": 0
+                                },
+                                "updated_at": {
+                                    "sec": 1581509662,
+                                    "usec": 0
+                                }
+                            }
+                        },
+                        "package": "f",
+                        "payment_channel": {
+                            "atm": true,
+                            "banktrans": true,
+                            "ibank": true,
+                            "credit": true,
+                            "cs": true,
+                            "wallet": true
+                        },
+                        "support_method": {
+                            "wetrust": true,
+                            "creditcard": true
+                        },
+                        "register_plaza": "y",
+                        "free": "n",
+                        "use_stock": "true",
+                        "use_cart": "true",
+                        "viewed": 21199,
+                        "category_id": 1952,
+                        "province_id": 1,
+                        "created_at": "2017-11-28 07:46:17",
+                        "updated_at": "2020-02-12 12:14:22",
+                        "login_at": "2020-02-13 02:23:25",
+                        "migrated_at": {
+                            "sec": 1581560606,
+                            "usec": 0
+                        },
+                        "sync": 0,
+                        "sync_at": {
+                            "sec": 1578968606,
+                            "usec": 0
+                        },
+                        "section": 3,
+                        "warehouse": {
+                            "warehouse_id": 1,
+                            "warehouse_code": "",
+                            "warehouse_name": "Aden Fulfillment Co., Ltd.",
+                            "stock_type": "MD",
+                            "created_at": {
+                                "date": "2017-11-28 14:36:49",
+                                "format": "28 November 2017 2:36 PM"
+                            },
+                            "updated_at": {
+                                "date": "2017-11-28 14:36:49",
+                                "format": "28 November 2017 2:36 PM"
+                            }
+                        },
+                        "theme_setting": {
+                            "id": 13236,
+                            "setting_html": "",
+                            "setting": {
+                                "sel_theme": "default",
+                                "header_image_url": "",
+                                "use_group_banner": "true",
+                                "body_color": "#b6b6b6"
+                            },
+                            "custom_header_css": "stores4/939533/custom/assets/css/style_header.css?v=1886810922",
+                            "custom_body_css": "stores4/939533/custom/assets/css/style_body.css?v=1886810922",
+                            "created_at": {
+                                "date": "2017-11-28 14:36:48.000000",
+                                "timezone_type": 3,
+                                "timezone": "Asia/Bangkok"
+                            },
+                            "updated_at": {
+                                "date": "2020-02-12 19:14:22.000000",
+                                "timezone_type": 3,
+                                "timezone": "Asia/Bangkok"
+                            }
+                        },
+                        "product_count": 206,
+                        "shipping_method": {
+                            "POST": false,
+                            "EMS": false,
+                            "KERRY": false,
+                            "WEMALL": true,
+                            "PICKUP": false
+                        }
+                    },
+                    "shipping_detail": [
+                        {
+                            "short_delivery_message": "แบบธรรมดา, ส่งภายใน 2-7 วัน",
+                            "title": "",
+                            "description": "",
+                            "type": "non-fresh"
+                        }
+                    ],
+                    "shipping": {
+                        "custom": [
+                            {
+                                "method": "WeMall",
+                                "method_name": "WeMall",
+                                "day": 3,
+                                "rate_type": "price",
+                                "type_name": "ราคารวม",
+                                "value": [
+                                    {
+                                        "rate": "0.00 - 299.00",
+                                        "price": "45.00"
+                                    },
+                                    {
+                                        "rate": "299.01 - ขึ้นไป",
+                                        "price": "ฟรีค่าจัดส่ง"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "body_html": {
+                        "th": "<p>WMRECON : SAMSUNG J8</p>"
+                    },
+                    "options": false,
+                    "option_sku": {
+                        "k3048625": {
+                            "id": 3048625,
+                            "price": 7900,
+                            "compare_price": 9999,
+                            "stock": 999920,
+                            "sku": "SGJ8",
+                            "cart_text": false,
+                            "allow_addcart": true,
+                            "ignore_stock": false,
+                            "discount_percent": false,
+                            "is_freebie": false,
+                            "is_points": true,
+                            "points": {
+                                "promotion_id": 9,
+                                "start_period": 1537488000,
+                                "end_period": 1604620740,
+                                "point": 20,
+                                "discount": 500,
+                                "pay_more": 7400
+                            }
+                        }
+                    },
+                    "flashsale": false,
+                    "promotion": false,
+                    "campaign": false,
+                    "coupon": false,
+                    "related_campaign": {}
+                }
+            ]
+        }
+    }
+}

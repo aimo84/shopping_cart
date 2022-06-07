@@ -1,0 +1,11 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "DP1AF9CUE3885",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "face-recognition-result" : "fail",
+    "face-recognition-message" : "การลงทะเบียนด้วยระบบอัตลักษณ์ยังไม่สมบูรณ์",
+    "over-max-allow" : "false",
+    "is-identical" : "false"
+  }
+}

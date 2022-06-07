@@ -1,0 +1,7 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /offline-store/berfuntong/login
+
+# Group 2
+User-agent: *
+Allow: /

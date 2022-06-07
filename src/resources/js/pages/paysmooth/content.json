@@ -1,0 +1,148 @@
+{
+  "title": {
+    "th": "Pay Later",
+    "en": "Pay Later"
+  },
+  "description": {
+    "th": "วงเงินพร้อมใช้ เพื่อการใช้จ่าย",
+    "en": "วงเงินพร้อมใช้ เพื่อการใช้จ่าย"
+  },
+  "condition1": {
+    "th": "กดรับวงเงินทันที ไม่ขอเอกสาร",
+    "en": "กดรับวงเงินทันที ไม่ขอเอกสาร"
+  },
+  "condition2": {
+    "th": "ดอกเบี้ย 0% (หากชำระคืนเต็มจำนวน ภายในเวลาที่กำหนด)",
+    "en": "ดอกเบี้ย 0% (หากชำระคืนเต็มจำนวน ภายในเวลาที่กำหนด)"
+  },
+  "condition3": {
+    "th": "รู้ผลอนุมัติทันที ไม่ต้องรอ",
+    "en": "รู้ผลอนุมัติทันที ไม่ต้องรอ"
+  },
+  "buttonRegister": {
+    "th": "สมัครสินเชื่อ PayLater",
+    "en": "Apply TrueMoney PayLater"
+  },
+  "buttonCheckout": {
+    "th": "สมัครเรียบร้อยแล้วดำเนินการหน้าชำระเงิน",
+    "en": "Already approved and continue to payment."
+  },
+  "error": {
+    "th": "มีปัญหาการชำระเงินจากการใส่ข้อมูลไม่ถูกต้อง โปรดตรวจสอบข้อมูลอีกครั้ง",
+    "en": "One or more fields contain have an error. Please check and try again."
+  },
+  "notApplyYet": {
+    "th": "หากยังไม่ได้สมัครเข้าร่วม เพย์ เน็กซ์ เอ็กซ์ตร้า วงเงินสำหรับนักศึกษา คลิกเลย",
+    "en": "Click Here to apply for Pay Next Extra for students loan"
+  },
+  "verify": {
+    "mobile": {
+      "title": {
+        "en": "Eligible for Pay Next Extra for students loan users with the credit loan",
+        "th": "สำหรับลูกค้าที่สมัครและได้รับวงเงิน เพย์ เน็กซ์ เอ็กซ์ตร้า วงเงินสำหรับนักศึกษา"
+      },
+      "label": {
+        "en": "Please login by entering your registered mobile number",
+        "th": "กรอกหมายเลขโทรศัพท์เพื่อเข้าสู่ระบบ"
+      },
+      "placeholder": {
+        "en": "10 digits of mobile number",
+        "th": "กรอกหมายเลขโทรศัพท์ 10 หลัก"
+      },
+      "button": {
+        "en": "request OTP",
+        "th": "ขอรหัส OTP"
+      },
+      "error": {
+        "en": "Please enter correct phone number (10 digits)",
+        "th": "กรุณากรอกเบอร์โทรศัพท์ 10 หลัก"
+      }
+    },
+    "otp": {
+      "title": {
+        "en": "OTP has been sent to",
+        "th": "OTP ถูกส่งไปยังเบอร์นี้"
+      },
+      "label": {
+        "en": "Enter OTP",
+        "th": "กรอก OTP"
+      },
+      "button": {
+        "en": "Submit",
+        "th": "ยืนยัน"
+      },
+      "error": {
+        "en": "Please enter correct OTP.",
+        "th": "OTP ไม่ถูกต้อง ลองใหม่นะ"
+      },
+      "resend": {
+        "en": "Didn’t get OTP?",
+        "th": "ไม่ได้รับ OTP ?"
+      },
+      "resend_action": {
+        "en": "Resend",
+        "th": "ขอ OTP ใหม่"
+      }
+    }
+  },
+  "verify_error": {
+    "title": {
+      "en": "Sorry for inconvenience",
+      "th": "ขออภัยในความไม่สะดวก"
+    },
+    "close": {
+      "en": "Close",
+      "th": "ปิด"
+    },
+    "reselect": {
+      "en": "choose new product",
+      "th": "เลือกสินค้าใหม่"
+    },
+    "register": {
+      "en": "Register for Pay Next Extra for students loan",
+      "th": "สมัครเพย์ เน็กซ์ เอ็กซ์ตร้า วงเงินสำหรับนักศึกษา "
+    },
+    "message": {
+      "0": {
+        "en": "Your credit is not enough.\nPlease select other product.",
+        "th": "คุณไม่สามารถเลือกซื้อสินค้านี้ได้\nเนื่องจากเครดิตไม่พอ กรุณาเลือกสินค้าใหม่"
+      },
+      "1": {
+        "en": "Your Pay Next Extra for students loan is rejected.",
+        "th": "คุณไม่ผ่านเกณฑ์การอนุมัติ \nเพย์ เน็กซ์ เอ็กซ์ตร้า วงเงินสำหรับนักศึกษา"
+      },
+      "2": {
+        "en": "Your Pay Next Extra for students loan is in the approval process. Please wait for the approval result via SMS everyday during business hours (10.00-20.30)",
+        "th": "เพย์ เน็กซ์ เอ็กซ์ตร้า วงเงินสำหรับนักศึกษา\nของคุณอยู่ใน\nขั้นตอนการอนุมัติ\nกรุณารอผลการอนุมัติผ่าน SMS\nทุกวันในเวลาทำการ (10.00-20.30 น.)"
+      },
+      "3": {
+        "en": "Please register for Pay Next Extra for students loan before your processing",
+        "th": "กรุณาทำการลงทะเบียนโครงการ\nเพย์ เน็กซ์ เอ็กซ์ตร้า วงเงินสำหรับนักศึกษา \nก่อนทำรายการ"
+      },
+      "9": {
+        "en": "Something went wrong.\nPlease try again later.",
+        "th": "ไม่สามารถดำเนินการได้ในณะนี้\nกรุณาทำรายใหม่อีกครั้งในภายหลัง"
+      }
+    }
+
+  },
+  "payment": {
+    "title": {
+      "en": "Please scan QR code via your mobile",
+      "th": "สแกน คิวอาร์โค้ดนี้"
+    },
+    "subtitle": {
+      "en": "for process to pay by",
+      "th": "เพื่อดำเนินการผ่านช่องทาง"
+    },
+    "save": {
+      "en": "Save QR code",
+      "th": "บันทึกคิวอาร์โค้ดนี้"
+    },
+    "contact": {
+      "en": "QR problem please contact 1240 press 3 press 9",
+      "th": "พบปัญหา QR code กรุณาติดต่อ 1240 กด 3 กด 9"
+    }
+
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "coverage": {
+    "title": {
+      "th": "รายละเอียดที่อยู่ติดตั้ง",
+      "en": "TrueOnline Coverage Map"
+    },
+    "manual": {
+      "th": "คู่มือการตรวจสอบพื้นที่ให้บริการ",
+      "en": "Manual for checking service coverage"
+    },
+    "search": {
+      "th": "ค้นหาสถานที่ (กรุณาป้อนตำแหน่งแล้วแล้วกดปุ่ม)",
+      "en": "Check location for available service (Please input your location and press)"
+    },
+    "address_type": {
+      "th": "เลือกประเภทที่อยู่",
+      "en": "Choose Address Type"
+    },
+    "house_no": {
+      "th": "บ้านเลขที่",
+      "en": "House No"
+    },
+    "room": {
+      "th": "เลขที่ห้อง",
+      "en": "Room"
+    },
+    "floor": {
+      "th": "ชั้น",
+      "en": "Floor"
+    },
+    "moo": {
+      "th": "หมู่",
+      "en": "Moo"
+    },
+    "street_name": {
+      "th": "ถนน",
+      "en": "Street Name"
+    },
+    "soi": {
+      "th": "ซอย",
+      "en": "Soi"
+    },
+    "province": {
+      "th": "จังหวัด",
+      "en": "Province"
+    },
+    "district": {
+      "th": "เขต/อำเภอ",
+      "en": "District"
+    },
+    "subdistrict": {
+      "th": "แขวง/ตำบล",
+      "en": "Sub-District"
+    },
+    "zipcode": {
+      "th": "รหัสไปรษณีย์",
+      "en": "Postal Code"
+    },
+    "submit": {
+      "th": "ตรวจสอบพื้นที่ใช้บริการ",
+      "en": "Submit"
+    }
+  }
+}

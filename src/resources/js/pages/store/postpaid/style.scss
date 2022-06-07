@@ -1,0 +1,457 @@
+.container {
+  max-width: 1100px;
+  margin: auto;
+
+  .zodiac-container {
+    background: linear-gradient(180deg, #ffffff 0%, #eeeff3 100%);
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px 16px;
+    color: #333;
+
+    .zodiac-content {
+      width: 100%;
+      max-width: 680px;
+      margin: auto;
+      display: grid;
+      grid-gap: 16px 24px;
+      grid-template-columns: auto 1fr;
+
+      .title {
+        font-family: "TrueBold";
+        color: #424242;
+        text-align: center;
+        font-size: 30px;
+        grid-column: 1/-1;
+        margin-top: 16px;
+      }
+
+      .zodiac {
+        float: left;
+        margin-top: 16px;
+        margin-right: 16px;
+      }
+
+      .zodiac-text {
+        &.p {
+          margin: 1em 0;
+        }
+      }
+    }
+
+    .expand {
+      display: grid;
+      grid-gap: 16px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+
+      .divider {
+        height: 1px;
+        width: 100%;
+        background-color: #dbdbdb;
+      }
+
+      .link {
+        color: #ff0000;
+        font-size: 20px;
+        text-decoration: underline;
+        justify-self: center;
+        cursor: pointer;
+
+        &.blue {
+          display: none;
+          color: #2f80ed;
+        }
+      }
+    }
+  }
+
+  .filter-container {
+    background: #eeeff2;
+    padding: 24px;
+    margin-top: 24px;
+    display: grid;
+    grid-gap: 24px;
+
+    & > .title {
+      font-size: 32px;
+      text-align: center;
+      font-family: "TrueBold";
+    }
+
+    .filter-card {
+      background-color: #fff;
+      box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+
+      .filter-title {
+        padding: 16px;
+        text-align: center;
+        font-size: 32px;
+        font-family: 'TrueBold';
+      }
+      &.group .filter-content {
+        display: grid;
+        justify-content: center;
+
+        .filter-group {
+          padding: 12px;
+          display: grid;
+          grid-template-columns: 60px 1fr;
+          justify-content: center;
+          align-items: center;
+          grid-gap: 28px;
+          position: relative;
+    
+          &:nth-child(odd)::before {
+            content: "";
+            background: #F0F1F5;
+            position: absolute;
+            left: -1000px;
+            width: 2000px;
+            height: 100%;
+          }
+
+          .icon {
+            display: grid;
+            justify-items: center;
+            grid-gap: 6px;
+            font-family: 'TrueBold';
+            z-index: 1;
+
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+
+          .filter-options {
+            display: grid;
+            grid-gap: 14px;
+            z-index: 1;
+
+            input {
+              display: none;
+            }
+
+            input:checked + label .checkbox {
+              &.checkbox-orange {
+                border-color: #f2994a;
+                background-color: #f2994a;
+              }
+              &.checkbox-blue {
+                border-color: #20639B;
+                background-color: #20639B;
+              }
+              &.checkbox-red {
+                border-color: #dd2d4a;
+                background-color: #dd2d4a;
+              }
+              &.checkbox-green {
+                border-color: #219653;
+                background-color: #219653;
+              }
+
+              svg .tick {
+                stroke: #fff;
+              }
+            }
+  
+            label {
+              display: grid;
+              grid-template-columns: auto 1fr;
+              grid-gap: 12px;
+              align-items: center;
+
+              .checkbox {
+                width: 18px;
+                height: 18px;
+                border: 1px solid #dbdbdb;
+                border-radius: 2px;
+                display: grid;
+                place-items: center;
+                cursor: pointer;
+  
+                svg {
+                  height: 12px;
+                  width: 12px;
+                }
+              }
+              
+              span {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+      &.price .filter-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 32px 28px;
+
+        input {
+          display: none;
+        }
+
+        input:checked + .price-item {
+          border: 2px solid #CD0000;
+          padding: 9px 11px;
+
+          .button {
+            background-color: #E63129;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: center;
+            grid-gap: 6px;
+
+            svg {
+              display: block;
+            }
+          }
+        }
+
+        .price-item {
+          border: 1px solid #979797;
+          margin: 6px;
+          border-radius: 8px;
+          padding: 10px 12px;
+          display: grid;
+          justify-items: center;
+          text-align: center;
+          grid-gap: 8px;
+          width: 128px;
+          grid-template-rows: auto 1fr auto;
+
+          .grade {
+            color: #eb5757;
+            font-size: 48px;
+            font-family: "TrueBold";
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: flex-start;
+
+            span {
+              font-size: 24px;
+            }
+          }
+
+          .content {
+            display: grid;
+            grid-gap: 6px;
+            grid-template-rows: 1fr auto;
+
+            .description {
+              font-size: 20px;
+              line-height: 14px;
+            }
+            .price {
+              color: #000;
+              font-size: 40px;
+              font-family: "TrueBold";
+  
+              span {
+                font-size: 18px;
+              }
+            }
+          }
+
+          .button {
+            width: 100%;
+            color: #fff;
+            background-color: #3b3534;
+            height: 24px;
+            border-radius: 8px;
+            display: grid;
+            cursor: pointer;
+
+            svg {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .number-container {
+    .number-title-container {
+      padding: 24px;
+      background: #f6f6f6;
+
+      div {
+        max-width: 520px;
+        margin: auto;
+      }
+
+      span {
+        color: #ff0000;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 36px;
+        font-family: "TrueBold";
+        margin-bottom: 8px;
+        color: #616161;
+      }
+
+      .description {
+        text-align: center;
+        color: #999;
+      }
+    }
+
+    .numbers {
+      display: grid;
+      grid-gap: 12px;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      padding: 24px;
+
+      .number {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        border-width: 1px;
+        border-style: solid;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #fff;
+
+        .title {
+          font-size: 24px;
+          padding: 8px;
+          font-family: "TrueBold";
+          color: #fff;
+          display: grid;
+          grid-template-columns: auto 1fr auto;
+          align-items: center;
+          grid-gap: 8px;
+
+          img {
+            width: 30px;
+            filter: brightness(100);
+          }
+
+          .grade {
+            font-size: 42px;
+            font-family: "TrueBold";
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            border-left: 1px solid #fff9;
+            padding-left: 10px;
+
+            span {
+              font-size: 24px;
+            }
+          }
+        }
+        .number-content {
+          padding: 8px 16px 16px;
+          display: grid;
+          grid-gap: 8px;
+          text-align: center;
+          justify-content: center;
+          grid-template-rows: 1fr auto auto auto;
+
+          .subgroup {
+            color: #424242;
+          }
+          .mobile {
+            font-family: 'TrueBold';
+            font-size: 30px;
+            color: #000;
+          }
+
+          .meaning {
+            text-align: center;
+            color: #2f80ed;
+            font-family: "TrueLight";
+            font-size: 16px;
+            margin-bottom: 8px;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+
+          button {
+            background-color: #3b3534;
+            font-size: 20px;
+            font-family: "TrueBold";
+            height: 28px;
+            border-radius: 6px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            margin: auto;
+            padding: 0 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .no-result {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    .zodiac-container {
+      .zodiac-content {
+        grid-template-columns: 1fr;
+
+        .zodiac {
+          float: none;
+          margin-top: 0;
+          margin-right: auto;
+        }
+
+        .zodiac-text {
+          &.detail-1 {
+            display: none;
+
+            &.show {
+              display: block;
+            }
+          }
+        }
+      }
+      .expand .link.blue {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    .filter-container {
+      padding: 16px;
+
+      .filter-card.group .filter-content {
+        justify-content: flex-start;
+
+        .filter-group {
+          grid-gap: 22px;
+        }
+      }
+
+      .filter-card.price .filter-content {
+        padding: 0 16px 16px;
+      }
+    }
+    .number-container .numbers {
+      padding: 16px;
+      grid-template-columns: 1fr 1fr;
+
+      .number .title {
+        font-size: 20px;
+      }
+    }
+  }
+}

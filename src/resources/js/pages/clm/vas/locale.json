@@ -1,0 +1,76 @@
+{
+  "otp": {
+    "phone_number": {
+      "th": "เบอร์ติดต่อที่ได้ลงทะเบียนไว้",
+      "en": "Registered Phone Number"
+    },
+    "phone_number_placeholder": {
+      "th": "กรอกเบอร์มือถือ",
+      "en": "Enter your mobile number"
+    },
+    "fetch_otp": {
+      "th": "ขอรหัส OTP",
+      "en": "Request OTP"
+    },
+    "otp": {
+      "th": "กรอกรหัส OTP",
+      "en": "Enter the OTP that you received"
+    },
+    "otp_placeholder": {
+      "th": "กรอกรหัส OTP",
+      "en": "Enter the OTP code"
+    },
+    "request_otp_again": {
+      "th": "ขอรหัสอีกครั้ง",
+      "en": "Resend"
+    },
+    "confirm": {
+      "th": "ยืนยันรหัส",
+      "en": "ยืนยันรหัส"
+    },
+    "confirm_tol": {
+      "th": "ยืนยันทำรายการ",
+      "en": "ยืนยันทำรายการ"
+    },
+    "circuit_id": {
+      "th": "หมายเลข TrueOnline",
+      "en": "หมายเลข TrueOnline"
+    },
+    "circuit_id__placeholder": {
+      "th": "ระบุหมายเลข TrueOnline",
+      "en": "ระบุหมายเลข TrueOnline"
+    }
+  },
+  "thai_id": {
+    "label": {
+      "th": "หมายเลขบัตรประชาชน",
+      "en": "หมายเลขบัตรประชาชน"
+    },
+    "placeholder": {
+      "th": "กรอกหมายเลขบัตรประชาชนที่ได้ลงทะเบียนไว้",
+      "en": "Enter your Thai ID (13 Digits)"
+    }
+  },
+  "mobile_no": {
+    "placeholder": {
+      "th": "กรอกเบอร์ติดต่อที่ได้ลงทะเบียนไว้",
+      "en": "Enter your existing Truemove H mobile number"
+    }
+  },
+  "error_message": {
+    "no_campaign_id": {
+      "th": "ขออภัย คุณไม่สามารถเปลี่ยนแปลงแพ็กเกจ",
+      "en": "Sorry, This phone number is unable to change promotional package"
+    }
+  },
+  "packages": {
+    "fix_speed": {
+      "th": "อินเตอร์เน็ตไม่อั้น|ความเร็วคงที่ ",
+      "en": "Unlimited Fix Speed|"
+    },
+    "term_not_found": {
+      "th": "ขออภัย ไม่พบข้อมูลที่ท่านเลือก",
+      "en": "Sorry, this price plan detail is not available"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "code": "400",
+    "description": "Bad Request",
+    "correlationId": "7308c55e-c361-41be-baa8-bd1d3fb9c18",
+    "3gwTrackingId": "aae10bc6-faea-4920-bae3-5d4ec7ae574a",
+    "inputRequire": "CompanyCode",
+    "message": {
+        "messageTh": "Bad Request",
+        "messageEn": "Bad Request"
+    },
+    "errors": [
+        {
+            "param": "ReserveMsisdnESIMRequest.SubscriberInfo.CompanyCode",
+            "message": "required"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "selected_number": {
+    "th": "เบอร์โทรศัพท์ที่คุณเลือก",
+    "en": "The number you selected"
+  },
+  "your_package": {
+    "th": "แพ็กเกจของคุณ:",
+    "en": "Your Package:"
+  },
+  "per_month": {
+    "th": "รายเดือน",
+    "en": "per month"
+  },
+  "plan_select": {
+    "th": "เลือก",
+    "en": "Select"
+  },
+  "plan_selected": {
+    "th": "สินค้าที่เลือก",
+    "en": "Selected"
+  },
+  "choose_package_title": {
+    "th": "เลือกแพ็กเกจที่ต้องการ",
+    "en": "Choose the package"
+  },
+  "cancel": {
+    "th": "กลับไปหน้าเลือกเบอร์",
+    "en": "Cancel"
+  },
+  "verify": {
+    "th": "ตรวจสอบสิทธิ์",
+    "en": "Verify"
+  },
+  "move": {
+    "th": "ย้ายค่ายออนไลน์ ข้อเสนอพิเศษ",
+    "en": "Move to Us Online Exclusive"
+  },
+  "other_campaign_cancel": {
+    "th": "ย้อนกลับ",
+    "en": "Cancel"
+  }
+}

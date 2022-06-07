@@ -1,0 +1,1 @@
+https://gateway.wls-dev.com/tmvh/clm/get-camp-trans-clm-list|POST|{"headers":{"x-api-key":"sCjwXBFgrsa99VphJ3qcY8XJiMkH7Sei7NiOzWqq","Accept-Encoding":"gzip","accept":"*\/*","Cache-Control":"no-cache, private"}}|{"form_params":{"serviceID":"0830011962","campCode":"CLM-77701","status":["New","Consider"],"activeCampFlag":"Y","pageSize":200,"pageNo":1}}

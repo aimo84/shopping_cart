@@ -1,0 +1,177 @@
+{
+  "form": {
+    "id": {
+      "label": {
+        "th": "หมายเลขบัตรประชาชน",
+        "en": "Thai ID"
+      },
+      "inputmode": "numeric",
+      "type": "text",
+      "required": true,
+      "pattern": "[0-9]{13,13}",
+      "placeholder": {
+        "th": "หมายเลขบัตรประจำตัวประชาชน 13 หลัก",
+        "en": "Enter your Thai ID (13 Digits)."
+      }
+    },
+    "service": {
+      "label": {
+        "th": "ประเภทการรับสิทธิ์",
+        "en": "Existing Service Type"
+      },
+      "type": "dropdown",
+      "options": [],
+      "required": true,
+      "hidden": true
+    },
+    "birthday": {
+      "id": "birthday",
+      "label": {
+        "th": "วัน เดือน ปีเกิด",
+        "en": "Date / Month / Year of birth"
+      },
+      "hidden": true
+    },
+    "truemoveh": {
+      "id": "truemoveh",
+      "label": {
+        "th": "หมายเลขโทรศัพท์ที่ต้องการรับสิทธิ์",
+        "en": "Mobile number"
+      },
+      "placeholder": {
+        "th": "กรอกหมายเลขโทรศัพท์ที่ต้องการรับสิทธิ์",
+        "en": "Enter you mobile number to verify promotion."
+      }
+    },
+    "otp": {
+      "label": {
+        "th": "ขอ OTP",
+        "en": "OTP"
+      },
+      "inputmode": "numeric",
+      "type": "text",
+      "required": true,
+      "placeholder": {
+        "th": "กรอกรหัส OTP ที่ได้รับในโทรศัพท์",
+        "en": "Enter the OTP that you received."
+      },
+      "pattern": "[0-9]{4}",
+      "autocomplete": "one-time-code",
+      "button": {
+        "th": "ขอ OTP",
+        "en": "OTP"
+      }
+    }
+  },
+  "trueonline": {
+    "trueonline": {
+      "label": {
+        "th": "หมายเลขทรูออนไลน์",
+        "en": "Your registered TOL account"
+      },
+      "type": "dropdown",
+      "options": [],
+      "required": true
+    }
+  },
+  "date": {
+    "day": [],
+    "year": [],
+    "month": {
+      "th": [{
+        "id": "1",
+        "value": "มกราคม"
+      },{
+        "id": "2",
+        "value": "กุมภาพันธ์"
+      },
+      {
+        "id": "3",
+        "value": "มีนาคม"
+      },
+      {
+        "id": "4",
+        "value": "เมษายน"
+      },
+      {
+        "id": "5",
+        "value": "พฤษภาคม"
+      },
+      {
+        "id": "6",
+        "value": "มิถุนายน"
+      },
+      {
+        "id": "7",
+        "value": "กรกฎาคม"
+      },
+      {
+        "id": "8",
+        "value": "สิงหาคม"
+      },
+      {
+        "id": "9",
+        "value": "กันยายน"
+      },
+      {
+        "id": "10",
+        "value": "ตุลาคม"
+      },
+      {
+        "id": "11",
+        "value": "พฤศจิกายน"
+      },
+      {
+        "id": "12",
+        "value": "ธันวาคม"
+      }],
+      "en": [{
+        "id": "1",
+        "value": "January"
+      },{
+        "id": "2",
+        "value": "February"
+      },
+      {
+        "id": "3",
+        "value": "March"
+      },
+      {
+        "id": "4",
+        "value": "April"
+      },
+      {
+        "id": "5",
+        "value": "May"
+      },
+      {
+        "id": "6",
+        "value": "June"
+      },
+      {
+        "id": "7",
+        "value": "July"
+      },
+      {
+        "id": "8",
+        "value": "August"
+      },
+      {
+        "id": "9",
+        "value": "September"
+      },
+      {
+        "id": "10",
+        "value": "October"
+      },
+      {
+        "id": "11",
+        "value": "November"
+      },
+      {
+        "id": "12",
+        "value": "December"
+      }]
+    }
+  }
+}

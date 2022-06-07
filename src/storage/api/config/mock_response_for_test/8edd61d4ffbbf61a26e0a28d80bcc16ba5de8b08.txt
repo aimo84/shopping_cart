@@ -1,0 +1,21 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "6C1AF21WVQIFT",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "subscriber" : {
+      "subscriber" : "0969241622",
+      "ban" : "",
+      "priceplan" : "",
+      "status" : "Full - Suspend",
+      "remark" : "หมายเลขนี้ไม่สามารถร่วมรายการได้ เนื่องจากไม่พบข้อมูลหมายเลขที่ระบุ ( subscriber=0969241622, ban=,  activateDate=, priceplan= )",
+      "renewal" : "N",
+      "usim" : false,
+      "account-sub-type" : "",
+      "activate-date" : "",
+      "port-in" : false,
+      "is-usim" : false
+    },
+    "validate-privilege" : false
+  }
+}

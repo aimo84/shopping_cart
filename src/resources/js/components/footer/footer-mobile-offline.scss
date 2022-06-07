@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px) {
+    .page {
+        min-height: 160vh !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .page {
+        min-height: 160vh !important;
+    }
+    footer {
+        .anti-shadow-div {
+            .shadow-div {
+
+                .text-shop-name {
+                    width: calc(100% - 275px);
+                    line-height: 15px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+    }
+}

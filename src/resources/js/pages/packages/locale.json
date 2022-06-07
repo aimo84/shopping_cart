@@ -1,0 +1,42 @@
+{
+  "title": {
+    "th": "ค้นหาหมายเลขที่ต้องการ",
+    "en": "Search for the number or package that you want."
+  },
+  "all": {
+    "th": "แพ็กเกจทั้งหมด",
+    "en": "All"
+  },
+  "postpaid": {
+    "th": "รายเดือน",
+    "en": "Postpaid"
+  },
+  "family": {
+    "th": "Family SIM",
+    "en": "Family SIM"
+  },
+  "search_number": {
+    "th": "เลือกเบอร์ที่คุณต้องการ",
+    "en": "Search Number"
+  },
+  "search_number_mobile": {
+    "th": "เลือกเบอร์ที่ต้องการ",
+    "en": "Search Number"
+  },
+  "package_detail": {
+    "th": "รายละเอียดแพ็กเกจ",
+    "en": "Package Detail"
+  },
+  "verify": {
+    "th": "ตรวจสอบสิทธิ์",
+    "en": "Check Eligibility"
+  },
+  "empty": {
+    "th": "ขออภัยค่ะ ไม่มีแพคเกจ ตามหมวดหมู่ที่คุณเลือก กรุณาเลือกหมวดหมู่อื่นๆ",
+    "en": "Sorry, there is no package available in this categories. Please select another package"
+  },
+  "buy_customer": {
+    "th": "สั่งซื้อให้ลูกค้า",
+    "en": "Order for customer"
+  }
+}

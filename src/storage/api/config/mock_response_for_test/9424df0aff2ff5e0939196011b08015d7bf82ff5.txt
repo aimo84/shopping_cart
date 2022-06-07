@@ -1,0 +1,16 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "8I1AF0683H21P",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "subscriber" : {
+      "subscriber" : "0969241886",
+      "remark" : "[null][null]",
+      "renewal" : "N",
+      "usim" : false,
+      "port-in" : false,
+      "is-usim" : false
+    },
+    "validate-privilege" : false
+  }
+}

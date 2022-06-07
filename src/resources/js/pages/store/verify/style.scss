@@ -1,0 +1,164 @@
+.inner-page-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.error-container {
+  margin-bottom: 24px;
+}
+
+.verify-container {
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 16px 24px 40px 24px;
+  font-size: 1.5em;
+
+  .title {
+    font-family: 'TrueBold';
+    font-size: 30px;
+    line-height: 30px;
+    margin: 24px 0 16px 0;
+  }
+
+  .subtitle {
+    margin-bottom: 24px;
+    line-height: 24px;
+  }
+
+  .form::v-deep {
+    max-width: 600px;
+    margin: auto;
+
+    .see-example {
+      margin-top: -4px;
+      margin-bottom: 8px;
+      text-decoration: underline;
+      color: #ff0000;
+      cursor: pointer;
+    }
+
+    .input input,
+    .select input {
+      background-color: #fff;
+    }
+
+    &.invalid-form .input input:invalid {
+      border-color: #ff0000;
+      color: #ff0000;
+    }
+
+    .input input::placeholder {
+      color: #b2b2b2;
+    }
+
+    .birthday-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 8px;
+    }
+
+    .otp-container {
+      display: flex;
+      width: 100%;
+      
+      .button {
+        background-color: #ff0000;
+        min-width: 120px;
+        height: 40px;
+        padding: 0 12px;
+        margin-left: 8px;
+        border-radius: 4px;
+
+        &[disabled] {
+          pointer-events: none;
+          background-color: #666;
+        }
+      }
+    }
+
+    .otp-error-message {
+      margin: 4px 0;
+      color: #ff0000;
+    }
+  }
+
+  .input_container.text {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 16px;
+
+    label {
+      width: 100%;
+      min-width: 100%;
+      text-align: left;
+      margin-right: 0;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    .input {
+      flex: 1;
+    }
+
+    .required {
+      color: #fc5c65;
+      font-weight: 600;
+      font-size: 24px;
+    }    
+  }
+}
+
+
+.confirm-container {
+  margin-top: 24px;
+  text-align: center;
+  padding: 0 16px;
+  
+  .agreement {
+    font-size: 22px;
+    margin-bottom: 24px;
+    cursor: pointer;
+
+    label {
+      display: block;
+      font-size: 22px;
+      line-height: 22px;
+    }
+
+    a {
+      color: #ee3124;
+    }
+  }
+
+  .button {
+    background-color: #ff0000;
+    margin-bottom: 8px;
+
+    &.back {
+      background-color: #666;
+    }
+
+    &[disabled] {
+      pointer-events: none;
+      background-color: #666;
+    }
+  }
+}
+
+@media screen and (max-width: 1148px) {
+  .error-container {
+    margin: 0 24px 24px 24px;
+  }
+  .verify-container {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .confirm-container {
+    .agreement {
+      text-align: left;
+    }
+  }
+}

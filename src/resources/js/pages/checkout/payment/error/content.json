@@ -1,0 +1,30 @@
+{
+    "errorCode": {
+        "invalid_paynext_payment": {
+            "title": {
+                "th": "ชำระเงินไม่สำเร็จ",
+                "en": "Payment Failed"
+            },
+            "message_1": {
+                "th": "เนื่องจากคุณยังไม่ได้เปิดใช้บริการเพย์เน็กซ์",
+                "en": "Unable to process your payment transaction. you may not have the PayNext account, "
+            },
+            "message_2": {
+                "th": "หรือยังไม่ได้ตั้งค่าสมาร์ทเพย์หรือวงเงินไม่พอ",
+                "en": "or have not set up a SmartPay, or the amount exceeds your credit limit."
+            },
+            "link_status": {
+                "th": "ตรวจสอบสถานะเพย์เน็กซ์",
+                "en": "Check your Paynext status"
+            },
+            "link_setting": {
+                "th": "ตั้งค่าสมาร์ทเพย์",
+                "en": "Set up SmartPay"
+            }
+        }
+    },
+    "go_checkout": {
+        "th": "ย้อนกลับหน้าชำระเงิน",
+        "en": "Back to payments"
+    }
+}

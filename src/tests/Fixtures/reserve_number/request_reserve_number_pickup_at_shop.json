@@ -1,0 +1,82 @@
+{
+    "correlationId": "7308c55e-c361-41be-baa8-bd1d3fb9c188",
+    "channel": "3GW-TRUESTORE",
+    "flowID": "F016",
+    "saleRepInfo": {
+        "dealerCode": "80100112",
+        "dealerCodeTarget": "1000001",
+        "ownerDealer": "80100112",
+        "ownerSaleId": "010A1220",
+        "ownerSaleName": "\u0e0d\u0e32\u0e19\u0e34\u0e14\u0e32 \u0e1e\u0e25\u0e2b\u0e34\u0e19\u0e01\u0e2d\u0e07",
+        "webMethodChannel": "FNT-ONLINE",
+        "referenceIdPartialOrder": "ASC5HkLnoZ17Mgv"
+    },
+    "orderInfo": {
+        "orderNo": "ASC5HkLnoZ17Mgv",
+        "orderDate": "2022-04-28T09:57:15.000000"
+    },
+    "subscriberInfo": {
+        "subscriberNumber": "0640000089",
+        "priceplan": "SMRTFP72",
+        "companyCode": "RM",
+        "propoId": "0072225"
+    },
+    "campaignInfo": {
+        "campaignCode": "YN681",
+        "campaignName": "New sim_5G Super Max Speed_Truestore",
+        "productCode": "3000085736"
+    },
+    "customerInfo": {
+        "identification": "1910100156789",
+        "identificationType": "I",
+        "firstName": "sorleeheen",
+        "lastName": "yusohyudah",
+        "birthDate": "21\/12\/1992",
+        "customerAddress": {
+            "houseNo": "555\/202",
+            "buildingName": "-",
+            "tumbon": "\u0e1e\u0e23\u0e30\u0e1a\u0e23\u0e21\u0e21\u0e2b\u0e32\u0e23\u0e32\u0e0a\u0e27\u0e31\u0e07",
+            "amphur": "\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23",
+            "city": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+            "zip": "10200"
+        }
+    },
+    "payment": {
+        "amount": {
+            "totalAmount": 0,
+            "billDiscountAmt": 36,
+            "billOtherPaymentAmt": 13,
+            "paymentAmount": 0
+        }
+    },
+    "inventoryInfo": [
+        {
+            "productCode": "3000085736",
+            "promotionSet": "",
+            "proposition": "029",
+            "promotionType": "0",
+            "groupId": "1",
+            "productType": "P",
+            "inventoryType": "SIM",
+            "amount": {
+                "price": 0,
+                "qty": 1,
+                "depositAmt": 0,
+                "discount": {
+                    "totalDiscountAmt": 36,
+                    "discount": {
+                        "discountCode": "DISCOUNT_SIMONLY",
+                        "discountAmt": 36
+                    }
+                },
+                "otherpayment": {
+                    "totalOtherAmt": 13,
+                    "otherpayment": {
+                        "otherpaymentCode": "45M",
+                        "otherpaymentAmt": 13
+                    }
+                }
+            }
+        }
+    ]
+}

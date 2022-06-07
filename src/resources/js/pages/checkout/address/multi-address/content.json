@@ -1,0 +1,160 @@
+{
+  "label": {
+    "shipping": {
+      "th": "ที่อยู่ในการจัดส่งสินค้า",
+      "en": "Shipping Address"
+    },
+    "address_default": {
+      "th": "ตั้งเป็นที่อยู่หลัก",
+      "en": "Set as default address"
+    },
+    "save": {
+      "th": "บันทึก",
+      "en": "Save"
+    },
+    "edit":{
+      "th": "แก้ไข",
+      "en": "Edit"
+    },
+    "create_address": {
+      "th": "เพิ่มที่อยู่ใหม่",
+      "en": "New Address"
+    },
+    "edit_address":{
+      "th": "แก้ไขที่อยู่",
+      "en": "Edit Address"
+    },
+    "delete_address":{
+      "th": "ลบ",
+      "en": "Remove"
+    },
+    "change": {
+      "th": "เปลี่ยน",
+      "en": "Change"
+    },
+    "cancel": {
+      "th": "ยกเลิก",
+      "en": "Cancel"
+    },
+    "phone": {
+      "th": "หมายเลขโทรศัพท์",
+      "en": "Phone"
+    },
+    "email": {
+      "th": "อีเมล",
+      "en": "Email"
+    },
+    "default_address": {
+      "th": "ที่อยู่หลัก",
+      "en": "Default"
+    }
+  },
+  "cannot_delete": {
+    "label": {
+      "th": "ไม่สามารถลบที่อยู่หลักได้ กรุณาเปลี่ยนที่อยู่หลักแล้วลองอีกครั้ง",
+      "en": "The default address cannot be deleted. Please change your default address setting first"
+    },
+    "button": {
+      "th": "ตกลง",
+      "en": "Ok"
+    }
+  },
+  "delivery_address": {
+    "firstname": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "address_1": {
+      "label": {
+        "th": "ที่อยู่",
+        "en": "Address"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "address_2": {
+      "label": {
+        "th": "ซอย",
+        "en": "Soi"
+      },
+      "type": "text",
+      "pattern": ".{0,128}"
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "required": true,
+      "min": "1",
+      "max": "9999999999"
+    },
+    "phone": {
+      "label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Mobile phone number"
+      },
+      "inputmode": "tel",
+      "type": "text",
+      "required": true,
+      "pattern": "[0-9]{9,10}"
+    },
+    "shipping_email": {
+      "label": {
+        "th": "อีเมล",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "required": true,
+      "pattern": "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$"
+    }
+  }
+}

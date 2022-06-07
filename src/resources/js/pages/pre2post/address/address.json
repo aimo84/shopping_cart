@@ -1,0 +1,100 @@
+{
+  "billing_addr": {
+    "firstname": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "address1": {
+      "label": {
+        "th": "ที่อยู่",
+        "en": "Address"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "address2": {
+      "label": {
+        "th": "ซอย",
+        "en": "Soi"
+      },
+      "type": "text",
+      "pattern": ".{1,128}"
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "required": true,
+      "min": "1",
+      "max": "9999999999"
+    },
+    "phone": {
+      "label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Mobile phone number"
+      },
+      "inputmode": "tel",
+      "type": "text",
+      "required": true,
+      "pattern": "[0-9]{9,10}"
+    },
+    "email": {
+      "label": {
+        "th": "อีเมล",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "required": true,
+      "pattern": ".{1,50}"
+    }
+  }
+}

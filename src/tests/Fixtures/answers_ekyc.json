@@ -1,0 +1,85 @@
+{
+    "answers": {
+        "placeorder_request": {
+            "oneTimeCardToken": null,
+            "delivery_address": {
+                "district_id": "1",
+                "city_id": "1",
+                "province_id": "1",
+                "country_id": "209",
+                "postcode": "10200",
+                "firstname": "Quan",
+                "lastname": "Nguyen",
+                "phone": "0925579088",
+                "email": "quannh@vmodev.com",
+                "address1": "1 bangkok",
+                "address2": "-",
+                "useIdForm": "true",
+                "district": "PHRABOROM MAHARATCHAWANG",
+                "city": "PHRA NAKHON",
+                "province": "Bangkok",
+                "moo": "-"
+            },
+            "billing_address": {
+                "firstname": "Quan",
+                "lastname": "Nguyen",
+                "address1": "1 bangkok",
+                "address2": "-",
+                "district_id": "1",
+                "city_id": "1",
+                "province_id": "1",
+                "postcode": "10200",
+                "country_id": "209",
+                "phone": "0925579088",
+                "email": "quannh@vmodev.com"
+            },
+            "cart_id": "4GzfAHOl8iHUup1Y9onAHjYEPkphbkm16CVy2Q3M",
+            "customer_detail": {
+                "first_name": "Quan",
+                "last_name": "Nguyen",
+                "email": "quannh@vmodev.com",
+                "telephone": "0925579088",
+                "fax": null,
+                "customer_note": null
+            },
+            "products": [
+                {
+                    "product_id": "L91591646",
+                    "inventory_id": "3082437",
+                    "quantity": "1",
+                    "store_id": "L941527"
+                },
+                {
+                    "product_id": "L91591800",
+                    "inventory_id": "3082621",
+                    "quantity": "1",
+                    "store_id": "L941527",
+                    "sim_meta": [
+                        {
+                            "thai_id": "1121231231"
+                        }
+                    ]
+                }
+            ],
+            "is_mnp": "true",
+            "reference_product_id": null,
+            "security_key": "19ee6967-94ce-41de-bccf-c2caf6ba9413",
+            "privilege": [
+                {
+                    "product_code": "3000088356",
+                    "date_created": "2021-12-23 15:16:28",
+                    "timestamp_created": "1640247388",
+                    "date_expired": "2021-12-23 23:16:28",
+                    "timestamp_expired": "1640276188",
+                    "campaign_id": "0",
+                    "product_type": "mnp_one_step"
+                }
+            ],
+            "payment_detail": {
+                "method": "EW"
+            }
+        },
+        "callback_url": "https://pre-store.truecorp.co.th/api/true/ekyc/status/placeorder/ekyc_hash"
+    },
+    "ekyc_hash_ticket": "4b07bd3e-66df-429c-a20f-3d7a7b088ffa"
+}

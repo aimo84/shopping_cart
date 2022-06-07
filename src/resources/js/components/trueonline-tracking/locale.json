@@ -1,0 +1,76 @@
+{
+  "title": {
+    "th": "ตรวจสอบสถานะการติดตั้ง TrueOnline",
+    "en": "TrueOnline Installation Location"
+  },
+  "title_2": {
+    "th": "สถานะการติดตั้ง TrueOnline",
+    "en": "TrueOnline Installation Location"
+  },
+  "name_dear": {
+    "th": "สวัสดี คุณ",
+    "en": "Dear"
+  },
+  "form": {
+    "thai_id": {
+      "th": "หมายเลขบัตรประชาชน",
+      "en": "Thai ID"
+    },
+    "thai_id_placeholder": {
+      "th": "กรอกหมายเลขบัตรประชาชนที่ได้ลงทะเบียนไว้",
+      "en": "Enter Thai ID/Passsport"
+    },
+    "phone_number": {
+      "th": "เบอร์ติดต่อที่ได้ลงทะเบียนไว้",
+      "en": "Registered Phone Number"
+    },
+    "phone_number_placeholder": {
+      "th": "กรอกเบอร์ติดต่อที่ได้ลงทะเบียนไว้",
+      "en": "Enter contact phone number"
+    },
+    "fetch_otp": {
+      "th": "ขอรหัส OTP",
+      "en": "Request OTP"
+    },
+    "otp": {
+      "th": "กรอกรหัส OTP",
+      "en": "Enter the OTP that you received"
+    },
+    "request_otp_again": {
+      "th": "ขอรหัสอีกครั้ง",
+      "en": "Resend"
+    },
+    "confirm": {
+      "th": "ยืนยันรหัส",
+      "en": "Submit"
+    }
+  },
+  "change_timeslot": {
+    "th": "เปลี่ยนวันติดตั้ง",
+    "en": "Change Installation Date"
+  },
+  "back": {
+    "th": "ย้อนกลับ",
+    "en": "Back"
+  },
+  "confirm_change_timeslot": {
+    "th": "ยืนยันการเปลี่ยนเวลา",
+    "en": "Confirm"
+  },
+  "close": {
+    "th": "ปิด",
+    "en": "Close"
+  },
+  "installation_date": {
+    "th": "วันเวลาการติดตั้ง",
+    "en": "Installation Date"
+  },
+  "time": {
+    "th": "เวลา",
+    "en": "Time"
+  },
+  "status": {
+    "th": "สถานะ:",
+    "en": "Status:"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "address_title": {
+    "th": "กรอกข้อมูลเพื่อสั่งซื้อซิม",
+    "en": "Please insert your information"
+  },
+  "search_result_description": {
+    "th": "กรุณาเลือกเบอร์และยืนยันการส่งข้อมูลตรวจสอบสิทธิให้เสร็จสิ้นภายใน 2 ชั่วโมง ในกรณีที่มีการทำรายการเข้ามาเป็นจำนวนมาก เบอร์ที่ท่านเลือกไว้จะถูกถอดออกได้",
+    "en": "Please select the number and fill in the user details within 2 hours after you have verified the privileges. In case of over-transaction, the reserved number will be canceled immediately"
+  },
+  "start": {
+    "th": "แพ็กเกจเริ่มต้น",
+    "en": "Start at"
+  },
+  "selected_number": {
+    "th": "เบอร์โทรศัพท์ที่คุณเลือก",
+    "en": "The number you selected"
+  },
+  "your_package": {
+    "th": "แพ็กเกจของคุณ:",
+    "en": "Your Package:"
+  },
+  "show_detail": {
+    "th": "รายละเอียดแพ็กเกจ",
+    "en": "Package Detail"
+  },
+  "hide_detail": {
+    "th": "ซ่อนหน้าข้อมูล",
+    "en": "Hide Detail"
+  },
+  "buy_now": {
+    "th": "ซื้อสินค้า",
+    "en": "Buy now"
+  }
+}

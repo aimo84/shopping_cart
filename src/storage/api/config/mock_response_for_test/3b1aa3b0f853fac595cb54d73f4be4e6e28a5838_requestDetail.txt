@@ -1,0 +1,2 @@
+https://api.wls-dev.com/account-app/truecard/get-status|post|{"headers":{"Content-Type":"application\/json","x-api-auth":"564eec0f074fb0a88e0000010d72adc2ae5d4c296efb420415318963","Cache-Control":"no-cache,
+private"},"json":{"idn_type":"TRUEID","channel":"RPP","section":"wemall","customer_idn_no":"21985130"}}|{"form_params":{"idn_type":"TRUEID","channel":"RPP","section":"wemall","customer_idn_no":"21985130"}}

@@ -1,0 +1,10 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "DP1AF7E5JZRU0",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "verifyCode" : null,
+    "mobileRelaxBlacklist" : "N",
+    "remark" : "ไม่ติด collection"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status" : "SUCCESSFUL",
+  "display-messages" : [ {
+    "message" : "Success",
+    "message-code" : "TMV-PREVERIFY-00000",
+    "message-type" : "INFORMATION",
+    "en-message" : "Success",
+    "th-message" : "Success",
+    "technical-message" : "success"
+  } ],
+  "trx-id" : "7L2QEE2WFBF4I",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "verifyCode" : "V000057989",
+    "mobileRelaxBlacklist" : "N",
+    "remark" : "ไม่ติด collection",
+    "u18" : false
+  }
+}

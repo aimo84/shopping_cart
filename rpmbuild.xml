@@ -1,0 +1,57 @@
+<project name="tmh-web" default="rpm" basedir=".">
+<property name="build.dir" value="${basedir}/build"/>
+<property name="version" value="1.0.0"/>
+<property name="release" value="0"/>
+<property name="buildarch" value="ppc64-ibm-AIX7.1"/>
+<property name="buildparams" value="--define 'arch ${arch}' --define 'version ${version}' --define 'release ${release}'"/>
+<target name="clean-rpm" 
+	depends="clean,rpm"/>
+<target name="clean-rpm-unit" 
+	depends="clean,rpm,phpunit"/>
+<target name="clean-rpm-unit-coverage" 
+	depends="clean,rpm,phpunit-coverage"/>
+<target name="clean">
+	<delete dir="${build.dir}"/>
+</target>
+
+<target name="rpm" description="Compile single binary rpm by spec file">
+	<!--  Create directories  -->
+	<mkdir dir="${build.dir}"/>
+	<mkdir dir="${build.dir}/BUILD"/>
+	<mkdir dir="${build.dir}/RPMS"/>
+	<mkdir dir="${build.dir}/SOURCES"/>
+	<mkdir dir="${build.dir}/SPECS"/>
+	<mkdir dir="${build.dir}/SRPMS"/>
+	<!--  copy spec files  -->
+	<copy todir="${build.dir}/SPECS" preservelastmodified="true" failonerror="true">
+		<fileset dir="${basedir}" includes="*.spec"/>
+	</copy>
+	<!--  copy tar.gz files  -->
+	<copy todir="${build.dir}/SOURCES" preservelastmodified="true" failonerror="true">
+		<fileset dir="${basedir}/../" includes="*.tar.gz"/>
+	</copy>
+	<rpm specFile="wls-app.spec" topDir="build" cleanBuildDir="false" removeSpec="false" removeSource="false" command="-bb --target ${buildarch} ${buildparams}" failOnError="false"/>
+</target>
+
+    <target name="phpunit" description="Run unit tests with PHPUnit">
+        <exec executable="./vendor/bin/paratest" failonerror="true">
+            <arg value="-c" />
+            <arg value="${basedir}/phpunit-dev.xml" />
+            <arg value="--testsuite" />
+            <arg value="Unit" />
+        </exec>
+    </target>
+
+    <target name="phpunit-coverage" description="Run unit tests with PHPUnit">
+       <exec executable="./vendor/bin/paratest" failonerror="true">
+            <arg value="-c" />
+            <arg value="${basedir}/phpunit-dev.xml" />
+            <arg value="--coverage-clover" />
+            <arg value="${basedir}/build/logs/clover.xml" />
+            <arg value="--coverage-html" />
+            <arg value="${basedir}/build/coverage" />
+            <arg value="--testsuite" />
+            <arg value="Unit" />
+        </exec>
+    </target>
+</project>

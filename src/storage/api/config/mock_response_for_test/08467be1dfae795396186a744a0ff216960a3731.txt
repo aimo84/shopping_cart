@@ -1,0 +1,13 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "7L2QEE5GP8GG3",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "face-recognition-result" : "pass",
+    "over-max-allow" : "false",
+    "is-identical" : "true",
+    "confident-ratio" : "0.65155",
+    "face-recog-cust-certificate-id" : "7033ec21-4100-43c3-b1a8-8e61078765f3",
+    "face-recog-cust-capture-id" : "4c68b9ea-34ca-446d-b500-525633faa7bd"
+  }
+}

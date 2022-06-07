@@ -1,0 +1,32 @@
+{
+  "label": {
+    "header": {
+        "th": "ข้อมูลส่วนตัว",
+        "en": "Profile"
+    },
+    "title": {
+        "th": "จัดการบัญชีของคุณ",
+        "en": "Manage your account"
+    },
+    "displayName": {
+      "th": "ชื่อผู้ใช้",
+      "en": "Name"
+    },
+    "phone": {
+      "th": "เบอร์โทรศัพท์",
+      "en": "Phone"
+    },
+    "email": {
+      "th": "อีเมล",
+      "en": "Email"
+    },
+    "birthday": {
+      "th": "วันเกิด",
+      "en": "Birthday"
+    },
+    "sex": {
+      "th": "เพศ",
+      "en": "Sex"
+    }
+  }
+}

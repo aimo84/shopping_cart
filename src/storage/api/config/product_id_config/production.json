@@ -1,0 +1,141 @@
+{
+  "trueidtv_box_tol": [
+    {
+      "id": "L91693117",
+      "sku": "6000015099",
+      "campaign_code": "YD155",
+      "campaign_code_trueonline": "YD155",
+      "type": "trueidtv",
+      "type_for_verify": "trueid_box"
+    }
+  ],
+  "family_black_truecard": {
+    "L91677717": {
+      "type": "family_black_truecard",
+      "id": "L91677717"
+    }
+  },
+  "campaigns": {
+    "8057": {
+      "id": "8057",
+      "path": "trueidbox_tol",
+      "options": {
+        "truemoveh": false,
+        "trueonline": true,
+        "shipping_free": true
+      },
+      "campaign_code": "YD155",
+      "campaign_code_trueonline": "YD155",
+      "type_for_verify": "trueid_box",
+      "json_name": "trueidtv_box_tol"
+    },
+    "8122": {
+      "id": "8122",
+      "path": "google_home_nest",
+      "options": {
+        "truemoveh": true,
+        "trueonline": true,
+        "shipping_free": false
+      },
+      "campaign_code": "XX458",
+      "campaign_code_trueonline": "XD514",
+      "type_for_verify": "google_home",
+      "json_name": "google_nest"
+    },
+    "8123": {
+      "id": "8123",
+      "path": "google_home_nest",
+      "options": {
+        "truemoveh": true,
+        "trueonline": false,
+        "shipping_free": false
+      },
+      "campaign_code": "XX462",
+      "campaign_code_trueonline": "XX462",
+      "type_for_verify": "google_home",
+      "json_name": "google_nest"
+    },
+    "8124": {
+      "id": "8124",
+      "path": "google_home_nest",
+      "options": {
+        "truemoveh": false,
+        "trueonline": true,
+        "shipping_free": false
+      },
+      "campaign_code": "XD515",
+      "campaign_code_trueonline": "XD515",
+      "type_for_verify": "google_home",
+      "json_name": "google_nest"
+    },
+    "8370": {
+      "id": "8370",
+      "path": "device_bundle_existing",
+      "options": {
+        "truemoveh": true,
+        "trueonline": false,
+        "shipping_free": false
+      },
+      "campaign_name": {
+        "th": "ลูกค้าปัจจุบันทรูมูฟ เอช",
+        "en": "Existing TrueMove H Postpaid"
+      },
+      "campaign_code": "XX462",
+      "campaign_code_trueonline": "XX462",
+      "type_for_verify": "bdbc",
+      "json_name": "device_bundle_existing"
+    },
+    "8454": {
+      "id": "8454",
+      "json_name": "redirect_to_wemall_voucher",
+      "redirect_to_wemall": true
+    }
+  },
+  "verify": [
+    {
+      "id": "L91693116",
+      "sku": "6000015151",
+      "campaign_code": "YX186",
+      "campaign_code_truemove": "YX186",
+      "campaign_code_trueonline": "YD154",
+      "type": "trueidtv",
+      "type_for_verify": "trueid_box",
+      "shipping_free": true
+    },
+    {
+      "id": "L91656997",
+      "sku": "3000071590",
+      "campaign_code": "XN619",
+      "type": "postpaid",
+      "type_for_verify": "family_sim",
+      "custom_text": {
+        "th": "* รับได้สูงสุด 4 ซิม / ต่อ 1 รหัสบัตรประชาชน",
+        "en": "* Select up to 4 SIMs / 1 Thai ID"
+      }
+    },
+    {
+      "id": "L91565204",
+      "type": "prepaid"
+    },
+    {
+      "id": "L91565205",
+      "type": "prepaid"
+    },
+    {
+      "id": "L91656996",
+      "type": "prepaid"
+    }
+  ],
+  "verify_ui": {
+    "device_bundle_new_customer": {
+      "campaign_name": {
+        "th": "ลูกค้าใหม่",
+        "en": "New Customer"
+      }
+    }
+  },
+  "postpaid": [],
+  "product_type_convert_list": [
+    "vlearn", "trueidtv_box_tol", "google_nest", "device_bundle_existing", "family_black_truecard"
+  ]
+}

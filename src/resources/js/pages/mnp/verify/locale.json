@@ -1,0 +1,154 @@
+{
+  "checklist": {
+    "title": {
+      "th": "เช็กความพร้อมก่อนย้ายมาทรู",
+      "en": "Ready to move to us?"
+    },
+    "subtitle": {
+      "th": "เบอร์ที่จะย้ายค่ายต้อง",
+      "en": "Please check that your mobile number:"
+    },
+    "checklist1": {
+      "th": "ไม่มียอดค้างชำระ",
+      "en": "has no outstanding bill"
+    },
+    "checklist2": {
+      "th": "ไม่ติดสัญญาณกับค่ายเดิม",
+      "en": "is not under any contract"
+    }
+  },
+  "otp": {
+    "title": {
+      "th": "เบอร์ที่ต้องการย้ายค่ายมาทรู",
+      "en": "Number moving to TrueMove H"
+    },
+    "phone_number": {
+      "th": "เบอร์ติดต่อที่ได้ลงทะเบียนไว้",
+      "en": "Registered Phone Number"
+    },
+    "phone_number_placeholder": {
+      "th": "กรอกเบอร์มือถือ",
+      "en": "Enter your mobile number"
+    },
+    "fetch_otp": {
+      "th": "ขอรหัส OTP",
+      "en": "Request OTP"
+    },
+    "otp": {
+      "th": "กรอกรหัส OTP",
+      "en": "Enter the OTP that you received"
+    },
+    "otp_placeholder": {
+      "th": "กรอกรหัส OTP",
+      "en": "Enter the OTP code"
+    },
+    "request_otp_again": {
+      "th": "ขอรหัสอีกครั้ง",
+      "en": "Resend"
+    },
+    "confirm": {
+      "th": "ยืนยันรหัส",
+      "en": "Submit"
+    }
+  },
+  "ussd": {
+    "mobile_number": {
+      "th": "เบอร์ที่ต้องการย้ายค่ายมาทรู",
+      "en": "Number moving to TrueMove H"
+    },
+    "title": {
+      "th": "การขอรับ PIN Code",
+      "en": "Get your PIN code"
+    },
+    "subtitle": {
+      "th": "ผู้ให้บริการปัจจุบันของคุณจะส่งรหัสย้ายค่ายให้ทาง SMS จึงอาจใช้เวลาประมาณ 3-5 นาที\nสำหรับลูกค้าชาวต่างชาติ กรุณาพิมพ์ SMS หมายเลขพาสปอร์ต แล้วส่งมาที่เบอร์ 444415",
+      "en": "Your current carrier will send PIN code to you via SMS. This might take 3-5 minutes.\nFor foreigner, send your passport number via SMS to 4444151"
+    },
+    "ussd": {
+      "th": "กรอกรหัสย้ายค่ายที่ได้รับ",
+      "en": "Enter PIN code sent to your mobile"
+    },
+    "ussd_placeholder": {
+      "th": "รหัสย้ายค่าย 8 หลัก",
+      "en": "8-digit PIN code"
+    },
+    "tnc": {
+      "th": "ข้อกำหนดและเงื่อนไข",
+      "en": "Term and Condition"
+    },
+    "agreement": {
+      "th": "ยอมรับข้อกำหนดและเงื่อนไข",
+      "en": "Accept Term and Condition"
+    },
+    "move_number": {
+      "th": "ดำเนินการย้ายค่ายมาทรู",
+      "en": "Move my number to True"
+    }
+  },
+  "ekyc": {
+    "title": {
+      "th": "ตรวจสอบการขอย้ายค่ายเบอร์เดิม",
+      "en": "Check the privilege to move to True network"
+    },
+    "next": {
+      "th": "ต่อไป",
+      "en": "Next"
+    },
+    "back": {
+      "th": "ย้อนกลับ",
+      "en": "Back"
+    },
+    "next_trueshop": {
+      "en": "Search TrueShop",
+      "th": "ค้นหาทรูช้อป"
+    }
+  },
+  "checking": {
+    "label": {
+      "th": "กำลังตรวจสอบ ...",
+      "en": "Checking ..."
+    }
+  },
+  "result": {
+    "result_success": {
+      "th": "คุณสามารถทำการขอย้ายค่ายเบอร์เดิมได้",
+      "en": "You have the right to move to True network."
+    },
+    "thai_id": {
+      "th": "หมายเลขบัตรประชาชน",
+      "en": "Thai ID Number"
+    },
+    "passport": {
+      "th": "หมายเลขพาสปอร์ต",
+      "en": "Passport Number"
+    },
+    "result_status_success": {
+      "th": "คุณสามารถซื้อเบอร์โทรศัพท์ที่ต้องการได้",
+      "en": "You can choose to buy the phone number you want."
+    },
+    "result_status_fail": {
+      "th": "หากคุณมีข้อสงสัย สามารถติดต่อ Call Center 1242",
+      "en": "If you have any questions, please contact Call center 1242"
+    },
+    "retry": {
+      "th": "ตรวจสอบอีกครั้ง",
+      "en": "Try Again"
+    }
+  },
+  "address_next": {
+    "th": "ดำเนินการต่อ",
+    "en": "Next"
+  },
+  "agreement1": {
+   "th": "กรอกข้อมูลให้ครบถ้วน และกด \"ดำเนินการต่อ\" เพื่อบันทึก",
+   "en": "Please complete the information. Click \"Next\" to save the information."
+  },
+  "agreement2": {
+    "th": "ฉันยอมรับข้อและตกลงเงื่อนไขการให้บริการสำหรับลงทะเบียนและสั่งซื้อซิมออนไลน์ในทุกกรณี",
+    "en": "I accept Terms and conditions ordering SIMs and registering SIMs online in all respects."
+  },
+  "agreement3": {
+    "th": "ทางบริษัทขอสงวนสิทธิ์ในการแจ้งยกเลิกการให้บริการในทุกกรณี",
+    "en": "The company reserves the right to cancel the order and refund all cases."
+  }
+}

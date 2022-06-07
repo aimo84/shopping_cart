@@ -1,0 +1,455 @@
+{"getBillingProfileInfoResponse": {"return": {
+    "billingProfileInfo": {
+        "billingInfo": {
+            "billingArrangementInfo": {
+                "statusDate": "2020-09-22T18:46:15.000+07:00",
+                "billingArrangementId": "",
+                "consolidateBillInd": "N",
+                "lastUpdateDate": "2020-09-22T18:46:25.000+07:00",
+                "businessEntityId": "0",
+                "externalId": "",
+                "bcBanID": "79817",
+                "billingArrangementStatus": "O",
+                "itemizedTaxIndicator": "Y",
+                "billFormat": "S",
+                "splitParam": "",
+                "billProductionIndicator": "Y",
+                "billLang": "TH",
+                "billingArrangementNo": "",
+                "bcEffectiveDate": "2020-09-22T18:46:10.000+07:00",
+                "openDate": "2020-09-22T18:46:15.000+07:00",
+                "billProductionFrequency": "1"
+            },
+            "address": {
+                "country": "",
+                "zipCode": "60000",
+                "roomNo": "",
+                "city": "ระยอง",
+                "addressType": "I",
+                "moo": "3",
+                "soi": "",
+                "building": "",
+                "street": "-",
+                "district": "เมืองระยอง",
+                "addressLine1": "3 * 3 * *",
+                "houseNo": "3",
+                "addressLine2": "* * * * -",
+                "addressLine3": "* ตะเคียนเลื่อน * เมืองระยอง",
+                "addressLine4": "ระยอง 60000",
+                "floor": "",
+                "subDistrict": "ตะเคียนเลื่อน"
+            },
+            "name": {
+                "branchCode": "",
+                "nameType": "I",
+                "firstName": "เจ็ดสิบเอ็ด",
+                "lastName": "ทดสอบเจ็ดสิบเอ็ด",
+                "organizationName": "",
+                "branchName": "",
+                "middleName": "",
+                "storeId": "",
+                "tilte": "นางสาว"
+            },
+            "personal": {
+                "gender": "F",
+                "maritalStatus": "N"
+            }
+        },
+        "system": "CCBS",
+        "accountCustomerInfo": {
+            "withholdingTaxRate": "3",
+            "account": {
+                "accountCollection": {
+                    "collectionIndicator": "",
+                    "suspensionReason": "",
+                    "fullSuspensionIndicator": "",
+                    "punishmentLevels": "",
+                    "startDate": "",
+                    "status": "NONE"
+                },
+                "classify": "R",
+                "accountSubType": {
+                    "code": "RPI",
+                    "description": "Real Move Private Individual"
+                },
+                "ben": {
+                    "consolidateIndicator": "N",
+                    "billLanguage": "TH",
+                    "ben": "10142874",
+                    "bcBanId": "79817",
+                    "billMedia": "S",
+                    "status": {
+                        "code": "O",
+                        "description": "Open"
+                    }
+                },
+                "legacyBan": "",
+                "exernalId": "",
+                "ouId": "106218",
+                "delinquent": "",
+                "contact": {
+                    "preferredContactNo": "",
+                    "officePhone": "",
+                    "homePhone": "026997471",
+                    "language": "TH",
+                    "privatePhone": "",
+                    "fax": "",
+                    "email": "-"
+                },
+                "agreementId": "333801",
+                "customerId": "282683",
+                "creditLimit": {
+                    "creditClass": "C",
+                    "creditLimitReasonCode": "G111",
+                    "personalCreditLimit": "400.0",
+                    "creditLimitExpirationDate": "",
+                    "temporaryCreditLimit": "0.0",
+                    "obligationCalculationFormula": "Formula 1"
+                },
+                "company": {
+                    "code": "RM",
+                    "description": "True Move H Universal Communication Co., Ltd."
+                },
+                "arBalance": "0.0",
+                "accountPriority": "",
+                "address": {
+                    "country": "",
+                    "zipCode": "60000",
+                    "roomNo": "",
+                    "city": "ระยอง",
+                    "addressType": "B",
+                    "moo": "3",
+                    "soi": "",
+                    "building": "",
+                    "street": "",
+                    "district": "เมืองระยอง",
+                    "addressLine1": "3 * 3 * *",
+                    "houseNo": "3",
+                    "addressLine2": "* * * * -",
+                    "addressLine3": "* ตะเคียนเลื่อน * เมืองระยอง",
+                    "addressLine4": "ระยอง 60000",
+                    "floor": "",
+                    "subDistrict": "ตะเคียนเลื่อน"
+                },
+                "parentBan": "",
+                "initiationReason": "",
+                "creditStatus": {
+                    "reasonDescription": "",
+                    "lastActivityDate": "",
+                    "reasonCode": "",
+                    "status": "NONE"
+                },
+                "convergenceCode": "",
+                "accountId": "10142874",
+                "statusDescription": "Active",
+                "collectionStatus": {
+                    "reasonDescription": "",
+                    "lastActivityDate": "",
+                    "reasonCode": "",
+                    "status": "NONE"
+                },
+                "taxId": "1953120200875",
+                "withholdingTaxIndicator": "N",
+                "name": {
+                    "branchCode": "",
+                    "nameType": "I",
+                    "firstName": "เจ็ดสิบเอ็ด",
+                    "lastName": "ทดสอบเจ็ดสิบเอ็ด",
+                    "organizationName": "",
+                    "branchName": "",
+                    "middleName": "",
+                    "storeId": "",
+                    "tilte": "นางสาว"
+                },
+                "openDate": "2020-09-22T18:46:10.000+07:00",
+                "branchNo": "00000"
+            },
+            "customer": {
+                "creditLimitIndicator": "N",
+                "income": "0",
+                "trueCardGradingInfo": {
+                    "banId": "",
+                    "gradingCode": ""
+                },
+                "occupation": "N",
+                "customerType": {
+                    "code": "I",
+                    "description": "Individual"
+                },
+                "exernalId": "",
+                "lastActivityCode": "NEW_ACCOUNT",
+                "contactLanguage": "TH",
+                "educationLevel": "",
+                "contact": {
+                    "preferredContactNo": "",
+                    "officePhone": "",
+                    "homePhone": "",
+                    "language": "TH",
+                    "privatePhone": "",
+                    "fax": "",
+                    "email": "-"
+                },
+                "customerId": "282683",
+                "certificateExpirationDate": "2025-06-29",
+                "marketingChannel": "",
+                "offerCurrency": "THB",
+                "expirationDate": "",
+                "registerDate": "2020-09-22T00:00:00.000+07:00",
+                "creditClass": "X",
+                "address": {
+                    "zipCode": "60000",
+                    "roomNo": "-",
+                    "city": "ระยอง",
+                    "addressType": "I",
+                    "moo": "3",
+                    "soi": "-",
+                    "building": "- -",
+                    "street": "-",
+                    "district": "เมือง",
+                    "addressLine1": "3 * 3 * - *",
+                    "houseNo": "3",
+                    "addressLine2": "* - - * - * - * -",
+                    "addressLine3": "* ตะเคียนเลื่อน * เมือง",
+                    "addressLine4": "ระยอง 60000",
+                    "floor": "-",
+                    "subDistrict": "ตะเคียนเลื่อน"
+                },
+                "personal": {
+                    "gender": "F",
+                    "maritalStatus": "N"
+                },
+                "birthDate": "1990-06-29",
+                "lastActivityReasonCode": "CREQ",
+                "nationality": "THA",
+                "certificateNumber": "1953120200875",
+                "largeCustomerIndicator": "N",
+                "billCycleInfo": {
+                    "changeCycleRequestStatus": "N",
+                    "newBillCycle": "",
+                    "changeCycleReqeustDate": "",
+                    "billCycle": {
+                        "code": "10",
+                        "description": "Monthly Cycle close on the 9"
+                    },
+                    "changeCycleIndicator": "N"
+                },
+                "dealer": {
+                    "code": "80000011",
+                    "description": "บริษัท ทรู ดิสทริบิวชั่น แอนด์ เซลส์ จำกัด (สาขาอื้อจือเหลียง)"
+                },
+                "name": {
+                    "branchCode": "",
+                    "nameType": "I",
+                    "firstName": "เจ็ดสิบเอ็ด",
+                    "lastName": "ทดสอบเจ็ดสิบเอ็ด",
+                    "organizationName": "",
+                    "branchName": "",
+                    "middleName": "",
+                    "storeId": "",
+                    "tilte": "นางสาว"
+                },
+                "customerGrading": "NON-TOP",
+                "taxExemptionIndicator": "N",
+                "job": "",
+                "effectiveDate": "2020-09-22T18:46:10.000+07:00",
+                "certificateType": "I"
+            }
+        },
+        "offerDataInfo": {
+            "currentOffer": {
+                "offer": {
+                    "socType": "P",
+                    "iddIndicator": "N",
+                    "code": "1066639",
+                    "rcRate": "599.0",
+                    "irIndicator": "N",
+                    "name": "BUFFTP65",
+                    "description": "iSmart Buffet 599 Stu, AllNet10hr net6GB WiFiUNLTD",
+                    "ffIndicator": "N",
+                    "serviceLevel": {
+                        "code": "C",
+                        "description": "Subscriber"
+                    },
+                    "cugIndicator": "N"
+                },
+                "serviceAgreement": {
+                    "agreementSocSequence": "1424872",
+                    "agreementId": "333811",
+                    "parentSocSequence": "",
+                    "effectiveDate": "2020-10-01T14:12:17+07:00",
+                    "socSequence": "1424872",
+                    "expirationDate": "",
+                    "status": "A"
+                }
+            },
+            "futureOffer": {
+                "offer": {
+                    "socType": "",
+                    "iddIndicator": "",
+                    "code": "",
+                    "rcRate": "0.0",
+                    "irIndicator": "",
+                    "name": "",
+                    "description": "",
+                    "ffIndicator": "",
+                    "serviceLevel": {
+                        "code": "",
+                        "description": ""
+                    },
+                    "cugIndicator": ""
+                },
+                "serviceAgreement": {
+                    "agreementSocSequence": "",
+                    "agreementId": "",
+                    "parentSocSequence": "",
+                    "effectiveDate": "",
+                    "socSequence": "",
+                    "expirationDate": "",
+                    "status": ""
+                }
+            }
+        },
+        "productInfo": {"subscriberInfo": {
+            "trueLifeId": "",
+            "chNodeId": "106219",
+            "primResourceType": "C",
+            "barringByRequestIndicator": "",
+            "splitPeriod": "NONE",
+            "rmvMigration": {
+                "accountId": "",
+                "activationDate": "",
+                "serviceLevel": ""
+            },
+            "tmvMigration": {
+                "accountId": "",
+                "activationDate": "",
+                "serviceLevel": ""
+            },
+            "exernalId": "0830011962",
+            "subscriberPassword": "",
+            "primResourceValue": "0830011962",
+            "barringByRequestActivityDate": "",
+            "contact": {
+                "preferredContactNo": "",
+                "officePhone": "",
+                "homePhone": "026997471",
+                "language": "TH",
+                "privatePhone": "",
+                "fax": "",
+                "email": "-"
+            },
+            "customerId": "282683",
+            "subscriberTypeDescription": "TMH-Real Move",
+            "barringByRequestReasonDescription": "",
+            "proof": {
+                "proofDate": "2017-07-20T00:00:00.000+07:00",
+                "proofDocument": "I",
+                "dealerApp": ""
+            },
+            "smsIndicator": "Y",
+            "createDate": "2020-09-22T18:46:15.000+07:00",
+            "expirationDate": "",
+            "porting": {
+                "donorZone": {
+                    "code": "",
+                    "description": ""
+                },
+                "portIndicator": {
+                    "code": "",
+                    "description": ""
+                },
+                "recipientZone": {
+                    "code": "",
+                    "description": ""
+                },
+                "donorOperator": {
+                    "code": "",
+                    "description": ""
+                },
+                "recipientOperator": {
+                    "code": "",
+                    "description": ""
+                }
+            },
+            "address": {
+                "country": "",
+                "zipCode": "60000",
+                "roomNo": "-",
+                "city": "ระยอง",
+                "addressType": "I",
+                "moo": "3",
+                "soi": "-",
+                "building": "- -",
+                "street": "-",
+                "district": "เมือง",
+                "addressLine1": "3 * 3 * - *",
+                "houseNo": "3",
+                "addressLine2": "* - - * - * - * -",
+                "addressLine3": "* ตะเคียนเลื่อน * เมือง",
+                "addressLine4": "ระยอง 60000",
+                "floor": "-",
+                "subDistrict": "ตะเคียนเลื่อน"
+            },
+            "relatedSubscriberId": "",
+            "subscriberType": "RM",
+            "barringByRequestReasonCode": "",
+            "subscriberId": "333811",
+            "creditStatus": {
+                "reasonDescription": "",
+                "lastActivityDate": "",
+                "reasonCode": "",
+                "status": "NONE"
+            },
+            "convergenceCode": "",
+            "installationType": "",
+            "collectionStatus": {
+                "reasonDescription": "",
+                "lastActivityDate": "",
+                "reasonCode": "",
+                "status": "NONE"
+            },
+            "creditLimitAtSubStatus": {
+                "reasonDescription": "",
+                "lastActivityDate": "",
+                "reasonCode": "",
+                "status": "NONE"
+            },
+            "dealer": {
+                "code": "80000011",
+                "description": "บริษัท ทรู ดิสทริบิวชั่น แอนด์ เซลส์ จำกัด (สาขาอื้อจือเหลียง)"
+            },
+            "name": {
+                "branchCode": "",
+                "nameType": "I",
+                "firstName": "เจ็ดสิบเอ็ด",
+                "lastName": "ทดสอบเจ็ดสิบเอ็ด",
+                "organizationName": "",
+                "branchName": "",
+                "middleName": "",
+                "storeId": "",
+                "tilte": "นางสาว"
+            },
+            "rfMigration": {
+                "accountId": "",
+                "activationDate": "",
+                "serviceLevel": ""
+            },
+            "multiSIMLevel": "",
+            "smsLanguage": "TH",
+            "effectiveDate": "2020-09-22T18:46:15.000+07:00",
+            "startDate": "2020-09-22T18:46:15.000+07:00",
+            "status": {
+                "statusDate": "2020-09-22T18:46:15.000+07:00",
+                "statusLastActivity": "14",
+                "statusDescription": "Active",
+                "statusReasonDescription": "Add Additional SOC for Migrate Customer from Ensemble to CCBS for Activate Subscriber by RD",
+                "statusReasonCode": "RD03",
+                "lastActivityPathId": "78",
+                "statusCode": "A"
+            }
+        }}
+    },
+    "errorCode": "OSBbllngA00001",
+    "message": "Success.",
+    "uuid": "76f12ae5-b6ed-43f1-8371-b27f3540d33e"
+}}}

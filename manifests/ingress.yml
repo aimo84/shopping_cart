@@ -1,0 +1,29 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: cms-web-__CI_ENVIRONMENT_SLUG__
+  namespace: linebiz-cms
+  annotations:
+    certmanager.k8s.io/acme-challenge-type: 'dns01'
+    kubernetes.io/tls-acme: 'true'
+    certmanager.k8s.io/acme-dns01-provider: 'cf-dns-prod'
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    kubernetes.io/ingress.class: 'nginx'
+    nginx.ingress.kubernetes.io/proxy-body-size: 100M
+    nginx.ingress.kubernetes.io/ssl-redirect: 'true'
+  labels:
+    app: cms-web
+    ref: __CI_ENVIRONMENT_SLUG__
+spec:
+  tls:
+    - hosts:
+        - __CI_ENVIRONMENT_URL__
+      secretName: wi-th-tls
+  rules:
+    - host: __CI_ENVIRONMENT_URL__
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: cms-web-__CI_ENVIRONMENT_SLUG__
+              servicePort: 80

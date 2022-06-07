@@ -1,0 +1,155 @@
+{
+  "label": {
+    "title": {
+        "th": "จัดการที่อยู่ของคุณ",
+        "en": "Manage your address"
+    },
+    "createTitle": {
+        "th": "เพิ่มที่อยู่ของคุณ",
+        "en": "Add your Address"
+    },
+    "editTitle": {
+        "th": "แก้ไขที่อยู่ของคุณ",
+        "en": "Edit your Address"
+    },
+    "header": {
+        "th": "ที่อยู่",
+        "en": "Address"
+    },
+    "cancelButton": {
+      "th": "ยกเลิก",
+      "en": "Cancel"
+    },
+    "submitButton": {
+      "th": "บันทึก",
+      "en": "Submit"
+    },
+    "displayName": {
+      "th": "ชื่อ - นามสกุล",
+      "en": "Name"
+    },
+    "phone": {
+      "th": "โทรศัพท์",
+      "en": "Phone"
+    },
+    "address": {
+      "th": "ที่อยู่",
+      "en": "Address"
+    },
+    "edit": {
+      "th": "แก้ไข",
+      "en": "Edit"
+    },
+    "delete": {
+      "th": "ลบ",
+      "en": "Delete"
+    },
+    "default": {
+        "th": "ตั้งเป็นที่อยู่หลัก",
+        "en": "Set as default"
+    },
+    "create": {
+        "th": "+ เพิ่มที่อยู่",
+        "en": "Add Address"
+    }
+  },
+  "address": {
+    "firstname": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}",
+      "classForm": "col-md-6"
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}",
+      "classForm": "col-md-6"
+    },
+    "address_1": {
+      "label": {
+        "th": "ที่อยู่",
+        "en": "Address"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}",
+      "classForm": "col-md-12"
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}",
+      "classForm": "col-md-6"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}",
+      "classForm": "col-md-6"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}",
+      "classForm": "col-md-6"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "required": true,
+      "min": "1",
+      "max": "9999999999",
+      "classForm": "col-md-6"
+    },
+    "phone": {
+      "label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Mobile"
+      },
+      "inputmode": "tel",
+      "type": "text",
+      "required": true,
+      "pattern": "[0-9]{9,10}",
+      "classForm": "col-md-6"
+    },
+    "shipping_email": {
+      "label": {
+        "th": "อีเมล",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "required": true,
+      "pattern": ".{1,50}",
+      "classForm": "col-md-6"
+    }
+  }
+}

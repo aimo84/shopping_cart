@@ -1,0 +1,74 @@
+{
+  "address_next": {
+    "th": "ดำเนินการต่อ",
+    "en": "Next"
+  },
+  "user_information_form": {
+    "title": {
+      "th": "ตรวจสอบสิทธิ์การซื้อสินค้าและบริการกับ ทรูมูฟ เอช",
+      "en": "Verify your privilege with TrueMove H"
+    },
+    "postpaid_sim_only_title": {
+      "th": "เบอร์รายเดือน ทรูมูฟ เอช",
+      "en": "TrueMove H Postpaid"
+    },
+    "prepaid_sim_only_title": {
+      "th": "เบอร์เติมเงิน ทรูมูฟ เอช",
+      "en": "TrueMove H Prepaid"
+    },
+    "sub_title_1": {
+      "th": "กรุณากรอกข้อมูลส่วนตัวของผู้ที่จะใช้งานเบอร์นี้",
+      "en": "Please enter personal information for the mobile number"
+    },
+    "sub_title_2": {
+      "th": "(สำหรับผู้มีอายุ 17 ปี ขึ้นไป)",
+      "en": "(you must be at least 17 years old)"
+    },
+    "date_of_birth": {
+      "th": "วันเกิด",
+      "en": "Date of Birth"
+    },
+    "exp_date": {
+      "th": "วันบัตรหมดอายุ",
+      "en": "Expiration Date of Thai ID"
+    },
+    "thai_id": {
+      "th": "หมายเลขบัตรประชาชน",
+      "en": "Thai ID"
+    },
+    "agreement": {
+      "th": "ยอมรับข้อกำหนดและเงื่อนไข",
+      "en": "Accept Terms and Condition"
+    },
+    "read_agreement": {
+      "th": "อ่านข้อกำหนดและเงื่อนไข",
+      "en": "Read terms and conditions"
+    },
+    "customerDetail": {
+        "thai_id": {
+          "placeholder": {
+            "th": "13 หลัก",
+            "en": "13 digits of Thai ID number"
+          },
+          "error": {
+            "th": "กรุณากรอกข้อมูลให้ถูกต้อง",
+            "en": "Please enter 13-digit Thai ID number"
+          },
+          "type": "text",
+          "required": true
+        }
+    }
+  },
+  "redeem_code": {
+    "th": "รหัสคูปองสิทธิพิเศษทรูการ์ด",
+    "en": "True Card Redeem Code",
+    "placeholder": {
+      "th": "กรอกรหัสคูปองสิทธิพิเศษทรูการ์ดของท่าน",
+      "en": "Please fill in True Card Redeem Code"
+    },
+    "error": {
+      "th": "รหัสไม่ถูกต้องกรุณาลองใหม่อีกครั้ง",
+      "en": "The code was incorrect. Please try again."
+    }
+  }
+}

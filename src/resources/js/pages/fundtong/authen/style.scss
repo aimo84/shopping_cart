@@ -1,0 +1,47 @@
+.authen-section {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 16px 16px 36px 16px;
+  background: white;
+  .content-section {
+    text-align: center;
+
+    .title-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 43px;
+      color: #374754;
+      margin-bottom: 32px;
+      margin-top: 10px;
+    }
+
+    .div-select-branch {
+      max-width: fit-content;
+      display: inline-block;
+
+      span {
+          font-size: 20px;
+      }
+      .select {
+          width: 310px;
+      }
+    }
+
+    .top20 {
+      margin-top: 20px
+    }
+
+    .div-select-branch::v-deep {
+      .dropdown-vhora-authen {
+        .options {
+          width: fit-content;
+        }
+
+        .caret {
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "date": {
+    "day": [],
+    "year": [],
+    "month": {
+      "th": [{
+        "id": "01",
+        "value": "มกราคม"
+      },{
+        "id": "02",
+        "value": "กุมภาพันธ์"
+      },
+      {
+        "id": "03",
+        "value": "มีนาคม"
+      },
+      {
+        "id": "04",
+        "value": "เมษายน"
+      },
+      {
+        "id": "05",
+        "value": "พฤษภาคม"
+      },
+      {
+        "id": "06",
+        "value": "มิถุนายน"
+      },
+      {
+        "id": "07",
+        "value": "กรกฎาคม"
+      },
+      {
+        "id": "08",
+        "value": "สิงหาคม"
+      },
+      {
+        "id": "09",
+        "value": "กันยายน"
+      },
+      {
+        "id": "10",
+        "value": "ตุลาคม"
+      },
+      {
+        "id": "11",
+        "value": "พฤศจิกายน"
+      },
+      {
+        "id": "12",
+        "value": "ธันวาคม"
+      }],
+      "en": [
+        {
+          "id": "01",
+          "value": "January"
+        },
+        {
+          "id": "02",
+          "value": "February"
+        },
+        {
+          "id": "03",
+          "value": "March"
+        },
+        {
+          "id": "04",
+          "value": "April"
+        },
+        {
+          "id": "05",
+          "value": "May"
+        },
+        {
+          "id": "06",
+          "value": "June"
+        },
+        {
+          "id": "07",
+          "value": "July"
+        },
+        {
+          "id": "08",
+          "value": "August"
+        },
+        {
+          "id": "09",
+          "value": "September"
+        },
+        {
+          "id": "10",
+          "value": "October"
+        },
+        {
+          "id": "11",
+          "value": "November"
+        },
+        {
+          "id": "12",
+          "value": "December"
+        }
+      ]
+    }
+  },
+  "user_details_form": {
+    "title": {
+      "id": "title"
+    },
+    "first_name": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกชื่อ",
+        "en": "Enter name"
+      }
+    },
+    "last_name": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Surname"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกนามสกุล",
+        "en": "Enter surname"
+      }
+    },
+    "expiration": {
+      "id": "expiration"
+    },
+    "email": {
+      "label": {
+        "th": "อีเมลล์",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "required": true,
+      "pattern": ".{1,50}",
+      "placeholder": {
+        "th": "กรอกอีเมล์",
+        "en": "Enter email"
+      }
+    },
+    "telephone": {
+      "label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Mobile phone"
+      },
+      "inputmode": "tel",
+      "type": "text",
+      "required": true,
+      "pattern": "[0-9]{9,10}",
+      "placeholder": {
+        "th": "กรอกเบอร์ติดต่อ",
+        "en": "Enter contact phone number"
+      }
+    }
+  },
+  "id_card_form": {
+    "address": {
+      "label": {
+        "th": "ที่อยู่",
+        "en": "Address"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกที่อยู่",
+        "en": "Enter address"
+      }
+    },
+    "village": {
+      "label": {
+        "th": "หมู่บ้าน",
+        "en": "Village"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกหมู่บ้าน",
+        "en": "Enter village"
+      }
+    },
+    "building": {
+      "label": {
+        "th": "ตึก",
+        "en": "Building"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกตึก",
+        "en": "Enter building"
+      }
+    },
+    "floor": {
+      "label": {
+        "th": "ชั้น",
+        "en": "Floor"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกชั้น",
+        "en": "Enter floor"
+      }
+    },
+    "room": {
+      "label": {
+        "th": "ห้อง",
+        "en": "Room"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกห้อง",
+        "en": "Enter room"
+      }
+    },
+    "alley": {
+      "label": {
+        "th": "ซอย",
+        "en": "Alley"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกซอย",
+        "en": "Enter alley"
+      }
+    },
+    "road": {
+      "label": {
+        "th": "ถนน",
+        "en": "Road"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกถนน",
+        "en": "Enter road"
+      }
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal Code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "disabled": true,
+      "required": true,
+      "min": "1",
+      "max": "9999999999",
+      "placeholder": {
+        "th": "กรอกรหัสไปรษณีย์",
+        "en": "Enter postal code"
+      }
+    }
+  },
+  "billing_address": {
+    "address": {
+      "label": {
+        "th": "ที่อยู่",
+        "en": "Address"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}",
+      "disabled": false,
+      "placeholder": {
+        "th": "กรอกที่อยู่",
+        "en": "Enter address"
+      }
+    },
+    "village": {
+      "label": {
+        "th": "หมู่บ้าน",
+        "en": "Village"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกหมู่บ้าน",
+        "en": "Enter village"
+      },
+      "disabled": false
+    },
+    "building": {
+      "label": {
+        "th": "ตึก",
+        "en": "Building"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกตึก",
+        "en": "Enter building"
+      },
+      "disabled": false
+    },
+    "floor": {
+      "label": {
+        "th": "ชั้น",
+        "en": "Floor"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกชั้น",
+        "en": "Enter floor"
+      },
+      "disabled": false
+    },
+    "room": {
+      "label": {
+        "th": "ห้อง",
+        "en": "Room"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกห้อง",
+        "en": "Enter room"
+      },
+      "disabled": false
+    },
+    "alley": {
+      "label": {
+        "th": "ซอย",
+        "en": "Alley"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกซอย",
+        "en": "Enter alley"
+      },
+      "disabled": false
+    },
+    "road": {
+      "label": {
+        "th": "ถนน",
+        "en": "Road"
+      },
+      "type": "text",
+      "pattern": ".{1,128}",
+      "placeholder": {
+        "th": "กรอกถนน",
+        "en": "Enter road"
+      },
+      "disabled": false
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal Code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "disabled": true,
+      "required": true,
+      "min": "1",
+      "max": "9999999999",
+      "placeholder": {
+        "th": "กรอกรหัสไปรษณีย์",
+        "en": "Enter postal code"
+      }
+    }
+  }
+}

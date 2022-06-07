@@ -1,0 +1,43 @@
+{
+  "status_code": 0,
+  "status_txt": "Success",
+  "data": {
+      "account_id": 1454391,
+      "user_id": 1109252,
+      "username": "21985130",
+      "email": null,
+      "first_name": "",
+      "last_name": "",
+      "display_name": "081*******",
+      "display_status": null,
+      "phone": "0819329718",
+      "idcard": "",
+      "birthday": null,
+      "sex": null,
+      "type": "trueid",
+      "avatar": null,
+      "activated": null,
+      "connect": {
+          "trueid": {
+              "account": "0819329718",
+              "uid": "21985130",
+              "created_at": "2019-10-01 05:42:54",
+              "updated_at": "2019-10-01 05:42:54"
+          }
+      },
+      "user_accounts": [
+          {
+              "id": 1454391,
+              "user_id": 1109252,
+              "type": "trueid",
+              "user_name": "21985130",
+              "user_account_type_id": 3
+          }
+      ],
+      "time": 1600430991,
+      "expire_time": 1603022991,
+      "access_time": 1600430991,
+      "section": "wemall",
+      "version": "12"
+  }
+}

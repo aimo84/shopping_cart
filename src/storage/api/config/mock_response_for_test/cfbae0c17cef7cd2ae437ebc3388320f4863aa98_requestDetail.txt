@@ -1,0 +1,1 @@
+https://api.wls-dev.com/wportal/otp/verify?mobile_number=0917450194&otp=1234&channel=web&?mobile_number=0917450194&otp=1234&channel=web&|get|{"headers":{"Content-Type":"application\/json","x-api-auth":"564eec0f074fb0a88e0000010d72adc2ae5d4c296efb420415318963","Cache-Control":"no-cache, private"},"json":{"mobile_number":"0917450194","otp":"1234","channel":"web"}}|[]

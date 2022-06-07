@@ -1,0 +1,151 @@
+<title>
+  TrueStore Log Viewer
+</title>
+
+<style>
+  body {
+    font-family: sans-serif;
+    max-width: 480px;
+  }
+
+  .title {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 8px;
+    align-items: center;
+  }
+
+  .title img {
+    height: 24px;
+  }
+
+  h1 {
+    font-size: 1.7em;
+    margin: 4px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 8px;
+  }
+
+  textarea {
+    font-family: sans-serif;
+    padding: 4px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  button {
+    padding: 6px 0;
+  }
+
+  hr {
+    width: 100%;
+  }
+</style>
+
+<html>
+  <body class="grid">
+    <div class="title">
+      <img src="favicon.ico">
+      <h1>TrueStore Log Viewer</h1>
+    </div>
+    <p>View the log in DevTools' Console Panel</p>
+    <input type="file" id="fileInput" accept=".log">
+    <br />
+    <hr>
+    <h1>Base64 to Image</h1>
+    <div class="grid">
+      <textarea id="textarea" rows="10"></textarea>
+      <button type="button" id="imageBtn">Convert base64 to Image</button>
+      <button type="button" id="clearBtn">Clear base64</button>
+    </div>
+    <img src="" id="image" />
+  </body>
+</html>
+
+<script>
+  const fileInput = document.querySelector('#fileInput')
+  fileInput.addEventListener('click', (e) => {
+    fileInput.value = null
+  })
+  fileInput.addEventListener('change', (e) => {
+    if (e.target.files && e.target.files[0]) {
+      console.clear()
+      const file = e.target.files[0]
+      const reader = new FileReader()
+      reader.addEventListener('load', (event) => {
+        const res = event.target.result
+        const logs = res.split(/(\[\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d] )/g).filter(e => e)
+        let data = {}
+        logs.forEach((log) => {
+          const isTimestamp = /(\[\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d] )/.test(log)
+          if (!isTimestamp) {
+            const errorArr = log.split(' error:')
+            const error = errorArr[1]
+            const timeArr = errorArr[0].split(' time:')
+            const time = timeArr[1]
+            const respArr = timeArr[0].split(' resp:')
+            const resp = respArr[1]
+            let respStatus = ''
+            let respData = ''
+            if (resp.startsWith('[')) {
+              respStatus = JSON.parse(resp)[0]
+              respData = JSON.parse(resp)[1]
+              if (typeof respData === 'string') respData = JSON.parse(respData)
+            } else {
+              respData = resp
+            }
+            const reqArr = respArr[0].split(' req:')
+            const req = reqArr[1]
+            data.error = error
+            data.responseStatus = respStatus
+            data.response = respData
+            data.request = JSON.parse(req)
+            data.timestamp = time
+            console.log(data)
+            data = {}
+          }
+        })
+      })
+      reader.readAsText(file)
+    }
+  })
+
+  clearBtn.addEventListener('click', (e) => {
+    document.querySelector('#textarea').value = ''
+  })
+
+  imageBtn.addEventListener('click', (e) => {
+    const base64 = document.querySelector('#textarea').value
+    const img = document.querySelector('#image')
+    img.src = 'data:image/png;base64,' + base64.replace(/"/g,'')
+  })
+
+  document.addEventListener('copy', async (e) => {
+    e.preventDefault()
+    console.log('copy!')
+  })
+
+  const creditOk = async () => {
+    const createApp = await fetch('https://pre-store.truecorp.co.th/api/true/creditok/create-application', {
+      method: 'POST',
+      body: JSON.stringify({
+        answers: {
+          callback_url: "http://0.0.0.0/mnp/verify/L91591646/SMRTDP25",
+          security_key: "7f1b9f7d-fc3f-4038-b1e7-ba3b8caf4df3",
+          ussd_pin_code: "03123456"
+        }
+      })
+    })
+    console.log(createApp)
+  }
+  creditOk()
+</script>

@@ -1,0 +1,64 @@
+{
+  "installation_address": {
+    "en": "Installation Address",
+    "th": "ที่อยู่ในการติดตั้ง"
+  },
+  "back": {
+    "th": "ย้อนกลับ",
+    "en": "Back"
+  },
+  "next": {
+    "th": "ดำเนินการต่อ",
+    "en": "Next"
+  },
+  "copy_form": {
+    "th": "ที่อยู่ตามในการติดตั้ง",
+    "en": "Use the same address as installation address"
+  },
+  "billing_title": {
+    "th": "กรอกที่อยู่จัดส่งใบแจ้งหนี้",
+    "en": "Billing Address"
+  },
+  "invoice_title": {
+    "th": "ต้องการใบเสร็จ / ใบกำกับภาษี",
+    "en": "Request Tax Invoice / Receipt"
+  },
+  "agreement": {
+    "th": "ข้าพเจ้ายอมรับเงื่อนไขการสั่งซื้อ",
+    "en": "Accept Term and Condition"
+  },
+  "invalid_identification": {
+    "th": "บัตรประชาชนหรือพาสปอร์ตของคุณไม่ถูกต้อง",
+    "en": "Invalid citizen ID number / Passport"
+  },
+  "no_timeslot": {
+    "th": "ขณะนี้มีผู้สมัครใช้บริการจำนวนมากในพื้นที่นี้ กรุณาสมัครใหม่ในภายหลัง",
+    "en": "Time slot is not available in your area due to high number of TrueOnline registration. Please retry again later."
+  },
+  "tnc": {
+    "th": "เงื่อนไขสั่งซื้อ",
+    "en": "Term and Condition"
+  },
+  "ekyc": {
+    "title": {
+      "th": "อัพโหลดรูปภาพเพื่อแสดงตัวตน",
+      "en": "Upload your image in a neutral face expression and facing the camera"
+    },
+    "face_label": {
+      "th": "Upload รูปหน้าตรง",
+      "en": "Upload your image in a neutral face expression and facing the camera"
+    },
+    "id_label": {
+      "th": "Upload รูปบัตรประชาชน",
+      "en": "Upload your Thai ID card image"
+    },
+    "limit": {
+      "th": "File ไม่เกิน 5MB",
+      "en": "Maximum size of 5MB"
+    },
+    "limit_error": {
+      "th": "กรุณาอัปโหลดภาพที่เล็กลง",
+      "en": "Unable to upload. Please add smaller photo."
+    }
+  }
+}

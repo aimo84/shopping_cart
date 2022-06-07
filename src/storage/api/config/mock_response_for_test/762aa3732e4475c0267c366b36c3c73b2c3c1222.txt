@@ -1,0 +1,1 @@
+{"status_code":0,"status_txt":"OK","data":{"campaign_code":"VN383"}}

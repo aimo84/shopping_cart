@@ -1,0 +1,14 @@
+{
+    "title": {
+        "th": "ไม่พบหน้าที่ต้องการ",
+        "en": "Page Not Found"
+    },
+    "detail": {
+        "th": "ขออภัย ไม่พบหน้าเว็บไซต์ที่คุณต้องการ",
+        "en": "We’re sorry, the page you requested could not be found"
+    },
+    "back_to_homepage": {
+        "th": "กลับไปหน้าหลัก",
+        "en": "Go Home"
+    }
+}

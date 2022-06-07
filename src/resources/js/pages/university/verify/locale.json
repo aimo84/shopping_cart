@@ -1,0 +1,46 @@
+{
+  "verify_title": {
+    "th": "กรุณากรอกข้อมูลเพื่อรับเน็ตฟรี 3 เดือน",
+    "en": "Please fill your information to get 3-month free data"
+  },
+  "verify_subtitle": {
+    "th": "1. สิทธิพิเศษเข้าเว็ปไซต์สถาบันการศึกษา ที่ลงท้ายด้วย .ac.th  และ  .edu \n 2. เรียนการศึกษาทางไกลผ่าน True ID application ช่วงเวลา 06:00-18:00 น.",
+    "en": "1. Privilege for accessing educational websites which end with .ac.th and .edu \n 2. Distance Learning service on True ID application from 6 a.m. to 6 p.m."
+  },
+  "tnc_1": {
+    "en": "I have read and agree to the",
+    "th": "ข้าพเจ้าได้อ่านและยอมรับ"
+  },
+  "tnc_2": {
+    "en": "Terms and Conditions",
+    "th": "เงื่อนไขของบริการ"
+  },
+  "tnc_3": {
+    "en": "for the above mentioned service",
+    "th": "ดังที่ได้กล่าวด้านบนแล้ว"
+  },
+  "result_success": {
+    "en": "The system is processing your request please wait until receiving SMS confirmation",
+    "th": "ระบบกำลังทำรายการ กรุณารอรับ SMS ยืนยัน"
+  },
+  "verify": {
+    "en": "Submit",
+    "th": "รับสิทธิ์"
+  },
+  "back": {
+    "en": "Back",
+    "th": "ย้อนกลับ"
+  },
+  "backHomepage": {
+    "en": "Back to Homepage",
+    "th": "กลับสู่หน้าหลัก"
+  },
+  "next": {
+    "en": "Next",
+    "th": "ต่อไป"
+  },
+  "checking": {
+    "en": "Checking ...",
+    "th": "กำลังตรวจสอบ ..."
+  }
+}

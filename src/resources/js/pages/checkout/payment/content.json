@@ -1,0 +1,512 @@
+{
+  "error": {
+    "th": "มีปัญหาการชำระเงินจากการใส่ข้อมูลไม่ถูกต้อง โปรดตรวจสอบข้อมูลอีกครั้ง",
+    "en": "One or more fields contain have an error. Please check and try again."
+  },
+  "title": {
+    "th": "ขั้นตอนการสั่งซื้อ",
+    "en": "Order Process"
+  },
+  "payment": {
+    "th": "ข้อมูลการชำระเงิน",
+    "en": "Payment Information"
+  },
+  "nopayment": {
+    "th": "ไม่มียอดต้องชำระ",
+    "en": "No payment (Pay by condition)"
+  },
+  "truemoney": {
+    "th": "วอลเล็ท บาย ทรูมันนี่ (ฟรี ค่าธรรมเนียม)",
+    "en": "TrueMoney Wallet (Free fee)"
+  },
+  "truemoney2c2p": {
+    "th": "ทรูมันนี่ วอลเล็ท",
+    "en": "TrueMoney Wallet",
+    "desc_1": {
+      "th": "ฟรีค่าธรรมเนียมการชำระเงิน/สมัครสมาชิก",
+      "en": "text"
+    },
+    "desc_2": {
+      "th":"อัพเดทสถานะการชำระเงินทันที หลังชำระเงินแล้ว",
+      "en": "text"
+    }
+  },
+  "pay_next": {
+    "th": {
+        "title": "เพย์ เน็กซ์",
+        "subtitle": "ชำระด้วยวงเงินสินเชื่อผ่านทรูมันนี่"
+    },
+    "en": {
+        "title": "PayNext",
+        "subtitle": "Pay with Loan Service via TrueMoney"
+    }
+  },
+  "truemoneysubtitle": {
+    "th": "ชำระด้วยเงินสดในทรูมันนี่",
+    "en": "Pay in cash via Wallet by TrueMoney"
+  },
+  "nofee": {
+    "th": "(ฟรี ค่าธรรมเนียม)",
+    "en": "(no fee)"
+  },
+  "payLater": {
+    "th": "วงเงินพร้อมใช้ Pay Later",
+    "en": "Personal Loan TrueMoney PayLater"
+  },
+  "tmw_title": {
+    "th": "ชำระผ่าน วอลเล็ท บาย ทรูมันนี่",
+    "en": "Pay via Wallet by True Money"
+  },
+  "tmw_desc_1": {
+    "th": "ฟรี ค่าธรรมเนียมการชำระเงิน / สมัครสมาชิก",
+    "en": "Free fee payment / membership application"
+  },
+  "tmw_desc_2": {
+    "th": "อัพเดทสถานะการชำระเงินทันที หลังชำระเงินแล้ว",
+    "en": "Instant payment status update after payment"
+  },
+  "tmw_note_1": {
+    "th": "",
+    "en": ""
+  },
+  "tmw_note_2": {
+    "th": "",
+    "en": ""
+  },
+  "payLaterTitle": {
+    "th": "บริการวงเงินเพื่อการใช้จ่าย ง่าย สะดวกสบาย",
+    "en": "Personal loan service"
+  },
+  "payLaterDesc": {
+    "th": "รับวงเงินได้ทันที ไม่ขอเอกสาร",
+    "en": "Personal loan by TrueMoney. Easy apply, approve in 1 day"
+  },
+  "cod_title": {
+    "th": "ชำระเงินปลายทาง",
+    "en": "Cash on Delivery"
+  },
+  "cod_desc": {
+    "th": "ชำระสินค้าเป็นเงินสดกับเจ้าหน้าที่จัดส่งในวันที่ได้รับสินค้า",
+    "en": "Pay in cash upon receipt of your order."
+  },
+  "creditcard": {
+    "th": "บัตรเครดิต/เดบิต (ฟรี ค่าธรรมเนียม)",
+    "en": "Credit / Debit Card (Free fee)"
+  },
+  "creditcardonly": {
+    "th": "บัตรเครดิต (ฟรี ค่าธรรมเนียม)",
+    "en": "Credit Card (Free fee)"
+  },
+  "creditcard2c2p": {
+    "th": "บัตรเครดิต/เดบิต",
+    "en": "Credit / Debit Card"
+  },
+  "creditcardonly2c2p": {
+    "th": "บัตรเครดิต",
+    "en": "Credit Card"
+  },
+  "cardnumber": {
+    "th": "หมายเลขบัตร",
+    "en": "Card Number"
+  },
+  "cardname": {
+    "th": "ชื่อ-นามสกุล ที่แสดงบนบัตร",
+    "en": "Card Holder Name"
+  },
+  "cardexpiry": {
+    "th": "วันหมดอายุ",
+    "en": "Expiry Date"
+  },
+  "cvv": {
+    "th": "CVV",
+    "en": "CVV"
+  },
+  "installment": {
+    "th": "ผ่อนชำระ",
+    "en": "Installment payments via credit card"
+  },
+  "installment2c2p": {
+    "th": "ผ่อนชำระผ่านบัตรเครดิต",
+    "en": "0% Installment Plan"
+  },
+  "installmentbank": {
+    "th": "เลือกบัตรเครดิตที่ต้องการผ่อนชำระ 0%",
+    "en": "Please select bank 0% interest rate per month"
+  },
+  "installmentplan": {
+    "th": "เลือกจำนวนเดือนที่ต้องการผ่อนชำระ",
+    "en": "Please select months for installment payment"
+  },
+  "installmentitem": {
+    "installment": {
+      "th": "ผ่อนชำระ",
+      "en": "Installment"
+    },
+    "permonth": {
+      "th": "/เดือน",
+      "en": "/Month"
+    },
+    "month": {
+      "th": "เดือน",
+      "en": "months"
+    }
+  },
+  "truepoint": {
+    "title": {
+      "th": "รับคะแนนสะสมทรูพอยท์",
+      "en": "Receive TruePoint reward points"
+    },
+    "label": {
+      "th": "กรุณากรอกหมายเลขบัตรประชาชนของคุณเพื่อรับคะแนนสะสม Truepoint",
+      "en": "Please use your Citizen ID number to receive True Points."
+    },
+    "placeholder": {
+      "th": "กรุณากรอกเลขบัตรประชาชน 13 หลัก",
+      "en": "Enter your Thai ID 13 digits"
+    },
+    "note": {
+      "th": "รายการสั่งซื้อที่ขอรับคะแนน Truepoint จะไม่สามารถขอเงินคืนได้",
+      "en": "Items purchased for Truepoint Points cannot be refunded."
+    },
+    "subnote": {
+      "th": "รายการสั่งซื้อที่ใช้ Truepoint จะไม่สามารถรับคะแนน Truepoint ได้",
+      "en": "Orders that use Truepoint will not be able to receive Truepoint points."
+    }
+  },
+  "total_price": {
+    "th": "มูลค่าสินค้า",
+    "en": "Total Price"
+  },
+  "back": {
+    "th": "ย้อนกลับ",
+    "en": "Back"
+  },
+  "checkout": {
+    "th": "ยืนยันการสั่งซื้อ",
+    "en": "Checkout Confirm"
+  },
+  "confirmPayment": {
+    "title": {
+      "th": "ยืนยันทำการสั่งซื้อแบบไม่ใช้ส่วนลดจากการแลกคะแนนทรูพอยท์",
+      "en": "Would you like to proceed without TruePoint promotion?"
+    },
+    "subtitle": {
+      "th": "กรณีต้องการใช้คะแนนทรูพอยท์กรุณากลับไปยืนยันการแลกคะแนน",
+      "en": "If you want to redeem TruePoint. Please click \"Back\" and confirm point redemption."
+    },
+    "confirm": {
+      "th": "ยืนยันไม่ใช้ส่วนลด",
+      "en": "Confirm to Purchase"
+    },
+    "cancel": {
+      "th": "กลับไปยืนยันการแลกคะแนน",
+      "en": "Back to Redemption"
+    }
+  },
+  "confirmCreditPayment": {
+    "title": {
+      "th": "ยืนยันที่จะใช้บัตรเครดิตในการชำระเงิน",
+      "en": "Would you like to pay with credit card?"
+    },
+    "subtitle": {
+      "th": "คุณกำลังใช้บัตรเครดิตในการชำระเงิน",
+      "en": "You're using credit card to pay"
+    },
+    "confirm": {
+      "th": "ยืนยันการชำระเงิน",
+      "en": "Confirm to Purchase"
+    },
+    "cancel": {
+      "th": "ยกเลิก",
+      "en": "Cancel"
+    }
+  },
+  "errorCreditOnlyDialog": {
+    "title": {
+      "th": "รายการส่งเสริมการขายนี้สำหรับลูกค้าที่ชำระด้วยเครดิตการ์ดเท่านั้น กรุณาใส่ข้อมูลเครดิตการ์ด VISA, Master หรือ JCB",
+      "en": "รายการส่งเสริมการขายนี้สำหรับลูกค้าที่ชำระด้วยเครดิตการ์ดเท่านั้น กรุณาใส่ข้อมูลเครดิตการ์ด VISA, Master หรือ JCB"
+    },
+    "confirm": {
+      "th": "ยืนยัน",
+      "en": "Confirm"
+    }
+  },
+  "shipping": {
+    "th": "ที่อยู่สำหรับจัดส่ง",
+    "en": "Shipping Address"
+  },
+  "mobile": {
+    "th": "เบอร์โทรศัพท์",
+    "en": "Mobile"
+  },
+  "email": {
+    "th": "อีเมล",
+    "en": "Email"
+  },
+  "edit": {
+    "th": "แก้ไข",
+    "en": "Edit"
+  },
+  "thailand": {
+    "th": "ประเทศไทย",
+    "en": "Thailand"
+  },
+  "mnpOnestepMsg1": {
+    "th": "วงเงินจำนวน [${price}฿] จะถูกกันไว้ โดยจะเรียกเก็บเมื่อคุณย้ายค่าย สำเร็จแล้ว",
+    "en": "Your [${price}฿] is on hold. This amount will be charged once you've successfully moved to us. "
+  },
+  "mnpOnestepMsg2": {
+    "th": "หากไม่สำเร็จ จะคืนเงินตามช่องทางที่คุณเลือกชำระไว้",
+    "en": "If not, the amount will be returned to your original payment method."
+  },
+  "installmentWarnMsg": {
+    "th": "โค้ดส่วนลดไม่สามารถใช้กับการผ่อนชำระที่เลือกไว้ได้ กรุณาตรวจสอบตัวเลือกอีกครั้ง",
+    "en": "Discount code cannot be used with the previously selected installment plan. Please, reselect plan before continuing."
+  },
+  "discount_text": {
+    "th": "โค้ดส่วนลด",
+    "en": "Discount Code"
+  },
+  "discount_button": {
+    "th": "ใช้ส่วนลด",
+    "en": "Use"
+  },
+  "discount_placeholder": {
+    "th": "ใส่โค้ด",
+    "en": "Enter your code"
+  },
+  "promptpay": {
+    "th": "พร้อมเพย์",
+    "en": "PromptPay",
+    "title": {
+      "th": "ชำระเงินผ่านบัญชีธนาคารด้วยพร้อมเพย์",
+      "en": "Pay directly from you bank account."
+    }
+  },
+  "installmentCredit": {
+    "th": "กรุณากรอกบัตรเครดิตเพื่อชำระค่าบริการรายเดือน",
+    "en": "กรุณากรอกบัตรเครดิตเพื่อชำระค่าบริการรายเดือน"
+  },
+  "errorCode": {
+    "invalid_payment":{
+      "th": "การชำระเงินโดนยกเลิก กรุณาลองใหม่อีกครั้ง",
+      "en": "Payment cancelled. Please try again."
+    },
+    "invalid_paynext_payment": {
+        "title": {
+            "th": "ชำระเงินไม่สำเร็จ",
+            "en": "Payment Failed"
+        },
+        "message": {
+            "th": "เนื่องจากคุณยังไม่ได้เปิดใช้บริการเพย์เน็กซ์หรือยังไม่ได้ตั้งค่าสมาร์ทเพย์หรือวงเงินไม่พอ",
+            "en": "Unable to process your payment transaction. you may not have the PayNext account, or have not set up a SmartPay, or the amount exceeds your credit limit."
+        },
+        "link_status": {
+            "th": "ตรวจสอบสถานะเพย์เน็กซ์",
+            "en": "Check your Paynext status"
+        },
+        "link_setting": {
+            "th": "ตั้งค่าสมาร์ทเพย์",
+            "en": "Set up SmartPay"
+        }
+    },
+    "payment_rejected_credit": {
+      "th": "คุณกรอกข้อมูลไม่ตรงกับข้อมูลบนบัตร หรืออาจใช้จ่ายครบวงเงินที่กำหนดแล้ว กรุณาตรวจสอบข้อมูลอีกครั้ง หรือใช้บัตรใบอื่นแทน",
+      "en": "There was a typo in the card information or you may have reached your credit limit. Please try again or change to other cards."
+    },
+    "payment_rejected_debit": {
+      "th": "การชำระเงินยังไม่สำเร็จ กรุณาเปิดใช้งานซื้อสินค้าออนไลน์ผ่านบัตรเดบิตก่อน และลองใหม่อีกครั้ง",
+      "en": "Payment on hold. Please activate online payment for your debit card and try again."
+    },
+    "3d_secure_verification_failed": {
+      "th": "คุณกรอก OTP ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง",
+      "en": "You have entered the incorrect OTP. Please try again."
+    },
+    "insufficient_fund_credit": {
+      "th": "วงเงินในบัตรไม่เพียงพอชำระยอดค่าสินค้า กรุณาใช้บัตรใบอื่นแทน",
+      "en": "Remaining credit is not enough for this payment. Please try other cards."
+    },
+    "insufficient_fund_debit": {
+      "th": "เงินในบัญชีไม่เพียงพอชำระยอดค่าสินค้า กรุณาใช้บัตรใบอื่นแทน",
+      "en": "Remaining balance is not enough for this payment. Please try other cards."
+    },
+    "card_not_enrolled_credit": {
+      "th": "การชำระเงินยังไม่สำเร็จ กรุณาติดต่อธนาคารเจ้าของบัตร เพื่อแจ้งเบอร์โทรศัพท์ พร้อมเปิดใช้งานซื้อสินค้าออนไลน์ผ่านบัตรเครดิต",
+      "en": "Payment on hold. Please contact your bank to provide mobile number for online credit card transactions."
+    },
+    "card_not_enrolled_debit": {
+      "th": "การชำระเงินยังไม่สำเร็จ กรุณาติดต่อธนาคารเจ้าของบัตร เพื่อแจ้งเบอร์โทรศัพท์ พร้อมเปิดใช้งานซื้อสินค้าออนไลน์ผ่านบัตรเดบิต",
+      "en": "Payment on hold. Please contact your bank to provide mobile number for online debit card transactions."
+    },
+    "insufficient_fund_ew": {
+      "th": "เงินในบัญชีทรูมันนี่ของท่านไม่เพียงพอชำระยอดค่าสินค้า กรุณาเติมเงินเข้าทรูมันนี่และลองใหม่อีกครั้ง",
+      "en": "Please top up to your TrueMoney Wallet account and try again."
+    },
+    "invalid_ekyc_1": {
+      "th": "ยืนยันตัวตนไม่สำเร็จ กรุณาใช้บัตรประชาชนที่ตรงกันกับขั้นตอนก่อนหน้า",
+      "en": "Failed to verify, please use the same ID card with the previous step"
+    },
+    "invalid_ekyc_2": {
+      "th": "ยืนยันตัวตนไม่สำเร็จ กรุณาใช้บัตรประชาชนที่ตรงกันกับขั้นตอนก่อนหน้า",
+      "en": "Failed to verify, please use the same ID card with the previous step"
+    },
+    "invalid_ekyc_3": {
+      "th": "ยืนยันตัวตนไม่สำเร็จ กรุณาใช้บัตรประชาชนที่ตรงกันกับขั้นตอนก่อนหน้า",
+      "en": "Failed to verify, please use the same ID card with the previous step"
+    },
+    "invalid_ekyc_error_ekyc_4": {
+      "th": "ท่านไม่สามารถทำรายการต่อได้ กรุณาตรวจสอบสิทธิ์ของท่านที่ 02-700-8855",
+      "en": "Your transaction cannot be processed. Please check your privilege at 02-700-8855"
+    },
+    "invalid_ekyc_5": {
+      "th": "ยืนยันตัวตนไม่สำเร็จ กรุณาใช้บัตรประชาชนที่ตรงกันกับขั้นตอนก่อนหน้า",
+      "en": "Failed to verify, please use the same ID card with the previous step"
+    },
+    "invalid_ekyc_6": {
+      "th": "การส่งรูปภาพยืนยันตนล้มเหลว กรุณาติดต่อที่ 02-700-8855 เพื่อทำรายการต่อ",
+      "en": "Failed to send verified image, please contact 02-700-8855 to proceed"
+    },
+    "refer_to_card_issuer": {
+      "th": "กรุณาติดต่อธนาคาร เพื่อลงทะเบียนใช้จ่ายออนไลน์ผ่านบัตรเครดิต/เดบิต ก่อนชำระเงิน",
+      "en": "Please contact your bank to activate online credit/debit card transactions."
+    },
+    "do_not_honor": {
+      "th": "กรุณาติดต่อธนาคาร เพื่อลงทะเบียนใช้จ่ายออนไลน์ผ่านบัตรเครดิต/เดบิต ก่อนชำระเงิน",
+      "en": "Please contact your bank to activate online credit/debit card transactions."
+    },
+    "unable_to_authenticate_card_holder": {
+      "th": "กรุณาติดต่อธนาคาร เพื่อลงทะเบียนใช้จ่ายออนไลน์ผ่านบัตรเครดิต/เดบิต ก่อนชำระเงิน",
+      "en": "Please contact your bank to activate online credit/debit card transactions."
+    },
+    "insufficient_funds_credit": {
+      "th": "วงเงินในบัตรไม่เพียงพอชำระยอดค่าสินค้า กรุณาใช้บัตรใบอื่นแทน",
+      "en": "Remaining credit is not enough for this payment. Please try other cards."
+    },
+    "insufficient_funds_debit": {
+      "th": "เงินในบัญชีไม่เพียงพอชำระยอดค่าสินค้า กรุณาใช้บัตรใบอื่นแทน",
+      "en": "Remaining balance is not enough for this payment. Please try other cards."
+    },
+    "transaction_is_pending": {
+      "th": "การชำระเงินไม่สำเร็จ  เนื่องจากเกิดข้อผิดพลาดขึ้นในระบบ (Error code 0001)",
+      "en": "Payment failed. There was an error processing your order (Error code 0001)."
+    },
+    "transaction_is_cancelled": {
+      "th": "การชำระเงินไม่สำเร็จ เนื่องจากรายการถูกยกเลิก",
+      "en": "Payment failed. The transaction has been cancelled."
+    },
+    "system_error": {
+      "th": "การชำระเงินไม่สำเร็จ  เนื่องจากเกิดข้อผิดพลาดขึ้นในระบบ (Error code 0999)",
+      "en": "Payment failed. There was an error processing your order (Error code 0999)."
+    },
+    "transaction_in_progress": {
+      "th": "การชำระเงินไม่สำเร็จ  เนื่องจากเกิดข้อผิดพลาดขึ้นในระบบ (Error code 2001)",
+      "en": "Payment failed. There was an error processing your order (Error code 2001)."
+    },
+    "transaction_not_found": {
+      "th": "การชำระเงินไม่สำเร็จ  เนื่องจากเกิดข้อผิดพลาดขึ้นในระบบ (Error code 2002)",
+      "en": "Payment failed. There was an error processing your order (Error code 2002)."
+    },
+    "failed_to_inquiry": {
+      "th": "การชำระเงินไม่สำเร็จ  เนื่องจากเกิดข้อผิดพลาดขึ้นในระบบ (Error code 2003)",
+      "en": "Payment failed. There was an error processing your order (Error code 2003)."
+    },
+    "invalid_amount": {
+      "th": "การชำระเงินไม่สำเร็จ เนื่องจากวงเงินของคุณไม่พอชำระค่าสินค้า",
+      "en": "Payment failed. Your balance is not sufficient for this transaction."
+    },
+    "invalid_card_number": {
+      "th": "การชำระเงินไม่สำเร็จ เนื่องจากคุณยังไม่ได้ลงทะเบียนการใช้งาน",
+      "en": "Payment failed. Your payment account hasn’t been registered."
+    },
+    "expired_card": {
+      "th": "การชำระเงินไม่สำเร็จ เนื่องจากคุณยังไม่ได้เปิดการใช้",
+      "en": "Payment failed. Your payment account hasn’t been activated."
+    }
+  },
+  "confirmEkycDialog": {
+      "title" : {
+        "th": "ขอเวลาสักครู่เพื่อความปลอดภัยที่มากขึ้น",
+        "en": "Few steps ahead for your security."
+      },
+      "sub_title" : {
+        "th": "เรากำลังจะทำการยืนยันตัวตนของท่าน เพื่อให้การทำรายการเสร็จสมบูรณ์",
+        "en": "Verify your identity to complete the transaction."
+      },
+      "verify": {
+        "th": "ยืนยันตัวตน",
+        "en": "Verify"
+      },
+      "back": {
+        "th": "ยกเลิก",
+        "en": "Back"
+      }
+  },
+  "paysmooth": {
+    "title": {
+      "th": "ผ่อนชำระด้วยวงเงินทรู เพย์ เน็กซ์ \nเอ็กซ์ตร้า วงเงินสำหรับนักศึกษา",
+      "en": "Installment payments via Pay Next Extra for students loan"
+    },
+    "down_amount": {
+      "th": "เงินดาวน์",
+      "en": "Down Amount"
+    },
+    "installment_period": {
+      "th": "จ่ายรายเดือน",
+      "en": "Installment / Period"
+    },
+    "installment_fee": {
+      "th": "(รวมค่าธรรมเนียมผ่อนชำระ)",
+      "en": "(Installment fee included)"
+    },
+    "percent_down": {
+      "th": "อัตราส่วนการชำระเงินดาวน์",
+      "en": "%down payment"
+    },
+    "tenor": {
+      "th": "ระยะเวลาผ่อนชำระ",
+      "en": "Installment period"
+    },
+    "month": {
+      "th": "เดือน",
+      "en": "month"
+    }
+  },
+  "cartlabel": {
+    "th": "รายการสินค้า",
+    "en": "Product Items"
+  },
+  "cart_quantity": {
+    "th": "จำนวน",
+    "en": "Quantity"
+  },
+  "cart_price": {
+      "th": "ราคา",
+      "en": "Price"
+  },
+  "summarylabel": {
+    "th": "สรุปรายการสินค้า",
+    "en": "Summary"
+  },
+  "popup": {
+    "topic": {
+      "th": "เลือกชำระเงินโดย วอลเล็ท บาย ทรูมันนี่",
+      "en": "Pay in cash via Wallet by TrueMoney"
+    },
+    "sub1": {
+      "th": "กรุณาเช็คยอดเงิน หรือเติมเงินของคุณ",
+      "en": "Please make sure your wallet balance is"
+    },
+    "sub2": {
+      "th": "ให้เพียงพอก่อนการชำระเงิน",
+      "en": "enough to purchase the product in cart."
+    },
+    "btn_cancel": {
+      "th": "เลือกชำระช่องทางอื่น",
+      "en": "Change payment method"
+    },
+    "btn_submit": {
+      "th": "ตกลง",
+      "en": "OK"
+    }
+  }
+}

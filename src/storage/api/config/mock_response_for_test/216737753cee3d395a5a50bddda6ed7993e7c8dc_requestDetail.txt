@@ -1,0 +1,1 @@
+https://gateway.wls-dev.com/credit-ok/create-application|POST|{"headers":{"x-api-key":"sCjwXBFgrsa99VphJ3qcY8XJiMkH7Sei7NiOzWqq","Cache-Control":"no-cache, private"}}|{"form_params":{"answers":[]}}

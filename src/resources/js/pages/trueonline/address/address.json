@@ -1,0 +1,420 @@
+{
+  "instl_addr": {
+    "firstname": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "HOUSE_NO": {
+      "label": {
+        "th": "บ้านเลขที่",
+        "en": "House Number"
+      },
+      "type": "text",
+      "disabled": true
+    },
+    "MOO": {
+      "label": {
+        "th": "หมู่",
+        "en": "Moo"
+      },
+      "type": "text",
+      "disabled": true
+    },
+    "STREET": {
+      "label": {
+        "th": "ถนน",
+        "en": "Street Name"
+      },
+      "type": "text",
+      "disabled": true
+    },
+    "SOI": {
+      "label": {
+        "th": "ซอย",
+        "en": "Soi"
+      },
+      "type": "text",
+      "disabled": true
+    },
+    "PROVINCE": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "text",
+      "disabled": true
+    },
+    "DISTRICT": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "text",
+      "disabled": true
+    },
+    "SUB_DISTRICT": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "text",
+      "disabled": true
+    },
+    "ZIP_CODE": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal Code"
+      },
+      "type": "number",
+      "disabled": true
+    },
+    "phone": {
+      "label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Mobile phone number"
+      },
+      "inputmode": "tel",
+      "type": "text",
+      "required": true,
+      "pattern": "[0-9]{9,10}"
+    },
+    "email": {
+      "label": {
+        "th": "อีเมล",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "required": true,
+      "pattern": ".{1,50}"
+    },
+    "birthDate": {
+      "id": "birthDate",
+      "label": {
+        "th": "วันเดือนปีเกิด",
+        "en": "Birthday"
+      },
+      "type": "text",
+      "required": true
+    },
+    "gender": {
+      "label": {
+        "th": "เพศ",
+        "en": "Gender"
+      },
+      "type": "dropdown",
+      "options": {
+        "th": [{
+          "id": "M",
+          "value": "ชาย"
+        }, {
+          "id": "F",
+          "value": "หญิง"
+        }],
+        "en": [{
+          "id": "M",
+          "value": "Male"
+        }, {
+          "id": "F",
+          "value": "Female"
+        }]
+      },
+      "required": true
+    },
+    "points": {
+      "label": {
+        "th": "จำนวนจุดที่ติดตั้ง",
+        "en": "Installation Point"
+      },
+      "type": "dropdown",
+      "options": [{
+        "id": "1",
+        "value": "1"
+      }],
+      "required": true
+    },
+    "identificationType": {
+      "label": {
+        "th": "เลือกบัตรประชาชน หรือ Passport",
+        "en": "Thai ID/Passsport"
+      },
+      "type": "dropdown",
+      "options": {
+        "th": [{
+          "id": "I",
+          "value": "บัตรประชาชน"
+        },{
+          "id": "P",
+          "value": "หมายเลขพาสปอร์ต"
+        }],
+        "en": [{
+          "id": "I",
+          "value": "Thai ID"
+        },{
+          "id": "P",
+          "value": "Passport Number"
+        }]
+      },
+      "required": true
+    },
+    "identification": {
+      "id": "identification",
+      "label": {
+        "th": "กรอกหมายเลขบัตรประชาชน",
+        "en": "Enter your Thai ID (13 Digits)"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}",
+      "disabled": false
+    },
+
+    "installation_time": {
+      "label": {
+        "th": "เวลาในการติดตั้ง",
+        "en": "Installation Date"
+      },
+      "type": "dropdown",
+      "options": {
+        "th": [{
+          "id": "_",
+          "value": "กรุณากรอกหมายเลขบัตรประชาชนก่อน"
+        }],
+        "en": [{
+          "id": "_",
+          "value": "Please enter your passport no./Thai ID first"
+        }]
+      },
+      "required": true,
+      "pattern": "[0-9]{1,11}",
+      "disabled": true
+    }
+  },
+  "invoice_addr": {
+    "name": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "houseNo": {
+      "label": {
+        "th": "บ้านเลขที่",
+        "en": "House Number"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "moo": {
+      "label": {
+        "th": "หมู่",
+        "en": "Moo"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "soi": {
+      "label": {
+        "th": "ซอย",
+        "en": "Soi"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "streetName": {
+      "label": {
+        "th": "ถนน",
+        "en": "Street Name"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal Code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "disabled": true,
+      "required": true,
+      "min": "1",
+      "max": "9999999999",
+      "placeholder": {
+        "th": "กรอกรหัสไปรษณีย์",
+        "en": "Enter postal code"
+      }
+    }
+  },
+  "billing_addr": {
+    "name": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "disabled": false,
+      "pattern": ".{1,32}",
+      "required": true
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family name"
+      },
+      "type": "text",
+      "disabled": false,
+      "pattern": ".{1,32}",
+      "required": true
+    },
+    "houseNo": {
+      "label": {
+        "th": "บ้านเลขที่",
+        "en": "House Number"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "moo": {
+      "label": {
+        "th": "หมู่",
+        "en": "Moo"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "soi": {
+      "label": {
+        "th": "ซอย",
+        "en": "Soi"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "streetName": {
+      "label": {
+        "th": "ถนน",
+        "en": "Street Name"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "disabled": true,
+      "required": true,
+      "min": "1",
+      "max": "9999999999"
+    }
+  }
+}

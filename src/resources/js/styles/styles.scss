@@ -1,0 +1,717 @@
+@import './typography.scss';
+@import './icons.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #37474f;
+  background: linear-gradient(to bottom, #fff 98px, #fdfdff 490px);
+  font-family: 'TrueMedium', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
+  &[class^=online-store] {
+    background: linear-gradient(to bottom, #fff 98px, #eeeff3 490px);
+  }
+
+  &.online-store-list,
+  &.online-store-list-slug,
+  &.online-store-postpaid,
+  &.online-store-lucky-home,
+  &.online-store-lucky,
+  &.online-store-lucky999-home,
+  &.online-store-lucky999,
+  &.online-store-instantsim,
+  &.online-store-mnp-bundle,
+  &.online-store-bundle,
+  &.drlucky-verify,
+  &.drlucky-select,
+  &.drlucky-zodiac-verify,
+  &.online-store-shop,
+  &.online-store-prepaid,
+  &.online-store-flashsale,
+  &.online-store-partner-privilege,
+  &[class^=trueonline] {
+    background: #fff;
+  }
+
+  &.trueonline-item,
+  &.mnp-item {
+    background: linear-gradient(to bottom, #fff 98px, #eeeff3 490px);
+  }
+
+  &.online-store-verify,
+  &.online-store-instantsim-verify,
+  &.drlucky-zodiac-verify,
+  &.university-verify,
+  &.online-store-blackcard-verify,
+  &.mnp-bundle-verify,
+  &.clmtmvhvas,
+  &.clmtolvas,
+  &.pre2post-success,
+  &.online-store-existing-verify-fail,
+  &.paysmooth-payment,
+  &.success,
+  &.mnp-bundle-verify,
+  &.online-store-lucky-verify,
+  &.pre2post-order,
+  &.pre2post-address,
+  &.pre2post-priceplan,
+  &.packages,
+  &.mnp-verify,
+  &.online-store-postpaid-verify,
+  &.pre2post-noneligible,
+  &.pre2post-verify,
+  &.online-store-trueidbox-verify,
+  &.paysmooth-verify,
+  &.online-store-lucky-9999-verify,
+  &.drlucky-verify,
+  &.online-store-bundle-verify,
+  &.payment,
+  &.address,
+  &.online-store-detail,
+  &.cart {
+    background: linear-gradient(to bottom, #fff 260px, #eeeff3 160px);
+  }
+  &.online-store-shop {
+    &.online-store-shop-has-video {
+      background: linear-gradient(to bottom, #fff 1165px, #eeeff3 150px);
+      &.has-filter {
+        background: linear-gradient(to bottom, #fff 1268px, #eeeff3 150px);
+      }
+    }
+    &.online-store-shop-has-video-only {
+      background: linear-gradient(to bottom, #fff 745px, #eeeff3 150px);
+      &.has-filter {
+        background: linear-gradient(to bottom, #fff 848px, #eeeff3 150px);
+      }
+    }
+    &.online-store-shop-has-banner-only {
+      background: linear-gradient(to bottom, #fff 745px, #eeeff3 150px);
+    }
+    &.has-filter {
+      background: linear-gradient(to bottom, #fff 448px, #eeeff3 0px)
+    }
+    background: linear-gradient(to bottom, #fff 320px, #eeeff3 150px);
+    .page-container {
+      background-color: transparent;
+    }
+  }
+}
+
+.page {
+  max-width: 1100px;
+  margin: 16px auto 48px;
+  padding: 16px 16px 36px 16px;
+  min-height: 60vh;
+
+  &[class*="online-store"],
+  &.mnp-verify {
+    padding: 16px 0 36px 0;
+  }
+
+  &.mnp-bundle-verify {
+    margin-top: 70px;
+    padding: 16px 0 36px 0;
+  }
+
+  &.online-store-detail {
+    max-width: 1280px;
+  }
+
+  &.online-store-verify {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  &.online-store-postpaid,
+  &.online-store-lucky-home,
+  &.online-store-lucky,
+  &.online-store-lucky999-home,
+  &.online-store-lucky999,
+  &.online-store-instantsim,
+  &.online-store-mnp-bundle,
+  &.online-store-bundle,
+  &.online-store-shop {
+    max-width: 1280px;
+  }
+
+  &.online-store-verify {
+    max-width: 100%;
+  }
+
+  &.university-verify,
+  &.online-store-trueidbox-verify,
+  &.online-store-blackcard-verify,
+  &.pre2post-verify,
+  &.pre2post-listing,
+  &.pre2post-noneligible,
+  &.pre2post-priceplan,
+  &.drlucky-home,
+  &.drlucky-home-offline,
+  &.drlucky-select,
+  &.drlucky-select-offline,
+  &.drlucky-zodiac-home, &.drlucky-zodiac-home-offline {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 0 36px 0;
+  }
+
+  &.online-store-postpaid,
+  &.online-store-lucky-home,
+  &.online-store-lucky,
+  &.online-store-lucky999-home,
+  &.online-store-lucky999,
+  &.online-store-instantsim,
+  &.online-store-mnp-bundle,
+  &.online-store-bundle {
+    padding: 0;
+    margin-bottom: 0
+  }
+
+  &.packages {
+    max-width: 100%;
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  &.TMHPostpaid {
+    padding: 16px 0px 36px 0px;
+  }
+
+  &.home-page {
+    margin-top: -25px;
+  }
+
+  &.online-store-partner-privilege,
+  &.online-store-flashsale,
+  &.online-store-list{
+    max-width: 1280px;
+    padding: 0  25px !important;
+    margin-top: -28px;
+  }
+
+  &[class*="fundtong"] {
+    background-color: #EEEFF3;
+    min-height: 100vh;
+  }
+
+  &[class*="payment-offline"] {
+    background-color: #EEEFF3;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.block-header {
+  h1 {
+    font-size: 50px;
+    line-height: 40px;
+    margin: 0 0 24px;
+    font-family: "TrueMedium";
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.error-container {
+  padding: 16px 16px 16px 0;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  font-size: 22px;
+  line-height: 22px;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    white-space: pre-wrap;
+  }
+}
+
+.skeleton {
+  background: #e3e3e3;
+  pointer-events: none;
+  border-radius: 4px;
+
+  &.dark {
+    background: #ccc;
+    border-radius: 0;
+  }
+
+  &.animate{
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100px;
+      background: linear-gradient(to right, transparent 0%, #E8E8E8 50%, transparent 100%);
+      animation: skeleton-loading 1500ms cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+    }
+  }
+}
+
+@keyframes skeleton-loading {
+  from {
+    left: -200%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .page {
+
+    &.online-store-detail {
+      padding-top: 35px;
+    }
+
+    &.success,
+    &.online-store-lucky999-home,
+    &.online-store-lucky999,
+    &.payment,
+    &.address,
+    &.tracking,
+    &.cart {
+      padding-top: 70px;
+    }
+    &.online-store-bundle-verify {
+      margin-top: 30px;
+    }
+
+    &.mnp-bundle-verify,
+    &.pre2post-order,
+    &.pre2post-address,
+    &.mnp-verify,
+    &.online-store-postpaid-verify,
+    &.pre2post-noneligible,
+    &.pre2post-verify,
+    &.online-store-trueidbox-verify,
+    &.paysmooth-verify {
+      margin-top: 70px;
+    }
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .page {
+    &.packages {
+      margin-top: 64px;
+    }
+
+    &.TMHPostpaid {
+      margin-top: 34px;
+    }
+  }
+}
+
+@media screen and (min-width: 1144px) {
+  .page {
+    &.online-store-postpaid-verify,
+    &.pre2post-noneligible {
+      margin-top: 90px;
+    }
+    &.online-store-lucky-verify,
+    &.online-store-lucky-9999-verify {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+
+    &.packages {
+      margin-top: -14px;
+    }
+
+    &.mnp-bundle-verify,
+    &.online-store-lucky-verify,
+    &.pre2post-order,
+    &.pre2post-address,
+    &.mnp-verify,
+    &.online-store-postpaid-verify,
+    &.pre2post-noneligible,
+    &.pre2post-verify,
+    &.online-store-trueidbox-verify,
+    &.paysmooth-verify,
+    &.online-store-lucky-9999-verify,
+    &.online-store-bundle-verify {
+      margin-top: 0;
+    }
+    &.online-store-lucky999-home,
+    &.online-store-lucky999,
+    &.payment,
+    &.address,
+    &.online-store-detail,
+    &.tracking,
+    &.cart {
+      padding-top: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .page {
+    &.TMHPostpaid {
+      padding: 0px 0px 36px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    &.online-store-shop {
+      background: linear-gradient(to bottom, #fff 200px, #eeeff3 150px);
+      .banner-container {
+        margin: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    &.online-store-shop {
+      background: linear-gradient(to bottom, #fff 110px, #eeeff3 0px);
+      &.has-filter {
+        background: linear-gradient(to bottom, #fff 220px, #eeeff3 150px)
+      }
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 915px, #eeeff3 150px);
+        &.has-filter {
+          background: linear-gradient(to bottom, #fff 890px, #eeeff3 0px);
+        }
+      }
+      &.online-store-shop-has-video-only {
+        background: linear-gradient(to bottom, #fff 515px, #eeeff3 150px);
+        &.has-filter {
+          background: linear-gradient(to bottom, #fff 620px, #eeeff3 150px);
+        }
+      }
+      &.online-store-shop-has-banner-only {
+        background: linear-gradient(to bottom, #fff 140px, #eeeff3 0px);
+      }
+      .banner-container {
+        margin: 0px;
+      }
+    }
+
+    &.success,
+    &.mnp-bundle-verify,
+    &.online-store-lucky-verify,
+    &.pre2post-order,
+    &.pre2post-address,
+    &.pre2post-priceplan,
+    &.packages,
+    &.mnp-verify,
+    &.online-store-postpaid-verify,
+    &.pre2post-noneligible,
+    &.pre2post-verify,
+    &.online-store-trueidbox-verify,
+    &.paysmooth-verify,
+    &.online-store-lucky-9999-verify,
+    &.drlucky-verify,
+    &.online-store-bundle-verify,
+    &.payment,
+    &.address,
+    &.online-store-detail,
+    &.cart {
+      background: linear-gradient(to bottom, #fff 0px, #eeeff3 150px);
+    }
+  }
+  .page {
+    &.drlucky-verify {
+      margin-top: 40px;
+    }
+    &.online-store-lucky-home,
+    &.online-store-lucky {
+      margin-top: 80px;
+    }
+    &.online-store-bundle-verify {
+      margin-top: 60px;
+    }
+    &.online-store-partner-privilege,
+    &.online-store-flashsale,
+    &.online-store-list,
+    &.online-store-list-slug {
+      padding: 0 !important;
+    }
+
+    &.online-store-partner-privilege,
+    &.online-store-flashsale,
+    &.online-store-list,
+    &.online-store-list-slug,
+    &.online-store-lucky-home,
+    &.online-store-lucky {
+      margin-top: 80px;
+    }
+    &.online-store-bundle-verify {
+      margin-top: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 1056px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 898px, #eeeff3 150px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1016px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 880px, #eeeff3 150px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 866px, #eeeff3 150px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 918px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 848px, #eeeff3 150px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 868px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 832px, #eeeff3 150px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 825px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 815px, #eeeff3 150px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 766px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 410px, #eeeff3 150px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .page {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    &[class*="fundtong"] {
+      padding-top: 16px;
+    }
+
+    &[class*="payment-offline"] {
+      padding-top: 16px;
+    }
+
+    &[class*="online-store"],
+    &.mnp-verify,
+    &.mnp-bundle-verify,
+    &.drlucky-verify,
+    &.drlucky-zodiac-verify {
+      padding: 0 0 36px 0;
+    }
+
+    &.online-store-verify,
+    &.online-store-postpaid-verify,
+    &.online-store-instantsim-verify,
+    &.online-store-lucky-verify,
+    &.online-store-lucky-9999-verify,
+    &.online-store-bundle-verify,
+    &.drlucky-verify,
+    &.drlucky-zodiac-verify,
+    &.address,
+    &.university-verify,
+    &.online-store-trueidbox-verify,
+    &.online-store-blackcard-verify,
+    &.online-store-package,
+    &.success,
+    &.payment,
+    &.mnp-verify,
+    &.clmtmvhvas,
+    &.clmtolvas,
+    &.pre2post-verify,
+    &.pre2post-noneligible,
+    &.pre2post-priceplan,
+    &.pre2post-address,
+    &.pre2post-order,
+    &.pre2post-success,
+    // &[class*="drlucky-"],
+    &.online-store-existing-verify-fail,
+    &.paysmooth-verify,
+    &.paysmooth-payment {
+      background: #edeff3;
+      padding-bottom: 0;
+    }
+
+    &.drlucky-verify,
+    &.drlucky-zodiac-verify {
+      border-top: 1px solid #E0E0E0;
+    }
+
+    &.clmtmvhvas,
+    &.clmtolvas {
+      padding: 0;
+      padding-top: 20px;
+    }
+
+    &.online-store-postpaid,
+    &.online-store-instantsim,
+    &.online-store-mnp-bundle,
+    &.online-store-bundle {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    &.mnp-verify,
+    &.online-store-postpaid-verify,
+    &.pre2post-noneligible,
+    &.pre2post-verify,
+    &.paysmooth-verify,
+    &.online-store-bundle-verify {
+      margin-top: 20px;
+    }
+
+    &.drlucky-verify {
+      margin-top: 0px;
+    }
+
+    &.mnp-bundle-verify,
+    &.online-store-lucky999-home,
+    &.online-store-lucky999,
+    &.online-store-lucky-home,
+    &.online-store-lucky {
+      margin-top: 30px;
+    }
+  }
+
+  .block-header {
+    padding: 24px 0;
+
+    h1 {
+      font-size: 38px;
+      line-height: 38px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .page {
+    &.online-store-lucky999-home,
+    &.online-store-lucky999 {
+      margin-top: 20px;
+    }
+    &.trueonline-order {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+@media screen and (max-width: 860px) {
+  .paysmooth-payment {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    &.online-store-shop {
+      background: linear-gradient(to bottom, #fff 110px, #eeeff3 0px);
+      &.online-store-shop-has-video {
+        background: linear-gradient(to bottom, #fff 140px, #eeeff3 0px);
+      }
+      &.online-store-shop-has-video-only {
+        background: linear-gradient(to bottom, #fff 140px, #eeeff3 0px);
+        &.has-filter {
+          background: linear-gradient(to bottom, #fff 620px, #eeeff3 150px);
+        }
+      }
+      .banner-container {
+        margin: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    &.online-store-shop {
+      &.online-store-shop-has-video {
+        &.has-filter {
+          background: linear-gradient(to bottom, #fff 150px, #eeeff3 0px);
+        }
+      }
+      &.online-store-shop-has-video-only {
+        &.has-filter {
+          background: linear-gradient(to bottom, #fff 150px, #eeeff3 0px);
+        }
+      }
+    }
+  }
+}
+
+
+@media print {
+  body[print] {
+    background: #fff;
+
+    header,
+    footer,
+    .progress-container,
+    .block-header,
+    .checkout-title {
+      display: none;
+    }
+  }
+}

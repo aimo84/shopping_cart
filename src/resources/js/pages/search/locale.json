@@ -1,0 +1,20 @@
+{
+    "not_found": {
+        "title": {
+            "th": "ไม่พบข้อมูลที่ค้นหา",
+            "en": "No results found"
+        },
+        "description": {
+            "th": "กรุณาตรวจสอบความถูกต้องของตัวสะกด หรือลองใช้คำอื่น",
+            "en": "Try different or more general keywords"
+        }
+    },
+    "clear_history": {
+        "th": "ลบประวัติการค้นหา",
+        "en": "Clear History"
+    },
+    "search_history": {
+        "th": "ประวัติการค้นหา",
+        "en": "Search History"
+    }
+}

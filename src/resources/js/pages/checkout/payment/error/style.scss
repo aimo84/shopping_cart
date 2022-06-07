@@ -1,0 +1,111 @@
+.mt-\[15px\] {
+    margin-top: 15px;
+}
+
+.mt-\[70px\] {
+    margin-top: 70px;
+}
+
+.mt-\[80px\] {
+    margin-top: 80px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.payment-error-container {
+    padding-top: 65px;
+    .x-cross-icon {
+        background-image: linear-gradient(
+            286.62deg,
+            #df1584 10.96%,
+            #df1e5f 36.51%,
+            #e02542 61.07%,
+            #e02932 82.54%,
+            #e02b2c 98.54%
+        );
+        width: 80px;
+        height: 80px;
+        margin-bottom: 4px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-family: "TrueBold";
+        font-size: 44px;
+    }
+
+    .info {
+        font-size: 30px;
+
+        a:visited {
+            color: #3fbaef;
+        }
+    }
+
+    .d-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 35px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+      
+        button {
+          min-width: 250px;
+          width: 100%;
+          padding: 5px;
+          background-image: linear-gradient(286.62deg, #DF1584 10.96%, #DF1E5F 36.51%, #E02542 61.07%, #E02932 82.54%, #E02B2C 98.54%);
+          border-radius: 20px;
+          font-size: 22px;
+      
+          &[disabled] {
+            color:#989898;
+            background:#D9D9D9;
+          }
+        }
+      }
+}
+
+@media screen and (max-width: 1280px) {
+    .payment-error-container {
+        margin-top: 0rem;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 823px) {
+    .payment-error-container {
+        .x-cross-icon {
+            width: 74px;
+            height: 74px;
+        }
+
+        .title {
+            font-size: 38px;
+        }
+
+        .info {
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "created_at": 0,
+        "key": "p2c2p_installments",
+        "config": [
+            {
+                "bank_name": "ซิตี้",
+                "abbreviation": "citi",
+                "image_url": "https://www.wemall-dev.com/upload/iconbank/citi.png"
+            },
+            {
+                "bank_name": "ยูโอบี",
+                "abbreviation": "uob",
+                "image_url": "https://www.wemall-dev.com/upload/iconbank/uob.png"
+            },
+            {
+                "bank_name": "ทีทีบี",
+                "abbreviation": "ttb",
+                "image_url": "https://www.wemall-dev.com/upload/iconbank/ttb.png"
+            }
+        ]
+    }
+]

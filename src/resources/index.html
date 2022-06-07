@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang='th'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="csrf-token" content="lzgJWhtQ6aQuMhA8g96xqs99uZBoa5b3rDjrL3t5">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <title>TrueMove H</title>
+  <link rel='icon' href='/favicon.png'>
+  <link rel="preload" href="/fonts/TrueLight/true_light-webfont.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="/fonts/TrueBold/true_bold-webfont.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="/fonts/TrueMedium/true_medium-webfont.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="/fonts/TrueLightNew/true_light-webfont.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="/fonts/TrueBoldNew/true_bold-webfont.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="/fonts/TrueMediumNew/true_medium-webfont.woff2" as="font" type="font/woff2">
+
+  <!-- chat and shop zone -->
+  <link rel="stylesheet" type="text/css" href="/css/chat-and-shop.css">
+  <link rel="stylesheet" type="text/css" href="/css/tool-tip-chat-and-shop.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <!-- Chat & Shop  -->
+  <div class="chat-shop">
+    <div class="fixed-chatshop">
+      <div class="tooltiptext">
+        <img class="icon-cross" alt="IconCross" onclick="CloseToolTip()"/>
+        <div class="tooltip-title-text">
+        <span class="title-text" id="title-1">มีอะไร</span><br>
+        <span class="title-text" id="title-2">ให้ช่วยมั้ย?</span>
+        </div>
+        <div class="not-show" onclick="notShowPopup()">
+          <img alt="IconCheckTrue" class="icon-check-true"/>
+          <span class="not-show-text">ไม่ต้องแสดงอีก</span>
+        </div>
+      </div>
+      <div class="header">
+        <i class="icon header-chat-shop"></i>
+        <div class="text-header">
+          <span class="title-header">Chat <br> <span class="text-header-small">& shop</span></span>
+          <span class="expand">Chat & shop</span>
+        </div>
+        <div class="expand icon-close">
+          <i class="icon">-</i>
+        </div>
+      </div>
+      <div class="content">
+        <a href="javascript:void(0);" onclick="openWidget()" id="chat-shop-livechat" class="chat-shop-icon"><i
+            class="icon live"></i></a>
+
+        <a id="chat-shop-line" href="https://page.line.me/386rcdld?openQrModal=true"><i class="icon line"></i></a>
+        <!--<a id="chat-shop-video" href="https://truevdocall-1242.truecorp.co.th"><i class="icon vdo-call"></i></a>-->
+        <!-- <a id="chat-shop-facebook" href="http://m.me/TrueMoveH"><i class="icon facebook"></i></a> -->
+        <a id="chat-shop-call" href="tel:027008000"><i class="icon call"></i></a>
+        <a id="chat-shop-callmeback" href="#callback" data-modal="#callback"><i class="icon callback"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Chat&shop Call me back -->
+  <div id="callback" class="modal callback">
+    <img src="images/chatandshop/call-center.png" class="img-fluid w-100" style="margin-bottom: -5px;"
+      alt="กดรับสิทธิ์ที่แอป ทรู ไอดี">
+    <div class="modal-content">
+      <h5 class="title-text -bold">กรุณากรอกข้อมูลสำหรับการติดต่อกลับ</h5>
+      <form>
+        <input type="text" class="input-string" id="fname" name="fname" placeholder="ชื่อ">
+        <span id="error_fname"></span>
+        <input type="text" class="input-string" id="lname" name="lname" placeholder="นามสกุล">
+        <span id="error_lname"></span>
+        <input type="tel" class="input-numric" id="phone_number" name="phone_number" placeholder="08xxxxxxxx"
+          maxlength="10">
+        <span id="error_phone_number"></span>
+        <select name="select-product" id="select-product">
+          <option value="">สินค้าที่ท่านสนใจ</option>
+          <option value="1">ซิมรายเดือน</option>
+          <option value="2">เครื่องพร้อมซิมรายเดือน</option>
+        </select>
+        <span id="error_product"></span>
+      </form>
+      <p class="text-box">"สวัสดีค่ะ ช่องทางนี้เป็นช่องทางสำหรับการให้ทางเจ้าหน้าที่
+        Chat & Shop โทรกลับเพื่อติดต่อท่านลูกค้า
+        โดยเปิดให้บริการทุกวัน ตั้งแต่ 9.00 - 19:00 น.
+        โปรดกรุณารับสายในอีกประมาณ 30 นาที
+        เพื่อให้เจ้าหน้าที่ติดต่อกลับนะคะ"</p>
+      <br>
+      <a href="#" class="title-text -bold align-center btn-modal-submit" id="modal-submit">ยืนยัน</a>
+
+    </div>
+
+  </div>
+  <!-- End Modal Term -->
+  <!-- Modal Chat&shop Call me back -->
+  <div id="submit-form" class="modal callback">
+    <img src="images/chatandshop/call-center.png" class="img-fluid w-100" style="margin-bottom: -5px;" alt="">
+    <div class="modal-content">
+      <img src="images/chatandshop/success.png" class="img-fluid success-modal" alt="">
+      <h5 class="title-text -bold text-success mb-0">ขอบคุณค่ะ</h5>
+      <p class="title-text">เจ้าหน้าที่จะทำการ <br>
+        ติดต่อท่านกลับไปโดยเร็วที่สุดค่ะ</p>
+      <a href="#" class="title-text -bold align-center btn-modal-submit" rel="modal:close">ยืนยัน</a>
+    </div>
+  </div>
+  <!-- End Modal Term -->
+
+  <script>
+    window.url = {
+      MIX_LOGIN_URL: 'https://accounts.trueid-dev.net/signin?client_id=2331&redirect_uri=https://pre-store.truecorp.co.th&state=1q',
+      MIX_SIGNUP_URL: 'https://accounts.trueid-dev.net/signup?client_id=2331&redirect_uri=https://pre-store.truecorp.co.th&state=1q',
+      MIX_APP_URL: 'https://pre-store.truecorp.co.th',
+      MIX_LOGOUT_URL: 'https://accounts.trueid-dev.net/signout?client_id=2331&return_to=',
+      MIX_TMN_PAY_LATER_DEEP_LINK: ''
+    }
+    window.no_ekyc_device_bundle = true
+  </script>
+
+  <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script type="text/javascript" src="/js/script-custom.js"></script>
+  <script>
+    $('a[data-modal]').click(function (event) {
+      $(this).modal({
+        fadeDuration: 250
+      });
+      return false;
+    });
+  </script>
+
+  <!-- Chat and Shop Script  -->
+  <script>
+    $(".fixed-chatshop .header").click(function () {
+      $header = $(this);
+      $content = $header.next();
+      $content.slideToggle(300, function () {
+        if ($content.is(":visible")) {
+          $(".title-header").hide();
+          $(".expand").show();
+        }
+        else {
+          $(".title-header").show();
+          $(".expand").hide();
+        }
+      });
+
+    });
+  </script>
+
+  <!-- Start of unboxandco Zendesk Widget script -->
+  <script id="ze-snippet"
+    src="https://static.zdassets.com/ekr/snippet.js?key=e72c9848-7d30-4243-8757-6e9b0d8d1664"> </script>
+  <!-- End of unboxandco Zendesk Widget script -->
+
+  <script type="text/javascript">
+
+    zE("webWidget", "hide")
+
+    function openWidget() {
+      zE("webWidget", "show")
+      zE("webWidget", "open")
+    }
+
+    zE('webWidget:on', 'close', function () {
+      zE('webWidget', 'hide');
+    })
+
+    zE('webWidget:on', 'userEvent', function (event) {
+      if (event.action === 'Web Widget Minimised') {
+        zE('webWidget', 'hide')
+      }
+    })
+  </script>
+
+  <script>
+    function changeChatLanguage(lang) {
+      var chatTitle = document.querySelector('.text-header > .title-header')
+      var chatSubTitle = document.querySelector('.text-header > .expand')
+
+      if (lang === 'th') {
+        chatTitle.innerHTML = 'แชท <br> <span class="text-header-small">& ช้อป</span>'
+        chatSubTitle.innerText = 'ทักมา เราช้อปให้'
+    } else {
+        chatTitle.innerHTML = 'Chat <br> <span class="text-header-small">& shop</span>'
+        chatSubTitle.innerText = 'Chat & shop'
+      }
+    }
+
+    var lang = localStorage.getItem('lang') || 'th'
+    changeChatLanguage(lang)
+
+    window.addEventListener('language-changed', () => {
+      lang = localStorage.getItem('lang')
+      changeChatLanguage(lang)
+    })
+  </script>
+</body>
+</html>

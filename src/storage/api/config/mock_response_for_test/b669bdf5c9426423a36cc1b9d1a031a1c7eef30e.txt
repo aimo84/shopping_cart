@@ -1,0 +1,1 @@
+{"status_code":400,"status_txt":"Bad Request","data":{"error":{"message":"Each filter_dislikes field value must be not the same value.","code":1003}}}

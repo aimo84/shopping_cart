@@ -1,0 +1,343 @@
+{
+  "true_online_store": {
+    "th": "หน้าหลัก",
+    "en": "TrueOnlineStore"
+  },
+  "discount_label": {
+    "th": "โค้ดส่วนลด",
+    "en": "Discount Code"
+  },
+  "discount_description": {
+    "enter_the_code": {
+      "th": "ใส่โค้ดส่วนลด",
+      "en": "Enter the code"
+    },
+    "in_order_summary_page_to_get": {
+      "th": "ในหน้าสรุปรายการสั่งซื้อรับส่วนลดเพิ่มอีก",
+      "en": "in Order Summary page to get"
+    },
+    "on_top_discount": {
+      "th": "ทันที",
+      "en": "on-top discount."
+    }
+  },
+  "campaign_name": {
+    "1": {
+      "th": "Super Deal ลูกค้ารายเดือนปัจจุบันอายุการใช้งาน 6 เดือนขึ้นไป",
+      "en": "Super Deal Handset Only for Postpaid Existing service's aging 6 months"
+    },
+    "2": {
+      "th": "ลูกค้าปัจจุบันอายุการใช้งานเดือน / ชำระค่าบริการล่วงหน้า / ใช้หรือสมัครแพ็กเกจที่กำหนด",
+      "en": "Only for True Move H Postpaid customers aged less then 3 months"
+    },
+    "3": {
+      "th": "ลูกค้าปัจจุบัน / ไม่มีสัญญาการใช้งาน / ไม่ต้องชำระค่าบริการล่วงหน้า/ ใช้หรือสมัครแพ็กเกจตามที่กำหนด",
+      "en": "For existing TMH customer with no contract, no advance payment, and apply for 5G Super Max Speed for iPhone package only"
+    }
+  },
+  "price": {
+    "th": "ราคา",
+    "en": "Price"
+  },
+  "price_all": {
+    "th": "ราคารวม",
+    "en": "Total"
+  },
+  "baht": {
+    "th": "บาท",
+    "en": "฿"
+  },
+  "mnp_bundling_one_step_top": {
+    "th": "ย้ายค่าย ออนไลน์เท่านั้น",
+    "en": "Move to"
+  },
+  "mnp_bundling_one_step_bottom": {
+    "en": "TrueMove H"
+  },
+  "mnp_user_package": {
+    "th": "ย้ายค่ายเบอร์เดิม พร้อมสมัครแพ็กเกจ",
+    "en": "Move to us with package"
+  },
+  "pre2post_user_package": {
+    "th": "เปลี่ยนเติมเงินเป็นรายเดือน พร้อมสมัครแพ็กเกจ",
+    "en": "Switch to Postpaid with package"
+  },
+  "user_package_above": {
+    "th": "ขึ้นไป",
+    "en": "and up"
+  },
+  "aging": {
+    "th": "อายุการใช้งาน",
+    "en": "Customer’s service aging"
+  },
+  "days": {
+    "th": "วัน",
+    "en": "days"
+  },
+  "no_aging": {
+    "th": "ใช้หรือสมัครแพ็กเกจตามที่กำหนด / ไม่กำหนดอายุการใช้งาน",
+    "en": "No customer’s service aging required"
+  },
+  "no_contract": {
+    "th": "ไม่ติดสัญญา",
+    "en": "No contract"
+  },
+  "contract": {
+    "th": "สัญญา",
+    "en": "Contract"
+  },
+  "months": {
+    "th": "เดือน",
+    "en": "months"
+  },
+  "month": {
+    "th": "เดือน",
+    "en": "month"
+  },
+  "advance_payment": {
+    "th": "ชำระค่าบริการล่วงหน้า",
+    "en": "Advance Payment"
+  },
+  "start_at": {
+    "th": "เริ่มต้น",
+    "en": "Start at"
+  },
+  "colors": {
+    "th": "เลือกสี",
+    "en": "Color"
+  },
+  "capacities": {
+    "th": "เลือกความจุ",
+    "en": "Capacity"
+  },
+  "quantity": {
+    "th": "จำนวน",
+    "en": "Quantity"
+  },
+  "special_promos": {
+    "th": "สิทธิพิเศษเฉพาะลูกค้า True Black Card",
+    "en": "Privilege for True Black Card member"
+  },
+  "promos": {
+    "th": "โปรโมชั่น",
+    "en": "Promotion"
+  },
+  "packages": {
+    "th": "แพ็คเก็จ",
+    "en": "Package"
+  },
+  "accessories": {
+    "th": "อุปกรณ์เสริมที่แนะนำ",
+    "en": "Accessories"
+  },
+  "select": {
+    "th": "เลือก",
+    "en": "Select"
+  },
+  "selected": {
+    "th": "เลือก",
+    "en": "Selected"
+  },
+  "add_to_cart": {
+    "th": "เพิ่มใส่ตะกร้าสินค้า",
+    "en": "ADD TO CART"
+  },
+  "buy_now": {
+    "th": "ซื้อเลย",
+    "en": "BUY NOW"
+  },
+  "product_detail": {
+    "th": "รายละเอียดสินค้า",
+    "en": "More detail"
+  },
+  "unable_add_cart": {
+    "th": "ขออภัยค่ะไม่สามารถทำรายการพร้อมกันภายในออเดอร์นี้ได้ กรุณาชำระเงินรายการปัจจุบันและทำรายการซื้อเพิ่มเติมใหม่อีกครั้ง",
+    "en": "We have detected that you already have another service item or product service item in your shopping cart. Sorry, but you are unable to verify for this item in the same checkout transaction."
+  },
+  "product_detail_term": {
+    "th": "รายละเอียดและเงื่อนไข",
+    "en": "Terms and Condition"
+  },
+  "aging_90_days": {
+    "th": "ราคาพิเศษลูกค้ารายเดือนปัจจุบันอายุการใช้งาน 3 เดือนขึ้นไปที่ไม่มีสัญญาการใช้งาน",
+    "en": "Special Price for TrueMove H Postpaid Existing service aging 3 months & no contract"
+  },
+  "aging_365_days": {
+    "th": "ลูกค้ารายเดือนปัจจุบันอายุการใช้งาน 1 ปีขึ้นไป ที่ไม่มีสัญญาการใช้งาน",
+    "en": "Postpaid Existing service aging 1 year & no contract"
+  },
+  "out_of_stock": {
+    "th": "สินค้าหมด",
+    "en": "SOLD OUT"
+  },
+  "installment": {
+    "th": "วิธีชำระเงิน",
+    "en": "Payment options"
+  },
+  "is_2c2p_payment_method": {
+    "th": "ผ่อนชำระ 0%",
+    "en": "0% installment payment"
+  },
+  "paysmooth": {
+    "down": {
+      "th": "ดาวน์",
+      "en": "Down"
+    },
+    "down_amount": {
+      "th": "ดาวน์",
+      "en": "Down Amount"
+    },
+    "baht": {
+      "th": "บาท",
+      "en": "฿"
+    },
+    "installment": {
+      "th": "ผ่อน",
+      "en": "Installment"
+    },
+    "installment_period": {
+      "th": "ผ่อนงวดละ",
+      "en": "Installment/Period"
+    },
+    "month": {
+      "th": "เดือน",
+      "en": "Months"
+    },
+    "min_credit": {
+      "th": "เครดิตขั้นต่ำ",
+      "en": "Minimun credit"
+    },
+    "down_payment": {
+      "th": "อัตราส่วนการชำระเงินดาวน์",
+      "en": "%down payment"
+    }
+  },
+  "choose_prepaid_sim": {
+    "th": "เลือกแพ็กเกจ",
+    "en": "Choose package"
+  },
+  "apply_now": {
+    "th": "สมัครเลย",
+    "en": "Apply now"
+  },
+  "start_price": {
+    "th": "เริ่มต้นเพียง",
+    "en": "Starting price"
+  },
+  "againg_package_1": {
+    "th": "ใช้หรือสมัครแพ็กเกจรายเดือน",
+    "en": "Wist package"
+  },
+  "againg_package_2": {
+    "th": "ขึ้นไป",
+    "en": "up"
+  },
+  "ent_sim": {
+    "starting_price": {
+      "th": "(รายเดือนเริ่มต้น",
+      "en": "(Starting at"
+    },
+    "baht": {
+      "th": "",
+      "en": "฿"
+    },
+    "price_per_month": {
+      "th": "บาท/เดือน)",
+      "en": "per month)"
+    },
+    "text": {
+      "th": "รับซิมและกล่อง",
+      "en": "SIM and TrueID TV"
+    },
+    "free_price": {
+      "th": "ฟรี*",
+      "en": "Free*"
+    }
+  },
+  "terms_and_conditions_for_return_product": {
+    "th": "เงื่อนไขและข้อกำหนดในการคืนสินค้า",
+    "en": "Terms and conditions for return product"
+  },
+  "terms_and_conditions": {
+    "title": {
+      "th": "*หลังจากได้รับสินค้า กรุณาตรวจสอบสินค้าภายในเวลาที่กำหนด เพื่อรักษาสิทธิประโยชน์สูงสุดจาก TRUE STORE",
+      "en": "*Upon receiving your device, kindly open and check your device as per the allotted timeline in order to maintain the following privileges with True Store:"
+    },
+    "condition1": {
+      "th": "ตรวจสอบสินค้าภายใน 24 ชั่วโมง เพื่อรับสิทธิ์เปลี่ยน/คืนสินค้าในกรณี สินค้าเกิดรอยขีดข่วน หรือ เสียหายจากการขนส่ง",
+      "en": "Return or change your device if you notice scratches and/or other physical damages on your device within 24 hours"
+    },
+    "condition2": {
+      "th": "ตรวจสอบสินค้าภายใน 7 วัน เพื่อรับสิทธิ์เปลี่ยน/คืนสินค้าในกรณี ระบบภายในตัวเครื่องมีปัญหา",
+      "en": "Return or change your device if you experience any software malfunctions within 7 days"
+    },
+    "condition_note": {
+      "th": "**เงื่อนไขในการเปลี่ยน/คืนสินค้า เป็นไปตามที่บริษัทฯ กำหนด",
+      "en": "**Returning or changing devices are subject to True’s terms and conditions"
+    }
+  },
+  "select_accessories": {
+    "th": "เลือกอุปกรณ์เสริม",
+    "en": "Select accessories"
+  },
+  "select_package": {
+    "th": "เลือกแพ็คเกจ",
+    "en": "Select package"
+  },
+  "select_your_number": {
+    "th": "เลือกเบอร์ของคุณ",
+    "en": "Select your number"
+  },
+  "buy_customer": {
+    "th": "สั่งซื้อให้ลูกค้า",
+    "en": "Order for customer"
+  },
+  "campaign_22thb": {
+    "th": "กรุณาใส่รหัสคูปองสิทธิพิเศษ True Card เพื่อซื้อเครื่องในราคา 22 บาท",
+    "en": "Please fill in Redeem Code from True Card privilege to purchase with 22THB promotion."
+  },
+  "stock_exist": {
+    "first": {
+      "th": "เหลือสินค้าเพียง",
+    "en": "Only"
+    },
+    "last":{
+      "th": "ชิ้น",
+      "en": "left in stock"
+    }
+  },
+  "mobile_price_wording": {
+    "th": "ราคาเครื่อง",
+    "en": "Device Payment"
+  },
+  "advance_payment_wording": {
+    "th": "ค่าบริการล่วงหน้า",
+    "en": "Advance Payment"
+  },
+  "total_price_wording": {
+    "th": "ราคารวม",
+    "en": "Total"
+  },
+  "type_of_sim_wording": {
+    "th": "ประเภทซิม",
+    "en": "Type of sim"
+  },
+  "sim_price_wording": {
+    "th": "ราคาซิม",
+    "en": "Sim Payment"
+  },
+  "e_sim_more_detail_wording": {
+    "th": "รายละเอียด",
+    "en": "More Detail"
+  },
+  "simTypeLabel_locale_modern": {
+    "physical": {
+      "th": "ซิมปกติ (Physical SIM)",
+      "en": "Physical SIM"
+    },
+    "esim": {
+      "th": "eSIM",
+      "en": "eSIM"
+    }
+  }
+}

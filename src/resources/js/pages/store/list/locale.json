@@ -1,0 +1,210 @@
+{
+  "true_online_store": {
+    "th": "หน้าหลัก",
+    "en": "TrueOnlineStore"
+  },
+  "off": {
+    "en": "Off",
+    "th": "ลด"
+  },
+  "save": {
+    "en": "Save",
+    "th": "ประหยัด"
+  },
+  "from": {
+    "en": "From",
+    "th": "จาก"
+  },
+  "free": {
+    "en": "Free",
+    "th": "ฟรี"
+  },
+  "buynow": {
+    "en": "Buy Now",
+    "th": "ซื้อเลย"
+  },
+  "soldout": {
+    "en": "SOLD OUT",
+    "th": "สินค้าหมด"
+  },
+  "product_soldout": {
+    "en": "SOLD OUT",
+    "th": "สินค้าหมด"
+  },
+  "verify": {
+    "th": "ตรวจสอบสิทธิ์",
+    "en": "Check Eligibility"
+  },
+  "applynow": {
+    "th": "สมัครบริการ",
+    "en": "Apply Now"
+  },
+  "packagedetail": {
+    "th": "รายละเอียดแพ็กเกจ",
+    "en": "Package Detail"
+  },
+  "sortby": {
+    "en": "Sort By",
+    "th": "จัดเรียงตาม"
+  },
+  "result": {
+    "en": "Result",
+    "th": "รายการ"
+  },
+  "results": {
+    "en": "Results",
+    "th": "รายการ"
+  },
+  "noresult": {
+    "en": "No result found",
+    "th": "ไม่พบสินค้า"
+  },
+  "noresultfor": {
+    "en": "for",
+    "th": ""
+  },
+  "not_found": {
+    "title": {
+        "th": "ไม่พบข้อมูลที่ค้นหา",
+        "en": "No results found"
+    },
+    "description": {
+        "th": "กรุณาตรวจสอบความถูกต้องของตัวสะกด หรือลองใช้คำอื่น",
+        "en": "Try different or more general keywords"
+    }
+  },
+  "loading": {
+    "en": "Loading ...",
+    "th": "กำลังโหลด ..."
+  },
+  "filter": {
+    "en": "Filter",
+    "th": "ตัวกรอง"
+  },
+  "reset": {
+    "en": "Reset",
+    "th": "ล้าง"
+  },
+  "confirm": {
+    "en": "Confirm",
+    "th": "ตกลง"
+  },
+  "categories": {
+    "en": "Categories",
+    "th": "หมวดหมู่สินค้า"
+  },
+  "brands": {
+    "en": "Brands",
+    "th": "แบรนด์สินค้า"
+  },
+  "tol_check_coverage": {
+    "en": "Apply TrueOnline",
+    "th": "สมัครเน็ต TrueOnline"
+  },
+  "tol_tracking": {
+    "en": "Order Tracking Status",
+    "th": "ตรวจสอบสถานะการติดตั้ง TrueOnline"
+  },
+  "lucky9999": {
+    "en": "Bersuay mongkol",
+    "th": "ขุมทรัพย์เบอร์สวย เสริมมงคล"
+  },
+  "new_sim_register": {
+    "en": "Register new number",
+    "th": "เปิดเบอร์ใหม่"
+  },
+  "pre_to_post_ss": {
+    "en": "Switch to postpaid",
+    "th": "เปลี่ยนเติมเงินเป็นรายเดือน"
+  },
+  "mnp": {
+    "en": "MNP",
+    "th": "MBP"
+  },
+  "start_at": {
+    "en": "Start at",
+    "th": "เริ่มต้น"
+  },
+  "levelc": {
+    "tol_check_coverage": {
+      "en": "Apply TrueOnline",
+      "th": "สมัครเน็ต TrueOnline"
+    },
+    "tol_tracking": {
+      "en": "Order Tracking Status",
+      "th": "ตรวจสอบสถานะการติดตั้ง TrueOnline"
+    },
+    "title": {
+      "th": "แพ็กเกจที่คุณเลือกได้",
+      "en": "Available Packages"
+    },
+    "back": {
+      "th": "ย้อนกลับสู่ Online Store",
+      "en": "Go back to Online Store"
+    },
+    "sort": {
+      "popularity": {
+        "th": "สินค้ายอดนิยม",
+        "en": "Popularity"
+      },
+      "latest": {
+        "th": "ล่าสุด",
+        "en": "Lastest"
+      },
+      "highPrice": {
+        "th": "ราคา: มากไปน้อย",
+        "en": "Highest price"
+      },
+      "lowPrice": {
+        "th": "ราคา: น้อยไปมาก",
+        "en": "Lowest price"
+      },
+      "price": {
+        "th": "ราคา",
+        "en": "Price"
+      }
+    }
+  },
+  "search_text": {
+    "th": "มองหาสินค้าอะไรอยู่…",
+    "en": "Search for your product ..."
+  },
+  "search_button": {
+    "th": "ค้นหา",
+    "en": "Search"
+  },
+  "load_content": {
+    "th": "ดูเพิ่มเติม",
+    "en": "Load more"
+  },
+  "flashsale": {
+    "on_sale": {
+      "th": "กำลังลดราคา",
+      "en": "Special deals"
+    },
+    "deal_end": {
+      "th": "จะสิ้นสุดใน",
+      "en": "Offer ends in"
+    }
+  },
+  "partner_group": {
+    "bank": {
+      "th": "สิทธิพิเศษจากธนาคารชั้นนำ",
+      "en": "Privileges from banks"
+    },
+    "partner": {
+      "th": "สิทธิพิเศษอื่นๆ จากพาทเนอร์",
+      "en": "Other privileges from partners"
+    }
+  },
+  "page": {
+    "flash_sale": {
+      "th": "Flash sale",
+      "en": "Flash sale"
+    },
+    "exclusive": {
+      "th": "Exclusive on True Store",
+      "en": "Exclusive on True Store"
+    }
+  }
+}

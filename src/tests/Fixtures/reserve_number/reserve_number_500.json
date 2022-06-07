@@ -1,0 +1,14 @@
+{
+    "code": "500",
+    "description": "invalid character '\"' looking for beginning of value",
+    "correlationId": "",
+    "3gwTrackingId": "0db28ec8-6b99-4f86-a42a-018b0063e0a0",
+    "inputRequire": "",
+    "message": {
+        "messageTh": "Internal Server Error",
+        "messageEn": "Internal Server Error"
+    },
+    "BackendResponseList": {
+        "backendResponseInfoArray": null
+    }
+}

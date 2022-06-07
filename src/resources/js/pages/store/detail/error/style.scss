@@ -1,0 +1,38 @@
+.d-flex {
+    display: flex;
+  }
+  .d-grid {
+    display: grid;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .title-space {
+    margin-top: 20px;
+  }
+  .title {
+    font-family: "TrueBold";
+    font-size: 34px;
+  }
+  .detail {
+      line-height: 30px;
+    font-family: "TrueLight";
+    font-size: 30px;
+  }
+
+  ::v-deep .modal-container {
+      display: grid;
+  }
+
+  ::v-deep .actions {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .pb-20 {
+      padding-bottom: 20px
+  }

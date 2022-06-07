@@ -1,0 +1,112 @@
+{
+  "label": {
+    "header": {
+        "th": "ข้อมูลส่วนตัว",
+        "en": "Profile"
+    },
+    "title": {
+        "th": "จัดการบัญชีของคุณ",
+        "en": "Manage your account"
+    },
+    "displayName": {
+      "th": "ชื่อผู้ใช้",
+      "en": "Name"
+    },
+    "phone": {
+      "th": "เบอร์โทรศัพท์",
+      "en": "Phone"
+    },
+    "email": {
+      "th": "อีเมล",
+      "en": "Email"
+    },
+    "birthday": {
+      "th": "วันเกิด",
+      "en": "Birthday"
+    },
+    "sex": {
+      "th": "เพศ",
+      "en": "Sex"
+    },
+    "address": {
+      "th": "ที่อยู่",
+      "en": "Address"
+    },
+    "edit": {
+      "th": "แก้ไข",
+      "en": "Edit"
+    },
+    "defaultAddress": {
+      "th": "ที่อยู่เริ่มต้นในการจัดส่งสินค้า",
+      "en": "Default Address"
+    },
+    "account": {
+      "th": "บัญชีของฉัน",
+      "en": "MY Account"
+    },
+    "profile": {
+      "th": "ข้อมูลส่วนตัว",
+      "en": "Profile"
+    },
+    "orderList": {
+      "th": "คำสั่งซื้อของฉัน",
+      "en": "My Orders"
+    },
+    "wishList": {
+      "th": "รายการที่ชอบ",
+      "en": "Wish List"
+    },
+    "orderHistory": {
+      "th": "ดูประวัติการสั่งซื้อ",
+      "en": "Order History"
+    },
+    "waitingForPayment": {
+      "th": "ที่ต้องชำระเงิน",
+      "en": "Waiting For Payment"
+    },
+    "waitingForShip": {
+      "th": "กำลังเตรียมจัดส่ง",
+      "en": "Waiting For Ship"
+    },
+    "shipping": {
+      "th": "อยู่ระหว่างขนส่ง",
+      "en": "Shipping"
+    },
+    "buyNow": {
+        "th": "ซื้อเลย",
+        "en": "Buy Now"
+    },
+    "start": {
+        "th": "เริ่มต้น",
+        "en": "Start"
+    },
+    "noWishList": {
+        "th": "ไม่มีรายการที่ชอบ",
+        "en": "No Wish List"
+    },
+    "lastOrder": {
+      "th": "รายการสั่งซื้อล่าสุด",
+      "en": "Last order"
+    },
+    "createdAt": {
+      "th": "วันที่สั่งซื้อ",
+      "en": "Created At"
+    },
+    "order": {
+      "th": "รายการ",
+      "en": "Order"
+    },
+    "orderId": {
+      "th": "เลขที่คำสั่งซื้อ",
+      "en": "Order No."
+    },
+    "price": {
+      "th": "สั่งซื้อ",
+      "en": "Price"
+    },
+    "orderNotFound": {
+      "th": "ไม่พบรายการสั่งซื้อ",
+      "en": "Order Not Found"
+    }
+  }
+}

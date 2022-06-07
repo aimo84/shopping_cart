@@ -1,0 +1,34 @@
+{
+  "title": {
+    "th": "ทรูมันนี่ PayLater",
+    "en": "TrueMoney PayLater"
+  },
+  "description": {
+    "th": "สินเชื่อเงินสดสำหรับคุณ",
+    "en": "Personal Loan for you"
+  },
+  "condition1": {
+    "th": "สมัครง่ายเพียงใช้แค่บัตรประชาชน",
+    "en": "Easy to apply. Just Thai ID is required."
+  },
+  "condition2": {
+    "th": "วงเงินสูงสุด 15,000 บาท",
+    "en": "Maximum 15,000 THB"
+  },
+  "condition3": {
+    "th": "อนุมัติไวภายใน 1 วัน",
+    "en": "Approve in 1 day"
+  },
+  "buttonRegister": {
+    "th": "สมัครสินเชื่อ PayLater",
+    "en": "Apply TrueMoney PayLater"
+  },
+  "buttonCheckout": {
+    "th": "สมัครเรียบร้อยแล้วดำเนินการหน้าชำระเงิน",
+    "en": "Already approved and continue to payment."
+  },
+  "error": {
+    "th": "มีปัญหาการชำระเงินจากการใส่ข้อมูลไม่ถูกต้อง โปรดตรวจสอบข้อมูลอีกครั้ง",
+    "en": "One or more fields contain have an error. Please check and try again."
+  }
+}

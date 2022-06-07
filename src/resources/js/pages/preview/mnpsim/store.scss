@@ -1,0 +1,32 @@
+.loading-container {
+  background-color: #fff;
+}
+
+.store_container {
+  background-color: #fff;
+  padding: 30px 26px;
+}
+
+.slanted_container {
+  height: 125px;
+  background: #fff;
+  border-bottom-left-radius: 125px;
+  overflow: hidden;
+  position: relative;
+
+  .slanted {
+    width: 1120px;
+    height: 88px;
+    margin-top: -87px;
+    bottom: -51px;
+    background: #edeff3;
+    position: absolute;
+    transform: rotate(-5deg);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .store_container {
+    padding: 0;
+  }
+}

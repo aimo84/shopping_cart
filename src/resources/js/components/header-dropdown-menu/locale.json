@@ -1,0 +1,29 @@
+{
+    "header" : {
+        "th" : "ตรวจสอบสถานะ",
+        "en" : "Order Tracking Status"
+    },
+    "dropdownInformation" : [
+        {
+            "text" : {
+                "th" : "ตรวจสอบสถานะการติดตั้ง TrueOnline",
+                "en" : "Check TrueOnline installation status"
+            },
+            "link" : "https://iservice.page.link/installation-tos"
+        },
+        {
+            "text" : {
+                "th" : "ตรวจสอบสถานะงานซ่อม TrueOnline",
+                "en" : "Check TrueOnline repairing status"
+            },
+            "link" : "https://iservice.page.link/tol-tos"
+        },
+        {
+            "text" : {
+                "th" : "ตรวจสอบสถานะการติดตั้งด้วยหมายเลขบัตรประชาชน",
+                "en" : "Check TrueOnline installation status by Thai ID"
+            },
+            "link" : "/online-store?menupick=trueonline_tracking"
+        }
+    ]
+}

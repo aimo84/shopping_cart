@@ -1,0 +1,240 @@
+{
+  "verify_title": {
+    "th": "ตรวจสอบสิทธิ์ในการรับสิทธิพิเศษ",
+    "en": "Enter your personal information to verify privileges"
+  },
+  "verify_link": {
+    "th": "คลิก",
+    "en": "click"
+  },
+  "verify_subtitle": {
+    "th": "กรุณากรอกข้อมูลเพื่อตรวจสอบการรับสิทธิ์",
+    "en": "Please fill out the information to check eligibility."
+  },
+  "tnc_label": {
+    "th": "เงื่อนไขสั่งซื้อ",
+    "en": "Term and Condition"
+  },
+  "tnc": {
+    "en": "I accept True Online Store Terms and Conditions.",
+    "th": "ยอมรับเงื่อนไขการให้บริการของ True Online Store"
+  },
+  "result_success": {
+    "en": "Verification Passed",
+    "th": "การตรวจสอบสิทธิ์สำเร็จ"
+  },
+  "submit": {
+    "en": "Submit",
+    "th": "รับสิทธิ์"
+  },
+  "back": {
+    "en": "Back",
+    "th": "ย้อนกลับ"
+  },
+  "check_eligibility": {
+    "en": "Check Eligibility",
+    "th": "ตรวจสอบสิทธิ"
+  },
+  "backHomepage": {
+    "en": "Back to Homepage",
+    "th": "กลับสู่หน้าหลัก"
+  },
+  "next": {
+    "en": "Next",
+    "th": "ต่อไป"
+  },
+  "checking": {
+    "en": "Checking ...",
+    "th": "กำลังตรวจสอบ ..."
+  },
+  "retry": {
+    "th": "ตรวจสอบอีกครั้ง",
+    "en": "Try Again"
+  },
+  "thai_id": {
+    "th": "เลขบัตรประชาชน",
+    "en": "Thai ID Card"
+  },
+  "see_example": {
+    "en": "See example",
+    "th": "ตัวอย่างหมายเลขทรูออนไลน์"
+  },
+  "package_failed": {
+    "en": "Sorry, your current promotion is not eligible for this campaign privilege.",
+    "th": "ขออภัย โปรโมชั่นปัจจุบันของคุณไม่สามารถเข้าร่วมรายการได้"
+  },
+  "super_khum": {
+    "th": "สมัครย้ายค่ายเบอร์เดิม",
+    "en": "Move to True network"
+  },
+  "prepaid": {
+    "title": {
+      "en": "Offer is not available for your prepaid number",
+      "th": "โปรโมชั่นนี้สำหรับเบอร์รายเดือน ทรูมูฟ เอช เท่านั้น"
+    },
+    "pre2post_title": {
+      "en": "Offer is not available for your prepaid number",
+      "th": "โปรโมชั่นนี้สำหรับเบอร์เติมเงิน ทรูมูฟ เอช ที่เข้าเงื่อนไขเท่านั้น"
+    },
+    "existing_postpaid_title": {
+      "en": "Offer is not available for your postpaid number",
+      "th": "โปรโมชั่นนี้สำหรับเบอร์ย้ายค่ายมาทรูเท่านั้น"
+    },
+    "existing_prepaid_title": {
+      "en": "Offer is not available for your prepaid number",
+      "th": "โปรโมชั่นนี้สำหรับเบอร์ย้ายค่ายมาทรูที่เข้าเงื่อนไขเท่านั้น"
+    },
+    "subtitle": {
+      "en": "Still interested? You can choose other ways to get a 24-month 0% interest installment plan for device:",
+      "th": "หากยังสนใจ เราขอแนะนำโปรพิเศษสำหรับคุณ ผ่อนค่าเครื่อง 0% 24 เดือน"
+    },
+    "see_reason": {
+      "en": "(see reason below)",
+      "th": "(ดูเพิ่มเติมด้านล่าง)"
+    },
+    "lucky_title": {
+      "en": "Free Lucky number & Device",
+      "th": "ซื้อเครื่อง\nพร้อมเบอร์มงคล"
+    },
+    "device_only_title": {
+      "en": "Device Only",
+      "th": "ซื้อเครื่องเปล่า"
+    },
+    "switch_to_postpaid_title": {
+      "en": "Switch to Postpaid",
+      "th": "เปลี่ยนเติมเงิน\nเป็นรายเดือน"
+    },
+    "switch_to_postpaid_device_title": {
+      "en": "Buy device &\nswitch to postpaid",
+      "th": "ซื้อเครื่อง\nพร้อมเปลี่ยนเป็น\nรายเดือน"
+    },
+    "move_title": {
+      "en": "Buy device &\nmove to true",
+      "th": "ซื้อเครื่อง\nพร้อมย้ายค่ายมาทรู"
+    },
+    "change_title": {
+      "en": "Buy device &\nchange package",
+      "th": "ซื้อเครื่อง\nพร้อมเปลี่ยนแพ็ก"
+    },
+    "select": {
+      "en": "Select",
+      "th": "เลือก"
+    },
+    "other_option": {
+      "en": "View other promotions",
+      "th": "ดูโปรที่น่าสนใจอื่นๆ"
+    },
+    "true_shop": {
+      "en": "or switch to postpaid at True Shop",
+      "th": "หรือติดต่อทรูช็อป เพื่อเปลี่ยนเป็นรายเดือน"
+    },
+    "tnc_label": {
+      "en": "Terms & Conditions",
+      "th": "เงื่อนไขการเปลี่ยนเติมเงินเป็นรายเดือน"
+    },
+    "tnc_content": {
+      "en": "To switching to postpaid customer please prepare\n1. Prepaid number need to active more than 90 days\n2. Prepaid number need to be registered\n3. Not reach maximum allowance (5 numbers)",
+      "th": "1. เบอร์เติมเงินต้องมีอายุการใช้งานมากกว่าหรือเท่ากับ 90 วัน\n2. เบอร์เติมเงินต้องเป็นเบอร์ที่ได้รับการลงทะเบียนแล้ว\n3. เจ้าของเบอร์ต้องมีเบอร์ที่ลงทะเบียนภายใต้บัตรประชาชนเดียวกันไม่เกินจำนวนสูงสุดที่ระบบให้ลงทะเบียนได้"
+    }
+  },
+  "verify": {
+    "mobile": {
+      "title": {
+        "en": "Existing TrueMove H Postpaid",
+        "th": "ลูกค้าปัจจุบันทรูมูฟเอช"
+      },
+      "label": {
+        "en": "Enter postpaid mobile number",
+        "th": "กรอกเบอร์รายเดือน ทรูมูฟ เอช"
+      },
+      "placeholder": {
+        "en": "Please enter 10 digits of mobile number",
+        "th": "กรุณากรอกเบอร์มือถือ 10 หลัก"
+      },
+      "pre2post_title": {
+        "en": "Switch from Prepaid to Postpaid",
+        "th": "เปลี่ยนเติมเงินเป็นรายเดือน"
+      },
+      "pre2post_label": {
+        "en": "Enter prepaid mobile number you want to switch to postpaid.",
+        "th": "กรอกเบอร์เติมเงินทรูมูฟ เอช"
+      },
+      "mnp2step_label": {
+        "en": "Number moving to or moved to TrueMove H via other channels",
+        "th": "เบอร์ที่ต้องการย้ายค่าย หรือ เบอร์ที่ทำการย้ายค่ายช่องทางอื่นไว้แล้ว"
+      },
+      "mnp2step_placeholder": {
+        "en": "Enter your mobile number",
+        "th": "กรอกเบอร์มือถือ"
+      },
+      "pre2post_placeholder": {
+        "en": "Please enter 10 digits of mobile number",
+        "th": "กรุณากรอกเบอร์มือถือ 10 หลัก"
+      },
+      "button": {
+        "en": "Get OTP",
+        "th": "ขอรหัส OTP"
+      },
+      "error": {
+        "en": "Please enter correct phone number (10 digits)",
+        "th": "กรุณากรอกเบอร์โทรศัพท์ 10 หลัก"
+      }
+    },
+    "otp": {
+      "title": {
+        "en": "OTP has been sent to",
+        "th": "OTP ถูกส่งไปยังเบอร์นี้"
+      },
+      "label": {
+        "en": "Enter OTP",
+        "th": "กรอก OTP"
+      },
+      "button": {
+        "en": "Submit",
+        "th": "ยืนยัน"
+      },
+      "error": {
+        "en": "Please enter correct OTP.",
+        "th": "OTP ไม่ถูกต้อง ลองใหม่นะ"
+      },
+      "resend": {
+        "en": "Didn’t get OTP?",
+        "th": "ไม่ได้รับ OTP ?"
+      },
+      "resend_action": {
+        "en": "Resend",
+        "th": "ขอ OTP ใหม่"
+      }
+    }
+  },
+  "checklist": {
+    "title": {
+      "th": "เช็กความพร้อมก่อนย้ายมาทรู",
+      "en": "Ready to move to us?"
+    },
+    "subtitle": {
+      "th": "เบอร์ที่จะย้ายค่ายต้อง",
+      "en": "Please check that your mobile number:"
+    },
+    "checklist1": {
+      "th": "ไม่มียอดค้างชำระ",
+      "en": "has no outstanding bill"
+    },
+    "checklist2": {
+      "th": "ไม่ติดสัญญาณกับค่ายเดิม",
+      "en": "is not under any contract"
+    }
+  },
+  "redeem_code": {
+    "th": "รหัสคูปองสิทธิพิเศษทรูการ์ด",
+    "en": "True Card Redeem Code",
+    "placeholder": {
+      "th": "กรอกรหัสคูปองสิทธิพิเศษทรูการ์ดของท่าน",
+      "en": "Please fill in True Card Redeem Code"
+    },
+    "error": {
+      "th": "รหัสไม่ถูกต้องกรุณาลองใหม่อีกครั้ง",
+      "en": "The code was incorrect. Please try again."
+    }
+  }
+}

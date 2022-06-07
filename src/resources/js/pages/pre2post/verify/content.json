@@ -1,0 +1,42 @@
+{
+    "selectmodel": {
+        "th": "เลือกรุ่น",
+        "en": "Select Model"
+    },
+    "modelname": {
+        "th": "ชื่อรุ่น",
+        "en": "Phone"
+    },
+    "regularprice": {
+        "th": "ราคาปกติ",
+        "en": "Regular price"
+    },
+    "specialprice": {
+        "th": "ราคาพิเศษ",
+        "en": "Special price"
+    },
+    "buynow": {
+        "th": "สมัครบริการ",
+        "en": "Apply now"
+    },
+    "back": {
+        "th": "ย้อนกลับ",
+        "en": "Back to Package List"
+    },
+    "status": {
+        "th": "สถานะสินค้า",
+        "en": "Status"
+    },
+    "instock": {
+        "th": "มีสินค้า",
+        "en": "In-Stock"
+    },
+    "outofstock": {
+        "th": "ไม่มีสินค้า",
+        "en": "Out-of-Stock"
+    },
+    "specsfeatures": {
+        "th": "คุณสมบัติและรายละเอียด",
+        "en": "Specs & Key Features"
+    }
+}

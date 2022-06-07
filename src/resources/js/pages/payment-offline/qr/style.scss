@@ -1,0 +1,682 @@
+.store-container {
+	border-radius: 6px;
+
+	.how-to-container {
+		display: none;
+	}
+
+	.btn-previous {
+		display: none;
+	}
+
+	.suggestion-container {
+		display: none;
+	}
+
+	.qr-container {
+		max-width: 1125px;
+		min-height: 570px;
+		margin: 30px auto;
+		background: white;
+		padding: 50px;
+		border-radius: 6px;
+	
+		.content-section {
+			text-align: center;
+			
+			.payment-content {
+				display: flex;
+
+				.how-to-containers-saved {
+					display: none;
+				}
+				
+				.qr-details-container {
+					width: 50%;
+					
+					.qr-detail {
+						text-align: center;
+					
+						img {
+							max-width: 80%;
+						}
+					}
+				}
+	
+				.payment-details {
+					width: 50%;
+				}
+			}
+			
+			.qr-detail-container {
+				border: 1px solid #979797;
+				border-radius: 6px;
+				width: 430px;
+				height: 390px;
+
+				&.saved {
+					display: none;
+				}
+
+				.qr-detail-header {
+					display: flex;
+					flex-direction: column;
+					height: 40px;
+					font-family: 'TrueBold';
+					font-style: normal;
+					font-weight: bold;
+					font-size: 24px;
+					line-height: 18px;
+					text-align: center;
+					color: #FFFFFF;
+					background: #2E3C43;
+					border-radius: 5px 5px 0px 0px;
+					padding: 10px;
+					position: relative;
+
+					.arrow {
+						position: absolute;
+						left: 0;
+						width: 0;
+						height: 0;
+						margin-left: 48%;
+    					margin-top: 29px;
+						border-left: 10px solid transparent;
+						border-right: 10px solid transparent;
+						border-top: 10px solid #2E3C43;
+					}
+				}
+
+				.qr-detail {
+					display: flex;
+					flex-direction: column;
+					margin-top: 26px;
+		
+					.qr-image {
+						img {
+							max-width: 203px;
+							max-height: 288px;
+							background: #FFFFFF;
+							border: 1px solid #979797;
+						}
+					}
+
+					.title-expire {
+						margin: 17px 0 14px 0;
+
+						.title-text {
+							display: flex;
+							flex-direction: column;
+							font-family: "TrueMedium";
+							font-style: normal;
+							font-weight: 500;
+							font-size: 24px;
+							line-height: 24px;
+							text-align: center;
+							color: #000000;
+						}
+				
+						.expire-text {
+							display: flex;
+							flex-direction: column;
+							font-family: "TrueBold";
+							font-style: normal;
+							font-size: 26px;
+							line-height: 26px;
+							text-align: center;
+							color: #000000;
+						}
+					}
+		
+					.payment-ref {
+						font-family: "TrueMedium";
+						font-style: normal;
+						font-weight: 500;
+						font-size: 18px;
+						line-height: 18px;
+						text-align: center;
+						color: #979797;
+						width: 100%;
+					}
+				}
+				
+				.qr-remark {
+					display: flex;
+					flex-direction: column;
+					margin-top: 15px;
+
+					.payment-info-text {
+						font-family: "TrueMedium";
+						font-style: normal;
+						font-weight: 500;
+						font-size: 18px;
+						line-height: 20px;
+						text-align: center;
+						color: #666666;
+						width: 100%;
+					}
+				}
+			}
+	
+			.payment-details-container {
+				display: flex;
+				flex-direction: column;
+				font-family: "TrueMedium";
+				font-size: 32px;
+				line-height: 32px;
+				  
+				.payment-detail {
+					display: flex;
+					margin-bottom: 25px;
+	
+					&.line-bottom {
+						border-bottom: 1px solid #DCDDE0;
+						margin-right: 50px;
+						padding-bottom: 14px;
+						&.pay-amount {
+							margin-bottom: 16px;
+						}
+					}
+
+					&.payment-expire  {
+						justify-content: center;
+					}
+	
+					&.bank-info-text {
+						margin-top: 35px;
+					}
+				}
+	
+				.payment-detail-bank-info {
+					margin-bottom: 28px;
+					margin-right: 50px;
+				}
+	
+				.payment-label {
+					flex: 1;
+					display: flex;
+					align-items: center;
+					justify-content: flex-start;
+					text-align: right;
+					color: #000;
+					min-width: 100px;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 24px;
+			
+					&.align-flex-start {
+						  align-items: flex-start;
+					}
+					
+					&.align-flex-end {
+						align-items: flex-end;
+					  }
+				}
+	
+				.payment-info {
+					display: flex;
+					justify-content: flex-end;
+					font-family: "TrueBold";
+					font-style: normal;
+					font-weight: bold;
+					line-height: 24px;
+	
+					&.pay-to {
+						font-size: 24px;
+					}
+					&.pay-amount {
+						font-size: 32px;
+					} 
+					.currency,.digit {
+						font-size: 20px;
+						line-height: 29px;
+					}
+					&.payment-text-expire {
+						font-size: 18px;
+						color: #EC1D24;
+						font-weight: normal;
+					}
+					&.payment-date-expire {
+						font-size: 18px;
+						font-weight: normal;
+					}
+				}
+	
+				.payment-info-bank-text {
+					font-family: "TrueBold";
+					font-style: normal;
+					font-size: 32px;
+					line-height: 32px;
+					text-align: center;
+					color: #000000;
+				}
+		
+				.bank-info-image {
+					display: flex;
+					margin-top: 25px;
+					margin-bottom: 25px;
+
+					img {
+						height: 113px;
+						width: 441px;	
+					}
+				}
+				
+				.download-text-btn {
+					display: none;
+				}
+
+				.download-text {
+					display: flex;
+					flex: 1;
+					font-family: "TrueMedium";
+					font-style: normal;
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 24px;
+					text-align: center;
+					text-decoration-line: underline;
+					color: #666666;
+					justify-content: flex-end;
+					margin-right: 50px;
+					a { 
+						text-decoration: underline;
+						color: #666666;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 1000px) {
+	.store-container {
+		.qr-container {
+			margin: 0;
+			padding: 0;
+
+			.content-section {
+
+				.payment-content {
+					position: relative;
+					flex-direction: column;
+
+					.how-to-containers-saved {
+						display: inline;
+					}
+
+					.qr-details-container {
+						width: 100%;
+
+						.qr-detail-container {
+							border: 0;
+							width: 100%;
+							height: 515px;
+
+							&.saved {
+								display: flex;
+								height: 160px;
+							}
+
+							.qr-remark {
+								display: none;
+								margin-top: 205px;
+							}
+
+							.saved-detail {
+								margin: 17px 0 14px 0;
+
+								.success-icon {
+									width: 54px;
+									height: 54px;
+									display: flex;
+									justify-content: center;
+									align-items: center;
+									margin: auto;
+									background: #ffb800;
+									border-radius: 50%;
+									box-shadow: 2px 3px 0px #e7a700;
+									margin-top: 29px;
+								
+									svg {
+									  fill: #fff;
+									  width: 40px;
+									  height: 40px;
+									}
+								}
+		
+								.saved-success {
+									display: flex;
+									flex-direction: column;
+									font-family: "TrueMedium";
+									font-style: normal;
+									font-weight: 500;
+									font-size: 24px;
+									line-height: 24px;
+									text-align: center;
+									color: #000000;
+								}
+						
+								.saved-text {
+									margin-bottom: 28px;
+									display: flex;
+									flex-direction: column;
+									font-family: "TrueBold";
+									font-style: normal;
+									font-size: 40px;
+									line-height: 40px;
+									text-align: center;
+									color: #000000;
+								}
+							}
+						}		
+					}
+					
+					.qr-detail {
+						margin-top: 23px;
+						img {
+							max-width: 80%;
+						}
+						.payment-ref {
+							margin-top: 5px;
+						}
+					}
+					.qr-detail,.payment-details {
+						width: 100%;
+					}
+
+					.payment-details {
+						position: absolute;
+						top: calc(50% - 40px/2 + 100.38px);
+						padding: 16px;
+					}
+				}
+
+				.payment-detail-bank-info {
+					display: none;
+				}
+
+				.payment-details-container {
+					margin-top: 30px;
+
+					.payment-detail {
+						.bank-info-image {
+							display: none;
+						}
+
+						&.line-bottom {
+							margin-right: 0;
+							padding-bottom: 10px;
+							&.payment-expire {
+								border-bottom: none;
+							}
+						}
+
+						&.btn-qr-download {
+							display: none;
+							position: absolute;
+							top: -5px;
+							justify-content: center;
+							align-items: center;
+							width: 100%;
+							padding-right: 32px;
+						}
+					}
+
+					.download-text-btn {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 100%;
+					}
+
+					.download-text {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.download-text-btn {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+
+			&.saved {
+				padding: 16px;
+			}
+			
+			.btn-qr {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.red-bg-button {
+				width: 100%;
+			}
+		}
+
+		.how-to-container {
+			margin-top: 20px;
+			background: #CBCCCD;
+			border-radius: 6px;
+			display: flex;
+
+			&.saved {
+				text-align: left;
+				margin: 0 16px 16px 16px;
+			}
+			
+			.how-to-content {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+
+				.how-to-header {
+					padding: 10px;
+					flex-direction: column;
+					font-family: 'TrueBold';
+					font-style: normal;
+					font-size: 22px;
+					line-height: 22px;
+					background: #970000;
+					border-top-left-radius: 6px;
+					border-bottom-right-radius: 50px;
+					color: #FFFFFF;
+					margin-right: 9px;
+				}
+				.how-to-detail-container {
+					flex-direction: column;
+					padding: 10px;
+					border-radius: 10.3013px;
+					background: #E2E2E2;
+					margin: 10px;
+
+					.how-to-detail {
+						font-family: 'TrueMedium';
+						font-style: normal;
+						font-weight: 500;
+						font-size: 20px;
+						line-height: 20px;
+						display: flex;
+
+						&.header {
+							font-family: 'TrueBold';
+							font-style: normal;
+							font-weight: bold;
+							font-size: 20px;
+							line-height: 20px;
+							color: #970000;
+						}
+
+						img {
+							mix-blend-mode: multiply;
+							margin: 10px 0 10px 10px;
+							width: 95%;
+
+						}
+
+						.how-to-text {
+							font-size: 20px;
+							line-height: 17px;
+							margin-left: 5px;
+						}
+						
+					}
+				}
+			}
+		}	
+
+		.suggestion-container {
+			display: block;
+			margin-top: 16px;
+			width : 100%;
+
+			.suggestion-detail {
+				font-family: "TrueMedium";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 24px;
+				text-align: center;
+
+				&.red {
+					color: #EC1D24;
+				}
+			}
+		}	
+
+		.btn-previous {
+			margin-top: 16px;
+			display: flex;
+			flex: 1;
+			font-family: "TrueMedium";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 24px;
+			text-align: center;
+			justify-content: center;
+			a { 
+				text-decoration: underline;
+				color: #666666;
+			}
+			span { 
+				color: #666666;
+				border-bottom: 1px solid #666666;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480) {
+	.store-container {
+		.qr-container {
+			margin: 0;
+			padding: 0;
+
+			.content-section {
+
+				.payment-content {
+					position: relative;
+					flex-direction: column;
+
+					.qr-details-container {
+						width: 100%;
+
+						.qr-detail-container {
+							border: 0;
+							max-width: 382px;
+							height: 699px;
+
+							.qr-remark {
+								margin-top: 210px;
+							}
+						}		
+					}
+					
+					.qr-detail {
+						margin: 0;
+						img {
+							max-width: 80%;
+						}
+					}
+					.qr-detail,.product_details {
+						width: 100%;
+					}
+				}
+				.payment-detail-bank-info {
+					display: none;
+				}
+				.payment-detail {
+					.bank-info-image {
+						display: none;
+					}
+				}
+			}
+		}
+		
+	}	
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+	.store-container {
+		.qr-container .content-section .qr-detail-container .qr-remark {
+			.payment-info-text {
+				font-size: 16px;
+			}
+		}
+		.how-to-container .how-to-content {
+			.how-to-header {
+				&.saved {
+					font-size: 21px;
+				}
+			}
+		}
+		
+		.qr-container .content-section .payment-details-container {
+			.payment-info {
+				&.payment-text-expire {
+					font-size: 16px;
+				}
+				&.payment-date-expire {
+					font-size: 16px;
+				}
+			}
+		}
+
+		.suggestion-container .suggestion-detail {
+			font-size: 20px;
+		}
+	}
+}
+
+@media(max-width: 280px) { 
+    .store-container {		
+		.qr-container .content-section .payment-details-container {
+			.payment-info {
+				&.payment-text-expire {
+					font-size: 13px;
+				}
+				&.payment-date-expire {
+					font-size: 15px;
+				}
+				&.pay-to {
+					font-size: 20px;
+				}
+			}
+			.payment-label {
+				font-size: 20px;
+			}
+		}
+
+		.suggestion-container .suggestion-detail {
+			font-size: 17px;
+		}
+	}
+}

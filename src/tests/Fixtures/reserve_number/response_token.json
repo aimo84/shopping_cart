@@ -1,0 +1,4 @@
+[
+    200,
+    "{\"access_token\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJncmFudF90eXBlIjoiY2xpZW50X2NyZWRlbnRpYWxzIiwic2NvcGUiOlsiY21zLmN0LnciLCJjbXMuY3QuZCIsImNtcy5jdC5zIiwiY21zLmN0LnIiLCJjbXMuY3QuKiJdLCJleHAiOjE2NDc5MzUzMzEsImlhdCI6MTY0NzkzNDczMSwianRpIjoiNTliOGM5YWQtNTViOS00ZTZkLWI3NGEtYzMyZGY4OGQzNWZkIiwiY2xpZW50X2lkIjoiNjY2NDIzNTktYWRiMi00NzJlLWJmMmQtOTYzZmIyY2M1ZWY2In0.h_7UnPzOBGMu88dqYnL9E59YqpAvCefdCXWDE_iepiPKAhE_uydBkocYguWGs0SiLFdhKRGKvaH-Nusir5cJCxiQLdpxWDlXvcnGK87o3S5IlgbnA9RxMeP91Dk8XOLAnV0QKPwzC-MmXI1eZUiOj52rT9U70amnx-NLGXX9crH9-STC01pUcyG5xSOpM_Yvap_9duQ7ykNcGhWhWJO-O71pQzmxYHCQmllX28Wayo_4944Oza190Rh_etKfU0_8jgb4FHqBjrbLANIthBYhIfaGi6Z7uSj0MZt3KBSmEsGz5ARGdKf1-Q2Foh4IQ447UZq6DtUcijEDchQIXfM9ig\",\"token_type\":\"bearer\",\"expires_in\":599,\"scope\":\"cms.ct.w cms.ct.d cms.ct.s cms.ct.r cms.ct.*\",\"grant_type\":\"client_credentials\",\"iat\":1647934731,\"jti\":\"59b8c9ad-55b9-4e6d-b74a-c32df88d35fd\"}"
+]

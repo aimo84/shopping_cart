@@ -1,0 +1,11 @@
+{
+    "detail": {
+        "applied_form": "DAqd4",
+        "form":"self-ekyc",
+        "section": "ekyc_1",
+        "step": "ekyc_1",
+        "submitted_at": null
+    },
+    "form_url": "https://sit.true.creditok.co/th/form/self-ekyc/DAqd4/",
+    "info": "https://sit.true.creditok.co/th/api/forms/self-ekyc/applied-forms/DAqd4/info/"
+}

@@ -1,0 +1,1 @@
+{"tracking-id":"7bd46fe7-fc21-4e2a-bd0e-6e75c2ed3957","result":{"code":300,"desc":"Processing failed { Code=312, Desc=Unable to get customer profile }","display-text-th":"ขออภัยค่ะ ระบบไม่สามารถทำรายการได้ กรุณาลงทะเบียนอีกครั้งค่ะ","display-text-en":"Sorry for inconvenience. The sytem error occurred, Please retry to register via university website again. "}}

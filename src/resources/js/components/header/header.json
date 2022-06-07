@@ -1,0 +1,672 @@
+{
+    "action": {
+        "trueonline": {
+            "th": "ตรวจสอบสถานะ TrueOnline",
+            "en": "Order Tracking Status"
+        },
+        "tracking_order": {
+            "th": "ตรวจสอบการจัดส่ง",
+            "en": "Tracking Order"
+        },
+        "cart": {
+            "th": "ตะกร้าสินค้า",
+            "en": "Cart"
+        },
+        "bill_and_payment": {
+            "th": "ตรวจสอบและชำระบิล",
+            "en": "Bill & Payment"
+        },
+        "privileges": {
+            "th": "สิทธิประโยชน์",
+            "en": "Your Privileges"
+        }
+    },
+    "home": {
+        "label": {
+            "th": "หน้าหลัก True Store",
+            "en": "Home"
+        },
+        "link": "/"
+    },
+    "trueth": {
+        "label": {
+            "th": "หน้าหลัก true.th",
+            "en": "Main page"
+        },
+        "link": "https://www.true.th"
+    },
+    "topbar": {
+        "bill": {
+            "th": "ตรวจสอบและชำระบิล",
+            "en": "BILL & PAYMENT",
+            "sublabel": {
+                "th": "ทรูไอเซอร์วิส",
+                "en": "iService"
+            },
+            "link": "http://iservice.truecorp.co.th/"
+        },
+        "privileges": {
+            "th": "สิทธิประโยชน์",
+            "en": "YOUR PRIVILEGES",
+            "sublabel": {
+                "th": "ทรูยู",
+                "en": "TrueYou"
+            },
+            "link": "http://www.trueyou.co.th/"
+        },
+        "trueid": {
+            "label": {
+                "th": "เข้าสู่ระบบ",
+                "en": "TRUE ID"
+            },
+            "signin": {
+                "th": "เข้าสู่ระบบ",
+                "en": "Sign In"
+            },
+            "register": {
+                "th": "สมัครทรูไอดี",
+                "en": "Register "
+            },
+            "signout": {
+                "th": "ออกจากระบบ",
+                "en": "Sign Out "
+            },
+            "signup": {
+                "th": "สมัครทรูไอดี",
+                "en": "Sign Up"
+            },
+            "login": {
+                "th": "เข้าสู่ระบบ",
+                "en": "Log In"
+            },
+            "logout": {
+                "th": "ออกจากระบบ",
+                "en": "Logout"
+            },
+            "my_account": {
+                "th": "ข้อมูลส่วนตัว",
+                "en": "My account"
+            }
+        },
+        "truecard": {
+            "profile": {
+                "th": "ข้อมูลส่วนตัว",
+                "en": "Profile"
+            },
+            "lifetime": {
+                "th": "อายุการใช้งาน",
+                "en": "Customer Lifetime"
+            },
+            "average": {
+                "th": "ยอดค่าใช้จ่าย",
+                "en": "Average Monthly Payment"
+            },
+            "yourcard": {
+                "th": "บัตรของคุณ",
+                "en": "Your True Card"
+            },
+            "signout": {
+                "th": "ออกจากระบบ",
+                "en": "Sign Out"
+            }
+        },
+        "truemoveH": {
+            "th": "Truemove H",
+            "en": "Truemove H"
+        },
+        "trueOnline": {
+            "th": "TrueOnline",
+            "en": "TrueOnline"
+        },
+        "trueVision": {
+            "th": "TrueVision",
+            "en": "TrueVision"
+        },
+        "trueID": {
+            "th": "TrueID",
+            "en": "TrueID"
+        },
+        "iService": {
+            "th": "iService",
+            "en": "iService"
+        },
+        "business": {
+            "th": "ลูกค้าองค์กร",
+            "en": "Business"
+        },
+        "aboutUs": {
+            "th": "รู้จักทรู",
+            "en": "About Us"
+        },
+        "checkOrder": {
+            "th": "เช็คการจัดส่ง",
+            "en": "Tracking"
+        },
+        "cart": {
+            "th": "ตะกร้าสินค้า",
+            "en": "Shopping Cart"
+        },
+        "login": {
+            "th": "เข้าสู่ระบบ",
+            "en": "Log in"
+        },
+        "regis": {
+            "th": "สมัครทรูไอดี",
+            "en": "Register"
+        }
+    },
+    "navbar": [
+        {
+            "text": {
+                "th": "แพ็กเกจ",
+                "en": "Packages"
+            },
+            "link": "#",
+            "submenu": [
+                {
+                    "text": {
+                        "th": "รายเดือน",
+                        "en": "Postpaid"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/postpaid"
+                },
+                {
+                    "text": {
+                        "th": "เติมเงิน",
+                        "en": "Prepaid"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/prepaid"
+                },
+                {
+                    "text": {
+                        "th": "แพ็กเกจเสริม",
+                        "en": "Extra Packages"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/upgrade_option"
+                },
+                {
+                    "text": {
+                        "th": "เติมเงินมือถือ",
+                        "en": "Easy Top Up"
+                    },
+                    "link": "https://iservice.truecorp.co.th/prepaid-top-up"
+                },
+                {
+                    "text": {
+                        "th": "ย้ายค่ายมาใช้ทรูมูฟ เอช",
+                        "en": "Move To Us"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/postpaid#mnp"
+                },
+                {
+                    "text": {
+                        "th": "เปลี่ยนเติมเงินเป็นรายเดือน",
+                        "en": "Switch to postpaid"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/postpaid#p2p"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "อุปกรณ์สื่อสาร",
+                "en": "Devices"
+            },
+            "link": "https://truemoveh.truecorp.co.th/device"
+        },
+        {
+            "text": {
+                "th": "สั่งซื้อออนไลน์",
+                "en": "Online Store"
+            },
+            "link": "/online-store",
+            "active": true,
+            "submenu": [
+                {
+                    "text": {
+                        "th": "เปิดเบอร์ใหม่",
+                        "en": "New SIM Register"
+                    },
+                    "link": "/packages"
+                },
+                {
+                    "text": {
+                        "th": "เบอร์ฟันธง",
+                        "en": "SIM by Dr. Luck"
+                    },
+                    "link": "/online-store/berfuntong"
+                },
+                {
+                    "text": {
+                        "th": "เบอร์มงคล",
+                        "en": "Lucky SIM"
+                    },
+                    "link": "/online-store/luckysim"
+                },
+                {
+                    "text": {
+                        "th": "ขุมทรัพย์เบอร์สวย เสริมมงคล",
+                        "en": "Bersuay mongkol"
+                    },
+                    "link": "/online-store/lucky9999"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "บริการระหว่างประเทศ",
+                "en": "International Service"
+            },
+            "link": "#",
+            "submenu": [
+                {
+                    "text": {
+                        "th": "เดินทางไปต่างประเทศ",
+                        "en": "Travelling Abroad"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/international_service/travelling_abroad"
+                },
+                {
+                    "text": {
+                        "th": "มาเที่ยวเมืองไทย",
+                        "en": "Visiting Thailand"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/international_service/visit_thailand"
+                },
+                {
+                    "text": {
+                        "th": "โทรไปต่างประเทศ",
+                        "en": "Calling "
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/international_service/international_call"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "ย้ายค่ายมาทรู",
+                "en": "Move To True"
+            },
+            "link": "https://truemoveh.truecorp.co.th/move_to_true/postpaid"
+        },
+        {
+            "text": {
+                "th": "เครือข่ายของเรา",
+                "en": "Our Network"
+            },
+            "link": "#",
+            "submenu": [
+                {
+                    "text": {
+                        "th": "5G",
+                        "en": "5G"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/truemoveh5g"
+                },
+                {
+                    "text": {
+                        "th": "WiFi",
+                        "en": "WiFi"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/our-network/wifi"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "คำถามและข้อสงสัย",
+                "en": "Support"
+            },
+            "link": "http://www3.truecorp.co.th/cm/support_new"
+        }
+    ],
+    "navbar_mobile": [
+        {
+            "text": {
+                "th": "แพ็กเกจ",
+                "en": "Packages"
+            },
+            "link": "#",
+            "submenu": [
+                {
+                    "text": {
+                        "th": "รายเดือน",
+                        "en": "Postpaid"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/postpaid"
+                },
+                {
+                    "text": {
+                        "th": "เติมเงิน",
+                        "en": "Prepaid"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/prepaid"
+                },
+                {
+                    "text": {
+                        "th": "แพ็กเกจเสริม",
+                        "en": "Extra Packages"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/upgrade_option"
+                },
+                {
+                    "text": {
+                        "th": "เติมเงินมือถือ",
+                        "en": "Easy Top Up"
+                    },
+                    "link": "https://iservice.truecorp.co.th/prepaid-top-up"
+                },
+                {
+                    "text": {
+                        "th": "ย้ายค่ายมาใช้ทรูมูฟ เอช",
+                        "en": "Move To Us"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/postpaid#mnp"
+                },
+                {
+                    "text": {
+                        "th": "เปลี่ยนเติมเงินเป็นรายเดือน",
+                        "en": "Switch to postpaid"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/package/postpaid#p2p"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "อุปกรณ์สื่อสาร",
+                "en": "Devices"
+            },
+            "link": "https://truemoveh.truecorp.co.th/device"
+        },
+        {
+            "text": {
+                "th": "สั่งซื้อออนไลน์",
+                "en": "Online Store"
+            },
+            "link": "#",
+            "active": true,
+            "submenu": [
+                {
+                    "text": {
+                        "th": "สินค้าทั้งหมด",
+                        "en": "All Products"
+                    },
+                    "link": "/online-store"
+                },
+                {
+                    "text": {
+                        "th": "เปิดเบอร์ใหม่",
+                        "en": "New SIM Register"
+                    },
+                    "link": "/packages"
+                },
+                {
+                    "text": {
+                        "th": "เบอร์ฟันธง",
+                        "en": "SIM by Dr. Luck"
+                    },
+                    "link": "/online-store/berfuntong"
+                },
+                {
+                    "text": {
+                        "th": "เบอร์มงคล",
+                        "en": "Lucky SIM"
+                    },
+                    "link": "/online-store/luckysim"
+                },
+                {
+                    "text": {
+                        "th": "ขุมทรัพย์เบอร์สวย เสริมมงคล",
+                        "en": "Bersuay mongkol"
+                    },
+                    "link": "/online-store/lucky9999"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "สมัครเน็ต TrueOnline",
+                "en": "Apply TrueOnline"
+            },
+            "link": "/online-store?menupick=trueonline_checkcoverage",
+            "id": "tol-apply-trueonline-mobile"
+        },
+        {
+            "text": {
+                "th": "บริการระหว่างประเทศ",
+                "en": "International Service"
+            },
+            "link": "#",
+            "submenu": [
+                {
+                    "text": {
+                        "th": "เดินทางไปต่างประเทศ",
+                        "en": "Travelling Abroad"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/international_service/travelling_abroad"
+                },
+                {
+                    "text": {
+                        "th": "มาเที่ยวเมืองไทย",
+                        "en": "Visiting Thailand"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/international_service/visit_thailand"
+                },
+                {
+                    "text": {
+                        "th": "โทรไปต่างประเทศ",
+                        "en": "Calling "
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/international_service/international_call"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "ย้ายค่ายมาทรู",
+                "en": "Move To True"
+            },
+            "link": "https://truemoveh.truecorp.co.th/move_to_true/postpaid"
+        },
+        {
+            "text": {
+                "th": "เครือข่ายของเรา",
+                "en": "Our Network"
+            },
+            "link": "#",
+            "submenu": [
+                {
+                    "text": {
+                        "th": "5G",
+                        "en": "5G"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/truemoveh5g"
+                },
+                {
+                    "text": {
+                        "th": "WiFi",
+                        "en": "WiFi"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/our-network/wifi"
+                }
+            ]
+        },
+        {
+            "text": {
+                "th": "คำถามและข้อสงสัย",
+                "en": "Support"
+            },
+            "link": "http://www3.truecorp.co.th/cm/support_new"
+        },
+        {
+            "text": {
+                "th": "ตรวจสอบการจัดส่ง",
+                "en": "Tracking Order"
+            },
+            "link": "https://store.truecorp.co.th/tracking?_ga=2.96524191.1079266771.1629093068-1597210588.1621847951"
+        }
+    ],
+    "personal": {
+        "text": {
+            "th": "ลูกค้าบุคคล",
+            "en": "Personal"
+        },
+        "submenu": [
+            {
+                "text": {
+                    "th": "ทรู คอร์ปอเรชั่น",
+                    "en": "True Corporation"
+                },
+                "link": "https://www3.truecorp.co.th/new"
+            },
+            {
+                "text": {
+                    "th": "ทรูมูฟ เอช",
+                    "en": "TrueMove H"
+                },
+                "link": "https://truemoveh.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "ทรูวิชั่นส์",
+                    "en": "TrueVisions"
+                },
+                "link": "https://truevisionsgroup.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "ทรูออนไลน์",
+                    "en": "TrueOnline"
+                },
+                "link": "https://trueonline.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "ทรูสมาร์ทช้อยส์",
+                    "en": "TrueSmartChoice"
+                },
+                "link": "https://truesmart.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "ทรูมันนี่",
+                    "en": "TrueMoney"
+                },
+                "link": "https://www.truemoney.com"
+            },
+            {
+                "text": {
+                    "th": "ทรูยู",
+                    "en": "TrueYou"
+                },
+                "link": "https://trueyou.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "ช้อปปิ้ง",
+                    "en": "Shopping"
+                },
+                "link": "/online-store"
+            }
+        ]
+    },
+    "business": {
+        "text": {
+            "th": "ลูกค้าองค์กร",
+            "en": "Business"
+        },
+        "submenu": [
+            {
+                "text": {
+                    "th": "หน้าหลักลูกค้าธุรกิจ",
+                    "en": "Home"
+                },
+                "link": "https://www3.truecorp.co.th/new"
+            },
+            {
+                "text": {
+                    "th": "แพ็กเกจ",
+                    "en": "Packages"
+                },
+                "link": "https://truemoveh.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "โซลูชั่นเพื่อธุรกิจ",
+                    "en": "Solutions"
+                },
+                "link": "https://truevisionsgroup.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "เรื่องราวความสำเร็จ",
+                    "en": "Experiences"
+                },
+                "link": "https://trueonline.truecorp.co.th"
+            },
+            {
+                "text": {
+                    "th": "เทรนด์เทคโนโลยี",
+                    "en": "Trend Technologies"
+                },
+                "link": "https://truebusiness.truecorp.co.th/e-mag_th.html"
+            }
+        ]
+    },
+    "dropdownInformation" : [
+        {
+            "text" : {
+                "th" : "ตรวจสอบสถานะการติดตั้ง TrueOnline",
+                "en" : "Check TrueOnline installation status"
+            },
+            "link" : "https://iservice.page.link/installation-tos"
+        },
+        {
+            "text" : {
+                "th" : "ตรวจสอบสถานะงานซ่อม TrueOnline",
+                "en" : "Check TrueOnline repairing status"
+            },
+            "link" : "https://iservice.page.link/tol-tos"
+        },
+        {
+            "text" : {
+                "th" : "ตรวจสอบสถานะการติดตั้งด้วยหมายเลขบัตรประชาชน",
+                "en" : "Check TrueOnline installation status by Thai ID"
+            },
+            "link" : "/online-store?menupick=trueonline_tracking"
+        }
+    ],
+    "option_bar_placeholder": {
+        "th": "ค้นหาใน True Store",
+        "en": "Search in True Store"
+    },
+    "option_bar_mb_placeholder": {
+        "th": "ค้นหา...",
+        "en": "Search..."
+    },
+    "mid_bar_placeholder": {
+        "th": "ค้นหา...",
+        "en": "I’m looking for..."
+    },
+    "lang_text": {
+        "th": "ไทย",
+        "en": "English"
+    },
+    "clear_search_text": {
+        "th": "ลบประวัติการค้นหา",
+        "en": "Clear History"
+    },
+    "history_search_text": {
+        "th": "ประวัติการค้นหา",
+        "en": "Search History"
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,162 @@
+{
+    "status_code": 200,
+    "status_txt": "OK",
+    "resultCode": 0,
+    "message": "",
+    "ascendant": {
+        "position": [
+            {
+                "stars": [
+                    "๙"
+                ],
+                "rueanphop": "อริ",
+                "kettrathibdee": "3",
+                "mhaauh": "1",
+                "rachachokh": "5",
+                "mahachak": "2",
+                "thewichokh": "8",
+                "zodiac": "เมษ"
+            },
+            {
+                "rueanphop": "ปัตนิ",
+                "kettrathibdee": "6",
+                "mhaauh": "2",
+                "rachachokh": "3",
+                "mahachak": "7",
+                "thewichokh": "7",
+                "zodiac": "พฤษภ"
+            },
+            {
+                "rueanphop": "มรณะ",
+                "kettrathibdee": "4",
+                "rachachokh": "1",
+                "zodiac": "มิถุน"
+            },
+            {
+                "rueanphop": "ศุภะ",
+                "kettrathibdee": "2",
+                "mhaauh": "5",
+                "rachachokh": "6",
+                "mahachak": "1",
+                "zodiac": "กรกฏ"
+            },
+            {
+                "rueanphop": "กัมมะ",
+                "kettrathibdee": "1",
+                "rachachokh": "4",
+                "mahachak": "4",
+                "zodiac": "สิงห์"
+            },
+            {
+                "stars": [
+                    "๒"
+                ],
+                "rueanphop": "ลาภะ",
+                "kettrathibdee": "4",
+                "mhaauh": "4",
+                "rachachokh": "2",
+                "mahachak": "3",
+                "zodiac": "กันย์"
+            },
+            {
+                "stars": [
+                    "๔",
+                    "๖"
+                ],
+                "rueanphop": "วินาศ",
+                "kettrathibdee": "6",
+                "mhaauh": "7",
+                "rachachokh": "8",
+                "thewichokh": "5",
+                "zodiac": "ตุลย์"
+            },
+            {
+                "stars": [
+                    "๑",
+                    "๗",
+                    "๐",
+                    "ล"
+                ],
+                "rueanphop": "ตนุ",
+                "kettrathibdee": "3",
+                "mhaauh": "8",
+                "rachachokh": "7",
+                "mahachak": "5",
+                "thewichokh": "3",
+                "zodiac": "พิจิก"
+            },
+            {
+                "rueanphop": "กฎุมพะ",
+                "kettrathibdee": "5",
+                "mahachak": "6",
+                "thewichokh": "1",
+                "zodiac": "ธนู"
+            },
+            {
+                "rueanphop": "สหัชชะ",
+                "kettrathibdee": "7",
+                "mhaauh": "3",
+                "mahachak": "8",
+                "thewichokh": "6",
+                "zodiac": "มังกร"
+            },
+            {
+                "stars": [
+                    "๓",
+                    "๕"
+                ],
+                "rueanphop": "พันธุ",
+                "kettrathibdee": "8",
+                "thewichokh": "4",
+                "zodiac": "กุมภ์"
+            },
+            {
+                "stars": [
+                    "๘"
+                ],
+                "rueanphop": "ปุตตะ",
+                "kettrathibdee": "5",
+                "mhaauh": "6",
+                "thewichokh": "2",
+                "zodiac": "มีน"
+            }
+        ],
+        "detail1": "detail1",
+        "detail2": "detail2"
+    },
+    "almanac": [
+        {
+            "name": "อายุ",
+            "number": "1"
+        },
+        {
+            "name": "เดช",
+            "number": "2"
+        },
+        {
+            "name": "ศรี",
+            "number": "3"
+        },
+        {
+            "name": "มูละ",
+            "number": "4"
+        },
+        {
+            "name": "อุตสาหะ",
+            "number": "7"
+        },
+        {
+            "name": "มนตรี",
+            "number": "5"
+        },
+        {
+            "name": "กาลกิณี",
+            "number": "8",
+            "highlight": true
+        },
+        {
+            "name": "บริวาร",
+            "number": "6"
+        }
+    ]
+}

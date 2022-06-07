@@ -1,0 +1,24 @@
+{
+  "label": {
+    "account": {
+        "th": "บัญชีของฉัน",
+        "en": "My Account"
+    },
+    "profile": {
+        "th": "ข้อมูลส่วนตัว",
+        "en": "Profile"
+    },
+    "address": {
+        "th": "ที่อยู่",
+        "en": "Address"
+    },
+    "orderList": {
+      "th": "คำสั่งซื้อของฉัน",
+      "en": "My Orders"
+    },
+    "wishList": {
+      "th": "รายการที่ชอบ",
+      "en": "Wish List"
+    }
+  }
+}

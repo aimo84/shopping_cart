@@ -1,0 +1,19 @@
+{
+  "status" : "SUCCESSFUL",
+  "fault" : {
+    "name" : "th.co.truecorp.ads.api.ApplicationServiceException",
+    "code" : "TMV-PREVERIFY-11009",
+    "message" : " (-6-) checkFruad return result=Y.  (-6-) checkFruad return result=Y",
+    "detailed-message" : "ApplicationServiceException TMV-PREVERIFY-11009 (-6-) checkFruad return result=Y. "
+  },
+  "display-messages" : [ {
+    "message" : "Unable to activate the service, please inform staff to contact at 02-858-6222 (during 9.00 a.m. - 10.00 p.m.) e-mail : Fraud_Management@Truecorp.co.th",
+    "message-code" : "TMV-PREVERIFY-11009",
+    "message-type" : "ERROR",
+    "en-message" : "Unable to activate the service, please inform staff to contact at 02-858-6222 (during 9.00 a.m. - 10.00 p.m.) e-mail : Fraud_Management@Truecorp.co.th",
+    "th-message" : "ไม่สามารถทำรายการได้ ให้เจ้าหน้าที่ติดต่อขออนุมัติกับหน่วยงาน Fraud Management โทร 02-858-6222 e-mail : Fraud_Management@Truecorp.co.th ทุกวัน เวลา 09.00-22.00 น.",
+    "technical-message" : "( Message variable: ] ) "
+  } ],
+  "trx-id" : "6C1AF478O913J",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)"
+}

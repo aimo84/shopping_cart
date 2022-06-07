@@ -1,0 +1,35 @@
+.login-section {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 16px 16px 36px 16px;
+  background: white;
+
+  .error-container li {
+    text-align: left;
+  }
+
+  .content-section {
+    text-align: center;
+    margin-bottom: 20px;
+
+    .image {
+      img {
+        max-width: 210px;
+        max-height: 210px;
+        padding-left: 19px;
+        padding-right: 19px;
+        cursor: pointer;
+      }
+    }
+
+    .title-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 43px;
+      color: #374754;
+      margin-bottom: 32px;
+      margin-top: 10px;
+    }
+  }
+}

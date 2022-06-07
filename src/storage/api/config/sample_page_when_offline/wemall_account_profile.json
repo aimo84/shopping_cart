@@ -1,0 +1,20 @@
+{
+    "status_code": 0,
+    "status_txt": "Success",
+    "data": {
+        "user_token": "1898d73914c826",
+        "user_id": 1109252,
+        "email": null,
+        "first_name": "",
+        "last_name": "",
+        "display_name": "081*******",
+        "phone": "0819329718",
+        "true_point_id_card": null,
+        "birthday": null,
+        "sex": null,
+        "avatar": "https://account.wemall-dev.com/avatar/",
+        "has_store": null,
+        "section": "wemall",
+        "version": "12"
+    }
+}

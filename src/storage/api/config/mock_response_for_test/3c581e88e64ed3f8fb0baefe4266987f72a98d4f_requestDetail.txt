@@ -1,0 +1,1 @@
+https://gateway.wls-dev.com/tmvh/clm/validate-change-price-plan?level=SUBSCRIBER&key_type=SUBSCRIBER&key_value=0830011962&|GET|{"headers":{"x-api-key":"sCjwXBFgrsa99VphJ3qcY8XJiMkH7Sei7NiOzWqq","Accept-Encoding":"gzip","accept":"*\/*","Cache-Control":"no-cache, private"}}|[]

@@ -1,0 +1,22 @@
+{
+  "thai_id": {
+    "class": "id-input",
+    "label": {
+      "th": "เลขบัตรประชาชน (อายุมากกว่า 17 ปีขึ้นไป) / เลขที่จดทะเบียนบริษัท",
+      "en": "Thai ID"
+    },
+    "inputmode": "numeric",
+    "type": "text",
+    "required": true,
+    "pattern": "[0-9]{13,13}",
+    "maxlength": "13",
+    "placeholder": {
+      "th": "กรุณากรอกเลขบัตรประชาชน",
+      "en": "Enter your Thai ID (13 Digits)."
+    },
+    "error": {
+      "th": "กรุณากรอกเลขบัตรประชาชนให้ถูกต้อง",
+      "en": "Please enter correct Thai ID"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "thai_id": {
+      "placeholder": {
+        "th": "กรอกหมายเลขบัตรประชาชนที่ได้ลงทะเบียนไว้",
+        "en": "Enter your Thai ID (13 Digits)"
+      }
+  },
+  "mobile_no": {
+      "placeholder": {
+        "th": "กรอกเบอร์ติดต่อที่ได้ลงทะเบียนไว้",
+        "en": "Enter your existing Truemove H mobile number"
+      }
+  },
+  "otp": {
+      "request": {
+        "th": "ขอรหัส OTP",
+        "en": "Request OTP"
+      },
+      "resend": {
+        "th": "ขอรหัสอีกครั้ง",
+        "en": "Resend OTP"
+      },
+      "confirm": {
+        "th": "ยืนยันรหัส",
+        "en": "Confirm"
+      },
+      "fill_otp": {
+        "th": "กรอกรหัส OTP",
+        "en": "Enter OTP"
+      }
+  },
+  "error_message": {
+    "no_campaign_id" : {
+      "th": "ขออภัย คุณไม่สามารถเปลี่ยนแปลงแพ็กเกจ",
+      "en": "Sorry, This phone number is unable to change promotional package"
+    },
+    "redirect": {
+      "th": "เว็บไซต์กำลังไปยัง Online store",
+      "en": "The website is redirecting to Online Store"
+    }
+  },
+  "packages": {
+    "fix_speed": {
+      "th": "อินเตอร์เน็ตไม่อั้น|ความเร็วคงที่ ",
+      "en": "Unlimited Fix Speed|"
+    },
+    "term_not_found": {
+      "th": "ขออภัย ไม่พบข้อมูลที่ท่านเลือก",
+      "en": "Sorry, this price plan detail is not available"
+    }
+  },
+  "info_message" : {
+    "verify" : {
+      "th" : "กรุณายืนยันตัวตนเพื่อรับสิทธิ์",
+      "en" : "Please verify your eligible identity"
+    },
+    "number" : {
+      "th" : "หมายเลขทรูมูฟ เอช ของคุณ",
+      "en" : "Your TrueMove H number"
+    },
+    "mobileNoErrMsg" : {
+      "th" : "ขออภัย ท่านใส่หมายเลขเบอร์โทรศัพท์ไม่ถูกต้อง (ใส่ 9 - 10 หลัก)",
+      "en" : "Sorry you have entered invalid number (Please input 9-10 digits)"
+    }
+  }
+}

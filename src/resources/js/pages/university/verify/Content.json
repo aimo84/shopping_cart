@@ -1,0 +1,79 @@
+{
+  "cardtype": {
+    "id": "cardtype",
+    "label": {
+      "th": "กรุณาเลือกและกรอกหมายเลขบัตรประชาชน หรือ พาสปอร์ต",
+      "en": "Please select and insert your ID card or passport"
+    },
+    "value": {
+      "idcard": {
+        "th": "หมายเลขบัตรประชาชน",
+        "en": "ID Card"
+      },
+      "passport": {
+        "th": "พาสปอร์ต",
+        "en": "Passport"
+      }
+    }
+  },
+  "id": {
+    "class": "id-input",
+    "type": "text",
+    "required": true,
+    "pattern": "[0-9]{13,13}",
+    "placeholder": {
+      "th": "หมายเลขบัตรประจำตัวประชาชน 13 หลัก",
+      "en": "Enter your Thai ID (13 Digits)."
+    },
+    "error": {
+      "th": "กรุณากรอกบัตรประชาชนให้ถูกต้อง",
+      "en": "Please enter correct Thai ID"
+    }
+  },
+  "name": {
+    "label": {
+      "th": "ชื่อ-นามสกุล",
+      "en": "Name"
+    },
+    "type": "text",
+    "required": true,
+    "pattern": ".{1,100}",
+    "placeholder": {
+      "th": "กรอกชื่อ - นามสกุล ของคุณ",
+      "en": "Enter your Name and Surname"
+    },
+    "error": {
+      "th": "กรุณากรอกชื่อ-นามสกุล",
+      "en": "Please input full name"
+    }
+  },
+  "university": {
+    "id": "university",
+    "label": {
+      "th": "สถานศึกษา",
+      "en": "School/College/University"
+    },
+    "placeholder": {
+      "th": "เลือกสถานศึกษาของคุณ",
+      "en": "Choose your School/College/University"
+    }
+  },
+  "msisdn": {
+    "label": {
+      "th": "หมายเลขทรูมูฟ เอช",
+      "en": "Truemove H number"
+    },
+    "placeholder": {
+      "th": "กรอกหมายเลขทรูมูฟ เอช",
+      "en": "Enter your existing Truemove H mobile number."
+    },
+    "inputmode": "tel",
+    "type": "text",
+    "required": true,
+    "pattern": "[0-9]{10,10}",
+    "error": {
+      "th": "กรุณากรอกเบอร์โทรศัพท์ให้ถูกต้อง",
+      "en": "Please enter a valid phone number"
+    }
+  }
+}

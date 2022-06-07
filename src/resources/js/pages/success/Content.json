@@ -1,0 +1,130 @@
+{
+  "title": {
+    "th": "ขั้นตอนการสั่งซื้อ",
+    "en": "Order Process"
+  },
+  "paymentcompleted": {
+    "th": "ชำระเงินเรียบร้อย",
+    "en": "Payment completed"
+  },
+  "ordersubmited": {
+    "th": "สั่งซื้อสำเร็จ",
+    "en": "Order Submitted"
+  },
+  "orderreceived": {
+    "th": "ร้านค้าได้รับคำสั่งซื้อของคุณแล้ว",
+    "en": "The tracking number displayed below can be used"
+  },
+  "suborderreceived": {
+    "th": "หมายเลขการสั่งซื้อ และติดตามสถานะการจัดส่งของคุณคือ",
+    "en": "to track and monitor your current shipment."
+  },
+  "ordermessage": {
+    "th": "ระบบได้ส่งอีเมลยืนยันการสั่งซื้อให้คุณเรียบร้อย",
+    "en": "The system has sent you an SMS and a confirmation email."
+  },
+  "ordertrackingtitle": {
+    "th": "หลังจากได้รับสินค้า กรุณาตรวจสอบสินค้าภายในเวลาที่กำหนด เพื่อรักษาสิทธิประโยชน์สูงสุดจาก TRUE STORE",
+    "en": "Upon receiving your device, kindly open and check your device as per the allotted timeline in order to maintain the following privileges with True Store:"
+  },
+  "ordertrackingclaimedcondition1": {
+    "th": "ตรวจสอบสินค้าภายใน 24 ชั่วโมง เพื่อรับสิทธิ์เปลี่ยน/คืนสินค้าในกรณี สินค้าเกิดรอยขีดข่วน หรือ เสียหายจากการขนส่ง",
+    "en": "Return or change your device if you notice scratches and/or other physical damages on your device within 24 hours"
+  },
+  "ordertrackingclaimedcondition2": {
+    "th": "ตรวจสอบสินค้าภายใน 7 วัน เพื่อรับสิทธิ์เปลี่ยน/คืนสินค้าในกรณี ระบบภายในตัวเครื่องมีปัญหา",
+    "en": "Return or change your device if you experience any software malfunctions within 7 days"
+  },
+  "ordertrackingnote": {
+    "th": "**เงื่อนไขในการเปลี่ยน/คืนสินค้า เป็นไปตามที่บริษัทฯ กำหนด",
+    "en": "**Returning or changing devices are subject to True’s terms and conditions"
+  },
+  "ordersummary": {
+    "th": "สรุปรายการสั่งซื้อ",
+    "en": "Order summary"
+  },
+  "ordernumber": {
+    "th": "หมายเลขการสั่งซื้อ:",
+    "en": "Order number:"
+  },
+  "shipping_address": {
+    "th": "ที่อยู่จัดส่ง",
+    "en": "Shipping Address"
+  },
+  "tax_invoice": {
+    "th": "ที่อยู่ในการออกใบเสร็จ/ใบกำกับภาษี",
+    "en": "Tax invoice"
+  },
+  "tax": {
+    "th": "เลขประจำตัวผู้เสียภาษี",
+    "en": "Tax No"
+  },
+  "thai_id": {
+    "th": "เลขบัตรประชาชน",
+    "en": "Thai ID Card"
+  },
+  "company": {
+    "th": "ชื่อบริษัท",
+    "en": "Company"
+  },
+  "branch": {
+    "th": "สำนักงานใหญ่/รหัสสาขา",
+    "en": "Branch"
+  },
+  "phone": {
+    "th": "เบอร์โทรศัพท์",
+    "en": "Mobile"
+  },
+  "email": {
+    "th": "อีเมล",
+    "en": "Email"
+  },
+  "pdf": {
+    "th": "เซฟเป็น PDF",
+    "en": "Save as PDF"
+  },
+  "print": {
+    "th": "พิมพ์เอกสารการสั่งซื้อ",
+    "en": "Print order detail"
+  },
+  "backHomepage": {
+    "en": "Back to Homepage",
+    "th": "กลับสู่หน้าหลัก"
+  },
+  "viewDetails": {
+    "en": "View order details",
+    "th": "พิมพ์เอกสารการสั่งซื้อ"
+  },
+  "item": {
+    "th": "รายการ",
+    "en": "Item"
+  },
+  "items": {
+    "th": "รายการ",
+    "en": "Items"
+  },
+  "shipping": {
+    "th": "ค่าจัดส่ง",
+    "en": "Shipping"
+  },
+  "total_price": {
+    "th": "มูลค่าสินค้า",
+    "en": "Total Price"
+  },
+  "advance_payment": {
+    "th": "ชำระค่าบริการล่วงหน้า",
+    "en": "Advance Payment"
+  },
+  "save": {
+    "th": "ประหยัด",
+    "en": "Save"
+  },
+  "cannot_move_to_us_title": {
+    "th": "หากการย้ายค่ายไม่สำเร็จ",
+    "en": "What happens if your number cannot be moved to us?"
+  },
+  "cannot_move_to_us_content": {
+    "th": "วงเงินที่กันไว้จะไม่ถูกเรียกเก็บ และจะคืนตามช่องทางที่คุณเลือกชำระไว้",
+    "en": "You’ll not be charged and the amount will be returned to your original payment method."
+  }
+}

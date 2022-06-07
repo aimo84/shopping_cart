@@ -1,0 +1,208 @@
+{
+	"title": {
+		"th": "QR code ใช้ได้ถึง",
+		"en": "QR code is valid until"
+	},
+	"expire_qr":{
+		"th": "ชำระเงินภายใน 15 นาที",
+		"en": "Please pay within 15 minutes"
+	},
+	"payment_info": {
+		"th": "หากชำระเงินเรียบร้อย สามารถออกจากหน้าจอนี้ได้ หรือกด “บันทึก QR code” เก็บไว้ใช้ชำระเงิน",
+		"en": "Once completing the payment, you can close this page.  Or, tap “Save QR code” to make payment."
+	},
+	"payment_info_1": {
+		"th": "หากชำระเงินเรียบร้อย สามารถออกจากหน้าจอนี้ได้ ",
+		"en": "Once completing the payment, you can close this page."
+	},
+	"payment_info_2": {
+		"th": "หรือกด “บันทึก QR code” เก็บไว้ใช้ชำระเงิน",
+		"en": "Or, tap “Save QR code” to make payment."
+	},
+	"payment_info_bank": {
+		"th": "เปิดแอปธนาคารบนมือถือของคุณ แล้วสแกน QR code นี้ เพื่อชำระเงิน",
+		"en": "Please scan QR code via your mobile banking application"
+	},
+	"payment_info_bank_1": {
+		"th": "เปิดแอปธนาคารบนมือถือของคุณ",
+		"en": "Please scan QR code"
+	},
+	"payment_info_bank_2": {
+		"th": "แล้วสแกน QR code นี้ เพื่อชำระเงิน",
+		"en": "via your mobile banking application"
+	},
+	"ref_no": {
+		"th": "เลขอ้างอิง",
+		"en": "Ref No"
+	},
+	"pay_to": {
+		"th": "ชำระเงินให้กับ",
+		"en": "Pay to"
+	},
+	"pay_amount": {
+		"th": "ยอดที่ต้องชำระ",
+		"en": "Amount to pay"
+	},
+	"download": {
+		"th": "บันทึก QR code",
+		"en": "Save QR code"
+	},
+	"back_to_payment": {
+		"th": "กลับ",
+		"en": "Back to previous"
+	},
+	"how_to_pay_header": {
+		"th": "วิธีชำระเงินด้วยพร้อมเพย์",
+		"en": "How to pay with PromptPay"
+	},
+	"how_to_pay_title": {
+		"th": "ชำระเงินด้วย QR code",
+		"en": "Pay with saved QR code"
+	},
+	"how_to_pay_detail_1": {
+		"th": "แตะปุ่ม “บันทึก QR code’’ เพื่อบันทึกลงบนมือถือ จากนั้นเปิดแอปธนาคารที่ต้องการ",
+		"en": "Save QR code in your mobile phone. Then, open your mobile banking application."
+	},
+	"how_to_pay_detail_2": {
+		"th": "ไปที่ “สแกน QR” อัปโหลด QR code ที่บันทึกไว้จากอัลบั้มรูปภาพ แล้วทำการชำระเงิน",
+		"en": "Go to “Scan QR code” menu on the app, choose the saved QR code photo, and make payment."
+	},
+	"how_to_pay_saved_header": {
+		"th": "ขั้นตอนชำระเงินด้วย QR code",
+		"en": "How to pay with saved QR code"
+	},
+	"how_to_pay_saved_1": {
+		"th": "เปิดแอปธนาคาร แล้วไปที่ \"สแกน QR\"",
+		"en": "Open mobile banking application. Go to “Scan QR code” menu."
+	},
+	"how_to_pay_saved_2": {
+		"th": "อัปโหลด QR code ที่บันทึกไว้จากอัลบั้มรูปภาพ",
+		"en": "Choose the saved QR code photo from gallery."
+	},
+	"how_to_pay_saved_3": {
+		"th": "ชำระเงิน",
+		"en": "Pay"
+	},
+	"title_saved_qr" : {
+		"th": "บันทึก QR code แล้ว",
+		"en": "QR code saved"
+	},
+	"btn_saved" : {
+		"th": "เข้าใจแล้ว",
+		"en": "Got it"
+	},
+	"suggestion_1" : {
+		"th": "กรุณาแคปภาพหน้าจอ เพื่อบันทึก QR code",
+		"en": "Please take screenshot to save QR code"
+	},
+	"suggestion_2" : {
+		"th": "และเปิดหน้าจอนี้ไว้ เพื่อดูผลการทำรายการ",
+		"en": "and stay on this page to see payment status."
+	},
+	"date": {
+		"day": [],
+		"year": [],
+		"month": {
+		  	"th": [
+				{
+					"id": "1",
+					"value": "ม.ค."
+				},
+				{
+					"id": "2",
+					"value": "ก.พ."
+				},
+				{
+					"id": "3",
+					"value": "มี.ค."
+				},
+				{
+					"id": "4",
+					"value": "เม.ย."
+				},
+				{
+					"id": "5",
+					"value": "พ.ค."
+				},
+				{
+					"id": "6",
+					"value": "มิ.ย."
+				},
+				{
+					"id": "7",
+					"value": "ก.ค."
+				},
+				{
+					"id": "8",
+					"value": "ส.ค."
+				},
+				{
+					"id": "9",
+					"value": "ก.ย."
+				},
+				{
+					"id": "10",
+					"value": "ต.ค."
+				},
+				{
+					"id": "11",
+					"value": "พ.ย."
+				},
+				{
+					"id": "12",
+					"value": "ธ.ค."
+				}
+			],
+			"en": [
+				{
+					"id": "1",
+					"value": "January"
+				},
+				{
+					"id": "2",
+					"value": "February"
+				},
+				{
+					"id": "3",
+					"value": "March"
+				},
+				{
+					"id": "4",
+					"value": "April"
+				},
+				{
+					"id": "5",
+					"value": "May"
+				},
+				{
+					"id": "6",
+					"value": "June"
+				},
+				{
+					"id": "7",
+					"value": "July"
+				},
+				{
+					"id": "8",
+					"value": "August"
+				},
+				{
+					"id": "9",
+					"value": "September"
+				},
+				{
+					"id": "10",
+					"value": "October"
+				},
+				{
+					"id": "11",
+					"value": "November"
+				},
+				{
+					"id": "12",
+					"value": "December"
+				}
+			]
+		}
+	}
+}

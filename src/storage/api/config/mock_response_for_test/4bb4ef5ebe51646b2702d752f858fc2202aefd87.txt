@@ -1,0 +1,9 @@
+{
+  "Result_code":"CMX_CS003",
+  "Result_Desc":"Not found",
+  "Data":{
+    "ECustomerID":null,
+    "NThaiID":null,
+    "cmx_id":"aa7528f8-7ec3-4f81-bc86-14a9d4fec107"
+  }
+}

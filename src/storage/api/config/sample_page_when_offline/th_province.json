@@ -1,0 +1,387 @@
+[
+    {
+        "id": 1,
+        "country_id": 209,
+        "name": "กรุงเทพมหานคร"
+    },
+    {
+        "id": 2,
+        "country_id": 209,
+        "name": "กระบี่"
+    },
+    {
+        "id": 3,
+        "country_id": 209,
+        "name": "กาญจนบุรี"
+    },
+    {
+        "id": 4,
+        "country_id": 209,
+        "name": "กาฬสินธุ์"
+    },
+    {
+        "id": 5,
+        "country_id": 209,
+        "name": "กำแพงเพชร"
+    },
+    {
+        "id": 6,
+        "country_id": 209,
+        "name": "ขอนแก่น"
+    },
+    {
+        "id": 7,
+        "country_id": 209,
+        "name": "จันทบุรี"
+    },
+    {
+        "id": 8,
+        "country_id": 209,
+        "name": "ฉะเชิงเทรา"
+    },
+    {
+        "id": 9,
+        "country_id": 209,
+        "name": "ชัยนาท"
+    },
+    {
+        "id": 10,
+        "country_id": 209,
+        "name": "ชัยภูมิ"
+    },
+    {
+        "id": 11,
+        "country_id": 209,
+        "name": "ชุมพร"
+    },
+    {
+        "id": 12,
+        "country_id": 209,
+        "name": "ชลบุรี"
+    },
+    {
+        "id": 13,
+        "country_id": 209,
+        "name": "เชียงใหม่"
+    },
+    {
+        "id": 14,
+        "country_id": 209,
+        "name": "เชียงราย"
+    },
+    {
+        "id": 15,
+        "country_id": 209,
+        "name": "ตรัง"
+    },
+    {
+        "id": 16,
+        "country_id": 209,
+        "name": "ตราด"
+    },
+    {
+        "id": 17,
+        "country_id": 209,
+        "name": "ตาก"
+    },
+    {
+        "id": 18,
+        "country_id": 209,
+        "name": "นครนายก"
+    },
+    {
+        "id": 19,
+        "country_id": 209,
+        "name": "นครปฐม"
+    },
+    {
+        "id": 20,
+        "country_id": 209,
+        "name": "นครพนม"
+    },
+    {
+        "id": 21,
+        "country_id": 209,
+        "name": "นครราชสีมา"
+    },
+    {
+        "id": 22,
+        "country_id": 209,
+        "name": "นครศรีธรรมราช"
+    },
+    {
+        "id": 23,
+        "country_id": 209,
+        "name": "นครสวรรค์"
+    },
+    {
+        "id": 24,
+        "country_id": 209,
+        "name": "นราธิวาส"
+    },
+    {
+        "id": 25,
+        "country_id": 209,
+        "name": "น่าน"
+    },
+    {
+        "id": 26,
+        "country_id": 209,
+        "name": "นนทบุรี"
+    },
+    {
+        "id": 27,
+        "country_id": 209,
+        "name": "บุรีรัมย์"
+    },
+    {
+        "id": 28,
+        "country_id": 209,
+        "name": "ประจวบคีรีขันธ์"
+    },
+    {
+        "id": 29,
+        "country_id": 209,
+        "name": "ปทุมธานี"
+    },
+    {
+        "id": 30,
+        "country_id": 209,
+        "name": "ปราจีนบุรี"
+    },
+    {
+        "id": 31,
+        "country_id": 209,
+        "name": "ปัตตานี"
+    },
+    {
+        "id": 32,
+        "country_id": 209,
+        "name": "พะเยา"
+    },
+    {
+        "id": 33,
+        "country_id": 209,
+        "name": "พังงา"
+    },
+    {
+        "id": 34,
+        "country_id": 209,
+        "name": "พิจิตร"
+    },
+    {
+        "id": 35,
+        "country_id": 209,
+        "name": "พิษณุโลก"
+    },
+    {
+        "id": 36,
+        "country_id": 209,
+        "name": "เพชรบุรี"
+    },
+    {
+        "id": 37,
+        "country_id": 209,
+        "name": "เพชรบูรณ์"
+    },
+    {
+        "id": 38,
+        "country_id": 209,
+        "name": "แพร่"
+    },
+    {
+        "id": 39,
+        "country_id": 209,
+        "name": "พัทลุง"
+    },
+    {
+        "id": 40,
+        "country_id": 209,
+        "name": "ภูเก็ต"
+    },
+    {
+        "id": 41,
+        "country_id": 209,
+        "name": "มหาสารคาม"
+    },
+    {
+        "id": 42,
+        "country_id": 209,
+        "name": "มุกดาหาร"
+    },
+    {
+        "id": 43,
+        "country_id": 209,
+        "name": "แม่ฮ่องสอน"
+    },
+    {
+        "id": 44,
+        "country_id": 209,
+        "name": "ยโสธร"
+    },
+    {
+        "id": 45,
+        "country_id": 209,
+        "name": "ยะลา"
+    },
+    {
+        "id": 46,
+        "country_id": 209,
+        "name": "ร้อยเอ็ด"
+    },
+    {
+        "id": 47,
+        "country_id": 209,
+        "name": "ระนอง"
+    },
+    {
+        "id": 48,
+        "country_id": 209,
+        "name": "ระยอง"
+    },
+    {
+        "id": 49,
+        "country_id": 209,
+        "name": "ราชบุรี"
+    },
+    {
+        "id": 50,
+        "country_id": 209,
+        "name": "ลพบุรี"
+    },
+    {
+        "id": 51,
+        "country_id": 209,
+        "name": "ลำปาง"
+    },
+    {
+        "id": 52,
+        "country_id": 209,
+        "name": "ลำพูน"
+    },
+    {
+        "id": 53,
+        "country_id": 209,
+        "name": "เลย"
+    },
+    {
+        "id": 54,
+        "country_id": 209,
+        "name": "ศรีสะเกษ"
+    },
+    {
+        "id": 55,
+        "country_id": 209,
+        "name": "สกลนคร"
+    },
+    {
+        "id": 56,
+        "country_id": 209,
+        "name": "สงขลา"
+    },
+    {
+        "id": 57,
+        "country_id": 209,
+        "name": "สมุทรสาคร"
+    },
+    {
+        "id": 58,
+        "country_id": 209,
+        "name": "สมุทรปราการ"
+    },
+    {
+        "id": 59,
+        "country_id": 209,
+        "name": "สมุทรสงคราม"
+    },
+    {
+        "id": 60,
+        "country_id": 209,
+        "name": "สระแก้ว"
+    },
+    {
+        "id": 61,
+        "country_id": 209,
+        "name": "สระบุรี"
+    },
+    {
+        "id": 62,
+        "country_id": 209,
+        "name": "สิงห์บุรี"
+    },
+    {
+        "id": 63,
+        "country_id": 209,
+        "name": "สุโขทัย"
+    },
+    {
+        "id": 64,
+        "country_id": 209,
+        "name": "สุพรรณบุรี"
+    },
+    {
+        "id": 65,
+        "country_id": 209,
+        "name": "สุราษฎร์ธานี"
+    },
+    {
+        "id": 66,
+        "country_id": 209,
+        "name": "สุรินทร์"
+    },
+    {
+        "id": 67,
+        "country_id": 209,
+        "name": "สตูล"
+    },
+    {
+        "id": 68,
+        "country_id": 209,
+        "name": "หนองคาย"
+    },
+    {
+        "id": 69,
+        "country_id": 209,
+        "name": "หนองบัวลำภู"
+    },
+    {
+        "id": 70,
+        "country_id": 209,
+        "name": "อำนาจเจริญ"
+    },
+    {
+        "id": 71,
+        "country_id": 209,
+        "name": "อุดรธานี"
+    },
+    {
+        "id": 72,
+        "country_id": 209,
+        "name": "อุตรดิตถ์"
+    },
+    {
+        "id": 73,
+        "country_id": 209,
+        "name": "อุทัยธานี"
+    },
+    {
+        "id": 74,
+        "country_id": 209,
+        "name": "อุบลราชธานี"
+    },
+    {
+        "id": 75,
+        "country_id": 209,
+        "name": "พระนครศรีอยุธยา"
+    },
+    {
+        "id": 76,
+        "country_id": 209,
+        "name": "อ่างทอง"
+    },
+    {
+        "id": 77,
+        "country_id": 209,
+        "name": "บึงกาฬ"
+    }
+]

@@ -1,0 +1,343 @@
+{
+    "status_code": 0,
+    "status_txt": "OK",
+    "data": {
+        "record": {
+            "id": "L91200160",
+            "seq_id": 6816490,
+            "viewed": 1014,
+            "store_id": "L939522",
+            "section": "wemall",
+            "type": "new",
+            "position": 0,
+            "price": 399,
+            "price_min": 399,
+            "price_max": 399,
+            "compare_at_price_min": 399,
+            "compare_at_price_max": 500,
+            "status": true,
+            "show": 1,
+            "title": {
+                "th": "robot_store2 - สินค้า FlashSale 1"
+            },
+            "seo": {
+                "title": {
+                    "th": "robot_stg_store2 - สินค้า FlashSale 1"
+                },
+                "description": {
+                    "th": "robot_stg_store2_flashsale1"
+                }
+            },
+            "category": [
+                {
+                    "id": 152910,
+                    "parent_id": 0,
+                    "status": "true",
+                    "title": {
+                        "th": "เสื้อยืดผู้ชาย"
+                    }
+                }
+            ],
+            "last_plaza_category": 1967,
+            "promotions": [],
+            "inventories": [
+                {
+                    "id": 2590205,
+                    "store_id": "L939522",
+                    "user_id": 1104770,
+                    "barcode": "",
+                    "product_id": "L91200160",
+                    "sku": "robot-8",
+                    "cost_price": 0,
+                    "price": 399,
+                    "compare_at_price": 500,
+                    "price_status": "true",
+                    "points": 0,
+                    "weight": 1,
+                    "length": "20.0000",
+                    "width": "20.0000",
+                    "height": "15.0000",
+                    "preorder": "false",
+                    "preorder_period": 3,
+                    "shipping_period": 3,
+                    "usestock_status": "false",
+                    "emptystock": "false",
+                    "quantity": 9926,
+                    "hold": 7,
+                    "shipping": "false",
+                    "shipping_price": "0.0000",
+                    "taxable": 0,
+                    "position": 0,
+                    "status": "true",
+                    "created_by": 1104770,
+                    "updated_by": 0,
+                    "published": 1,
+                    "published_at": {
+                        "sec": 0,
+                        "usec": 0
+                    },
+                    "created_at": {
+                        "sec": 1510764697,
+                        "usec": 0
+                    },
+                    "updated_at": {
+                        "sec": 1569951079,
+                        "usec": 0
+                    },
+                    "deleted_at": null,
+                    "warehouse": null,
+                    "options": [],
+                    "image": false,
+                    "allow_addcart": true,
+                    "cart_text": false,
+                    "ignore_stock": false,
+                    "discount_percent": 20
+                }
+            ],
+            "features": [],
+            "wetrust": true,
+            "package": "f",
+            "images": [
+                {
+                    "id": "918dc460a2a851f84af124a2cfa2156c",
+                    "name": "robot_product2_1",
+                    "file_name": "robot_product2_1.jpg",
+                    "extension": "jpg",
+                    "url": "https://store.wls-dev.com/upload/gallery4/939522/c/56/918dc460a2a851f84af124a2cfa2156c.jpg",
+                    "thumbnail": "https://store.wls-dev.com/upload/gallery4/939522/c/56/918dc460a2a851f84af124a2cfa2156c.jpg",
+                    "type": "image"
+                }
+            ],
+            "tags": [
+                "กระโปรง"
+            ],
+            "monitor_status": true,
+            "warehouse": {
+                "id": 1,
+                "name": "Aden Fulfillment Co., Ltd.",
+                "code": null,
+                "stock_type": "MD"
+            },
+            "created_at": "2017-11-15 09:51:37",
+            "updated_at": "2019-10-01 10:31:19",
+            "migrated_at": {
+                "sec": 1569925880,
+                "usec": 0
+            },
+            "published_status": "published",
+            "product_type": "product",
+            "category_list": [
+                {
+                    "id": "1967",
+                    "title": "เสื้อยืดผู้ชาย"
+                },
+                {
+                    "id": "1966",
+                    "title": "เสื้อผู้ชาย"
+                },
+                {
+                    "id": "1965",
+                    "title": "เสื้อผ้าผู้ชาย"
+                },
+                {
+                    "id": "1938",
+                    "title": "เสื้อผ้า"
+                },
+                {
+                    "id": "1935",
+                    "title": "แฟชั่น"
+                }
+            ],
+            "store": {
+                "id": "L939522",
+                "user_id": 1104770,
+                "slug": "robot_stg_store2",
+                "url": "https://store.wls-dev.com/robot_stg_store2",
+                "title": {
+                    "th": "robot_stg_store2"
+                },
+                "phone": "028888888",
+                "avatar": {
+                    "default": "http://image.platform.truelife.com/21957123/avatar?app_id=1&secret=a42ca3848f9dd9995fedeb93ebf97805&key=sso&w=35&h=35",
+                    "base": "http://image.platform.truelife.com/21957123/avatar?app_id=1&secret=a42ca3848f9dd9995fedeb93ebf97805&key=sso"
+                },
+                "mobile": "0647016834",
+                "mobile_alternate": [],
+                "fax": null,
+                "email": "robot_stg_store2@mailinator.com",
+                "social": [],
+                "logo": "",
+                "status": "true",
+                "free_shipping": "false",
+                "type": "business",
+                "first_name": "mcwm",
+                "last_name": "automate",
+                "published_at": {
+                    "sec": 1510715947,
+                    "usec": 0
+                },
+                "connect": {
+                    "PMGW": {
+                        "account": "robot_stg_store2@mailinator.com",
+                        "uid": 0,
+                        "created_at": {
+                            "sec": 1510715501,
+                            "usec": 0
+                        },
+                        "updated_at": {
+                            "sec": 1569558229,
+                            "usec": 0
+                        }
+                    },
+                    "CCW": {
+                        "account": "robot_stg_store2@mailinator.com",
+                        "uid": 0,
+                        "created_at": {
+                            "sec": 1510715501,
+                            "usec": 0
+                        },
+                        "updated_at": {
+                            "sec": 1569558229,
+                            "usec": 0
+                        }
+                    }
+                },
+                "package": "f",
+                "payment_channel": {
+                    "atm": true,
+                    "banktrans": true,
+                    "ibank": true,
+                    "credit": true,
+                    "cs": true,
+                    "wallet": true
+                },
+                "support_method": {
+                    "wetrust": true,
+                    "creditcard": true
+                },
+                "register_plaza": "y",
+                "free": "n",
+                "use_stock": "true",
+                "use_cart": "true",
+                "viewed": 227,
+                "category_id": 1935,
+                "province_id": 1,
+                "created_at": "2017-11-15 03:19:07",
+                "updated_at": "2019-09-27 04:23:49",
+                "login_at": "2019-09-27 04:23:23",
+                "migrated_at": {
+                    "sec": 1569558230,
+                    "usec": 0
+                },
+                "sync": 0,
+                "sync_at": {
+                    "sec": 1566966230,
+                    "usec": 0
+                },
+                "section": 3,
+                "warehouse": {
+                    "warehouse_id": 1,
+                    "warehouse_code": "",
+                    "warehouse_name": "Aden Fulfillment Co., Ltd.",
+                    "stock_type": "MD",
+                    "created_at": {
+                        "date": "2017-11-15 10:11:43",
+                        "format": "15 November 2017 10:11 AM"
+                    },
+                    "updated_at": {
+                        "date": "2017-11-15 10:11:43",
+                        "format": "15 November 2017 10:11 AM"
+                    }
+                },
+                "theme_setting": [],
+                "product_count": 61,
+                "shipping_method": {
+                    "POST": false,
+                    "EMS": false,
+                    "KERRY": false,
+                    "WEMALL": true,
+                    "PICKUP": false
+                }
+            },
+            "shipping_detail": [
+                {
+                    "short_delivery_message": "แบบธรรมดา, ส่งภายใน 2-7 วัน",
+                    "title": "",
+                    "description": "",
+                    "type": "non-fresh"
+                }
+            ],
+            "shipping": {
+                "custom": [
+                    {
+                        "method": "WeMall",
+                        "method_name": "WeMall",
+                        "day": 3,
+                        "rate_type": "price",
+                        "type_name": "ราคารวม",
+                        "value": [
+                            {
+                                "rate": "0.00 - 299.00",
+                                "price": "45.00"
+                            },
+                            {
+                                "rate": "299.01 - ขึ้นไป",
+                                "price": "ฟรีค่าจัดส่ง"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "body_html": {
+                "th": "<p>robot_stg_store2_flashsale1</p> "
+            },
+            "options": false,
+            "option_sku": {
+                "k2590205": {
+                    "id": 2590205,
+                    "price": 500,
+                    "compare_price": 0,
+                    "stock": 9926,
+                    "sku": "robot-8",
+                    "cart_text": false,
+                    "allow_addcart": true,
+                    "ignore_stock": false,
+                    "discount_percent": false,
+                    "is_freebie": false,
+                    "is_points": false
+                }
+            },
+            "flashsale": [
+                {
+                    "id": 11413,
+                    "title": {
+                        "th": "EveryDayWow : 01/10/2019",
+                        "en": ""
+                    },
+                    "description": {
+                        "th": "EveryDayWow : 01/10/2019",
+                        "en": ""
+                    },
+                    "type": 5,
+                    "timezone": "UTC",
+                    "start": "2019-10-01 03:00:00",
+                    "end": "2019-10-03 02:59:59",
+                    "active": true,
+                    "promotion_by": "portal",
+                    "has_fee": false,
+                    "fee": 0,
+                    "quantity_limit": 3,
+                    "custom_price": 399
+                }
+            ],
+            "promotion": false,
+            "campaign": false,
+            "coupon": false,
+            "is_campaign": true,
+            "is_flashsale": true,
+            "quantity_limit": 3,
+            "discount_percent": 20,
+            "related_campaign": {}
+        }
+    }
+}

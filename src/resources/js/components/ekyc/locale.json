@@ -1,0 +1,42 @@
+{
+  "note": {
+    "en": "*Note",
+    "th": "*คำแนะนำ"
+  },
+  "noteDescription": {
+    "en": "In case of buying Family Sim, the online E-KYC will be required to confirm your identity before complete this order.",
+    "th": "ในกรณีที่ซื้อ Family Sim จะต้องผ่านการตรวจสอบยืนยันอัตลักษณ์ออนไลน์ โดยการยืนยันข้อมูลของท่านให้ถูกต้อง"
+  },
+  "ekycTitle": {
+    "en": "E-KYC: Verify identity online",
+    "th": "E-KYC: ตรวจสอบยืนยันอัตลักษณ์ออนไลน์"
+  },
+  "ekycDescription": {
+    "en": "Please confirm your identity via E-KYC before placing an order.",
+    "th": "Please confirm your identity via E-KYC before placing an order."
+  },
+  "faceCard": {
+    "en": "Upload your image in a neutral face expression and facing the camera",
+    "th": "อัปโหลดรูปภาพหน้าตรงของคุณ"
+  },
+  "frontCard": {
+    "en": "Upload your Thai ID card image",
+    "th": "อัปโหลดรูปบัตรประชาชน"
+  },
+  "vlearn": {
+    "en": "Please upload Your student card or employee card",
+    "th": "กรุณาอัพโหลดรูปถ่าย บัตรนักเรียน, นักศึกษา หรือ บัตรพนักงาน"
+  },
+  "browse": {
+    "en": "Browse File",
+    "th": "แนบไฟล์"
+  },
+  "acceptFile": {
+    "en": "Only .JPG, .PNG, with maximum size of 5MB.",
+    "th": "ไฟล์ภาพสกุล .JPG หรือ .PNG และมีขนาดไม่เกิน 5MB"
+  },
+  "success": {
+    "en": "Success",
+    "th": "สำเร็จ"
+  }
+}

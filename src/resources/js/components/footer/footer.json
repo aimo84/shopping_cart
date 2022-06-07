@@ -1,0 +1,262 @@
+{
+    "grid":{ 
+        "shopchat": {
+            "th": "ช้อปผ่านแชท",
+            "en": "Live Chat"
+        },
+        "shopchat_label": {
+            "th": "ทุกวัน 09.00 - 18.00 น.",
+            "en": "09.00 AM. - 06.00 PM."
+        },
+        "refund": {
+            "th": "คืนสินค้าได้ใน 7 วัน",
+            "en": "7-day full refund"
+        },
+        "refund_label": {
+            "th": "รับเงินคืนเต็มจำนวนตามเงื่อนไข",
+            "en": "Conditions apply"
+        },
+        "shipping": {
+            "th": "ส่งฟรี ถึงมือคุณ",
+            "en": "Free shipping"
+        },
+        "shipping_label": {
+            "th": "2 - 5 วันทำการ",
+            "en": "2 - 5 business days"
+        },
+        "shipping_label_note": {
+            "th": "*ยกเว้นสินค้าทรูการ์ด",
+            "en": "*except for True Card"
+        },
+        "installment": {
+            "th": "ผ่อนสบาย 0%",
+            "en": "0% installment"
+        },
+        "installment_label": {
+            "th": "กับธนาคารที่ร่วมรายการ",
+            "en": "with major Thai banks"
+        }
+    },
+    "callcenter": {
+        "label": {
+            "th": "เราพร้อมดูแลคุณ",
+            "en": "Need Help?"
+        },
+        "action": {
+            "th": "ติดต่อ True Call Center",
+            "en": "True Call Center"
+        }
+    },
+    "appointment": {
+        "label": {
+            "th": "รับบริการที่ทรูช้อป/คอลเซ็นเตอร์",
+            "en": "Service Appointment"
+        },
+        "action": {
+            "th": "นัดหมายล่วงหน้า",
+            "en": "Book Now"
+        }
+    },
+    "footer": {
+        "action": {
+            "icon": "pointer-icon",
+            "label": {
+                "th": "บริการของทรู",
+                "en": "True Services"
+            },
+            "item": [
+                {
+                    "label": {
+                        "th": "ย้ายค่ายมาทรู",
+                        "en": "Move To True"
+                    },
+                    "link": "https://truemoveh.truecorp.co.th/move_to_true/postpaid?ln=th"
+                },
+                {
+                    "label": {
+                        "th": "True Store",
+                        "en": "True Store"
+                    },
+                    "link": "https://store.truecorp.co.th/home"
+                },
+                {
+                    "label": {
+                        "th": "5G",
+                        "en": "5G"
+                    },
+                    "link": "https://5g.truemoveh.com/th/home"
+                },
+                {
+                    "label": {
+                        "th": "แพ็กเกจเน็ตมือถือ",
+                        "en": "Mobile"
+                    },
+                    "link": "https://www.true.th/truemoveh/postpaid/"
+                },
+                {
+                    "label": {
+                        "th": "อินเตอร์เน็ตไฟเบอร์",
+                        "en": "Internet Fiber"
+                    },
+                    "link": "https://www.true.th/trueonline/"
+                }, 
+                {
+                    "label": {
+                        "th": "เอนเตอร์เทนเมนต์",
+                        "en": "Entertainment"
+                    },
+                    "link": "https://truevisionsgroup.truecorp.co.th/"
+                },
+                {
+                    "label": {
+                        "th": "มือถือ & IoT",
+                        "en": "Device & IoT"
+                    },
+                    "link": "https://store.truecorp.co.th/online-store?category=4715"
+                }, 
+                {
+                    "label": {
+                        "th": "สิทธิประโยชน์",
+                        "en": "Your Privileges"
+                    },
+                    "link": "https://privilege.trueid.net/th"
+                }
+            ]
+        },
+        "service": {
+            "icon": "ots-icon",
+            "label": {
+                "th": "บริการด้านดิจิทัล",
+                "en": "Digital Service "
+            },
+            "item": [
+                {
+                    "label": {
+                        "th": "True iService",
+                        "en": "True iService"
+                    },
+                    "link": "https://iservice.truecorp.co.th/"
+                },
+                {
+                    "label": {
+                        "th": "TrueMoney",
+                        "en": "TrueMoney"
+                    },
+                    "link": "https://www.truemoney.com/"
+                },
+                {
+                    "label": {
+                        "th": "True Virtual World",
+                        "en": "True Virtual World"
+                    },
+                    "link": "https://truevirtualworld.com/"
+                }
+            ]
+        },
+        "contact": {
+            "icon": "bubble-icon",
+            "label": {
+                "th": "บริการช่วยเหลือ",
+                "en": "Support"
+            },
+            "item": [
+                {
+                    "label": {
+                        "th": "คำถามและข้อสงสัย",
+                        "en": "FAQ"
+                    },
+                    "link": "https://help.truecorp.co.th/"
+                },
+                {
+                    "label": {
+                        "th": "ค้นหาทรูช็อป",
+                        "en": "Find a True Shop"
+                    },
+                    "link": "https://iservice.truecorp.co.th/store-locator"
+                },
+                {
+                    "label": {
+                        "th": "บริการนัดหมายล่วงหน้า",
+                        "en": "Book an appointment"
+                    },
+                    "link": "https://true-service-appoint.queq.me/"
+                },
+                {
+                    "label": {
+                        "th": "โทร 1242",
+                        "en": "Contact us 1242"
+                    },
+                    "link": "tel:1242"
+                }
+                
+            ]
+        },
+        "faq": {
+            "icon": "faq-icon",
+            "label": {
+                "th": "My Account",
+                "en": "My Account"
+            },
+            "item": [
+                {
+                    "label": {
+                        "th": "ชำระค่าบริการ",
+                        "en": "Pay Bills"
+                    },
+                    "link": "https://iservice.truecorp.co.th/"
+                },
+                {
+                    "label": {
+                        "th": "เช็คยอดคงเหลือ",
+                        "en": "Check Usage"
+                    },
+                    "link": "https://iservice.truecorp.co.th/"
+                }
+                
+            ]
+        }
+        
+    },
+    "follow": {
+        "icon": "faq-icon",
+        "label": {
+            "th": "Follow us",
+            "en": "Follow us"
+        },
+        "item": [
+            {
+                "label":{},
+                "link": "https://www.facebook.com/TrueMoveH",
+                "url": "https://www.true.th/uploads/icons_facebook_b7bf833101.png"
+            },
+            {
+                "label":{},
+                "link": "https://www.youtube.com/user/TrueMoveH",
+                "url": "https://www.true.th/uploads/icons_youtube_43031f3aac.png"
+            },
+            {
+                "label":{},
+                "link": "https://twitter.com/truemoveh",
+                "url": "https://www.true.th/uploads/icons_twitter_3591bcc291.png"
+            }
+            
+        ]
+    },
+    "logout": {
+        "th": "ออกจากระบบ",
+        "en": "Logout"
+    },
+    "home": {
+        "th": "กลับหน้าหลัก",
+        "en": "Home"
+    },
+    "term": {
+        "th": "ข้อกำหนดและกฏหมาย",
+        "en": "Term of Use"
+    },
+    "pp": {
+        "th": "นโยบายคุ้มครองข้อมูลส่วนบุคคล",
+        "en": "Privacy Policy"
+    }
+
+}

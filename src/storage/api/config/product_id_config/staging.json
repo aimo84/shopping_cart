@@ -1,0 +1,157 @@
+{
+
+  "family_black_truecard": {
+    "L91587211": {
+      "type": "family_black_truecard",
+      "id": "L91587211"
+    }
+  },
+  "campaigns": {
+    "12947": {
+      "id": "12947",
+      "path": "multi_campaign",
+      "options": {
+        "truemoveh": false,
+        "trueonline": true,
+        "shipping_free": true,
+        "skip_verify_step_b": true
+      },
+      "campaign_code": "YD155",
+      "campaign_code_trueonline": "YD155",
+      "type_for_verify": "trueid_box",
+      "json_name": "multi_campaign_type"
+    },
+    "12997": {
+      "id": "12997",
+      "path": "multi_campaign",
+      "options": {
+        "truemoveh": true,
+        "trueonline": true,
+        "shipping_free": false
+      },
+      "campaign_code": "XX458",
+      "campaign_code_trueonline": "XD514",
+      "type_for_verify": "google_home",
+      "json_name": "multi_campaign_type"
+    },
+    "12998": {
+      "id": "12998",
+      "path": "multi_campaign",
+      "options": {
+        "truemoveh": true,
+        "trueonline": false,
+        "shipping_free": false
+      },
+      "campaign_code": "XX462",
+      "campaign_code_trueonline": "XX462",
+      "type_for_verify": "google_home",
+      "json_name": "multi_campaign_type"
+    },
+    "12996": {
+      "id": "12996",
+      "path": "multi_campaign",
+      "options": {
+        "truemoveh": false,
+        "trueonline": true,
+        "shipping_free": false
+      },
+      "campaign_code": "XD515",
+      "campaign_code_trueonline": "XD515",
+      "type_for_verify": "google_home",
+      "json_name": "multi_campaign_type"
+    },
+    "13191": {
+      "id": "13191",
+      "path": "device_bundle_existing",
+      "options": {
+        "truemoveh": true,
+        "trueonline": false,
+        "shipping_free": false
+      },
+      "campaign_name": {
+        "th": "ลูกค้าปัจจุบันทรูมูฟ เอช",
+        "en": "Existing TrueMove H Postpaid"
+      },
+      "campaign_code": "XX462",
+      "campaign_code_trueonline": "XX462",
+      "type_for_verify": "bdbc",
+      "json_name": "device_bundle_existing"
+    },
+    "13421": {
+      "id": "13421",
+      "json_name": "redirect_to_wemall_voucher",
+      "redirect_to_wemall": true
+    },
+    "11534": {
+      "id": "11534",
+      "path": "multi_campaign",
+      "options": {
+        "truemoveh": true,
+        "trueonline": true,
+        "shipping_free": false
+      },
+      "campaign_code": "YX186",
+      "campaign_code_trueonline": "YD154",
+      "type_for_verify": "trueid_box",
+      "json_name": "multi_campaign_type",
+      "note": "happy_digital_trueidbox"
+    },
+    "15322": {
+      "id": "15322",
+      "path": "restriction",
+      "json_name": "restriction"
+    }
+  },
+  "verify_ui": {
+    "device_bundle_new_customer": {
+      "campaign_name": {
+        "th": "ลูกค้าใหม่",
+        "en": "New Customer"
+      }
+    }
+  },
+  "verify": [
+    {
+      "id": "L91580559",
+      "sku": "3000078509",
+      "campaign_code": "WX868",
+      "campaign_code_truemove": "WX868",
+      "campaign_code_trueonline": "WD884",
+      "type": "trueidtv",
+      "type_for_verify": "trueid_box",
+      "shipping_free": true
+    },
+    {
+      "id": "L91587044",
+      "sku": "3000071590",
+      "campaign_code": "XN619",
+      "type": "postpaid",
+      "type_for_verify": "family_sim",
+      "custom_text": {
+        "th": "* รับได้สูงสุด 4 ซิม / ต่อ 1 รหัสบัตรประชาชน",
+        "en": "* Select up to 4 SIMs / 1 Thai ID"
+      }
+    },
+    {
+      "id": "L91587067",
+      "type": "prepaid"
+    },
+    {
+      "id": "L91587074",
+      "type": "prepaid"
+    },
+    {
+      "id": "L91580006",
+      "type": "prepaid"
+    }
+  ],
+  "postpaid": [
+    "L91580071"
+  ],
+  "product_type_convert_list": [
+    "vlearn", "trueidtv_box_tol", "google_nest", "device_bundle_existing", "family_black_truecard", "multi_campaign_type"
+  ],
+  "prepaid_search": [
+    "L91597147"
+  ]
+}

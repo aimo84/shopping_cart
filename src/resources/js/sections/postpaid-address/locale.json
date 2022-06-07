@@ -1,0 +1,46 @@
+{
+  "enter_user_detail": {
+    "th": "กรุณากรอกข้อมูลของท่าน",
+    "en": "Enter user details"
+  },
+  "name_title": {
+    "th": "คำนำหน้า",
+    "en": "Name Title"
+  },
+  "mr": {
+    "th": "นาย",
+    "en": "Mr."
+  },
+  "mrs": {
+    "th": "นาง",
+    "en": "Mrs."
+  },
+  "miss": {
+    "th": "นางสาว",
+    "en": "Miss"
+  },
+  "other_title": {
+    "th": "อื่นๆ",
+    "en": "Other"
+  },
+  "id_expiration": {
+    "th": "วันหมดอายุ บัตรประชาชน",
+    "en": "Expiration date of ID card"
+  },
+  "id_address_title": {
+    "th": "กรอกที่อยู่ตามบัตรประชาชน",
+    "en": "Enter the address on the ID card."
+  },
+  "enter_billing": {
+    "th": "กรอกที่อยู่ในการออกใบกำกับภาษี",
+    "en": "Enter your billing address"
+  },
+  "use_id_address": {
+    "th": "กรอกที่อยู่ตามบัตรประชาชน",
+    "en": "Use the address on the ID card"
+  },
+  "use_different_address": {
+    "th": "กรุณาใช้ที่อยู่อื่น",
+    "en": "Use a different address"
+  }
+}

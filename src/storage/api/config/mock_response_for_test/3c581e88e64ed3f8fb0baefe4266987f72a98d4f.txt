@@ -1,0 +1,76 @@
+{
+  "status" : "SUCCESSFUL",
+  "customer" : {
+    "title" : "นางสาว",
+    "title-code" : "T3",
+    "firstname" : "เจ็ดสิบเอ็ด",
+    "lastname" : "ทดสอบเจ็ดสิบเอ็ด",
+    "contact-number" : "026997471",
+    "contact-mobile-number" : "026997471",
+    "id-type" : "I",
+    "id-number" : "1953120200875",
+    "customer-id" : "282683",
+    "installed-products" : [ {
+      "product-category" : "MSISDN",
+      "product-type" : "PROPOSITION",
+      "product-status" : "",
+      "product-id" : "CVG000000000053",
+      "product-name" : "CVG000000000053",
+      "product-description" : "TrueSmartChoice Silver 4G No Limit",
+      "product-soc-code" : "12534417",
+      "product-properties" : {
+        "IS-CONTRACT" : "N",
+        "CONTRACT-STATUS" : "CTR_NOT_EXPIRED"
+      },
+      "product-id-name" : "TMV",
+      "product-id-number" : "0830011962",
+      "has-splitcharge" : false,
+      "is-childsim" : false,
+      "is-softsuspend" : false,
+      "contract-fee" : "0",
+      "contract-term" : "10",
+      "contract-expire-date" : "29/07/2021",
+      "contract-termination-date" : "29/07/2021"
+    }, {
+      "ouId" : "106218",
+      "ban" : "10142874",
+      "product-category" : "TMV",
+      "product-type" : "PRICEPLAN",
+      "product-status" : "Active",
+      "account-category" : "I",
+      "account-sub-type" : "RPI",
+      "product-id" : "BUFFTP65",
+      "product-name" : "BUFFTP65",
+      "product-description" : "iSmart Buffet 599 Stu, AllNet10hr net6GB WiFiUNLTD",
+      "bill-cycle" : "10",
+      "bill-cycle-next-date" : "10/10/2020",
+      "company-code" : "RM",
+      "service-level" : "C",
+      "subscriber-id" : "333811",
+      "product-properties" : {
+        "IS-MULTISIM" : "N",
+        "SUBSCRIBER-LASTNAME" : "ทดสอบเจ็ดสิบเอ็ด",
+        "NETWORK" : "",
+        "SUBSCRIBER-FIRSTNAME" : "เจ็ดสิบเอ็ด"
+      },
+      "product-id-name" : "MSISDN",
+      "product-id-number" : "0830011962",
+      "mobile-servicetype" : "POSTPAID",
+      "has-splitcharge" : false,
+      "is-childsim" : false,
+      "is-softsuspend" : false,
+      "sim-type" : ""
+    } ],
+    "customer-properties" : {
+      "CYCLE-INFO" : "10/9",
+      "BILL-CYCLE-NEXT-DATE" : "10/10/2020",
+      "BILL-CYCLE" : "10",
+      "BILL-CYCLE-DESCRIPTION" : "Monthly Cycle close on the 9",
+      "CYCLE-CLOSE-DAY" : "9"
+    }
+  },
+  "display-messages" : [ ],
+  "trx-id" : "7SIL9EKEFKP1",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "status-code" : "0"
+}

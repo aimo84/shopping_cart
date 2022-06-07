@@ -1,0 +1,38 @@
+{
+  "title": {
+    "th": "ทำรายการเรียบร้อยแล้ว",
+    "en": "Order Completed"
+  },
+  "orderreceived": {
+    "th": "ร้านค้าได้รับคำสั่งซื้อของคุณแล้ว หมายเลขการสั่งซื้อ",
+    "en": "The store has received your order. Order number"
+  },
+  "ordermessage": {
+    "th": "ระบบได้ส่งอีเมลยืนยันการสั่งซื้อให้คุณเรียบร้อย",
+    "en": "The system has sent you an SMS and a confirmation email."
+  },
+  "ordersummary": {
+    "th": "สรุปรายการสั่งซื้อ",
+    "en": "Order summary"
+  },
+  "ordernumber": {
+    "th": "หมายเลขการสั่งซื้อ:",
+    "en": "Order number:"
+  },
+  "installation_location": {
+    "th": "สถานที่ติดตั้ง",
+    "en": "Installation Location"
+  },
+  "billing_address": {
+    "th": "ที่อยู่จัดส่งเอกสาร",
+    "en": "Billing Address"
+  },
+  "invoice_address": {
+    "th": "ใบเสร็จ / ใบกำกับภาษี",
+    "en": "Invoice Address"
+  },
+  "print": {
+    "th": "พิมพ์ออเดอร์",
+    "en": "Print Order"
+  }
+}

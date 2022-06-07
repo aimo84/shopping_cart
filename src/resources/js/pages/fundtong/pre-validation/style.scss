@@ -1,0 +1,138 @@
+.pre-verify-section {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 16px 16px 36px 16px;
+  background: white;
+
+  .button {
+    padding: 9px 24px;
+  }
+
+  .content {
+    text-align: center;
+
+    .content-section {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #E0E0E0;
+    }
+
+    .title-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 43px;
+      color: #374754;
+      margin-bottom: 32px;
+      margin-top: 10px;
+      @media screen and (max-width: 426px) {
+        font-size: 28px;
+      }
+    }
+
+    .button-section {
+      margin-top: 30px;
+
+      .button-back {
+        background: #FFFFFF;
+        border: 3px solid #FF0000;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 6px 24px;
+        color: #FF0000;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .form-verify::v-deep {
+      max-width: 500px;
+      margin: auto;
+
+      .input {
+        width: 100%;
+      }
+
+      .invalid-form .form {
+        .input {
+          input:invalid {
+            border-color: #ff0000;
+            color: #ff0000;
+          }
+
+          .error {
+            display: block;
+          }
+        }
+      }
+
+      .input input::placeholder {
+        color: #b2b2b2;
+      }
+    }
+  }
+
+  .modal-error::v-deep {
+    .content-section {
+      padding-bottom: 36px;
+      border-bottom: 1px solid #E0E0E0;
+    }
+
+    .title-error {
+      font-size: 29px;
+      line-height: 48px;
+      color: #FF0000;
+      text-align: center;
+      margin: 0;
+    }
+
+    .footer-section {
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 0;
+      margin-top: 10px;
+    }
+
+    .button {
+      padding: 9px 24px;
+    }
+
+    .content {
+      max-width: 460px;
+      text-align: center;
+
+      .dialog-content {
+        padding-top: 10px;
+        border-bottom: none;
+      }
+
+      img {
+        max-width: 100%;
+        margin: auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+
+        &.mobile {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .modal-error::v-deep .content img {
+      &.desktop {
+        display: none;
+      }
+      &.mobile {
+        display: block;
+      }
+    }
+  }
+}
+

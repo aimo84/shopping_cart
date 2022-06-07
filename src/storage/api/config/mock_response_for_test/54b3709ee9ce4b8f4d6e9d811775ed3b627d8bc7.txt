@@ -1,0 +1,1 @@
+{"status_code":0,"status_txt":"OK","data":[{"_id":{"$id":"5cda53da4377b336b8251a40"},"key":"truemoveh_sim_allow_selling","allow_all":1,"store_ids":{"941527":"941527"},"allow_md_type":0}]}

@@ -1,0 +1,349 @@
+.chat-shop {
+    position: relative;
+    font-family: 'TrueBold';
+}
+
+.change-font-size {
+    font-size: 25px !important;
+}
+
+.fixed-chatshop {
+    position: fixed;
+    right: 30px;
+    bottom: 0px;
+    padding: 0px;
+    font-family: inherit;
+    z-index: 1031;
+}
+
+.chat-shop .assist-modal-box {
+    visibility: hidden;
+    min-width: 250px;
+    right: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 115%;
+    text-align: center;
+    margin-left: -85px;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+
+}
+
+.chat-shop-bottom-140 {
+    bottom: 140px !important;
+}
+
+@media screen and (max-width: 575px) {
+    .fixed-chatshop {
+        right: 10px;
+    }
+}
+
+.expand {
+    display: none;
+    padding-right: 12px;
+}
+
+.fixed-chatshop .circle {
+    background-image: linear-gradient(286.62deg, #DF1584 10.96%, #DF1E5F 36.51%, #E02542 61.07%, #E02932 82.54%, #E02B2C 98.54%);
+    width: 80px;
+    height: 80px;
+    background-position: bottom right;
+    background-size: 100%;
+    padding: 0.425em 0.6rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: 13px;
+}
+.fixed-chatshop .header {
+    background: linear-gradient(286.62deg, #DF1584 10.96%, #DF1E5F 36.51%, #E02542 61.07%, #E02932 82.54%, #E02B2C 98.54%);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+    height: 50px;
+    font-size: 30px;
+    line-height: 25px;
+    padding: 0.425em 1rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.me-1 {
+    margin-right: 1px;
+}
+
+.circle .text-header {
+    min-width: 60px;
+}
+
+.header .title-header {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.circle .title-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header .text-header-small {
+    font-size: 24px;
+}
+
+.circle .text-header-small {
+    font-size: 24px;
+}
+
+.fixed-chatshop .content {
+    display: none;
+    padding: 1rem;
+    border-radius: 0 0 20px 20px;
+    background-color: white;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-chatshop .content .icon {
+    background-image: url("../images/chatandshop/icon-chat-shop.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.chat-shop-message-icon {
+    background-image: url("../images/chatandshop/message.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-size: 100%;
+    background-position: .5% 63%;
+}
+
+.fixed-chatshop .content .icon.vdo-call {
+    background-position: 12.1% 63%;
+}
+
+.fixed-chatshop .content .icon.call {
+    background-position: 29.65% 63%;
+}
+
+.fixed-chatshop .content .icon.line {
+    background-position: 47.25% 63%;
+}
+
+.fixed-chatshop .content .icon.facebook {
+    background-position: 64.8% 63%;
+}
+
+.fixed-chatshop .content .icon.callback {
+    background-position: 82.4% 63%;
+}
+.fixed-chatshop .content .icon.live {
+    background-position: 99.99% 63%;
+}
+.header-chat-shop {
+    background-image: url("../images/chatandshop/true-store-icon.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-position: .5% 63%;
+    margin-right: 5px;
+}
+
+.icon-close .icon {
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    transform: translate(-50%, 0%);
+}
+.-bold{
+    font-family: "TrueBold";
+}
+/* Modal  */
+.blocker{
+    z-index: 9999 !important;
+}
+.modal.callback {
+    z-index: 9999;
+    font-family: "TrueLight";
+    pointer-events: auto;
+    max-width: 100%;
+    padding: 0;
+    left: unset !important;
+    top: unset !important;
+    transform: unset !important;
+    z-index: 8;
+    background: #F5F5F5;
+}
+
+.modal.callback img {
+    width: 100%;
+}
+
+.callback .modal-content {
+    padding: 0 16px 16px;
+}
+
+.btn-modal-submit {
+    display: block;
+    background: linear-gradient(116.84deg, #F7006A -4.87%, #CD032B 99.46%);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.callback .text-box {
+    background-color: white;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    font-size: calc(16px + 0.6vw);
+}
+
+.callback input, .callback select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 31px 8px 17px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+    font-family: "TrueLight";
+    font-size: calc(16px + 0.6vw);
+}
+
+.callback .title-text {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    font-size: calc(18px + 0.6vw);
+}
+
+.input-invalid {
+    display: block;
+    color: red;
+    font-size: calc(14px + 0.6vw);
+    margin-bottom: 10px;
+}
+
+.callback h5 {
+    margin-bottom: 16px;
+}
+
+.success-modal {
+    max-width: 72px;
+    margin: auto;
+    display: block;
+    margin-top: -30px;
+}
+
+.callback .text-success {
+    font-size: calc(22px + 0.6vw);
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.chat-shop {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.icon-svg {
+    width: 22px;
+    height: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .change-font-size {
+        font-size: 20px !important;
+    }
+    .modal.callback {
+        max-width: 450px;
+    }
+    .callback .modal-content {
+        padding: 0 24px 24px;
+    }
+    .callback .text-box, .callback input, .callback select {
+        font-size: calc(14px + 0.6vw);
+    }
+    .callback .title-text {
+        font-size: calc(16px + 0.6vw);
+    }
+    .input-invalid {
+        font-size: calc(12px + 0.6vw);
+    }
+    .callback .text-success {
+        font-size: calc(20px + 0.6vw);
+    }
+    .fixed-chatshop  {
+        right: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .fixed-chatshop .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .circle .title-header {
+        font-size: 24px;
+    }
+    .chat-shop-message-icon {
+       width: 16.5px;
+       height: 15px;
+    }
+    .circle .text-header-small {
+        font-size: 18px;
+    }
+    .circle .fixed-chatshop .header {
+        padding: 0.425em 1rem;
+    }
+
+    .fixed-chatshop {
+        right: 15px;
+    }
+    .icon-svg { 
+        width: 16.5px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 1280px) {
+  .chat-shop-hide {
+    visibility: hidden !important;
+  }
+
+  .chat-shop-hide .tooltiptext {
+      display: none;
+  }
+}
+

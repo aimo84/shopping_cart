@@ -1,0 +1,21 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "6C1AF28KICMGX",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "subscriber" : {
+      "subscriber" : "0830011005",
+      "ban" : "",
+      "priceplan" : "",
+      "status" : "Soft - Suspend",
+      "remark" : "หมายเลขนี้ไม่สามารถร่วมรายการได้ เนื่องจากไม่พบข้อมูลหมายเลขที่ระบุ ( subscriber=0830011005, ban=,  activateDate=, priceplan= )",
+      "renewal" : "N",
+      "usim" : false,
+      "account-sub-type" : "",
+      "activate-date" : "",
+      "port-in" : false,
+      "is-usim" : false
+    },
+    "validate-privilege" : false
+  }
+}

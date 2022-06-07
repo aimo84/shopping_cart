@@ -1,0 +1,10 @@
+{
+    "code": "200",
+    "description": "Success",
+    "correlationId": "7308c55e-c361-41be-baa8-bd1d3fb9c188",
+    "3gwTrackingId": "39b3a117-a397-4c3c-ba96-5cb24608f115",
+    "message": {
+        "messageTh": "Success",
+        "messageEn": "Success"
+    }
+}

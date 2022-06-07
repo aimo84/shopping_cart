@@ -1,0 +1,18 @@
+{
+	"title": {
+		"th": "เกิดข้อขัดข้องบางอย่าง",
+		"en": "Something went wrong"
+	},
+	"detail_1": {
+		"th" : "พบปัญหาระหว่างเชื่อมต่อกับธนาคาร",
+		"en" : "There was a connection problem with the bank."
+	},
+	"detail_2": {
+		"th" : "แต่ไม่เป็นไร เงินของคุณยังอยู่ครบ",
+		"en" : "Don’t worry. You were not charged."
+	},
+	"back_to_payment": {
+		"th": "เลือกวิธีชำระเงินแบบอื่น",
+		"en": "Select other payment methods"
+	}
+}

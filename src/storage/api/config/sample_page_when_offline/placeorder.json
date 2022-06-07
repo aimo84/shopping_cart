@@ -1,0 +1,45 @@
+{
+    "status_code": 0,
+    "status_txt": "Create order success",
+    "data": {
+        "record": {
+            "id": 11650453,
+            "secureKey": "800011650453",
+            "is_redirect": false,
+            "redirectUrl": "https://order.wls-dev.com/v1/payment/foreground?payment_id=9191001891722",
+            "payment_id": "9191001891722",
+            "cybs_detail": {
+                "action_url": "https://testsecureacceptance.cybersource.com/silent/pay",
+                "access_key": "38cd2ba7575339629a135fd47081f0f1",
+                "profile_id": "03AA23AB-9AB4-49D5-B8E7-DBC68933A814",
+                "transaction_uuid": "00e6e294-e003-4b1e-8b60-07dc4da59822",
+                "signed_date_time": "2019-10-01T09:14:42Z",
+                "locale": "en",
+                "transaction_type": "authorization",
+                "reference_number": "9191001891722",
+                "amount": "2500.00",
+                "currency": "THB",
+                "cybs_credit_card_detail": {
+                    "action_url": "https://testsecureacceptance.cybersource.com/silent/pay",
+                    "access_key": "38cd2ba7575339629a135fd47081f0f1",
+                    "profile_id": "03AA23AB-9AB4-49D5-B8E7-DBC68933A814",
+                    "payment_method": "card",
+                    "bill_to_forename": "test",
+                    "bill_to_surname": "กหหห",
+                    "bill_to_email": "piya.phu@ascendcorp.com",
+                    "bill_to_address_line1": "44/211",
+                    "bill_to_address_city": "รามอินทรา",
+                    "bill_to_address_state": "กรุงเทพมหานคร",
+                    "bill_to_address_country": "TH",
+                    "bill_to_address_postal_code": "10230",
+                    "ccAuthService_run": "true",
+                    "signed_field_names": "access_key,profile_id,transaction_uuid,signed_field_names,unsigned_field_names,signed_date_time,locale,bill_to_forename,bill_to_surname,bill_to_email,bill_to_address_line1,bill_to_address_city,bill_to_address_state,bill_to_address_postal_code,bill_to_address_country,payment_method,transaction_type,reference_number,amount,currency,ccAuthService_run",
+                    "unsigned_field_names": "card_type,card_number,card_expiry_date,card_cvn",
+                    "signature": "WdOatckHRn2Z646uE+9A7GohmYncTerMyyqqNsFjFLk="
+                }
+            },
+            "code": 200,
+            "message": "success"
+        }
+    }
+}

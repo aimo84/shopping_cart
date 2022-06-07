@@ -1,0 +1,368 @@
+{
+  "label": {
+    "title": {
+      "th": "ขั้นตอนการสั่งซื้อ",
+      "en": "Order Process"
+    },
+    "shipping": {
+      "th": "ที่อยู่ในการจัดส่งสินค้า",
+      "en": "Shipping Address"
+    },
+    "billing": {
+      "th": "ที่อยู่ในการจัดส่งใบเสร็จ / ใบกำกับภาษี",
+      "en": "Tax Invoice"
+    },
+    "taxinvoice": {
+      "th": "ต้องการใบเสร็จ / ใบกำกับภาษี",
+      "en": "Request Tax Invoice / Receipt"
+    },
+    "copyform": {
+      "th": "ใช้ที่อยู่เดียวกับที่อยู่จัดส่ง",
+      "en": "Use the same address as shipping"
+    },
+    "nocopyform": {
+      "th": "เลือกที่อยู่อื่น",
+      "en": "Use different address"
+    },
+    "agreement": {
+      "th": "ข้าพเจ้ายอมรับเงื่อนไขการสั่งซื้อ",
+      "en": "Accept Term and Condition"
+    },
+    "service_agreement": {
+      "th": "ข้าพเจ้ายอมรับเงื่อนไขการให้บริการ",
+      "en": "Accept Term and Condition"
+    },
+    "individual": {
+      "th": "สำหรับลูกค้าบุคคลธรรมดา",
+      "en": "Individual Customer"
+    },
+    "corporate": {
+      "th": "สำหรับลูกค้านิติบุคคล",
+      "en": "Corporate Customer"
+    },
+    "tnc": {
+      "th": "โปรดอ่านเงื่อนไขและข้อกำหนดก่อนการสั่งซื้อ",
+      "en": "Term and Condition"
+    },
+    "service_tnc": {
+      "th": "เงื่อนไขการให้บริการ",
+      "en": "Term and Condition"
+    },
+    "back": {
+      "th": "ย้อนกลับ",
+      "en": "Back"
+    },
+    "next": {
+      "th": "ดำเนินการต่อ",
+      "en": "Next"
+    },
+    "save": {
+      "th": "บันทึกข้อมูล",
+      "en": "Save Address"
+    },
+    "address_default": {
+      "th": "ตั้งเป็นที่อยู่หลัก",
+      "en": "Set as default address"
+    }
+  },
+  "cart_price": {
+    "th": "ราคา",
+    "en": "Price"
+  },
+  "summary": {
+    "th": "สรุปรายการสินค้า",
+    "en": "Summary"
+  },
+  "total_price": {
+    "th": "มูลค่าสินค้า",
+    "en": "Total Price"
+  },
+    "baht": {
+      "th": ".-",
+      "en": ".-"
+  },
+  "login": {
+    "th": "เข้าสู่ระบบ",
+    "en": "Login"
+  },
+  "register": {
+      "th": "สมัครสมาชิก",
+      "en": "Register"
+  },
+  "login_label_1": {
+    "th": "เพื่อการบันทึกข้อมูลที่สมบูรณ์",
+    "en": "To save the profile address"
+  },
+  "login_label_2": {
+      "th": "กรุณาเข้าสู่ระบบ หรือสมัครสมาชิก TrueID",
+      "en": "please login with TrueID or create new account"
+  },
+  "delivery_address": {
+    "firstname": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family Name"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,32}"
+    },
+    "address1": {
+      "label": {
+        "th": "ที่อยู่",
+        "en": "Address"
+      },
+      "type": "text",
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "address2": {
+      "label": {
+        "th": "ซอย",
+        "en": "Soi"
+      },
+      "type": "text",
+      "pattern": ".{1,128}"
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "required": true,
+      "min": "1",
+      "max": "9999999999"
+    },
+    "phone": {
+      "label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Mobile phone number"
+      },
+      "inputmode": "tel",
+      "type": "text",
+      "required": true,
+      "pattern": "[0-9]{9,10}"
+    },
+    "email": {
+      "label": {
+        "th": "อีเมล",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "required": true,
+      "pattern": ".{1,50}"
+    }
+  },
+  "billing_address": {
+    "account_type": {
+      "label": {
+        "th": "ประเภทใบกำกับภาษี",
+        "en": "Tax invoice type"
+      },
+      "type": "dropdown",
+      "required": true,
+      "options": {
+        "th": [
+          {
+            "id": "individual",
+            "value": "สำหรับลูกค้าบุคคลธรรมดา"
+          },
+          {
+            "id": "corporate",
+            "value": "สำหรับลูกค้านิติบุคคล"
+          }
+        ],
+        "en": [
+          {
+            "id": "individual",
+            "value": "Individual Customer"
+          },
+          {
+            "id": "corporate",
+            "value": "Corporate Customer"
+          }
+        ]
+      }
+    },
+    "tax_no": {
+      "label": {
+        "th": "เลขบัตรประชาชน",
+        "en": "Thai ID Card"
+      },
+      "inputmode": "numeric",
+      "type": "text",
+      "pattern": "[0-9]{13,13}",
+      "required": true
+    },
+    "firstname": {
+      "label": {
+        "th": "ชื่อ",
+        "en": "Name"
+      },
+      "type": "text",
+      "disabled": false,
+      "pattern": ".{1,32}",
+      "required": true
+    },
+    "lastname": {
+      "label": {
+        "th": "นามสกุล",
+        "en": "Family name"
+      },
+      "type": "text",
+      "disabled": false,
+      "pattern": ".{1,32}",
+      "required": true
+    },
+    "company": {
+      "label": {
+        "th": "ชื่อบริษัท",
+        "en": "Company name"
+      },
+      "type": "text",
+      "disabled": false,
+      "hidden": true,
+      "pattern": ".{1,60}",
+      "required": true
+    },
+    "branch": {
+      "label": {
+        "th": "สำนักงานใหญ่/รหัสสาขา",
+        "en": "Branch"
+      },
+      "type": "text",
+      "hidden": true,
+      "pattern": ".{1,5}",
+      "maxlength": "5",
+      "required": true
+    },
+    "address1": {
+      "label": {
+        "th": "ที่อยู่",
+        "en": "Address"
+      },
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,128}"
+    },
+    "address2": {
+      "label": {
+        "th": "ซอย",
+        "en": "Soi"
+      },
+      "type": "text",
+      "disabled": false,
+      "pattern": ".{1,128}"
+    },
+    "province_id": {
+      "label": {
+        "th": "จังหวัด",
+        "en": "Province"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "city_id": {
+      "label": {
+        "th": "เขต / อำเภอ",
+        "en": "District"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "district_id": {
+      "label": {
+        "th": "แขวง / ตำบล",
+        "en": "Sub-district"
+      },
+      "type": "search-dropdown",
+      "options": [],
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{1,11}"
+    },
+    "postcode": {
+      "label": {
+        "th": "รหัสไปรษณีย์",
+        "en": "Postal code"
+      },
+      "inputmode": "numeric",
+      "type": "number",
+      "disabled": false,
+      "required": true,
+      "min": "1",
+      "max": "9999999999"
+    },
+    "phone": {
+      "label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Phone Number"
+      },
+      "inputmode": "tel",
+      "type": "text",
+      "disabled": false,
+      "required": true,
+      "pattern": "[0-9]{9,10}"
+    },
+    "email": {
+      "label": {
+        "th": "อีเมล",
+        "en": "Email"
+      },
+      "inputmode": "email",
+      "type": "email",
+      "disabled": false,
+      "required": true,
+      "pattern": ".{1,50}"
+    }
+  }
+}

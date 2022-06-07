@@ -1,0 +1,16 @@
+{
+  "status" : "SUCCESSFUL",
+  "trx-id" : "8I1AF03HOI2IK",
+  "process-instance" : "tmsapnpr1 (instance: SFF_node3)",
+  "response-data" : {
+    "subscriber" : {
+      "subscriber" : "0917450155",
+      "remark" : "หมายเลขนี้ไม่สามารถร่วมรายการได้ เนื่องจากข้อมูลที่นำมารับสิทธิพิเศษไม่ถูกต้องค่ะ",
+      "renewal" : "N",
+      "usim" : false,
+      "port-in" : false,
+      "is-usim" : false
+    },
+    "validate-privilege" : false
+  }
+}

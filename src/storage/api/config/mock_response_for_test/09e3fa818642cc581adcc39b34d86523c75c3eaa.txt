@@ -1,0 +1,1 @@
+{"status_code":406,"status_txt":"Not Acceptable","data":[{"error":"privilege_uid","message":"Privilege trueonline incorrect format"}]}

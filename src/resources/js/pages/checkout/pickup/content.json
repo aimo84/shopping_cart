@@ -1,0 +1,68 @@
+{
+  "pickup": {
+    "title": {
+      "th": "รับสินค้าที่ 7Eleven",
+      "en": "Pickup at 7Eleven"
+    },
+    "search": {
+      "th": "ค้นหาจากตำแหน่งปัจจุบัน",
+      "en": "Search from current position"
+    },
+    "select": {
+      "th": "รับที่สาขานี้",
+      "en": "Select this store"
+    },
+    "next": {
+      "th": "ดำเนินการต่อ",
+      "en": "Next"
+    },
+    "back": {
+      "th": "ย้อนกลับ",
+      "en": "Back"
+    },
+    "selectstore": {
+      "th": "รับสินค้าที่",
+      "en": "pickup at"
+    }
+  },
+  "customerDetail": {
+      "firstname": {
+        "label": {
+          "th": "ชื่อ",
+          "en": "Name"
+        },
+        "type": "text",
+        "required": true,
+        "pattern": ".{1,32}"
+      },
+      "lastname": {
+        "label": {
+          "th": "นามสกุล",
+          "en": "Family Name"
+        },
+        "type": "text",
+        "required": true,
+        "pattern": ".{1,32}"
+      },
+      "phone": {
+        "label": {
+          "th": "เบอร์โทรศัพท์",
+          "en": "Mobile phone number"
+        },
+        "inputmode": "tel",
+        "type": "text",
+        "required": true,
+        "pattern": "[0-9]{9,10}"
+      },
+      "email": {
+        "label": {
+          "th": "อีเมล",
+          "en": "Email"
+        },
+        "inputmode": "email",
+        "type": "email",
+        "required": true,
+        "pattern": ".{1,50}"
+      }
+    }
+}

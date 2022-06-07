@@ -1,0 +1,207 @@
+{
+  "timezones": [
+    {
+      "value": "-1200",
+      "text": "(GMT -12:00) Eniwetok, Kwajalein"
+    },
+    {
+      "value": "-1100",
+      "text": "(GMT -11:00) Midway Island, Samoa"
+    },
+    {
+      "value": "-1000",
+      "text": "(GMT -10:00) Hawaii"
+    },
+    {
+      "value": "-0900",
+      "text": "(GMT -9:00) Alaska"
+    },
+    {
+      "value": "-0800",
+      "text": "(GMT -8:00) Pacific Time (US & Canada)"
+    },
+    {
+      "value": "-0700",
+      "text": "(GMT -7:00) Mountain Time (US & Canada)"
+    },
+    {
+      "value": "-0600",
+      "text": "(GMT -6:00) Central Time (US & Canada), Mexico City"
+    },
+    {
+      "value": "-0500",
+      "text": "(GMT -5:00) Eastern Time (US & Canada), Bogota, Lima"
+    },
+    {
+      "value": "-0400",
+      "text": "(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz"
+    },
+    {
+      "value": "-0330",
+      "text": "(GMT -3:30) Newfoundland"
+    },
+    {
+      "value": "-0300",
+      "text": "(GMT -3:00) Brazil, Buenos Aires, Georgetown"
+    },
+    {
+      "value": "-0200",
+      "text": "(GMT -2:00) Mid-Atlantic"
+    },
+    {
+      "value": "-0100",
+      "text": "(GMT -1:00) Azores, Cape Verde Islands"
+    },
+    {
+      "value": "+0000",
+      "text": "(GMT) Western Europe Time, London, Lisbon, Casablanca"
+    },
+    {
+      "value": "+0100",
+      "text": "(GMT +1:00) Brussels, Copenhagen, Madrid, Paris"
+    },
+    {
+      "value": "+0200",
+      "text": "(GMT +2:00) Kaliningrad, South Africa"
+    },
+    {
+      "value": "+0300",
+      "text": "(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg"
+    },
+    {
+      "value": "+0330",
+      "text": "(GMT +3:30) Tehran"
+    },
+    {
+      "value": "+0400",
+      "text": "(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi"
+    },
+    {
+      "value": "+0430",
+      "text": "(GMT +4:30) Kabul"
+    },
+    {
+      "value": "+0500",
+      "text": "(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent"
+    },
+    {
+      "value": "+0530",
+      "text": "(GMT +5:30) Bombay, Calcutta, Madras, New Delhi"
+    },
+    {
+      "value": "+0545",
+      "text": "(GMT +5:45) Kathmandu"
+    },
+    {
+      "value": "+0600",
+      "text": "(GMT +6:00) Almaty, Dhaka, Colombo"
+    },
+    {
+      "value": "+0700",
+      "text": "(GMT +7:00) Thailand"
+    },
+    {
+      "value": "+0800",
+      "text": "(GMT +8:00) Beijing, Perth, Singapore, Hong Kong"
+    },
+    {
+      "value": "+0900",
+      "text": "(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+    },
+    {
+      "value": "+0930",
+      "text": "(GMT +9:30) Adelaide, Darwin"
+    },
+    {
+      "value": "+1000",
+      "text": "(GMT +10:00) Eastern Australia, Guam, Vladivostok"
+    },
+    {
+      "value": "+1100",
+      "text": "(GMT +11:00) Magadan, Solomon Islands, New Caledonia"
+    },
+    {
+      "value": "+1200",
+      "text": "(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka"
+    }
+  ],
+  "provinces": [
+    "กรุงเทพฯ",
+    "กระบี่",
+    "กาญจนบุรี",
+    "กาฬสินธุ์",
+    "กำแพงเพชร",
+    "ขอนแก่น",
+    "จันทบุรี",
+    "ฉะเชิงเทรา",
+    "ชลบุรี",
+    "ชัยนาท",
+    "ชัยภูมิ",
+    "ชุมพร",
+    "เชียงราย",
+    "เชียงใหม่",
+    "ตรัง",
+    "ตราด",
+    "ตาก",
+    "นครนายก",
+    "นครปฐม",
+    "นครพนม",
+    "นครราชสีมา",
+    "นครศรีธรรมราช",
+    "นครสวรรค์",
+    "นนทบุรี",
+    "นราธิวาส",
+    "น่าน",
+    "บึงกาฬ",
+    "บุรีรัมย์",
+    "ปทุมธานี",
+    "ประจวบคีรีขันธ์",
+    "ปราจีนบุรี",
+    "ปัตตานี",
+    "พะเยา",
+    "พังงา",
+    "พัทลุง",
+    "พิจิตร",
+    "พิษณุโลก",
+    "เพชรบุรี",
+    "เพชรบูรณ์",
+    "แพร่",
+    "ภูเก็ต",
+    "มหาสารคาม",
+    "มุกดาหาร",
+    "แม่ฮ่องสอน",
+    "ยโสธร",
+    "ยะลา",
+    "ร้อยเอ็ด",
+    "ระนอง",
+    "ระยอง",
+    "ราชบุรี",
+    "ลพบุรี",
+    "ลำปาง",
+    "ลำพูน",
+    "เลย",
+    "ศรีสะเกษ",
+    "สกลนคร",
+    "สงขลา",
+    "สตูล",
+    "สมุทรปราการ",
+    "สมุทรสงคราม",
+    "สมุทรสาคร",
+    "สระแก้ว",
+    "สระบุรี",
+    "สิงห์บุรี",
+    "สุโขทัย",
+    "สุพรรณบุรี",
+    "สุราษฎร์ธานี",
+    "สุรินทร์",
+    "หนองคาย",
+    "หนองบัวลำภู",
+    "อยุธยา",
+    "อ่างทอง",
+    "อำนาจเจริญ",
+    "อุดรธานี",
+    "อุตรดิตถ์",
+    "อุทัยธานี",
+    "อุบลราชธานี"
+  ]
+}

@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cms-web-__CI_ENVIRONMENT_SLUG__
+  namespace: linebiz-cms
+  labels:
+    app: cms-web
+    ref: __CI_ENVIRONMENT_SLUG__
+    track: stable
+spec:
+  replicas: 2
+  revisionHistoryLimit: 2
+  strategy:
+    rollingUpdate:
+      maxUnavailable: 50%
+      maxSurge: 100%
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: cms-web
+      ref: __CI_ENVIRONMENT_SLUG__
+  template:
+    metadata:
+      labels:
+        app: cms-web
+        ref: __CI_ENVIRONMENT_SLUG__
+        track: stable
+    spec:
+      terminationGracePeriodSeconds: 30
+      tolerations:
+        - key: 'gke-preemptible'
+          operator: 'Equal'
+          value: 'true'
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: cloud.google.com/gke-preemptible
+                    operator: Exists
+                  - key: cloud.google.com/gke-preemptible
+                    operator: In
+                    values:
+                      - 'true'
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: app
+                    operator: In
+                    values:
+                      - cms-web
+                  - key: ref
+                    operator: In
+                    values:
+                      - __CI_ENVIRONMENT_SLUG__
+              topologyKey: kubernetes.io/hostname
+      containers:
+        - name: app
+          image: asia.gcr.io/apppi-gitlab/linebiz-cms-web:__VERSION__
+          imagePullPolicy: Always
+          ports:
+            - name: cms-web-port
+              containerPort: 80
+          livenessProbe:
+            httpGet:
+              path: /health_check
+              port: 80
+            initialDelaySeconds: 30
+            timeoutSeconds: 15
+          readinessProbe:
+            httpGet:
+              path: /health_check
+              port: 80
+            initialDelaySeconds: 30
+            timeoutSeconds: 15
+          env:
+            - name: NODE_ENV
+              value: '__NODE_ENVIRONMENT_NAME__'

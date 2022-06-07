@@ -1,0 +1,46 @@
+{
+  "product_items": {
+    "th": "Product Items",
+    "en": "Product Items"
+  },
+  "pre2post_title": {
+    "th": "Prepaid number switch to postpaid:",
+    "en": "Prepaid number switch to postpaid:"
+  },
+  "months_contract": {
+    "th": "months contract",
+    "en": "months contract"
+  },
+  "thai_id_number": {
+    "th": "หมายเลขบัตรประชาชน",
+    "en": "Thai ID number"
+  },
+  "package": {
+    "th": "แพ็กเกจ",
+    "en": "Package"
+  },
+  "billing_address": {
+    "th": "จัดส่งเอกสาร",
+    "en": "Billing Address"
+  },
+  "fullname": {
+    "th": "ชื่อและข้อมูลส่วนตัว",
+    "en": "Name"
+  },
+  "email": {
+    "th": "อีเมล",
+    "en": "Email"
+  },
+  "mobile_number": {
+    "th": "หมายเลขติดต่อ",
+    "en": "Mobile Number"
+  },
+  "edit": {
+    "th": "แก้ไข",
+    "en": "Edit"
+  },
+  "confirm": {
+    "th": "ยืนยันรหัส",
+    "en": "Confirm"
+  }
+}
